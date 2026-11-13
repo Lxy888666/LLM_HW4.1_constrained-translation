@@ -1,0 +1,3026 @@
+[
+  {
+    "原始英文句子": "authorized legal translator legal translator (3.3.24) who has been granted authorization (3.2.7) by a court or government body",
+    "错误翻译": "资质认证法律笔译员 authorized legal translator 获法院或政府机构资质认证（3.2.7）的法律笔译员（3.3.24）。",
+    "错误原因": "法院或政府机构给予的是授权 定义使用 has been granted authorization，明确是已获授权。现译“资质认证”继续将授权关系误读为资格认证；与3.3.24已有资格条件的定义也没有形成应有区别。",
+    "正确翻译": "获授权法律笔译员 authorized legal translator 获得法院或政府机构授权（3.2.7）的法律笔译员（3.3.24）。"
+  },
+  {
+    "原始英文句子": "Theory and application",
+    "错误翻译": "理论和应用程序",
+    "错误原因": "application在该术语工作词汇标准标题中不是计算机应用程序；改变文件主题。",
+    "正确翻译": "理论和应用"
+  },
+  {
+    "原始英文句子": "ISO and IEC maintain terminology databases for use in standardization at the following addresses:",
+    "错误翻译": "ISO和IEC负责维护术语数据库在标准中的使用，术语数据库通过以下地址进行访问。",
+    "错误原因": "for use in standardization 修饰所维护数据库的用途；现译“维护术语数据库在标准中的使用”改变了宾语关系。",
+    "正确翻译": "ISO 和 IEC 维护供标准化工作使用的术语数据库，可通过以下地址访问。"
+  },
+  {
+    "原始英文句子": "element of a writing system, whether or not alphabetical, that represents a phoneme (3.18), a syllable, a word (3.7) or even prosodic characteristics of the language, by using graphical symbols (letters, diacritical marks, syllabic signs, punctuation marks, prosodic accents, etc.) or a combination of these signs (a letter having an accent or a diacritical mark)",
+    "错误翻译": "书写系统中的元素，无论是否属于字母系统；该元素使用图形符号（字母、附加符号、音节符号、标点符号、韵律重音等）或这些符号的组合（带有重音符号或附加符号的字母），表示音位（3.18）、音节、词（3.7），乃至语言的韵律特征",
+    "错误原因": "“元素，无论是否属于字母系统”使限定对象从“书写系统是否为字母文字系统”移到了“元素是否属于该系统”。必须恢复限定对象；长定义可以保留，但语法层次要清楚。",
+    "正确翻译": "书写系统（无论是否为字母文字系统）中的元素，通过图形符号（字母、附加符号、音节符号、标点符号、韵律重音等）或这些符号的组合（带有重音符号或附加符号的字母），表示音位（3.18）、音节、词（3.7），乃至语言的韵律特征。"
+  },
+  {
+    "原始英文句子": "For undated references, the latest edition of the referenced document (including any amendments) applies.",
+    "错误翻译": "凡不注日期的引用文件，其最新版本（包括所有修订件）适用。",
+    "错误原因": "S0063：标准文件语境中的amendments对应“修改单”；“修订件”易与标准修订后产生的新版本混淆。仅订正这一固定用语，不改动引用适用规则。",
+    "正确翻译": "凡不注日期的引用文件，其最新版本（包括所有修改单）适用。"
+  },
+  {
+    "原始英文句子": "Note 1 to entry: Universal Dependencies (see Reference [26]) offer a set of general and language-specific features and values, designed for pragmatically uniform cross-linguistic grammatical description.",
+    "错误翻译": "注1：通用依存关系（Universal Dependencies，见参考文献[26]）提供一组通用及语言特定的特征和值，旨在实现实用且统一的跨语言语法描述。",
+    "错误原因": "S0082：pragmatically修饰uniform，限定统一性是在实际应用层面实现的；原译把两者改为“实用”和“统一”两个并列性质。恢复修饰关系。",
+    "正确翻译": "注1：通用依存关系（Universal Dependencies，见参考文献[26]）提供一组通用及语言特定的特征和值，旨在使跨语言语法描述在实际应用中保持统一。"
+  },
+  {
+    "原始英文句子": "A sequence of non-contiguous tokens can also be associated with a single word-form, for instance to handle cases where some material is inserted inside the components of a word-form, as shown in Figure 17.",
+    "错误翻译": "非连续词元序列也可与单个词形相关联，例如用于处理某些材料插入词形各组成部分之间的情形，如图17所示。",
+    "错误原因": "“材料插入词形”是material的机械直译。用“语言成分”或“内容”才能清楚表达该句；不改变插入位置。",
+    "正确翻译": "不连续的词元序列也可与单个词形关联，例如处理词形各组成部分之间插入其他语言成分的情形，如图17所示。"
+  },
+  {
+    "原始英文句子": "Figure A.1 — Full annotation of the sentence “I wanna put up new wallpaper” (en), in compliance with the TEI Guidelines (with simplified lexical entries, for the sake of illustration)",
+    "错误翻译": "图A.1——符合TEI指南的句子“I wanna put up new wallpaper”（英语）完整标注（为便于说明，使用简化词条）",
+    "错误原因": "“符合TEI指南的句子”把符合性要求直接加在句子上，后面的“完整标注”又缺乏自然连接。需明确是标注符合指南。图A.2题名有相同问题，宜联动修改。",
+    "正确翻译": "图A.1——按 TEI 指南对英语句子“I wanna put up new wallpaper”所作的完整标注（为便于说明，使用简化词条）。"
+  },
+  {
+    "原始英文句子": "The choice between them comes into play where a single element (or a tight element complex, such as the f/symbol complex illustrated above) make it necessary or useful to distinguish between the container data category and its value.",
+    "错误翻译": "当一个元素或紧密组合的元素组（如上例f/symbol组合）需要或适合区分容器数据类别与其值时，才需要考虑二者的选择。",
+    "错误原因": "S0371：原文只说明在该情形下两种属性的选择发挥作用，并未断言只有此时才能或需要选择。原译“才”增加排他条件；同时将useful译为“适合”弱化了有益性的判断。",
+    "正确翻译": "当一个元素或紧密组合的元素组（如上例f/symbol组合）使区分容器数据类别与其值成为必要或有益的做法时，二者的选择便具有实际意义。"
+  },
+  {
+    "原始英文句子": "provides a pointer to a definition of, and/or general information about: a) an information container (element or attribute) or b) a value of an information container (element content or attribute value), by referencing an external taxonomy or ontology.",
+    "错误翻译": "通过引用外部分类体系或本体，提供指向以下对象的定义和/或一般信息的指针：a) 信息容器（元素或属性）；b) 信息容器的值（元素内容或属性值）。",
+    "错误原因": "S0356：原文a)与b)之间明确用or，说明datcat可承担两种角色之一。原译分号列举时丢失“或”，不能明确表达备选关系。只补回连接词，不改表格结构、属性名及数据类型。",
+    "正确翻译": "通过引用外部分类体系或本体，提供指向以下对象的定义和/或一般信息的指针：a) 信息容器（元素或属性）；或b) 信息容器的值（元素内容或属性值）。"
+  },
+  {
+    "原始英文句子": "Figure 25 — Sequence of tokens corresponding to a single word-form (a date) without a dictionary representation",
+    "错误翻译": "图25——对应单个词形（日期）、但在辞典中没有表示的词元序列",
+    "错误原因": "S0250：without a dictionary representation限定单个词形。原译把“在辞典中没有表示”挂接到“词元序列”，改变了缺少辞典表示的对象。明确回指词形。",
+    "正确翻译": "图25——与单个词形（日期）对应的词元序列，该词形在辞典中没有对应表示"
+  },
+  {
+    "原始英文句子": "A word-form can be associated with a lexical entry in a lexicon using the @lemmaRef attribute (see 6.2). It can also be characterized by part-of-speech information that expresses morphological and grammatical properties as a feature structure (see 7.2).",
+    "错误翻译": "词形可以用`@lemmaRef`关联到词库中的词条（见6.2），也可以用特征结构表达词性、形态和语法性质（见7.2）。",
+    "错误原因": "S0192：原文是“词性信息”以特征结构表达形态和语法性质。现译把词性、形态性质和语法性质并列，改变了信息与其表达方式的关系。",
+    "正确翻译": "词形可以用`@lemmaRef`关联到词库中的词条（见6.2），也可以用词性信息加以描述；这些信息以特征结构的形式表达形态和语法性质（见7.2）。"
+  },
+  {
+    "原始英文句子": "## 8.3 Lexical and structural ambiguities",
+    "错误翻译": "8.3 词形内容歧义",
+    "错误原因": "“词形内容歧义”重复了8.2的题名，未表达原题“词汇及结构”。这里只修改标题的译义，不检查编号和目录。",
+    "正确翻译": "8.3 词汇歧义与结构歧义"
+  },
+  {
+    "原始英文句子": "At the same time, this example shows one way of encoding a tagset, i.e. an established inventory of values of (in the case at hand) morphosyntactic categories.",
+    "错误翻译": "该示例也展示了一种标记集编码方式，即把既定的形态句法类别取值清单组织起来。",
+    "错误原因": "S0368：i.e.解释的是tagset，不是“编码方式”。原译将定义关系误作方法说明，又把“in the case at hand”的局部限定并入标记集的一般定义。分别表达编码方式、标记集定义和本例类别范围。",
+    "正确翻译": "该示例也展示了标记集的一种编码方式。标记集是指一份既定的类别取值清单；本例所涉及的是形态句法类别。"
+  },
+  {
+    "原始英文句子": "For an explanation of the voluntary nature of standards, the meaning of ISO specific terms and expressions related to conformity assessment, as well as information about ISO's adherence to the World Trade Organization (WTO) principles in the Technical Barriers to Trade (TBT), see www.iso.org/iso/foreword.html.",
+    "错误翻译": "关于标准的自愿性质、ISO有关合格评定的专门术语及表述的含义，以及ISO遵循世界贸易组织（WTO）《贸易技术壁垒协定》（TBT）原则的信息，见www.iso.org/iso/foreword.html。",
+    "错误原因": "S0026：TBT所指协定的中文名称误写为“贸易技术壁垒协定”。应采用《技术性贸易壁垒协定》，不改变协定简称或英文原文。名称核验：商务部公布的该协定中文文本（https://policy.mofcom.gov.cn/pact/pactContent.shtml?id=3132）。",
+    "正确翻译": "关于标准的自愿性质、ISO有关合格评定的专门术语及表述的含义，以及ISO遵循世界贸易组织（WTO）《技术性贸易壁垒协定》（TBT）原则的信息，见www.iso.org/iso/foreword.html。"
+  },
+  {
+    "原始英文句子": "Figure 8 — Further usage examples of attributes assisting in the identification of script variants, providing information on transliteration, general transcription, phonetic transcription and normalization",
+    "错误翻译": "图8——辅助识别文字体系变体的属性的更多使用示例，这些属性提供关于转写、一般转写、语音转写和规范化的信息",
+    "错误原因": "第一项仅写“转写”，再次与“一般转写”失去区别；题名也可重排为先列功能再说示例。原序列和功能均保留。",
+    "正确翻译": "图8——属性的其他使用示例：辅助识别文字体系变体，并提供字符转写、一般转写、语音转写和规范化信息。"
+  },
+  {
+    "原始英文句子": "NOTE Standardization of linguistic data categories that provide annotation content is provided by ISO 12620 and other related International Standards.",
+    "错误翻译": "注：为标注内容提供类别的语言数据类别的标准化，由 ISO 12620 及其他相关国际标准规定。",
+    "错误原因": "原文that provide annotation content限定数据类别；“为标注内容提供类别的语言数据类别”重复并改变该关系。",
+    "正确翻译": "注：构成标注内容的语言数据类别的标准化，由ISO 12620及其他相关国际标准规定。"
+  },
+  {
+    "原始英文句子": "f) Group: another group or set of groups. This can be used to group several enumeration groups whose IDs appear in different annotation documents.",
+    "错误翻译": "f) 组：另一个组或若干组的集合。这可以用来把出现在不同标注文档中的若干枚举组归并成组。",
+    "错误原因": "原文whose IDs appear in different annotation documents限定ID分布；中文“出现在不同标注文档中的若干枚举组”把位置直接修饰组，遗漏了ID这一层。",
+    "正确翻译": "f) 组：另一个组或若干组的集合。可用于将其ID分布于不同标注文档的若干枚举组合并成一个组。"
+  },
+  {
+    "原始英文句子": "Defines a unique name that may be associated with an annotation to enable the disambiguation of homonym identifiers residing in different namespaces, or to identify a logical grouping of annotations to be retained when merged with other annotations of the same data.",
+    "错误翻译": "定义一个唯一名称，该名称可与某个标注相关联，以便消除位于不同命名空间中的同形异义项的歧义，或标识一组逻辑上成组的标注，这些标注在与相同数据的其他标注合并时需予以保留。",
+    "错误原因": "中心词identifiers缺失，使技术命名冲突看起来像语言词汇歧义。",
+    "正确翻译": "定义一个可与标注关联的唯一名称，用于区分不同命名空间中的同名标识符，或标识一组在与同一数据的其他标注合并时仍需保留的逻辑分组。"
+  },
+  {
+    "原始英文句子": "Note to entry: Typically, primary data objects are addressed by \"locations\" in an electronic file, for example, the span of characters comprising a sentence or word, or a point at which a given temporal event begins or ends (as in speech annotation). More complex data objects may consist of a list or set of contiguous or non-contiguous locations in primary data.",
+    "错误翻译": "注：源数据制品通常由电子文件中的\"位置\"来指称，例如构成一个句子或词的字符区间，或某一给定时间事件的起点或终点（如在语音标注中）。更复杂的数据制品可能由源数据中一组或若干组连续或非连续位置构成。",
+    "错误原因": "对象被译成制品，易和original artefact混同；“一组或若干组”也不等于a list or set，列表与集合的区别丢失。",
+    "正确翻译": "注：源数据对象通常通过电子文件中的“位置”寻址，例如构成句子或词的字符区间，或某一时间事件开始或结束的时间点（如语音标注中的情形）。较复杂的数据对象可以由源数据中连续或非连续位置组成的列表或集合构成。"
+  },
+  {
+    "原始英文句子": "Possible values for type and subtype can vary according to the theoretical approach adopted by the compiler of a resource and/or the linguistic or editorial focus of the resource.",
+    "错误翻译": "type和subtype的可选值，会随资源编纂者采用的理论方法，以及资源在语言学或编纂方面的侧重点而变化。",
+    "错误原因": "【S0054】逻辑连接和情态未准确保留。and/or允许理论方法、资源侧重点分别或共同影响取值，不能只译成并列的“以及”；can vary表达可能变化，译为“会”过于确定。分别恢复“和／或”与“可能”。",
+    "正确翻译": "type和subtype的可选值，可能随资源编纂者采用的理论方法和／或资源在语言学或编纂方面的侧重点而变化。"
+  },
+  {
+    "原始英文句子": "Note: Metaphor in the context of etymology is differentiated from other spontaneous uses in language by the need for the term to be adopted (lexicalized) within the lexicon.",
+    "错误翻译": "注：词源研究中的隐喻，要求相关用语被辞典所记录的词汇系统接受，即发生词汇化；这一点使其区别于语言中其他自发的隐喻使用。",
+    "错误原因": "【S0138】无依据的限制性增译。原文只要求相关用语在词汇系统中被接受并词汇化，没有规定该词汇系统须先由某部辞典记录。“辞典所记录的”增加了编纂或收录层面的条件，故删除，其他解释保留。",
+    "正确翻译": "注：词源研究中的隐喻，要求相关用语被词汇系统接受，即发生词汇化；这一点使其区别于语言中其他自发的隐喻使用。"
+  },
+  {
+    "原始英文句子": "meeting the conditions for having an etymology (3.3)",
+    "错误翻译": "具备可赋予词源（3.3）的条件。",
+    "错误原因": "【S0040】动作含义增译。having表示“具有”，并非由编纂者给对象“赋予”一个词源。3.3把词源界定为词汇单位的起源和历史发展；本定义应表述满足具有词源的条件，不引入人为赋予的动作。既有术语名称保留。",
+    "正确翻译": "满足具有词源（3.3）的条件。"
+  },
+  {
+    "原始英文句子": "Definition: A loanword in which only the meaning is borrowed with the term being literally translated into the borrowing language.",
+    "错误翻译": "定义：一种只借入意义的借词，其词语形式由逐字译成本语言而来。",
+    "错误原因": "【S0118】主宾关系缺失且指称不清。“由逐字译成本语言而来”未交代被翻译的对象，结构也不完整；borrowing language是实施借入的语言，不应笼统称“本语言”。改为将原词语直译成借入语，保留“只借入意义”和借词这一上位概念。",
+    "正确翻译": "定义：一种只借入意义、通过将原词语直译成借入语而形成的借词。"
+  },
+  {
+    "原始英文句子": "The example in Figure A.1 describes the inheritance of a lexical entry from a parent language, in this case the adverb semper in Sardinian which comes from the Latin word semper.",
+    "错误翻译": "图A.1的示例描述了词条从母语继承而来的情况：撒丁语副词semper来自拉丁语semper。",
+    "错误原因": "【S0071】历史语言学语境下的术语歧义。parent language指后继语言由之发展而来的历史祖语，本例是拉丁语与撒丁语的承继关系；“母语”容易被理解为说话者最先习得的语言。改用“祖语”，并与附录B的Inheritance定义同步。",
+    "正确翻译": "图A.1的示例描述了词条从祖语继承而来的情况：撒丁语副词semper来自拉丁语semper。"
+  },
+  {
+    "原始英文句子": "Often these incorrect or popular re-interpretations (or re-analyses) are motivated by the phonotactic similarity of the item (or parts of it) to a more prominent or culturally familiar concept.",
+    "错误翻译": "错误的解释或通俗的重新分析，往往源于该词或其部分的语音排列，与更显著或在文化上更熟悉的概念相似。",
+    "错误原因": "【S0144】并列修饰关系错接且主干不顺。incorrect or popular共同修饰re-interpretations，括号中的re-analyses是替代表述，不能拆成“错误的解释”与“通俗的重新分析”两类。将of the item (or parts of it)与相似性对象重新接合，避免“源于……的语音排列，与……相似”造成断裂。",
+    "正确翻译": "这些错误的或通俗的重新解释（或重新分析），往往源于该词（或其部分）与某个更显著或在文化上更熟悉的概念在音系配列方面的相似性。"
+  },
+  {
+    "原始英文句子": "Definition: Inheritance, although often not regarded as an etymological process in itself, is used to identify situations where a lexical item is known to, or is presumed to, have been inherited from a predecessor or “parent” language(s).",
+    "错误翻译": "定义：继承常常不被视为一种独立的词源过程，但可用来标示某一词汇单位已知或被推定来自前身语言或“母语”的情况。",
+    "错误原因": "【S0120】区别性关系弱化并伴有术语歧义。have been inherited from明确限定历史继承关系，单写“来自”也可能包括借用，未充分保留本条与Borrowing的区别。“parent” language指祖语而非个人的第一语言，统一改为“祖语”；已知与推定两种证据状态保留。",
+    "正确翻译": "定义：继承常常不被视为一种独立的词源过程，但可用来标示某一词汇单位已知或被推定继承自前身语言或“祖语”的情况。"
+  },
+  {
+    "原始英文句子": "NOTE 1 The <usg> element is introduced later in this document.",
+    "错误翻译": "注 1：元素将在本文件后文中介绍。",
+    "错误原因": "英文注1明确介绍 <usg>；中文遗漏元素名称，成为无指称的“元素”。",
+    "正确翻译": "注1：<usg> 元素将在本文件后文中介绍。"
+  },
+  {
+    "原始英文句子": "The GrammaticalInformation class groups grammatical features associated with the LexicalEntry class, Form class, or other classes (e.g. Translation, Sense) in case of specific grammatical restrictions.",
+    "错误翻译": "`GrammaticalInformation`类组织与`LexicalEntry`类、`Form`类或其他类（例如`Translation`、`Sense`）有关的语法特征；后两类等对象也可能具有特定的语法限制。",
+    "错误原因": "[S0126] 条件关系改变：in case of specific grammatical restrictions是条件限定，原译改为“后两类等对象也可能具有……”这一独立的可能性陈述，丢失条件作用。将其恢复为与紧邻的other classes相联系的条件，保留类名和列举范围。",
+    "正确翻译": "`GrammaticalInformation`类组织与`LexicalEntry`类、`Form`类或在存在特定语法限制时与其他类（例如`Translation`、`Sense`）相关联的语法特征。"
+  },
+  {
+    "原始英文句子": "If the <Def> element is in a language or languages other than that of the etymon, the @xml:lang attribute shall be applied to the relevant <DefRep> element.",
+    "错误翻译": "如果`<Def>`元素使用的语言与源词语言不同，或者使用了多种不同语言，就应在相关的`<DefRep>`元素上应用`@xml:lang`属性。",
+    "错误原因": "[S0265] 限定范围改变：other than that of the etymon同时限定a language和languages。原译拆成“语言不同”或“多种不同语言”两个独立条件，使后者丢失与源词语言相比较的限定。改为“一种或多种不同于源词语言的语言”。",
+    "正确翻译": "如果`<Def>`元素中的内容采用一种或多种不同于源词语言的语言，就应在相关的`<DefRep>`元素上应用`@xml:lang`属性。"
+  },
+  {
+    "原始英文句子": "The <ZuluClassGroup> element derived from the <GrammaticalClassGroup> element describes a variant set of Zulu noun classes used for describing human roles.",
+    "错误翻译": "源自`<GrammaticalClassGroup>`的`<ZuluClassGroup>`元素，描述一组用于表示人的角色的祖鲁语名词类别变体。",
+    "错误原因": "[S0397] 定语范围：variant修饰set，即类别集合的一种变体；原译“名词类别变体”使变体属性落到单个类别上，改变了集合与成员的层级关系。保留human roles的原有译法，不补写具体类别体系。",
+    "正确翻译": "源自`<GrammaticalClassGroup>`的`<ZuluClassGroup>`元素，描述用于表示人的角色的祖鲁语名词类别集合的一种变体。"
+  },
+  {
+    "原始英文句子": "The @notation=\"French\", denoting canonical French, is used in databases that support a large set of possibly idiosyncratic notations (e.g. for canonical, transliterated and transcribed forms).",
+    "错误翻译": "`@notation=\"French\"`表示规范法语；这种写法用于支持大量可能具有独特约定的记法的数据库，例如规范形式、转字形式和转写形式。",
+    "错误原因": "[S0142] 遗漏关系词：括注中的for说明所举的是用于这些形式的记法，而非将这些形式本身列为记法。补回“用于……的记法”，明确示例的层级和所属对象。",
+    "正确翻译": "`@notation=\"French\"`表示规范法语；这种写法用于支持大量可能具有独特约定的记法的数据库，例如用于规范形式、转字形式和转写形式的记法。"
+  },
+  {
+    "原始英文句子": "Values for elements contained in the grammatical features type, such as “grammaticalNumberType”, can be defined through XSD <simpleType> elements which are then declared for the appropriate grammatical feature element, as in the following example.",
+    "错误翻译": "语法特征类型所包含元素的值，例如“grammaticalNumberType”，可以通过XSD的`<simpleType>`元素定义，再为相应语法特征元素声明这些类型，如下例所示。",
+    "错误原因": "[S0379] 例示修饰对象：grammaticalNumberType是类型名称，原译将其紧接在“元素的值，例如”之后，容易被误读为一个可填入的值。把例示明确附到“语法特征类型”；不改名称大小写，也不修订原文关于类型结构的表述及示例代码。",
+    "正确翻译": "语法特征类型（例如“grammaticalNumberType”）中所包含元素的取值，可以通过XSD的`<simpleType>`元素定义，再为相应语法特征元素声明这些类型，如下例所示。"
+  },
+  {
+    "原始英文句子": "Syntactic description is optional, so it is possible to describe morphology and semantics without any syntactic description. LexicalEntry, SyntacticBehaviour and Sense instances form a triangle representing morphology, syntax and semantics.",
+    "错误翻译": "句法描述是可选的，因此可以在没有任何句法描述的情况下描述形态学和语义学。词条、句法行为和意义实例形成一个三角形，代表形态学、句法和语义。",
+    "错误原因": "此处 morphology 和 semantics 是词汇描述的形态、语义方面，不能译成研究它们的学科“形态学”“语义学”。instances 共同修饰三个类名；中文应避免只有“意义”后接“实例”的读法。三角形是关系性表述，未要求额外审查图。",
+    "正确翻译": "句法描述是可选的，因此也可在不提供任何句法描述的情况下描述形态和语义。词条、句法行为和意义这三类实例形成一个三角关系，表征形态、句法和语义。"
+  },
+  {
+    "原始英文句子": "International organizations, governmental and non-governmental, in liaison with ISO, also take part in the work.",
+    "错误翻译": "国际组织，无论是政府组织还是非政府组织，与ISO保持联系，也参与了这项工作。",
+    "错误原因": "“in liaison with ISO”限定参加工作的国际组织，governmental and non-governmental说明组织类型。现译将“与ISO保持联系”并列成主干谓语，容易读成所有国际组织均保持联系并参加工作。应将联络关系放回名词限定语中。",
+    "正确翻译": "与 ISO 保持联络关系的国际组织，包括政府组织和非政府组织，也参与这项工作。"
+  },
+  {
+    "原始英文句子": "EXAMPLE In the example given in 4.2.7, the link between the sense of the verb (i.e. \"buy\") and the predicate can be marked as Verb. The link between the sense of the noun (i.e. \"buyer\") and the predicate can be marked for instance as VerbNominalization. Clause A.2 provides an illustration of the way in which a verb and its nominalization can link to the same SemanticPredicate.",
+    "错误翻译": "示例：在4.2.7中给出的例子中，动词的意义（即“buy”）和谓词之间的联系可以标记为动词（verb）。名词的意义（如“buyer”）和谓词之间的联系例如可以标记为动词名词化（VerbNominalization)。条款A.2说明了动词及其名词化如何链接到同一语义谓词。",
+    "错误原因": "两个 i.e. 都指认4.2.7中具体的动词 buy 和名词 buyer；现译把第二个 i.e. 写成“如”，又把 for instance 写作“例如”，形成两个不同层级的举例。原文只有标记为 VerbNominalization 是举例。另“动词的意义（即buy）”容易把词形当作释义，可直接写“动词buy的意义”。名词化在最后一句指所得形式，宜补出“形式”。",
+    "正确翻译": "示例：在4.2.7的示例中，动词 buy 的意义与谓词之间的联系可标记为 Verb。名词 buyer 的意义与谓词之间的联系，例如可标记为 VerbNominalization。A.2说明了动词及其名词化形式如何链接到同一语义谓词。"
+  },
+  {
+    "原始英文句子": "EXAMPLE In a LexicalEntry for the Italian verb \"amare\", a SyntacticBehaviour instance can be created and associated with a SubcategorizationFrame instance called regularSVOAvere. This latter instance describes the regular subject, verb, object structure with a verb using the auxiliary \"avere\".",
+    "错误翻译": "示例：在意大利语动词“amare”（“爱”）的“词项”中，可以创建一个“句法行为”实例，并将其与名为“regularSVOAvere”的“次范畴化框架”实例相关联。后一个例子描述了规则的主语、动词、宾语结构，其中动词使用助词“avere”。",
+    "错误原因": "avere在原句中明确是助动词。latter instance回指名为regularSVOAvere的框架实例，不能改成整条例子；词汇实例和示例不是同一对象。",
+    "正确翻译": "示例：对于意大利语动词amare（“爱”）的词条（LexicalEntry）实例，可以创建一个句法行为（SyntacticBehaviour）实例，并将其与名为regularSVOAvere的次范畴化框架（SubcategorizationFrame）实例关联。该框架实例描述常规的主语—动词—宾语结构，其中动词使用助动词avere。"
+  },
+  {
+    "原始英文句子": "Figure 1 gives a class diagram for SynSem with the module specific classes in pink. Figure 2 shows the subclasses of CrossREF (described in ISO 24613-1) which are referred to in the class diagram in Figure 1.",
+    "错误翻译": "图1给出了句法和语义的类图，其中模块特定的类为粉红色。图2显示了交叉引用（CrossREF)的子类（在ISO 24613-1中描述），这些子类在图1的类图中引用。",
+    "错误原因": "英文括注紧跟CrossREF，现译把括注放在“子类”之后，容易误以为这些子类全部在核心标准中规定。",
+    "正确翻译": "图1给出SynSem类图，其中本模块专属的类以粉色表示。图2给出CrossREF的子类；CrossREF在ISO 24613-1中描述，这些子类在图1中被引用。"
+  },
+  {
+    "原始英文句子": "SyntacticArgument is a class representing an argument of a given SubcategorizationFrame. A SyntacticArgument can be linked recursively to a SubcategorizationFrame instance to describe complex arguments. SyntacticArgument allows the connection with a SemanticArgument by means of a SynSemArgMap instance.",
+    "错误翻译": "“句法论元”是一个类，表示给定“次范畴化框架”的论元。一个“句法论元”可以递归链接到“次范畴化框架”实例，以描述复杂的论据。“句法论元”允许通过“句法-语义论元映射”实例与“语义论元”连接。",
+    "错误原因": "argument在该处始终是句法论元，不是论证使用的依据。错译使递归连接的说明对象改变。",
+    "正确翻译": "句法论元（SyntacticArgument）类表示给定次范畴化框架（SubcategorizationFrame）的一个论元。句法论元可递归连接到次范畴化框架实例，以描述复杂论元；还可通过句法—语义论元映射（SynSemArgMap）实例与语义论元（SemanticArgument）连接。"
+  },
+  {
+    "原始英文句子": "formal semantic unit that is an essential constituent of a predicate-argument structure and can have variable instantiations depending on the utterance",
+    "错误翻译": "形式语义单元，是谓词-论元结构的重要组成部分，根据话段的不同可以有不同的实例化。",
+    "错误原因": "essential constituent 指必要组成部分，单说“重要”弱化了原文限定；“有不同的实例化”也没有清楚表达随话段变化的是该语义单元的具体实例。建议保留“话段”的现有译名，仅修正必要性与实例化关系。",
+    "正确翻译": "形式语义单元，是谓词—论元结构的必要组成部分，其具体实例可随话段而变化。"
+  },
+  {
+    "原始英文句子": "ISO draws attention to the possibility that the implementation of this document may involve the use of (a) patent(s). ISO takes no position concerning the evidence, validity or applicability of any claimed patent rights in respect thereof. As of the date of publication of this document, ISO had not received notice of (a) patent(s) which may be required to implement this document. However, implementers are cautioned that this may not represent the latest information, which may be obtained from the patent database available at www.iso.org/patents. ISO shall not be held responsible for identifying any or all such patent rights.",
+    "错误翻译": "ISO提请注意本文件的实施可能涉及使用（a）专利。ISO对任何声称的专利权的证据、有效性或适用性不持任何立场。截至本文件发布之日，ISO尚未收到实施本文件可能需要的（a）项专利的通知。然而，实施者应注意，这可能并不代表最新信息，这些信息可以从www.iso.org/patents上的专利数据库中获得。ISO不负责识别任何或所有此类专利权。",
+    "错误原因": "英文(a)和(s)是兼容单复数的写法，不是专利编号a。“in respect thereof”仍限定所声称专利权与本文件实施的关系。",
+    "正确翻译": "ISO提请注意，实施本文件可能涉及一项或多项专利。对于任何声称与此有关的专利权，ISO对其证据、有效性或适用性不持立场。截至本文件发布之日，ISO尚未收到实施本文件可能需要的任何专利的通知。实施者仍应注意，这可能并非最新信息；最新信息可从www.iso.org/patents所列专利数据库获取。ISO不负责识别任何或全部此类专利权。"
+  },
+  {
+    "原始英文句子": "For the purposes of this document, the terms and definitions given in ISO 24613-1 and the following apply.",
+    "错误翻译": "ISO 26163-1中给出的下列术语和定义适用于本文件。",
+    "错误原因": "原文规定两套术语和定义共同适用。现译“中给出的下列”改变来源关系；本轨不另外审查文件编号。",
+    "正确翻译": "ISO 24613-1界定的术语和定义以及下列术语和定义适用于本文件。"
+  },
+  {
+    "原始英文句子": "Figure 2 shows the subclasses of CrossREF (described in ISO 24613-1) which are referred to in the class diagram in Figure 1.",
+    "错误翻译": "图2显示了交叉引用（CrossREF)的子类（在ISO 24613-1中描述），这些子类在图1的类图中引用。",
+    "错误原因": "原文的括注紧接 CrossREF，说明该类在 ISO 24613-1 中有描述。中文将括注放在“子类”后，容易变成子类均在该标准中描述；末尾“这些子类……引用”也宜补明被动关系。本项只判断文字修饰关系，不核图形。",
+    "正确翻译": "图2展示了 CrossREF 类的子类，这些子类已在图1的类图中被引用。CrossREF 类的说明见 ISO 24613-1。"
+  },
+  {
+    "原始英文句子": "SubcategorizationFrameSet is a class representing a set of syntactic constructions and possibly the relationship between these constructions. A SubcategorizationFrameSet groups various syntactic constructions that appear frequently for certain sets of lexemes. The objective is to factorize syntactic descriptions and to maintain a minimum of SyntacticBehaviour instances in the lexicon.",
+    "错误翻译": "“次范畴化框架集”是表示一组句法结构以及这些结构之间可能存在的关系的类。一个 “次范畴化框架集”经常出现在某些词位集合中的各种句法结构分组。目标是对句法描述进 行分解复用，并在词库中保持最少的“句法行为”实例。",
+    "错误原因": "主语是框架集，谓语是groups，宾语是对某些词位集合经常出现的多种句法构式。现译把“经常出现”接到框架集上，末尾“分组”也未形成完整动宾结构。",
+    "正确翻译": "次范畴化框架集（SubcategorizationFrameSet）类表示一组句法构式，也可表示这些构式之间的关系。它将某些词位集合中经常出现的多种句法构式组织在一起，以复用共有的句法描述，并尽量减少词库中的句法行为（SyntacticBehaviour）实例。"
+  },
+  {
+    "原始英文句子": "Participation in a dialogue involves several activities beyond those strictly related to performing the task or activity for which the dialogue is instrumental. In natural conversation, the participants constantly evaluate the perception, understanding and reaction to each other’s intentions; the take turns, and the manage the use of time[4],[17]. Communication is thus a multi-faceted activity, and this is reflected in the multifunctionality that dialogue utterances often exhibit. Longer utterances are often sequentially multifunctional, i.e., it has parts which each have a different communicative function. A’s utterance in example (9) that spans the entire turn unit, for example, is a sequence of five functional segments, with communicative functions such as feedback giving, request, request, statement, and response elicitation.",
+    "错误翻译": "参与对话不仅仅涉及完成该对话所服务的任务或活动，还涉及多个其他活动。在自然对话中，参与者不断评估对彼此意图的感知、理解和反应，以及话轮和管理时间的使用[4]，[17]。因此，交际是一项多侧面的活动，这也反映在对话话语经常表现出的多功能性上。较长的话语通常是顺序多功能的，即话语包含几个部分，每个部分都有不同的交际功能。例如，在示例（9）中，A的话语跨越了整个话轮单元，是一个由五个功能段组成的序列，分别执行提供反馈、请求、请求、陈述和引发回应等交际功能。",
+    "错误原因": "英文为评估相互理解、轮流发言、管理时间三个活动；现译把话轮和时间管理一起作为评估的宾语，且“话轮和管理时间的使用”不成句。",
+    "正确翻译": "参与对话不仅仅涉及完成该对话所服务的任务或活动，还涉及多个其他活动。在自然对话中，参与者不断评估对彼此意图的感知、理解和反应，轮流发言，并管理时间的使用[4]，[17]。因此，交际是一项多侧面的活动，这也反映在对话话语经常表现出的多功能性上。较长的话语通常是顺序多功能的，即话语包含几个部分，每个部分都有不同的交际功能。例如，在示例（9）中，A的话语跨越了整个话轮单元，是一个由五个功能段组成的序列，分别执行提供反馈、请求、请求、陈述和引发回应等交际功能。"
+  },
+  {
+    "原始英文句子": "This annex describes the use of tripartite (or “triple-layered”) annotation plug-ins introduced in 9.3. Clause D.2 describes three alternative plug-ins for enriching dialogue act annotations with information about their semantic content. Clauses D.3 to D.5 describe other plug-ins that can be used to enrich dialogue act annotations or to make them more accurate, more specifically for adding the possibility of marking up rhetorical relations in dialogue by importing concepts from ISO 24617-8 (dealing with discourse relation annotation); for adding communicative functions for more fine-grained annotation of feedback and casual talk; for adding application-specific communicative functions; and for adding the possibility of marking up emotional aspects of the performance of a dialogue act.",
+    "错误翻译": "本附录描述了9.3中引入的三方（或“三层”）标注插件的使用方式。D.2描述了三种替代插件，用语义内容的信息丰富对话行为的标注。D.3至D.5进一步介绍了其他可用于增强对话行为标注，或提升标注精确性的插件，具体包括：通过引入ISO 24617-8标准（涉及语篇关系标注）中的概念，实现对对话中修辞关系的标记功能。为反馈和闲聊的细粒度标注添加交际功能，添加应用特定的交际功能，以及增加标记对话行为执行过程中情感表现的可能性。",
+    "错误原因": "tripartite在本文件为抽象语法、具体语法、语义三个组成部分，非三个参与方。",
+    "正确翻译": "本附录描述了9.3中引入的三部分构成的（或“三层”）标注插件的使用方式。D.2描述了三种替代插件，用语义内容的信息丰富对话行为的标注。D.3至D.5进一步介绍了其他可用于增强对话行为标注，或提升标注精确性的插件，具体包括：通过引入ISO 24617-8标准（涉及语篇关系标注）中的概念，实现对对话中修辞关系的标记功能。为反馈和闲聊的细粒度标注添加交际功能，添加应用特定的交际功能，以及增加标记对话行为执行过程中情感表现的可能性。"
+  },
+  {
+    "原始英文句子": "B: Thanks, only if you have it ready.",
+    "错误翻译": "B： 谢谢，只要你准备好了。",
+    "错误原因": "only if是“只有…才…”；“只要”通常表达充分条件，且将咖啡已经煮好误解成对方准备好。",
+    "正确翻译": "B：谢谢，只有你已经煮好了，我才喝。"
+  },
+  {
+    "原始英文句子": "Is the action, described in the semantic content, contingent on that condition?",
+    "错误翻译": "情感内容描述的行为是否视条件而定？",
+    "错误原因": "semantic content指语义内容，不是情感内容。误译后将一般行为的条件性判断误限于情感。",
+    "正确翻译": "语义内容所描述的行为是否以该条件为前提？"
+  },
+  {
+    "原始英文句子": "3. I certainly agree with that.",
+    "错误翻译": "3. 我完全同意这个观点。",
+    "错误原因": "certainly表达确定性，本例用于certain限定语；“完全同意”主要表达同意程度。",
+    "正确翻译": "3. 我确实同意这一点。"
+  },
+  {
+    "原始英文句子": "Note 3 to entry: The term ‘turn unit’ is useful in the description of dialogue (3.5) behaviour, but is not of central importance in this document, since dialogue acts (3.6) are not assumed to correspond to turn units.",
+    "错误翻译": "注3：术语“话轮单元”虽有助于描述对话（3.5）的各种行为，但在本文件中并不非常重要，因为对话行为（3.6）与话轮单元并非对应关系。",
+    "错误原因": "not assumed是建模时不作对应假设，不等于断言从不对应。",
+    "正确翻译": "注3：术语“话轮单元”虽有助于描述对话（3.5）的各种行为，但在本文件中并不非常重要，因为并未假定对话行为（3.6）与话轮单元相对应。"
+  },
+  {
+    "原始英文句子": "An annotation structure is a set of entity structures and link structures. Entity structures contain semantic information about a dialogue segment; link structures describe semantic relations between entity structures. Entity structures are always of the general form 〈m,z〉, where ‘m’ is a markable and ‘z’ designates a structure that describes some linguistic information. Link structures are typically of the form 〈e1, e2, R〉, consisting of two entity structures and a relation.",
+    "错误翻译": "标注结构是一组实体结构和链接结构。实体结构包含关于对话段的语义信息。链接结构描述实体结构之间的语义关系。实体结构总是以<m,z>形式表示，其中m是可标记的，z表示描述某些语言信息的结构。链接结构通常采用<e1,e2,R>的形式，由两个实体结构和一个关系组成。",
+    "错误原因": "markable为可供标注的对象这一实体；“m是可标记的”只有形容词，未说明变量所指对象。",
+    "正确翻译": "标注结构是一组实体结构和链接结构。实体结构包含关于对话段的语义信息。链接结构描述实体结构之间的语义关系。实体结构总是以<m,z>形式表示，其中m是标注对象，z表示描述某些语言信息的结构。链接结构通常采用<e1,e2,R>的形式，由两个实体结构和一个关系组成。"
+  },
+  {
+    "原始英文句子": "C.3.1.3 Commissive functions",
+    "错误翻译": "C.3.1.3委托职能",
+    "错误原因": "commissive是承担行为承诺，不是委托职能。",
+    "正确翻译": "C.3.1.3 承诺类功能"
+  },
+  {
+    "原始英文句子": "Elementary update functions are defined as parameterised schemes with parameters for a sender, an addressee, and an information state component, such as the following ones.",
+    "错误翻译": "基本更新功能被定义为具有发送者、接收者和信息状态组件参数的参数化方案，如下所示。",
+    "错误原因": "同一段把数学update functions多次称更新功能，易与communicative functions交际功能混淆。",
+    "正确翻译": "基本更新函数被定义为具有发送者、接收者和信息状态组件参数的参数化方案，如下所示。"
+  },
+  {
+    "原始英文句子": "A.4.2 Dialogue acts as update operations",
+    "错误翻译": "A.4.2 对话作为更新操作",
+    "错误原因": "原题是对话行为作为更新操作，非对话整体。",
+    "正确翻译": "A.4.2 作为更新操作的对话行为"
+  },
+  {
+    "原始英文句子": "Discourse Structuring acts are concerned with the explicit structuring of the dialogue. Such acts occur frequently at the beginning and near the end of a dialogue. A dialogue needs to be opened in some way, and there are conventional ways of doing so. In multi-party dialogue an expression that is frequently used to open the dialogue is “Okay”. The same utterance is often used (though with a different intonation and slow tempo) to indicate that a dialogue can be closed, indicating positive feedback concerning the entire preceding dialogue. There do not seem to exist dialogue acts that have the sole function of closing a dialogue; conventionally, a dialogue is considered closed when the participants have exchanged farewell greetings.",
+    "错误翻译": "话语结构行为涉及对话的明确结构。这种行为经常发生在对话开始和接近结束时。对话需要以某种传统的方式开启，且存在约定俗成的开启方式。在多方对话中，经常用来打开对话的表达是“好的”。同一话语（尽管以不同的语调和缓慢节奏）也常被用于表示对话可以结束，表示对整个先前对话的积极反馈。似乎不存在仅以结束对话为唯一功能的话语行为。按照惯例，当参与者互致告别问候时，对话即被视为结束。",
+    "错误原因": "structuring是组织/构建过程；“明确结构”成了结构属性。原文some way未要求以“传统方式”开启。",
+    "正确翻译": "话语结构行为用于显式组织对话。这种行为经常发生在对话开始和接近结束时。对话需要以某种方式开启，且存在约定俗成的开启方式。在多方对话中，经常用来打开对话的表达是“好的”。同一话语（尽管以不同的语调和缓慢节奏）也常被用于表示对话可以结束，表示对整个先前对话的积极反馈。似乎不存在仅以结束对话为唯一功能的话语行为。按照惯例，当参与者互致告别问候时，对话即被视为结束。"
+  },
+  {
+    "原始英文句子": "The pre-final utterance “Public Transportation Information wishes you a pleasant journey“ in functional segment fs23.1 has been interpreted as a signal that the system is moving to the end of the dialogue, and therefore annotated as an interaction structuring act. A more accurate annotation would result from using the plug-in with additional communicative functions in the SOM dimension, defined in Clause D.4, and assigning the communicative function Farewell Wish to this utterance.",
+    "错误翻译": "功能段fs23.1中的倒数第二句话“公共交通信息祝您旅途愉快”被解释为系统即将结束对话的信号，以及因此被标注为交互结构化行为。使用第D.4条中定义的SOM维度中具有附加交际功能的插件将产生更准确的标注，并为这句话赋予了交际功能“告别祝愿”。",
+    "错误原因": "“以及因此”搭配不当；would result / assigning是可采用的改进方案，现译末尾“赋予了”写成已经执行。",
+    "正确翻译": "功能段fs23.1中的倒数第二句话“公共交通信息祝您旅途愉快”被理解为系统准备结束对话的信号，因此被标注为交互结构化行为。若采用D.4中定义的、在社交义务管理维度增加交际功能的插件，并将该话语标注为“告别祝愿”（Farewell Wish），可以得到更准确的标注。"
+  },
+  {
+    "原始英文句子": "An agent may be animate, or only seemingly so, or perceived as animate;",
+    "错误翻译": "施事可以是有生命的，也可以仅仅表现得像有生命的，或感知为有生命的；",
+    "错误原因": "perceived as 表示被观察者视为有生命，并非施事具有某种感知能力。现译缺少被动关系。",
+    "正确翻译": "施事可以是有生命的，也可以只是看起来有生命，或被认为是有生命的；"
+  },
+  {
+    "原始英文句子": "(One man [agent e1]) wrapped e1 (several diamonds [theme e1]) (in the knot of his tie [final-location e1])",
+    "错误翻译": "（一名男子[施事e1]）（在他的领带结上[最终处所e1]）包裹了e1（几颗钻石[客体e1]）。",
+    "错误原因": "in the knot 被译为“在领带结上”，改变最终位置；中文把包裹动作说成“在……上包裹”也不自然。两次出现需同步修订。",
+    "正确翻译": "（一名男子[施事 e1]）把（几颗钻石[客体 e1]）包在 e1（他的领带结里[最终处所 e1]）。"
+  },
+  {
+    "原始英文句子": "Manner is abstract, whereas instrument is concrete. The latter also differentiates instrument from means and method.",
+    "错误翻译": "方式是抽象的，而工具是具体的。工具还进一步区分手段和方法。",
+    "错误原因": "The latter 回指工具具有具体性这一特征；原文是此特征将工具与手段／方法区别开，现译成了“工具去区分手段和方法”。",
+    "正确翻译": "方式是抽象的，而工具是具体的。工具具有具体性，这一特征也使其区别于手段和方法。"
+  },
+  {
+    "原始英文句子": "Being obligatory also seems to be linked to a second property of arguments, which is that the types of arguments associated with a predicate can be specific to that predicate since they are based on its semantics.",
+    "错误翻译": "这种必有性也链接到论元的第二个特性，论元类型是以语义学为基础的，与谓词相关联的论元类型往往表现出对该谓词的特异性。",
+    "错误原因": "“以语义学为基础”把该谓词的具体语义写成整个学科；“链接到”不符合此处论述关系。",
+    "正确翻译": "这种必有性似乎还与论元的第二个特性有关：与某个谓词相关联的论元类型以该谓词的语义为基础，因此可能具有谓词特异性。"
+  },
+  {
+    "原始英文句子": "One view of lexical semantics postulates that word senses can be associated with concepts and, in particular, that different senses of a word are often characterized by different semantic classes associated with the syntactic object.",
+    "错误翻译": "词汇语义学假设词义能与概念相关联，具体而言，词的不同意义特征常通过与词的句法对象相关的不同语义类别来定义，",
+    "错误原因": "漏掉 One view，变成整个学科的统一立场；syntactic object 在此为句法宾语，不是泛指“句法对象”。",
+    "正确翻译": "词汇语义学的一种观点认为，词义可与概念相关联；具体而言，一个词的不同词义往往可通过与其句法宾语相关联的不同语义类别来刻画。"
+  },
+  {
+    "原始英文句子": "The third property of arguments is that they are often assumed to be unique, and multiple arguments are not expected to fill the same role and have the same semantic relationship with the predicate.",
+    "错误翻译": "论元的第三个特性在于，论元通常具有唯一性，多个论元不能充当相同的语义角色，并与谓词具有相同的语义关系。",
+    "错误原因": "often assumed 和 not expected 都是对建模假设或预期的限定；“多个论元不能”强化为绝对禁令，与随后列举例外不协调。",
+    "正确翻译": "论元的第三个特性是：通常假定论元具有唯一性，即不预期多个论元填充同一个角色、并与谓词具有相同的语义关系。"
+  },
+  {
+    "原始英文句子": "The semantic role of partner mainly differs from that of agent in that the participant in question is performing the action in accompaniment to the agent, and is not the primary focus.",
+    "错误翻译": "伙伴的语义角色与施事的主要区别在于，该参与者是与施事一同执行行动的，但并非主要的行为执行者。",
+    "错误原因": "not the primary focus 说的是不是主要关注对象，不宜改为并非主要行为执行者；后者是定义中的另一层次。",
+    "正确翻译": "伙伴与施事的主要区别在于：该参与者伴随施事执行行动，但不是主要关注对象。"
+  },
+  {
+    "原始英文句子": "This includes not only the semantic relations between a verb and its arguments but also those relations that are relevant for other predicative elements such as nominalizations, nouns, adjectives, and predicate modifiers;",
+    "错误翻译": "本文件不仅涵盖动词与动词论元之间的语义关系，还包括动词与其他谓词性成分，例如名词化形式、名词、形容词和谓词修饰语等之间的相关关系。",
+    "错误原因": "原文的后半句把相同种类的语义关系扩展到其他谓词性成分；并未增加“动词与其他谓词性成分之间”的关系。现译改变了关系的两个端点。",
+    "正确翻译": "本文件不仅涵盖动词与其论元之间的语义关系，还涵盖与名词化形式、名词、形容词和谓词修饰语等其他谓词性成分相关的语义关系。"
+  },
+  {
+    "原始英文句子": "The analysis of the examples varies according to the underlying assumptions about verb senses, the verb lexical representation, and the background knowledge at play.",
+    "错误翻译": "对以下示例的分析会因动词承担义、动词词汇表征以及相关背景知识不同而存在差异。",
+    "错误原因": "“动词承担义”不是原文 underlying assumptions about verb senses 的对应表达，遗漏了“关于词义的基本假设”。",
+    "正确翻译": "对以下示例的分析，会随着关于动词词义的基本假设、动词的词汇表征以及所涉及背景知识的不同而有所变化。"
+  },
+  {
+    "原始英文句子": "He had to button e1 his sleeve (by holding e2 the cuff in his mouth [means e1])",
+    "错误翻译": "他不得不（通过用嘴[手段e1]咬住e2袖口）来扣上e1他的袖子。",
+    "错误原因": "button his sleeve 指扣好袖口纽扣，并非把袖子扣上；手段应是整个“用嘴衔住袖口”的动作，不能只落在“嘴”这一工具实体上。",
+    "正确翻译": "他不得不（通过用嘴衔住 e2 袖口[手段 e1]）扣好 e1 袖口的纽扣。"
+  },
+  {
+    "原始英文句子": "(Halfway out of the harbour [initial-location s1]) the sea becomes s1 really deep",
+    "错误翻译": "走出海港[初始处所s1]一半海水就变得很深了s1。",
+    "错误原因": "Halfway 修饰出港路径中的位置，现译“走出海港一半海水”主语和修饰对象均不清。",
+    "正确翻译": "（在出港途中的半程处[初始处所 s1]），海水开始变得 s1 很深。"
+  },
+  {
+    "原始英文句子": "⎯ a corpus of historical texts and corresponding facsimiles.",
+    "错误翻译": "——包含历史文本和相应传真的语料库。",
+    "错误原因": "历史文本对应的facsimiles是影印件／摹本，不是通信方式或传真件这一窄义。",
+    "正确翻译": "包含历史文本及其相应影印件（或摹本）的语料库。"
+  },
+  {
+    "原始英文句子": "There are several categories of users who write and read or even speak and listen to CNL. The first class of users is that of humans. They include language-learners of all ages, writers who produce personal letters or technical documents, editors of newspapers and books, translators and interpreters, and they can be native users or non-native-users, and also people with cognitive or communication difficulties.",
+    "错误翻译": "CNL的使用者分为若干类别，包括CNL的书写者、阅读者、听说者。优先用户为人类，包括各年龄段的语言学习者、撰写私人信件或技术文档的作者、报刊书籍的编辑、笔译人员和口译人员，他们可能是母语使用者或非母语使用者，也可能是有认知或沟通障碍的人士。",
+    "错误原因": "first class表示第一类，不表示优先级，后段还有机器用户。who从句描述活动，不宜将读写者与人类/机器两条分类轴混写。",
+    "正确翻译": "CNL 的用户有不同类别，他们使用 CNL 进行读写，甚至听说。第一类是人类用户，包括各年龄段的语言学习者、撰写私人信件或技术文档的作者、报刊与书籍的编辑、笔译人员和口译人员。这些用户可以是母语使用者，也可以是非母语使用者，还可以是有认知或沟通障碍的人士。"
+  },
+  {
+    "原始英文句子": "Yes: To get an optimum effect, you should use high quality gas with a purity of 98 % or more, and you should not do the following:",
+    "错误翻译": "推荐写法：为了获得最佳效果，您应使用纯度为98%或更高的优质气体（gas），并且不应做以下各项：",
+    "错误原因": "[S0189] 两处should均表示建议，分别改为“宜／不宜”，不与下一层项目的禁止含义混同；“不应做以下各项”宾语类别不明，按后续列举的动作改为“不宜进行以下操作”。保留列表引导关系和否定范围。规范性措辞依据ISO官方用语说明：https://www.iso.org/foreword-supplementary-information.html。",
+    "正确翻译": "推荐写法：为了获得最佳效果，您宜使用纯度为98%或更高的优质气体（gas），并且不宜进行以下操作："
+  },
+  {
+    "原始英文句子": "To do this, an idea of internationalization is necessary to find similarities in languages to make them more generalized, rather than finding differences.",
+    "错误翻译": "为此，需要采用国际化的思路，寻找语言间的共同点，使规则更具通用性，而不是只寻找差异。",
+    "错误原因": "[S0070] 原文rather than finding differences直接对比“寻找共同点”与“寻找差异”。现译增添“只”，把对比改成了是否只做某事，改变了限定范围；删除无原文依据的“只”。",
+    "正确翻译": "为此，需要采用国际化的思路，寻找语言间的共同点，使规则更具通用性，而不是寻找差异。"
+  },
+  {
+    "原始英文句子": "By making the language as plain as possible, these counterparts will be able to understand it, and they will be able to apply it to machine translation.",
+    "错误翻译": "尽可能使语言平易，有助于这些交往对象理解内容，也有助于使用机器翻译。",
+    "错误原因": "[S0029] 后半句漏显了原文的行为主体these counterparts以及机器翻译所处理的对象it；“有助于使用机器翻译”过于笼统。“使语言平易”的搭配也较生硬。补明主体和对象，保留两项并列的能力表述。原文“三分之一”与39.6%的矛盾不在此处改动。",
+    "正确翻译": "尽可能使语言浅显易懂，这些交往对象就能够理解内容，也能够用机器翻译来处理这些内容。"
+  },
+  {
+    "原始英文句子": "Yes: Oxygen with oil or grease makes an explosive mixture.",
+    "错误翻译": "正确： 氧气伴随（with）油或（or）油脂会形成爆炸性混合物。",
+    "错误原因": "本例要消除and/or分组歧义。中文“伴随”不足以明确氧气与两种物质之一相混的关系。",
+    "正确翻译": "正确：氧气与油或油脂混合，会形成爆炸性混合物。"
+  },
+  {
+    "原始英文句子": "NOTE The structure of the document can be implied by applying different styles for each hierarchy.",
+    "错误翻译": "注：为各个层级采用不同的行文风格，可以暗示文档的结构。",
+    "错误原因": "[S0431] 此句的styles与文档层级配合，用于呈现结构，语境义是层级样式，而非随层级改变的语体或语气。“暗示文档的结构”也不符合中文技术表达习惯。依本句语境改为“样式”“体现”，不全局替换style在其他语境中的译名。",
+    "正确翻译": "注：为文档的不同层级采用不同的样式，可以体现文档结构。"
+  },
+  {
+    "原始英文句子": "But if it is necessary to expand the target readers, German-origin words should be used.",
+    "错误翻译": "但如果需要扩大目标读者范围，则应使用德语源词。",
+    "错误原因": "[S0335] 原文should给出有条件的建议，现译“应”强化为要求；改为“宜”。是否应将原文German-origin理解为Germanic另属源文术语问题，本次不作替换。规范性措辞依据ISO官方用语说明：https://www.iso.org/foreword-supplementary-information.html。",
+    "正确翻译": "但如果需要扩大目标读者范围，则宜使用德语源词。"
+  },
+  {
+    "原始英文句子": "To make a precaution message effective, you should show the consequences of the potential risks to the user.",
+    "错误翻译": "要使注意事项提示有效，您应向用户说明潜在风险造成的后果。",
+    "错误原因": "[S0144] 规范性措辞：should在这里给出建议，不应强化为表示要求的“应”。本次仅校正建议强度，不重组“不推荐写法”的段落，也不改变其示范的结构问题。ISO官方用语说明区分should（建议）与shall（要求）：https://www.iso.org/foreword-supplementary-information.html。",
+    "正确翻译": "要使注意事项提示有效，您宜向用户说明潜在风险造成的后果。"
+  },
+  {
+    "原始英文句子": "Do not use long words or big words.",
+    "错误翻译": "不要使用长词或大词。",
+    "错误原因": "big words在这里与long words并列，指生僻或故作高深的词，并非物理意义上大小的词。",
+    "正确翻译": "不要使用冗长或生僻难懂的词语。"
+  },
+  {
+    "原始英文句子": "No: To get an optimum effect, you should not add any additive agents to gas. You should use high quality gas with a purity of 98% or more. Do not use heavy oil or light oil. You should not use biofuels. Also, you should avoid using any catalytic agents.",
+    "错误翻译": "不推荐写法：为了获得最佳效果，您不应向气体（gas）中加入任何添加剂。您应使用纯度为98%或更高的优质气体。不要使用重油或轻油。您不应使用生物燃料。此外，您应避免使用任何催化剂。",
+    "错误原因": "[S0188] 本例三处should/should not及一处should avoid均是建议性表述，现译用“应／不应”强化了语气；原文直接祈使的Do not use heavy oil or light oil仍保留“不要”。不改原例的段落组织、98%数值及gas的现有译法。规范性措辞依据ISO官方用语说明：https://www.iso.org/foreword-supplementary-information.html。",
+    "正确翻译": "不推荐写法：为了获得最佳效果，您不宜向气体（gas）中加入任何添加剂。您宜使用纯度为98%或更高的优质气体。不要使用重油或轻油。您不宜使用生物燃料。此外，您宜避免使用任何催化剂。"
+  },
+  {
+    "原始英文句子": "Tone is a set of styles that creates a specific atmosphere in a document.",
+    "错误翻译": "语气是由一组行文风格形成的文档特定氛围。",
+    "错误原因": "[S0438] 原文将tone界定为一组styles，后面的that从句说明这组风格产生的氛围；现译把定义的中心词改成了“氛围”，混淆构成与效果。恢复两者关系。原文自身的定义方式仍照录其含义，不另行改写理论。",
+    "正确翻译": "语气由一组行文风格构成，这组风格在文档中营造出特定氛围。"
+  },
+  {
+    "原始英文句子": "Single words should be balanced with single words, phrases with phrases, clauses with clauses.[9]",
+    "错误翻译": "单词应与单词对应，短语与短语对应，分句与分句对应。[9]",
+    "错误原因": "[S0164] 原文should表达建议，现译“应”强化了规范力。改为“宜”，并保留三个平行项目及文献标记。规范性措辞依据ISO官方用语说明：https://www.iso.org/foreword-supplementary-information.html。",
+    "正确翻译": "单词宜与单词对应，短语与短语对应，分句与分句对应。[9]"
+  },
+  {
+    "原始英文句子": "— “Measure the speed of flies in the same way that an arrow measures the speed of flies.”",
+    "错误翻译": "— “用一支箭测量苍蝇速度的同样方法，测量苍蝇的速度。”",
+    "错误原因": "[S0467] that an arrow measures the speed of flies中，an arrow是measures的主语。现译“用一支箭测量……”容易将箭误读为测量工具，从而与上一种解读混淆。改为“按照一支箭……时所用的方法”，保留作者有意设置的、箭充当测量者的特殊解读，不以常识将其改写为正常情景。",
+    "正确翻译": "— “按照一支箭测量苍蝇速度时所用的方法，测量苍蝇的速度。”"
+  },
+  {
+    "原始英文句子": "adherence to uniform and standardized annotation (3.1.1) guidelines (3.1.8) and criteria across the entire corpus (3.1.5), ensuring that all annotated elements follow the same rules and conventions, which facilitates reliable and reproducible analysis",
+    "错误翻译": "在整个语料库（3.1.5）范围内，对统一且标准化的标注（3.1.1）、指南（3.1.8）和准则 的遵循，确保所有已标注元素遵循相同的规则和约定，从而促进可靠且可复现的分析。",
+    "错误原因": "annotation guidelines 为一个名词词组。原文在 annotation 和 guidelines 后分别标注定义号，并未用逗号将二者并列。中文增入顿号改变了定义的句法结构。",
+    "正确翻译": "在整个语料库（3.1.5）范围内遵循统一、标准化的标注（3.1.1）指南（3.1.8）和准则，使所有已标注元素遵循相同的规则和约定，从而促进可靠且可复现的分析。"
+  },
+  {
+    "原始英文句子": "d) “Of which” rows presenting parts of an aggregated row without adding up to the total of the aggregated row.",
+    "错误翻译": "d)“其中”行：呈现汇总行中的部分数据，这些部分的合计不计入该汇总行的总计。",
+    "错误原因": "without adding up to the total 表达部分明细合计并非全额，并不表示这些明细从总额中排除。现译增加“不计入”，改变包含关系。",
+    "正确翻译": "d) “其中”行：列示汇总行中的部分明细，这些明细的合计并不构成该汇总行的全部总额。"
+  },
+  {
+    "原始英文句子": "Usually automated; not likely to be in error",
+    "错误翻译": "通常为自动操作；不可能出错",
+    "错误原因": "概率很低不等于逻辑上绝不可能，译文也与6.3.3承认系统层面可能出错的段落不一致。",
+    "正确翻译": "通常由系统自动生成；不太可能出错。"
+  },
+  {
+    "原始英文句子": "Terms that protect the company or organization.",
+    "错误翻译": "保护公司或组织的条款。",
+    "错误原因": "这里仍在列举需要收入术语库的术语，而不是合同或法规条款。",
+    "正确翻译": "有助于保护公司或组织的术语。"
+  },
+  {
+    "原始英文句子": "free text fields with no formal restrictions",
+    "错误翻译": "没有正式限制的自由文本字段",
+    "错误原因": "formal在此与形式／格式约束相关，而非正式与非正式的制度级别。",
+    "正确翻译": "不受形式限制的自由文本字段。"
+  },
+  {
+    "原始英文句子": "a context is required according to the guidelines of the TBX-Basic specification",
+    "错误翻译": "上下文必须符合TBX-Basic规范的指导原则",
+    "错误原因": "原文规定字段／信息的存在性，译文变成已存在内容的符合性，遗漏必须提供语境的要求。",
+    "正确翻译": "按照TBX-Basic规范的指南，必须提供语境。"
+  },
+  {
+    "原始英文句子": "Such systems ideally integrate the relevant constraints for each approach and ensure the coherence of the resulting design.",
+    "错误翻译": "此类系统以理想的方式 整合每种途径的约束条件，并确保最终设计的一致性。",
+    "错误原因": "“以理想的方式”描述实现方式，原文是在说理想情况下系统应达到的状态。",
+    "正确翻译": "理想情况下，此类系统能够整合各途径的相关约束，并确保最终设计的一致性。"
+  },
+  {
+    "原始英文句子": "the formats in which documents are available and the formats the terminology extraction tool can handle limit the amount of text that can be included in a text corpus",
+    "错误翻译": "可解析的文档格式以及术语数据抽取工具所支持的格式限制了能 纳入文本语料库的文本数量",
+    "错误原因": "原文是文档实际能够获取的格式，和工具能够处理的格式两方面条件；不是两次描述解析能力。",
+    "正确翻译": "可获取文档的格式，以及术语数据抽取工具能够处理的格式，限制了可纳入文本语料库的文本数量。"
+  },
+  {
+    "原始英文句子": "Morphological analysis is required for identifying subject-field-specific suffixes, whereas part-of-speech (POS) tagging annotates the respective word class to each token and thus represents the prerequisite for finding syntactic patterns underlying term formation.",
+    "错误翻译": "形态分析用于识 别特定专业领域的后缀；POS标签标注每个词元相应的词类，体现出识别隐含的术语所依据 句法模式的前提条件。",
+    "错误原因": "POS tagging 是标注过程，不是“POS标签”这一对象；underlying term formation 修饰句法模式，不是“隐含的术语”。",
+    "正确翻译": "识别特定专业领域的后缀需要形态分析；词性（POS）标注为每个词元标注相应的词类，是识别术语构成所依据的句法模式的前提。"
+  },
+  {
+    "原始英文句子": "Translated texts can be used, particularly where original texts are not available",
+    "错误翻译": "在原始文本无法获取的情况下能够使用翻译文本",
+    "错误原因": "particularly 表示尤其，中文措辞易使读者认为只有没有原文时才能使用译文。",
+    "正确翻译": "也可使用翻译文本，尤其是在无法获取原始文本的情况下。"
+  },
+  {
+    "原始英文句子": "If planning to create a bilingual termbase of those organization-specific terms, then creating a corpus of all original texts for which there is a translation as well as their translations should be considered.",
+    "错误翻译": "若计划创建针对特定组织术语的双语术语库，则宜创建一个包含所有原始文本及其译文 的语料库。",
+    "错误原因": "原文只选有对应译文的原始文本，且建议考虑建立语料库，并非要求为全部原始文本补译。",
+    "正确翻译": "若计划为这些组织特有术语创建双语术语库，则宜考虑将所有已有译文的原始文本及其对应译文编入语料库。"
+  },
+  {
+    "原始英文句子": "quality of being a successful search result in relation to the search query",
+    "错误翻译": "对于检索查询，检索结果成功的质量。",
+    "错误原因": "quality 在此为属性/性质，不是“成功的质量”。定义应说明结果与查询需求的关系。",
+    "正确翻译": "检索结果满足检索查询需求的性质"
+  },
+  {
+    "原始英文句子": "The resulting learned model is then applied to new, unknown data and outputs a result",
+    "错误翻译": "利 用学习得到的模型，预测新的、未知的数据，得到输出结果",
+    "错误原因": "原文以新数据为输入，输出分类等结果；中文容易把新数据理解为预测对象。",
+    "正确翻译": "然后将学习得到的模型应用于新的、未知的数据，并输出结果。"
+  },
+  {
+    "原始英文句子": "string of characters (3.5) that has been collected by means of term extraction (3.20) but has not yet been selected as a relevant term (3.19) to be considered for inclusion in a terminological data (3.22) collection",
+    "错误翻译": "通过术语抽取（3.20）收集的字符（3.5）串，但尚未选定纳入术语数据（3.22）集合的 相关术语（3.19）。",
+    "错误原因": "前半以“字符串”为中心，后半突然落为“相关术语”；原文还区分筛选为相关术语与考虑纳入集合两个环节。",
+    "正确翻译": "通过术语抽取（3.20）收集，但尚未被选定为可考虑纳入术语数据（3.22）集合的相关术语（3.19）的字符（3.5）串"
+  },
+  {
+    "原始英文句子": "if the term is only or most often used with particular verbs, including collocations can also be very helpful",
+    "错误翻译": "如果某个术语只与或常与特定动词一起使用，则纳入搭配。",
+    "错误原因": "原文说明纳入搭配信息很有帮助，不是要求凡满足条件就必须纳入。",
+    "正确翻译": "如果某个术语仅与或通常与特定动词搭配使用，纳入相应搭配信息也会很有帮助。"
+  },
+  {
+    "原始英文句子": "degree to which a given sequence of words has sufficient collocational strength to form a stable lexical unit (3.8)",
+    "错误翻译": "给定词序列构成稳定词汇单元（3.8）的强度",
+    "错误原因": "原文衡量的是词序列是否具有足够的搭配强度，从而形成稳定词汇单元；当前“构成……的强度”既含混又遗漏搭配。",
+    "正确翻译": "给定词序列具有足够搭配强度、从而形成稳定词汇单元（3.8）的程度"
+  },
+  {
+    "原始英文句子": "clustering words into specific word fields",
+    "错误翻译": "将词聚类到特定词汇领域",
+    "错误原因": "这里指语义相关词构成的词场/语义场，与前文专业领域不是同一概念。",
+    "正确翻译": "将词聚类为特定词场（语义场）"
+  },
+  {
+    "原始英文句子": "terms that are not specific to that subject field should not be taken into consideration",
+    "错误翻译": "不宜考虑该专业领域之外的术语",
+    "错误原因": "原文排除不具该专业领域特定性的词项，也包括在该领域文本中出现的通用词；中文改成领域外术语缩小了筛除范围。",
+    "正确翻译": "不宜考虑不具该专业领域特定性的术语。"
+  },
+  {
+    "原始英文句子": "The text corpus shall be designed (files selected according to criteria pertinent for the purpose of the project) and compiled (files obtained and stored) and can be preprocessed (parsed, marked up and/or aligned).",
+    "错误翻译": "应设计（依据项目目的相关准则选择文件）和编制（获取与存储文件） 文本语料库，并预处理（解析、标注和/或对齐）文本语料库。",
+    "错误原因": "shall只管设计和编制；预处理前单独使用can。中文并列结构使预处理也成为要求。",
+    "正确翻译": "应设计（依据与项目目的相关的准则选择文件）和编制（获取与存储文件）文本语料库，并可对其进行预处理（解析、标注和/或对齐）。"
+  },
+  {
+    "原始英文句子": "This document provides a set of empirically and theoretically well-motivated concepts for dialogue \nannotation, a formal language for expressing dialogue annotations (the Dialogue Act Markup Language, \nDiAML), and a method for segmenting a dialogue into semantic units. This allows the manual or \nautomatic annotation of dialogue segments with information about the communicative actions which \nthe participants perform by their contributions to the dialogue. The annotation scheme specified in \nthis document supports multidimensional annotation of spoken, written, and multimodal dialogues \ninvolving two or more participants. Dialogue units are viewed as having multiple communicative \nfunctions in different dimensions. The markup language DiAML has an XML-based representation format \nand a formal semantics which makes it possible to perform inferences with DiAML representations. \nThis document also specifies data categories for dimensions of dialogue analysis, for communicative \nfunctions, for dialogue act qualifiers, and for relations between dialogue acts. Additionally, it provides \nmechanisms for customizing these sets of concepts, extending them with application-specific or \ndomain-specific concepts and descriptions of semantic content, or selecting relevant coherent subsets \nof them. These mechanisms make the dialogue act concepts specified in this document useful not only \nfor annotation but also for the recognition and generation of dialogue acts in interactive systems.",
+    "错误翻译": "本文件给出了一套兼具理论和实验基础的对话标注概念体系，一种表达对话标注的形式语言（the Dialogue Act Markup Language，对话行为标记语言，DiAML），以及一种将对话分割成语义单元的方法。通过标注对话参与者在对话中所说的内容，使得手动或自动标注对话这一交流活动中的信息成为可能。本文件的标注方案支持对涉及两个或多个参与者的口语、书面语和多模态对话进行多维标注。对话单元被视为在不同维度上承载多种交际功能。标记语言DiAML采用XML表示格式，并具备形式化语义，支持基于标注表示的推理计算。此外，本文件还规定了对话分析维度、交际功能、对话行为限定词和对话行为间关系的数据类别，并提供了概念集定制机制，如对特定应用、领域的概念及语义内容描述进行扩展，或选取相关连贯子集。这些机制使得本文件中所定义的对话行为概念不仅适用于标注，还可服务于交互系统中对话行为的识别和生成。",
+    "错误原因": "标注的对象和记录的信息层次混淆；empirical还被窄化为实验，现成改文恢复实证和交际行动。",
+    "正确翻译": "本文件给出一套具有充分实证和理论依据的对话标注概念、一种表达对话标注的形式语言——对话行为标记语言（DiAML），以及一种将对话划分为语义单元的方法。借助这些概念、语言和方法，可手动或自动地为对话片段添加标注，记录参与者通过对话贡献所实施的交际行动。本文件规定的标注方案支持对涉及两个或多个参与者的口语、书面语和多模态对话进行多维标注。对话单元被视为在不同维度上具有多种交际功能。DiAML具有基于XML的表示格式和形式语义，因而可利用其表示进行推理。本文件还规定了对话分析维度、交际功能、对话行为限定语以及对话行为间关系的数据类别，并提供了定制这些概念集的机制：可加入特定应用或领域的概念以及语义内容描述，也可选取相关且连贯的子集。这些机制使本文件规定的对话行为概念不仅可用于标注，也可用于交互系统中对话行为的识别与生成。"
+  },
+  {
+    "原始英文句子": "feedback act (3.8) where the sender (3.20) elicits information about the addressee's (3.1) processing of an utterance (3.25) that the sender contributed to the dialogue (3.5), or where the sender provides information about his perceived processing by the addressee of an utterance that the sender contributed to the dialogue",
+    "错误翻译": "发送者（3.20）获取接收者（3.1）对发送者在对话（3.5）贡献的话语（3.25）所处理信息的反馈行为，或者发送者提供关于接收者对发送者为对话贡献的话语的感知处理信息的反馈行为（3.8）。",
+    "错误原因": "elicit误为已获取，processing被接成所处理信息，perceived的体验者关系不清；改文保持两分支。",
+    "正确翻译": "一种反馈行为（3.8）：发送者（3.20）引出有关接收者（3.1）如何处理发送者先前在对话（3.5）中所作话语（3.25）的信息，或提供自己所感知到的、接收者对该话语的处理情况。"
+  },
+  {
+    "原始英文句子": "relation between a feedback act (3.8) and the stretch of communicative behaviour the processing of which the act provides or elicits information about",
+    "错误翻译": "即反馈行为（3.8）与其提供或引发信息的那段交际行为之间的关系。",
+    "错误原因": "定义区别特征是关于片段处理情况的信息，坏译完全丢失处理层。",
+    "正确翻译": "反馈行为（3.8）与某一交际行为片段之间的关系；该反馈行为提供或引出的信息涉及对这一片段的处理。"
+  },
+  {
+    "原始英文句子": "Note 2 to entry: The term ‘turn unit’ is also closely related to the term ‘turn construction unit’ (TCU), introduced by Reference [51]. The TCU seems a rather intuitive and holistic notion, of which the usefulness has been the subject of debate (see e.g. Reference [52]). The term is therefore avoided in this document.",
+    "错误翻译": "注2：术语“话轮单元”也与文献[51]中引入的术语“话轮构造单元”（TCU）密切相关。TCU作为一个较为主观和整体性的概念，其实用性存在争议（见参考文献[52]）。因此，本文件中避免使用该术语。",
+    "错误原因": "intuitive不是主观，seems的试探判断也应保留；无须改条目词头。",
+    "正确翻译": "注2：术语“话轮单元”也与文献[51]中引入的术语“话轮构造单元”（TCU）密切相关。TCU似乎是一个较为直观和整体性的概念，其实用性存在争议（见参考文献[52]）。因此，本文件中避免使用该术语。"
+  },
+  {
+    "原始英文句子": "Where in (7a) having the flu is the cause of not coming in (‘semantic cause’), in (8) beating his children is not the cause of Jim being an idiot, but is a reason for the speaker to say that Jim is an idiot, so the causal relation is between the semantic content of the second dialogue act and the performance of the first (‘pragmatic cause’).",
+    "错误翻译": "在（7a）中，流感是不来的原因（“言语因果”），在（8）中，“打他的孩子”不是“吉姆是白痴”的原因，而是讲话者说吉姆是白痴的原因，也就是说，因果关系存在于第二个对话行为的语义内容与第一个对话行为的执行行为之间（“语用因果”）。",
+    "错误原因": "semantic cause与pragmatic cause构成语义/语用对举，言语因果误解维度。",
+    "正确翻译": "在（7a）中，流感是不来的原因（“语义因果”），在（8）中，“打他的孩子”不是“吉姆是白痴”的原因，而是讲话者说吉姆是白痴的原因，也就是说，因果关系存在于第二个对话行为的语义内容与第一个对话行为的执行行为之间（“语用因果”）。"
+  },
+  {
+    "原始英文句子": "The term ‘Own Communication Management' has been introduced[6],[7] for describing the communicative activity of a speaker relating to the management, planning, and execution of his/her own speech production. This activity is indispensable in the description of spoken dialogue, and is illustrated by the occurrence of speech-editing acts such as (self-)repairs and restarts.",
+    "错误翻译": "引入了“自我交际管理”一词[6],[7]，用于描述讲话者在自身语音生成过程中所进行的管理、规划和执行有关的交际活动。这种活动在口语对话的描述中不可或缺，其典型表现为语音编辑行为，例如（自发的）修正与重启。",
+    "错误原因": "自我修正不能写自发修正；言语生成和重新起说限定在对话而非设备重启。",
+    "正确翻译": "引入了“自我交际管理”一词[6],[7]，用于描述讲话者在自身言语生成过程中所进行的管理、规划和执行有关的交际活动。这种活动在口语对话的描述中不可或缺，其典型表现为言语编辑行为，例如（自我）修正与重新起说。"
+  },
+  {
+    "原始英文句子": "The prototypical case of a directive function is the Instruct, where the speaker puts pressure on the addressee to perform a certain action. The Request is a conditional directive, which puts pressure on an addressee to perform the requested action if he/she agrees to do so. Note that accepting a request or a suggestion is itself a commissive act, and accepting an offer is a directive act.",
+    "错误翻译": "指令功能的典型案例是指令，讲话者向发送者施加压力，要求其执行某一行为。请求是一种有条件的指令，如果发送者同意，它会向其施加压力，要求其执行所请求的行动。请注意，接受请求或建议本身就是一种承诺行为，接受提议是一种指令行为。",
+    "错误原因": "addressee两处译发送者，颠倒指令执行对象；现成改文恢复接收者。",
+    "正确翻译": "指令类功能的典型例子是指示（Instruct），讲话者向接收者施加压力，促使其执行某项行为。请求（Request）是一种有条件的指令，在接收者同意的情况下促使其执行所请求的行为。应注意，接受请求或建议本身是一种承诺类行为，而接受提议是一种指令类行为。"
+  },
+  {
+    "原始英文句子": "The mother-daughter relation in this taxonomy reflects increasing specialization going from mother to daughter; sisters in the taxonomy are mutually exclusive alternatives. The fact that the set of general- purpose functions forms a tree structure shows their semantic connectedness, and can be exploited in annotation processes by using the structure as a decision tree; see Annex E. The general-purpose functions can be used to build a dialogue act in any dimension by combining the function with a semantic content of the category of that dimension. The definitions of the core general-purpose functions are provided in Annex C in the form of data categories conforming to ISO 12620.",
+    "错误翻译": "这种分类中所体现的“母类—子类”关系反映出语义功能从母类向子类逐步专业化的趋势；而同属一母类的“姊妹类”功能则构成互斥的备选项。通用功能构成树状结构，这一结构形式体现了其语义上的关联性。在语义标注过程中，该结构可被用作决策树以辅助标注判断，详见附录E。通用功能可与不同维度类别中的语义内容结合，用于构建任一维度上的对话行为。附录C以符合ISO 12620的数据类别的形式提供了核心通用功能的定义。",
+    "错误原因": "分类树中specialization为特化，专业化易误指职业/学科分工；保留互斥和树关系。",
+    "正确翻译": "这种分类中所体现的“母类—子类”关系反映出语义功能从母类向子类逐步特化的趋势；而同属一母类的“姊妹类”功能则构成互斥的备选项。通用功能构成树状结构，这一结构形式体现了其语义上的关联性。在语义标注过程中，该结构可被用作决策树以辅助标注判断，详见附录E。通用功能可与不同维度类别中的语义内容结合，用于构建任一维度上的对话行为。附录C以符合ISO 12620的数据类别的形式提供了核心通用功能的定义。"
+  },
+  {
+    "原始英文句子": "(c) an encoding function (F) that specifies the XML representation of the annotation structures defined by the abstract syntax (including the assignment of vocabulary items to conceptual inventory items).",
+    "错误翻译": "（c）编码功能（F），规定抽象语法所定义的标注结构的XML表示方式（包括词汇表项与概念库存项之间的映射）。",
+    "错误原因": "同段明确total function及逆函数F-1，encoding function是数学函数而非一般用途功能。",
+    "正确翻译": "（c）编码函数（F），规定抽象语法所定义的标注结构的XML表示方式（包括词汇表项与概念清单项之间的映射）。"
+  },
+  {
+    "原始英文句子": "the discontinuous verbal segment",
+    "错误翻译": "不连续的动词段",
+    "错误原因": "verbal与multimodal对举，是言语片段，不能收窄为动词。",
+    "正确翻译": "不连续的言语片段"
+  },
+  {
+    "原始英文句子": "Definition Category of dialogue acts by which the sender discusses or reports on his processing of previous dialogue contributions.",
+    "错误翻译": "定义 | 对话行为类别，发送者通过该类别讨论或报告其对先前对话贡献的处理过程。",
+    "错误原因": "by which指对话行为而非类别本身；定义上位类别与实施手段须区分。",
+    "正确翻译": "定义：发送者用来讨论或报告自己对先前对话贡献的处理情况的一类对话行为。"
+  },
+  {
+    "原始英文句子": "Definition Communicative function of a dialogue act performed by the sender, S, in order to obtain the information, described by the semantic content, which S assumes that the addressee, A, possesses; S puts pressure on A to provide this information.",
+    "错误翻译": "定义 | 发送者S为获取语义内容所描述的信息而进行对话行为的交际功能，S假设接收者A拥有该语义内容，S向A施压，要求其提供此信息。",
+    "错误原因": "A掌握的是所问信息，不是抽象语义内容；改文只修先行词关系。",
+    "正确翻译": "定义 | 发送者S为获取语义内容所描述的信息而进行对话行为的交际功能，S假设接收者A掌握该信息，S向A施压，要求其提供此信息。"
+  },
+  {
+    "原始英文句子": "Definition Communicative function of a dialogue act performed by the sender, S, in order to know which one from a list of alternative propositions, specified by the semantic content, is true; S believes that exactly one element of that list is true; S assumes that the ad­ dressee, A, knows which of the alternative propositions is true, and S puts pressure on A to provide this information.",
+    "错误翻译": "定义 | 发送者S执行的对话行为的交际功能，以便知道语义内容指定的备选命题列表中的哪一个为真。S确信该列表中仅有一个命题为真。S假设接收者A知道哪备选命题为真，S向A施加压力，要求其提供该信息。",
+    "错误原因": "形式化定义描述S的信念状态，用确信会提高确定程度；仅有一个本已接近恰好一个，不将其单立实错。",
+    "正确翻译": "定义 | 发送者S执行的对话行为的交际功能，以便知道语义内容指定的备选命题列表中的哪一个为真。S相信该列表中恰好有一个命题为真。S假设接收者A知道哪个备选命题为真，S向A施加压力，要求其提供该信息。"
+  },
+  {
+    "原始英文句子": "Note Related terminology in other schemes: Reply-N (HCRC MapTask); No-Answer (SWBD- DAMSL); Dispreferred answer (MRDA).",
+    "错误翻译": "注：其他方案中的相关术语：回复-N（Reply-N，标注方案：HCRC MapTask）、无应答（No-Answer，标注方案：SWBD DAMSL）、反驳答案（Dispreferred answer，标注方案：MRDA）。",
+    "错误原因": "本条disconfirm定义提供否定命题的语境，No-Answer不是不作答；dispreferred为非优选结构术语。",
+    "正确翻译": "注：其他方案中的相关术语：回复-N（Reply-N，标注方案：HCRC MapTask）、否定回答（No-Answer，标注方案：SWBD DAMSL）、非优选回答（Dispreferred answer，标注方案：MRDA）。"
+  },
+  {
+    "原始英文句子": "Definition Communicative function of a dialogue act performed by the sender, S, in order to make the addressee, A, feel obliged to perform a certain action in the manner or with the frequency described by the semantic content, conditional on A's consent to perform the action. S assumes that A is able to perform this action.",
+    "错误翻译": "定义 | 对话行为的交际功能，话语的发送者（S）通过该行为旨在使接收者（A）感受到有义务以语义内容中所描述的方式或频率执行某项特定行为，该义务的成立以受话者对该行为的同意为条件。",
+    "错误原因": "完整definition末句关于A实施能力的假定漏译，已核源context该句属于定义而非注。",
+    "正确翻译": "定义：发送者S实施的一项对话行为的交际功能，旨在使接收者A感到有义务按语义内容描述的方式或频率实施某项行为；该义务以A同意实施该行为为条件。S假定A有能力实施这一行为。"
+  },
+  {
+    "原始英文句子": "Example Sender uses declining intonation towards the end of a contribution and subse­ quently pauses.",
+    "错误翻译": "发言者在陈述结束时使用降调并随后停顿。",
+    "错误原因": "contribution不限陈述，towards the end为接近结束；示例须保话轮释放适用范围。",
+    "正确翻译": "示例：发送者在发言接近结束时使用降调，随后停顿。"
+  },
+  {
+    "原始英文句子": "Example English: \"Don't mention it\"; Spanish: \"De nada\"; Greek: \"parakalo\".",
+    "错误翻译": "英语：“不客气。”（Thanks a lot.）；西班牙语：“别客气。”（De nada）；希腊语：“请，不用谢。”（parakalo）",
+    "错误原因": "坏译括注Thanks a lot与不客气相冲突，将回应致谢样本混入致谢语，具功能辨别价值。",
+    "正确翻译": "示例：英语“Don’t mention it”（不客气）；西班牙语“De nada”（不用谢）；希腊语“parakalo”（此处为回应致谢）。"
+  },
+  {
+    "原始英文句子": "Many other relations that are distinguished in other annotation schemes can be seen as special cases of DR-core relations, for example ‘Explanation’ as a case of ‘Cause’, ‘Juxtaposition’ as a case of ‘Contrast’, and ‘Specification’ as a case of ‘Elaboration’.",
+    "错误翻译": "在其他标注方案中区分的许多其他关系可以被视为DR核心关系的特例，例如“解释”（Explanation）作为“原因”（Cause）的一个实例、“并置”（Juxtaposition）作为“对比”（Contrast）的一个实例， “规范”（Specification）作为“细化”（Elaboration）的一个实例。",
+    "错误原因": "修辞关系Specification是具体说明而非规范，英文括注不足以抵消中文误义。",
+    "正确翻译": "在其他标注方案中区分的许多其他关系可以被视为DR核心关系的特例，例如“解释”（Explanation）作为“原因”（Cause）的一个实例、“并置”（Juxtaposition）作为“对比”（Contrast）的一个实例， “具体说明”（Specification）作为“细化”（Elaboration）的一个实例。"
+  },
+  {
+    "原始英文句子": "— Concrete syntax: corresponding XML function names;",
+    "错误翻译": "—具体语法：提供与功能相对应的 XML 函数名称。",
+    "错误原因": "此列表针对交际功能在XML中的名称，函数会误解程序/数学对象。",
+    "正确翻译": "—具体语法：与各交际功能相对应的XML名称。"
+  },
+  {
+    "原始英文句子": "(E.1) Can you tell me what time the train to uh,... Viareggio leaves?",
+    "错误翻译": "（E.1）你能告诉火车什么时候开吗，呃…，去维亚雷焦的？",
+    "错误原因": "示例用于分段，目的地表达中的停顿不能移到整句末；改文保留目的地内犹豫。",
+    "正确翻译": "（E.1）你能告诉我，去……呃……维亚雷焦的火车什么时候发车吗？"
+  },
+  {
+    "原始英文句子": "A's utterance may be understood as an Offer; due to the fact that expressions of the form “Would you like…” are commonly used for that purpose; B's response is an Accept Offer by virtue of its linguistic form and the fact that it occurs immediately after an Offer. Since an offer can only be accepted when it has been understood, B's response by implication also has a positive auto-feedback function.",
+    "错误翻译": "A的话语可被理解为提议（Offer）行为，“你想……吗”这一语言形式通常用以表达该类意图。B 的回应可视为对该提议的“接受”（Accept Offer），其依据在于该回应的语言形式及其紧随提供行为之后的语境。由于只有在对提供行为进行理解的前提下才能作出接受反应，因此可以推知 B 的回应还隐含具有“积极自体反馈”（positive auto-feedback）的交际功能。",
+    "错误原因": "同一推理链的Offer先提议后提供行为，打断已定义功能的同一性；改文保持同词。",
+    "正确翻译": "A的话语可被理解为提议（Offer）行为，“你想……吗”这一语言形式通常用以表达该类意图。B 的回应可视为对该提议的“接受”（Accept Offer），其依据在于该回应的语言形式及其紧随提议行为之后的语境。由于只有在对提议行为进行理解的前提下才能作出接受反应，因此可以推知 B 的回应还隐含具有“积极自体反馈”（positive auto-feedback）的交际功能。"
+  },
+  {
+    "原始英文句子": "SOM acts can also be constructed by using a general-purpose function. For instance, “I'm extremely grateful for your help” and “I hope to see you next year in Hong Kong” are Informs in the SOM dimension, having a similar effect as a thanking and a farewell greeting.",
+    "错误翻译": "SOM行为也可以通过使用通用功能来构造。例如，“我非常感谢你的帮助”和“我希望明年能在香港见到你”是SOM层面的信息，具有类似于感谢和告别问候的效果。",
+    "错误原因": "Informs是告知交际行为，不是信息本身，分类对象改变。",
+    "正确翻译": "SOM行为也可通过通用功能构成。例如，“我非常感谢你的帮助”和“我希望明年能在香港见到你”都是SOM维度中的告知行为（Inform），其效果分别类似于致谢与告别问候。"
+  },
+  {
+    "原始英文句子": "This clause contains illustrations of the use of the annotation scheme, specified in this document. Subclause E.4.1 shows the annotation of some short exchanges; E.4.2 shows the annotations of a complete spoken human-computer dialogue, and E.4.3 of an extended fragment of a multimodal human- human dialogue. (E.22) Fragment of multimodal human-human Map Task dialogue, segmentation",
+    "错误翻译": "本条款包含本文件中指定的标注方案的使用说明。第E.4.1款显示了一些短交际的标注；E.4.2显示了完整的口语人机对话的标注，E.4.3显示了多模态人机对话的扩展片段。 （E.22）多模态人机地图任务对话片段，分段处理",
+    "错误原因": "human-human两处错作人机，对话类型与示例身份改变。",
+    "正确翻译": "本条款包含本文件中指定的标注方案的使用说明。第E.4.1款显示了一些简短对话片段的标注；E.4.2显示了完整的口语人机对话的标注，E.4.3展示了多模态人人对话中一个较长片段的标注。 （E.22）多模态人人地图任务对话片段及分段"
+  },
+  {
+    "原始英文句子": "(E.17) a. P1: engine E3 is going to pick up the bananas, back to Avon, dro... [m1]",
+    "错误翻译": "（E.17）a. P1：第二辆机车 E3 要去，呃，康宁去装香蕉，然后回到埃文，卸……[m1]",
+    "错误原因": "第二辆和康宁无本例英文根据，不能从较完整的另一处例句拼入。",
+    "正确翻译": "（E.17）a. P1：机车E3要去装香蕉，再回到埃文，卸……[m1]"
+  },
+  {
+    "原始英文句子": "In turn 11 there is an occurrence of a lip smacking gesture, indicated in the transcription \nby ‘LIPGES_lipsmack’.",
+    "错误翻译": "在第11轮中，出现了一个咂嘴的手势，在转录中用“LIPGES_lipsmack”（咂嘴动作）表示。",
+    "错误原因": "lip smacking gesture是嘴部动作，手势误定发出动作的器官。",
+    "正确翻译": "在第11轮中，出现了一个咂嘴动作，在转录中用“LIPGES_lipsmack”（咂嘴动作）表示。"
+  },
+  {
+    "原始英文句子": "Where in (7a) having the flu is the cause of not coming in (‘semantic cause’),",
+    "错误翻译": "在（7a）中，流感是不来的原因（“言语因果”）。",
+    "错误原因": "semantic cause与pragmatic cause构成语义/语用对举，“言语因果”误解了这里的语义维度。",
+    "正确翻译": "在（7a）中，流感是不来的原因（“语义因果”）。"
+  },
+  {
+    "原始英文句子": "Turn Management is the distribution of the right to occupy the speaker role, also called the ‘floor'",
+    "错误翻译": "话轮管理（Turn Management）是对讲话者角色权利的分配，也称为“发言权”。",
+    "错误原因": "floor是被分配的权利之别称，坏译附着到话轮管理，概念关系颠倒。",
+    "正确翻译": "话轮管理（Turn Management）是对占据讲话者角色的权利的分配；这种权利也称“发言权”。"
+  },
+  {
+    "原始英文句子": "Dialogue acts with a feedback-specific communicative function are expressed by utterances like “Okay”, “Uh-huh”, “Yes” (positive auto-feedback), “No no no” (negative allo-feedback), “Right” (positive allo-feedback), “Huh?”, “What?” (negative auto-feedback), and “Okay?” (feedback elicitation) - typically with a particular intonation and accompanying facial expressions. Such utterances by themselves contain little semantic information.",
+    "错误翻译": "具有反馈特定交际功能的对话行为由诸如“好的”“嗯”“是的”（积极自体反馈）、“不-不-不”（消极异体反馈）、“对”（积极异体反馈）、“嗯？”“什么？”（消极自体反馈）和“好的”（反馈引发）等话语来表达。这类话语通常伴随特定的语调与面部表情，其本身所承载的语义信息较少。",
+    "错误原因": "Okay?是询问理解的反馈引发语，译好的消除疑问功能，改文按本处功能译明白吗。",
+    "正确翻译": "具有反馈特定交际功能的对话行为由诸如“好的”“嗯”“是的”（积极自体反馈）、“不-不-不”（消极异体反馈）、“对”（积极异体反馈）、“嗯？”“什么？”（消极自体反馈）和“明白吗？”（反馈引发）等话语来表达。这类话语通常伴随特定的语调与面部表情，其本身所承载的语义信息较少。"
+  },
+  {
+    "原始英文句子": "(c) an encoding function (F) that specifies the XML representation of the annotation structures defined by the abstract syntax (including the assignment of vocabulary items to conceptual inventory items).",
+    "错误翻译": "（c）编码功能（F），规定抽象语法所定义标注结构的XML表示形式（包括将词汇项指派给概念清单项）。",
+    "错误原因": "后文total及inverse证明function数学义；编码功能不够准确，非一般同义偏好。",
+    "正确翻译": "（c）编码函数（F），规定抽象语法所定义标注结构的XML表示形式（包括将词汇项指派给概念清单项）。"
+  },
+  {
+    "原始英文句子": "Definition Communicative function of a dialogue act performed by the sender, S, in order to obtain the information, described by the semantic content, which S assumes that the addressee, A, possesses; S puts pressure on A to provide this information.",
+    "错误翻译": "定义 | 发送者S执行对话行为的交际功能，旨在获取语义内容所描述的信息。S认为接收者A拥有该语义内容，S向A施压，要求其提供此信息。",
+    "错误原因": "接收者拥有的是信息，坏译将先行词错接成语义内容。",
+    "正确翻译": "定义 | 发送者S执行对话行为的交际功能，旨在获取语义内容所描述的信息。S认为接收者A掌握该信息，S向A施压，要求其提供此信息。"
+  },
+  {
+    "原始英文句子": "Definition Communicative function of a dialogue act performed by the sender, S, in order to make certain information available to the addressee, A, which S believes A wants to know; S assumes that this information is correct.",
+    "错误翻译": "定义 | 发送者S在对话行为中执行的交际功能，旨在向接收者A提供特定信息，这些信息S确信A想要了解，且S认为该信息是准确无误的。",
+    "错误原因": "定义中believes与assumes是认知状态，确信与准确无误强化判断；改文恢复认为和正确，标规范定义措辞而非逻辑反义。",
+    "正确翻译": "定义 | 发送者S在对话行为中执行的交际功能，旨在向接收者A提供特定信息，这些信息是S认为A想要了解的，且S认为该信息是正确的。"
+  },
+  {
+    "原始英文句子": "Definition Communicative function of a dialogue act by which the sender, S, commits himself/ herself to perform the action, specified by the semantic content, in the manner or with the frequency that may be specified, conditional on the consent of the addressee that S do so.",
+    "错误翻译": "定义 | 发送者S在对话行为中执行的交际功能，承诺将依据语义内容所指明的方式或频率，执行相应的行为。该承诺的实施以接收者（A）同意发送者执行该行动为条件。",
+    "错误原因": "行动由语义内容指定，方式/频率可选；有条件的承诺不能仅写承诺实施的条件。",
+    "正确翻译": "定义：发送者S执行对话行为时采用的交际功能：在接收者A同意的条件下，S承诺执行语义内容中规定的行为；语义内容也可进一步规定执行方式或频率。"
+  },
+  {
+    "原始英文句子": "Definition Communicative function of a dialogue act by which the sender, S, indicates that he/she considers to perform an action that was suggested to him/her, possibly depending on certain conditions that he/she makes explicit.",
+    "错误翻译": "定义 | 发送者S在对话行为中执行的交际功能，表明其正在考虑执行接收者所提出的某项建议性行为，该考虑取决于发送者所明确提出的一个或多个条件。",
+    "错误原因": "possibly被删成固定条件，且擅定建议来自当前接收者；改文恢复可能和未指定建议者。",
+    "正确翻译": "定义：发送者S执行对话行为时采用的交际功能，表明S正在考虑实施先前建议的行为；这种考虑可能受S明确提出的一个或多个条件约束。"
+  },
+  {
+    "原始英文句子": "— Concrete syntax: corresponding XML function names;",
+    "错误翻译": "—具体语法：提供与功能相对应的XML函数名称。",
+    "错误原因": "这里的XML名称指交际功能，译为“函数名称”会误解所命名的对象。",
+    "正确翻译": "—具体语法：提供与功能相对应的XML交际功能名称。"
+  },
+  {
+    "原始英文句子": "as the dialogue segments that these acts provide or elicit information about.",
+    "错误翻译": "因为这些行为提供或引发了相关信息的对话片段。",
+    "错误原因": "as在此同位解释reference segments而非因为；坏译既改逻辑关系又缺谓语。改文的这些参照语段须随原段context使用。",
+    "正确翻译": "这些参照语段就是上述行为所提供或引出信息涉及的对话片段。"
+  },
+  {
+    "原始英文句子": "The rules for creating classes and for writing definitions shall be documented and made available for users and providers of content.",
+    "错误翻译": "类创建规则与定义编写规范应形成文档并向用户或内容提供方公开。",
+    "错误原因": "users and providers两类均须可获得，或改变规范要求受益范围。",
+    "正确翻译": "创建类和编写定义的规则应形成文件，并提供给用户和内容提供方。"
+  },
+  {
+    "原始英文句子": "Enumerative classification systems attempt to list all possible subjects within their defined area of applicability. They are in many cases represented by using hierarchies. Nevertheless, in some cases enumerative schemes may be represented by simple unstructured sets of objects.",
+    "错误翻译": "枚举分类系统在适用领域内穷举所有可能主题。多采用层级结构，在某些情况下亦可用非结构化客体集实现。",
+    "错误原因": "attempt to list是力求列尽，不保证已穷尽；改文保尝试性。",
+    "正确翻译": "枚举式分类系统力求在其界定的适用领域内列出所有可能的主题。这类系统在许多情况下采用层级结构表示，但有时也可以采用简单的非结构化客体集合表示。"
+  },
+  {
+    "原始英文句子": "A difficulty may be the need to avoid absurd combinations of classes.",
+    "错误翻译": "其难点在于必须避免不合理的类别组合。",
+    "错误原因": "may be的潜在难点被写成确定难点；不认定原译只容唯一难点的延伸理由。",
+    "正确翻译": "一个可能的难点是，需要避免不合理的类别组合。"
+  },
+  {
+    "原始英文句子": "Concepts are not necessarily bound to particular natural languages. They are, however, influenced by the social or cultural background which often leads to different categorizations.",
+    "错误翻译": "概念不受特定的自然语言的限制,但受社会或文化背景的影响。",
+    "错误原因": "not necessarily被绝对化，文化影响导致不同分类的后果整项漏去。",
+    "正确翻译": "概念不一定受特定自然语言的约束，但会受到社会或文化背景的影响，这种影响往往导致不同的分类。"
+  },
+  {
+    "原始英文句子": "A designation can be a term (3.8) including appellations (3.9), a proper name (3.10), or a symbol (3.11).",
+    "错误翻译": "指称能是术语（3.8），包括名称（3.9）、专有名称（3.10）或符号（3.11）。",
+    "错误原因": "坏译包括的统辖范围使专名符号落入term子类，改文括清appellations仅属term。",
+    "正确翻译": "指称可以是术语（3.8）（包括名称（3.9））、专有名称（3.10）或符号（3.11）。"
+  },
+  {
+    "原始英文句子": "work concerned with the collection, description, processing and presentation of concepts (3.4) and their designations (3.7)",
+    "错误翻译": "系统性收集、描述、处理、和表示概念（3.4）及其指称（3.7）的相关工作。",
+    "错误原因": "定义新增系统性限制，排除临时术语工作；改文恢复work concerned with的开放范围。",
+    "正确翻译": "与收集、描述、处理和表示概念（3.4）及其指称（3.7）有关的工作。"
+  },
+  {
+    "原始英文句子": "class of data items that are closely related from a formal or semantic point of view",
+    "错误翻译": "用于对术语条目（3.2）或术语资源进行结构化的术语数据类型规范。",
+    "错误原因": "class of data items被改成数据类型规范，定义上位概念和特征均换掉。",
+    "正确翻译": "从形式或语义角度看密切相关的一类数据项"
+  },
+  {
+    "原始英文句子": "The skill level is assumed to be low and fairly narrow.",
+    "错误翻译": "技能水平要求较为基础",
+    "错误原因": "assumed不是技能要求，且fairly narrow的技能范围维度消失。",
+    "正确翻译": "假定术语工作者的技能水平较为基础，技能范围也较窄。"
+  },
+  {
+    "原始英文句子": "whether specific concepts of ‘computer mouse’ exist",
+    "错误翻译": "“计算机鼠标”是否存在特定概念",
+    "错误原因": "已核同段computer mouse属pointing device的specific concept，下文问鼠标的种/下位概念，特定概念误属种义。",
+    "正确翻译": "‘计算机鼠标’是否具有下位概念"
+  },
+  {
+    "原始英文句子": "Concept research shall result in terminological data that establishes the concept as clearly as possible, and ideally leads to a definition (see 6.3).",
+    "错误翻译": "概念研究的成果应形成能清晰界定概念的术语数据，并最终产出定义（见6.3）。",
+    "错误原因": "ideally被改成最终产出定义，理想目标变为必然结果；改文同时保as clearly as possible。",
+    "正确翻译": "概念研究应形成能够尽可能清晰地确立该概念的术语数据，理想情况下形成定义（见6.3）。"
+  },
+  {
+    "原始英文句子": "If the TDC was prepared in a spreadsheet",
+    "错误翻译": "若术语数据采集通过电子表格完成",
+    "错误原因": "prepared in spreadsheet描述数据集建立载体，不仅是采集方式。",
+    "正确翻译": "若术语数据集是在电子表格中建立的"
+  },
+  {
+    "原始英文句子": "The Netherlands, not Netherlands, The",
+    "错误翻译": "The Netherlands（正确）；Netherlands（错误）",
+    "错误原因": "反例Netherlands, The的末尾The被删，排序示例变成冠词有无，语义而非纯标点问题。",
+    "正确翻译": "The Netherlands，而非Netherlands, The"
+  },
+  {
+    "原始英文句子": "e.g. in international standardization, multilingual legislation, or in-house standardization of company-specific terminology, or when introducing new terms and loan terms to a target language where no definition exists.",
+    "错误翻译": "企业为规范其专有领域术语而建立的内部标准化体系术语或目标语言中尚无定义的新术语或借词引入",
+    "错误原因": "坏译丢国际标准化及多语立法等并列情境，又把内部活动粘成体系术语，改文恢复并列适用范围。",
+    "正确翻译": "例如国际标准化、多语立法、企业特有术语的内部标准化，或向尚无相关定义的目标语言引入新术语和借词。"
+  },
+  {
+    "原始英文句子": "one or more words or lexical units",
+    "错误翻译": "一个或多个词或词汇",
+    "错误原因": "lexical units是可数的词汇单位，不是整体词汇；改文保持单位概念。",
+    "正确翻译": "一个或多个词或词汇单位"
+  },
+  {
+    "原始英文句子": "communication about goods and products",
+    "错误翻译": "商品和产品流通",
+    "错误原因": "communication about为有关交流，不是商品流通，活动类别改变。",
+    "正确翻译": "有关商品和产品的交流"
+  },
+  {
+    "原始英文句子": "know how to use search engines and specialized databases",
+    "错误翻译": "指定如何使用搜索引擎与专业数据库",
+    "错误原因": "know how表达知道如何使用的能力，“指定如何使用”变成规定操作方式。",
+    "正确翻译": "知道如何使用搜索引擎和专业数据库"
+  },
+  {
+    "原始英文句子": "individual concepts",
+    "错误翻译": "单独概念",
+    "错误原因": "与general concept对举的个别概念是规定概念类型，单独概念误成独立状态。",
+    "正确翻译": "个别概念"
+  },
+  {
+    "原始英文句子": "generic relation",
+    "错误翻译": "一般关系",
+    "错误原因": "generic在概念关系中指属种，一般关系失去类型。",
+    "正确翻译": "属种关系"
+  },
+  {
+    "原始英文句子": "specific concept",
+    "错误翻译": "具体概念",
+    "错误原因": "种概念不可误成与抽象对举的具体概念，保本域义项。",
+    "正确翻译": "种概念"
+  },
+  {
+    "原始英文句子": "comprehensive concept",
+    "错误翻译": "综合概念",
+    "错误原因": "partitive语境的comprehensive为整体端，综合概念掩盖整体角色。",
+    "正确翻译": "整体概念"
+  },
+  {
+    "原始英文句子": "Constraint between associative relations, notation option1",
+    "错误翻译": "联想关系中的多重性",
+    "错误原因": "约束关系图被题成多重性，图表达的xor关系不同；不是纯编号问题。",
+    "正确翻译": "联想关系之间的约束，记法选项1"
+  },
+  {
+    "原始英文句子": "generic relation (shared target style)",
+    "错误翻译": "泛化（共享目标风格）",
+    "错误原因": "术语profile属种关系与UML泛化是映射两端，不应以中栏名称替换右栏标签。",
+    "正确翻译": "属种关系（共享目标样式）"
+  },
+  {
+    "原始英文句子": "A partitive relation should be depicted using a UML aggregation symbol.",
+    "错误翻译": "部分关系应使用UML聚合符号描绘",
+    "错误原因": "标准化措辞should是建议宜，不能提升为应的要求；保UML聚合符号不变。",
+    "正确翻译": "部分关系宜使用UML聚合符号表示"
+  },
+  {
+    "原始英文句子": "virtual embodiment of a disparate, otherwise non-aggregated collection (3.1.4) assembled for a specific purpose that is referenced by a single PID (3.2.4) concatenated with a part identifier (3.2.7) in order to access the components of the collection",
+    "错误翻译": "为特定目的而组合在一起的各类或非聚合的集合（3.1.4）的虚拟形式，通过拼接了组件标识符（3.2.7）的单个PID（3.2.4）实现引用，以便访问该集合的各个组成部分。",
+    "错误原因": "disparate和otherwise non-aggregated是并列属性，或造成虚假二选一，改文保原本未聚合。",
+    "正确翻译": "为特定目的汇集分散且原本未聚合的资源而形成的集合（3.1.4）的虚拟表现形式，通过单个PID（3.2.4）与组件标识符（3.2.7）的拼接进行引用，以访问集合的组成部分。"
+  },
+  {
+    "原始英文句子": "application that implements a service supporting the use of urlified (3.4.3) PIDs (3.2.4) to access resources or other PID-related information, or both",
+    "错误翻译": "一种应用程序，支持将标识符转换为URL格式（3.4.3）的PID（3.2.4），以访问资源和/或其他PID相关信息。",
+    "错误原因": "支持使用URL化PID访问资源的服务，被改成转换标识符功能，定义核心对象改变。",
+    "正确翻译": "实现以下服务的应用程序：支持使用URL化的（3.4.3）PID（3.2.4）访问资源和／或其他与PID相关的信息。"
+  },
+  {
+    "原始英文句子": "Specific parts of an RDF graph can be addressed using one of the proposed RDF query languages, but no definitive specification is currently available.",
+    "错误翻译": "对于RDF图形的组件，使用推荐的其中一种RDF查询语言寻址，但目前还没有明确的规范。",
+    "错误原因": "proposed为已提出，推荐暗添正式建议身份，且can的能力含义应保留。",
+    "正确翻译": "RDF图的特定部分可以用已提出的某一种RDF查询语言寻址，但目前尚无确定的规范。"
+  },
+  {
+    "原始英文句子": "⎯ a photo documenting a speech event,",
+    "错误翻译": "——一次演讲活动的照片记录，",
+    "错误原因": "speech event在语言资源语境不限演讲，现译过窄。",
+    "正确翻译": "记录某次言语事件的照片"
+  },
+  {
+    "原始英文句子": "The option to add parameters to the URI in a query in order to transfer extra information to the remote web server.",
+    "错误翻译": "在查询过程中向URI添加参数的选项，以便将额外信息传输到远程网络服务器。",
+    "错误原因": "query在URI结构内是查询部分，不是查询过程，作用位置错误。",
+    "正确翻译": "可在URI的查询部分添加参数，以便向远程Web服务器传输额外信息。"
+  },
+  {
+    "原始英文句子": "temporal addressing",
+    "错误翻译": "临时定址",
+    "错误原因": "temporal是按时间轴，不是临时temporary。",
+    "正确翻译": "按时间寻址"
+  },
+  {
+    "原始英文句子": "In scholarly works, citations acknowledge and give credit to previous works.",
+    "错误翻译": "在学术著作中，引用是对先前著作的认可和赞扬。",
+    "错误原因": "引用give credit指承认来源贡献，不等于赞扬或赞同作品。",
+    "正确翻译": "在学术著作中，引用用于承认并注明先前著作的贡献。"
+  },
+  {
+    "原始英文句子": "to route requests for handle resolution.",
+    "错误翻译": "并发送句柄解析请求。",
+    "错误原因": "route是请求路由/转送，不等于发起发送；改文保路由角色。",
+    "正确翻译": "并为句柄解析请求提供路由。"
+  },
+  {
+    "原始英文句子": "A local handle service can itself be composed of a number of servers.",
+    "错误翻译": "本地句柄服务本身由多个服务器组成。",
+    "错误原因": "can be composed of是可能多服务器，不应断定本身必为多个。",
+    "正确翻译": "本地句柄服务本身可以由多个服务器组成。"
+  },
+  {
+    "原始英文句子": "⎯ Its naming scheme is constrained to discourage semantics in the identifier.",
+    "错误翻译": "——其命名方案受限，不允许在标识符中使用语义。",
+    "错误原因": "discourage不是绝对不允许；禁止改变命名约束强度。",
+    "正确翻译": "其命名方案有所约束，以避免／不鼓励在标识符中引入语义。"
+  },
+  {
+    "原始英文句子": "Name Mapping Authority Hostport (NMAH)",
+    "错误翻译": "命名映射授权主机端口（NMAH）",
+    "错误原因": "Authority在机构名称指机构非授权，Hostport按名称结构保主机及端口。",
+    "正确翻译": "名称映射机构主机及端口（NMAH）"
+  },
+  {
+    "原始英文句子": "careful use of URIs (avoiding the use of physical path information) will at least make the need to use PIDs in order to avoid broken links superfluous.",
+    "错误翻译": "谨慎使用 URI（避免使用物理路径信息），这至少需要使用PID，减少产生失效链接。",
+    "错误原因": "superfluous表示可免去PID需要，坏译反说至少需要PID，结论相反。",
+    "正确翻译": "谨慎使用URI（避免物理路径信息），至少可以使为了避免链接失效而使用PID变得不必要。"
+  },
+  {
+    "原始英文句子": "set of techniques and processes used to identify resources relevant to an information need, from a collection or network of information resources",
+    "错误翻译": "从信息资源集合或网络中辨别出与信息需求关联的文献的技术和程序",
+    "错误原因": "定义的对象是信息资源，译为文献会收窄可被识别的资源范围。",
+    "正确翻译": "从信息资源集合或网络中识别与某一信息需求相关的资源所采用的一组技术和过程。"
+  },
+  {
+    "原始英文句子": "This document specifies methods for extracting candidate terms from text corpora and gives guidance on selecting relevant designations, definitions, concept relations and other terminology-related information.",
+    "错误翻译": "本文件描述了从文本语料库中抽取候选术语的方法，提供了选取相关指称、定义、概念 关系及其他术语数据相关信息的指南。",
+    "错误原因": "specifies表明文件规定方法，“描述”弱化了这项标准范围声明的文件功能。",
+    "正确翻译": "本文件规定了从文本语料库中抽取候选术语的方法，并提供了选取相关指称、定义、概念关系及其他术语相关信息的指南。"
+  },
+  {
+    "原始英文句子": "Terms can be partly or wholly verbal.",
+    "错误翻译": "术语或许部分或全部由文字组成。",
+    "错误原因": "verbal覆盖语言形式，并不只限书面文字；can说明可具有的构成形式，而非译者的推测。",
+    "正确翻译": "术语可部分或全部由语言成分构成。"
+  },
+  {
+    "原始英文句子": "EXAMPLE \"Mouse\" has stronger termhood in computer applications and weaker termhood in general language.",
+    "错误翻译": "示例：“鼠标”在计算机应用中术语度较强，在通用语言中术语度较弱。",
+    "错误原因": "mouse示例依普通义与计算机义对比，直接全译鼠标丢元语言现象，现成改文解释同一英文词两义。",
+    "正确翻译": "示例：英语词“mouse”在计算机应用语境中表示“鼠标”，在该语境中的术语度强于其在通用语言语境中表示“老鼠”时的术语度。"
+  },
+  {
+    "原始英文句子": "Terminology extraction requires a deep understanding of terminology theory and terminology work.",
+    "错误翻译": "术语数据抽取需要深入理解术语数据理论与术语数据工作。",
+    "错误原因": "terminology theory/work不应因文件涉及抽取而全加数据，两概念范围被改；不机械删全部术语数据。",
+    "正确翻译": "术语数据抽取需要深入理解术语理论与术语工作。"
+  },
+  {
+    "原始英文句子": "the suffix -itis in medical contexts",
+    "错误翻译": "例如医学语境中的后缀——炎",
+    "错误原因": "英文后缀-itis本身是例证对象，改成中文炎将语言单位换掉；保字母形式及原有释义。",
+    "正确翻译": "例如医学语境中的后缀 -itis（表示炎症）。"
+  },
+  {
+    "原始英文句子": "it is also desirable to extract not only terms, but also definitions",
+    "错误翻译": "在术语数据抽取过程中，抽取的术语数据不仅有术语，而且还有定义",
+    "错误原因": "is desirable是建议抽取，不是断言现有输出含定义；改文恢复宜的建议功能。",
+    "正确翻译": "除术语外，还宜抽取定义"
+  },
+  {
+    "原始英文句子": "For example, ISO 12616-1, ISO 10241-1 and TBX-Basic provide formal lists of data categories for terminological entries.",
+    "错误翻译": "例如，ISO 12616-1、ISO 10241-1提供了用于术语数据条目的正式数据类别列表。",
+    "错误原因": "TBX-Basic是句中直接列出的来源之一，中文遗漏了该并列来源。",
+    "正确翻译": "例如，ISO 12616-1、ISO 10241-1 和 TBX-Basic 提供了用于术语条目的正式数据类别列表。"
+  },
+  {
+    "原始英文句子": "Canadian French texts for Canadian French terminology",
+    "错误翻译": "加拿大法语文 本适用于加拿大法语数据",
+    "错误原因": "French terminology是法语术语，不是任意法语数据，抽取对象误泛化。",
+    "正确翻译": "加拿大法语文本适用于加拿大法语术语；"
+  },
+  {
+    "原始英文句子": "Cost savings",
+    "错误翻译": "成本因素",
+    "错误原因": "cost savings专指节约，成本因素丢收益方向。",
+    "正确翻译": "成本节约"
+  },
+  {
+    "原始英文句子": "main statement the author (3.1.6) wants to convey with an entire report (3.1.3) or a single page, a slide or a screen from it",
+    "错误翻译": "编写者（3.1.6）希望通过整份报告（3.1.3）或其中的单页、单张幻灯片或单个屏幕画面传达的重要陈述。",
+    "错误原因": "main限制key message为主要陈述，重要不足以排除次要但重要信息；词头只在context，定义不能换成词头。",
+    "正确翻译": "编写者（3.1.6）希望通过整份报告（3.1.3）或其中的单页、单张幻灯片或单个屏幕画面传达的主要陈述。"
+  },
+  {
+    "原始英文句子": "g) \"Of which\" columns showing parts of an aggregated column without adding up to the total of the aggregated column.",
+    "错误翻译": "g)“其中”列：显示汇总列中的部分数据，这些部分的合计不计入该汇总列的总计。",
+    "错误原因": "部分明细不合为全额不等于不计入总计，坏译改变汇总计算关系。",
+    "正确翻译": "g) “其中”列：列示汇总列中的部分明细，这些明细的合计并不构成该汇总列的全部总额。"
+  },
+  {
+    "原始英文句子": "Authors shall: use the same chart types for the same purposes; ensure a uniform width for the segments of category axes; and avoid misleading presentations of data values.",
+    "错误翻译": "编写者对相同的用途使用相同的图表类型；确保类别轴各分段的宽度统一；避免以误导性的方式呈现数据值。",
+    "错误原因": "shall要求应有显式规范力，陈述行为列表未清楚表达要求，收标准措辞类而不指已改变数值内容。",
+    "正确翻译": "编写者应针对相同用途使用相同图表类型，确保类别轴各分段的宽度统一，并避免以误导方式呈现数值。"
+  },
+  {
+    "原始英文句子": "This document provides guidance for defining procedures for ensuring high-quality content in terminological data collections designed to meet documentation needs in a range of environments involving, for instance, translation, interpreting and technical communication.",
+    "错误翻译": "本文件为术语数据集的定义过程提供指导，以确保术语数据收集中得到高质量内容，旨在满足涉及笔译、口译和技术交流等一系列环境中的文献需求。",
+    "错误原因": "defining的宾语是确保内容质量的程序，不是术语数据集，指导对象改变。",
+    "正确翻译": "本文件为制定确保术语数据集中内容质量的程序提供指导，以满足笔译、口译和技术交流等环境中的文献记录需求。"
+  },
+  {
+    "原始英文句子": "/subject field/",
+    "错误翻译": "/主语领域/",
+    "错误原因": "subject field在术语学为主题领域，主语是语法义，须术语学上下文。",
+    "正确翻译": "主题领域"
+  },
+  {
+    "原始英文句子": "qualified as a terminologist or subject-matter specialist",
+    "错误翻译": "具有术语学或领域专家资格",
+    "错误原因": "terminologist是具资格的人，术语学是学科，资格主体类型不平行。",
+    "正确翻译": "具有术语工作专业人员或相关领域专家资格"
+  },
+  {
+    "原始英文句子": "gender, spelling reforms, script choices, register, formality",
+    "错误翻译": "性别、拼写改革、脚本选择、语域、形式",
+    "错误原因": "script是文字体系，formality正式程度，gender语法性，均在术语语言形式属性语境，不能用程序脚本或一般形式。",
+    "正确翻译": "语法性、拼写改革、书写体系的选择、语域及正式程度。"
+  },
+  {
+    "原始英文句子": "either a definition or a context shall be present",
+    "错误翻译": "定义或上下文都应存在",
+    "错误原因": "either or要求至少一项，定义或上下文都应存在会要求两者，逻辑改变。",
+    "正确翻译": "应至少提供定义或语境中的一项；"
+  },
+  {
+    "原始英文句子": "error types",
+    "错误翻译": "误差类型",
+    "错误原因": "术语质量评价error不是测量误差，保错误分类对象，需领域context。",
+    "正确翻译": "错误类型"
+  },
+  {
+    "原始英文句子": "when termbase quality evaluators assign error points, they can account for whatever error types they find appropriate as reflected in the list in Annex C.",
+    "错误翻译": "当术语库质量评估人员分配错误点时，他们可以解释他们认为合适的错误类型，如附录C中的列表所示。",
+    "错误原因": "account for此处评分中纳入考虑，非解释错误类型；error points是扣分。",
+    "正确翻译": "在分配错误扣分时，术语库质量评估员可考虑附录C列表中他们认为适用的错误类型。"
+  },
+  {
+    "原始英文句子": "Language level",
+    "错误翻译": "语言水平",
+    "错误原因": "与Concept level并列，Language level为分类层面，语言水平误成能力概念。",
+    "正确翻译": "语言层面"
+  },
+  {
+    "原始英文句子": "Introduction of verb by “to,” “zu,” or other particle",
+    "错误翻译": "用“to”“zu”或其他词缀引导动词",
+    "错误原因": "to/zu是独立语法小词而非词缀，单位层级不同。",
+    "正确翻译": "在动词前加“to”“zu”或其他小品词／语法小词。"
+  },
+  {
+    "原始英文句子": "Failure to identify mass nouns and occasional documented plurals",
+    "错误翻译": "未能识别大量名词和偶然记录的复数",
+    "错误原因": "mass nouns为物质/不可数名词，非大量名词；改文保偶见但有记录复数用法。",
+    "正确翻译": "未能识别物质名词（不可数名词）及有记录的偶见复数用法"
+  },
+  {
+    "原始英文句子": "Uninformative context",
+    "错误翻译": "上下文信息不全",
+    "错误原因": "uninformative是缺乏说明价值，不必文本残缺，信息不全误定评价维度。",
+    "正确翻译": "语境不提供有助于理解概念或用法的信息。"
+  },
+  {
+    "原始英文句子": "Quality assurance of the annotation system",
+    "错误翻译": "标注系统质量控制",
+    "错误原因": "assurance与control是质量过程不同概念，图文质量保证/控制不能仅作同义统一。",
+    "正确翻译": "标注系统质量保证"
+  },
+  {
+    "原始英文句子": "Annotator management and contract",
+    "错误翻译": "人力资源管理",
+    "错误原因": "子过程明确标注员管理与合同，泛称人力资源管理丢合同及具体对象。",
+    "正确翻译": "标注员管理与合同"
+  },
+  {
+    "原始英文句子": "Corpus annotation project risk response plan.",
+    "错误翻译": "风险应对",
+    "错误原因": "风险应对计划是规划产物，风险应对仅为活动，计划中心语不可漏。",
+    "正确翻译": "语料库标注项目风险应对计划"
+  },
+  {
+    "原始英文句子": "Project work order.",
+    "错误翻译": "活动定义/\n优先级",
+    "错误原因": "项目工作指令被完全换成活动定义/优先级，工作产物身份改变。",
+    "正确翻译": "项目工作指令"
+  },
+  {
+    "原始英文句子": "Monitoring of the annotation system",
+    "错误翻译": "标注员工作台\n质量控制",
+    "错误原因": "监测标注系统运行被缩为标注员工作台质量控制，对象和活动两层变动。",
+    "正确翻译": "标注系统运行监测"
+  },
+  {
+    "原始英文句子": "All rights reserved. Unless otherwise specified, no part of this publication may be reproduced or utilized in any form or by any means, electronic or mechanical, including photocopying and microfilm, without permission in writing from either ISO at the address below or ISO's member body in the country of the requester.",
+    "错误翻译": "版权所有。除非另有说明，或在实施过程中有特殊要求，否则未经事先书面许可，不得以任何形式或任何方式（包括电子或机械方式，如复印、上网或发布于互联网或内网）复制或使用本出版物的任何部分。如需获得许可，可向以下地址的ISO机构，或申请所在国家的ISO成员机构提出请求。",
+    "错误原因": "中文新增实施特殊要求及互联网列举又缺microfilm，与所交2012文本不同；仅作对齐差异样本，不作版权判断。",
+    "正确翻译": "版权所有。除非另有规定，未经下列地址所示的ISO机构或申请者所在国家的ISO成员机构书面许可，不得以任何形式或方式（电子或机械方式，包括复印和缩微胶片）复制或使用本出版物的任何部分。"
+  },
+  {
+    "原始英文句子": "Effective creation, encoding, processing and management of language resources is facilitated by a single high-level data model that supports analysis and design of both annotation schemes and representation formats. This International Standard is designed to support the development and use of computer applications relying on linguistically annotated resources and the exchange of these resources among different applications.",
+    "错误翻译": "语言资源的有效创建、编码、处理和管理，有赖于一个支持各类标注方案与表示格式的分析和设计的单一高层数据模型。本国际标准旨在支持依赖语言标注资源的计算机应用的开发与使用，以及这些资源在不同应用之间的交换。",
+    "错误原因": "facilitated为促进，有赖于强化成必要前提；改文有助于恢复关系。",
+    "正确翻译": "统一的高层数据模型能够支持标注方案和表示格式的分析与设计，有助于有效创建、编码、处理和管理语言资源。本国际标准旨在支持依赖带有语言标注的资源的计算机应用的开发与使用，以及这些资源在不同应用之间的交换。"
+  },
+  {
+    "原始英文句子": "— Any number of annotation documents containing nodes, edges and feature structures associated with some or all of the nodes and/or edges in a directed graph. All nodes reference either a base segmentation document (in which case the node has no outgoing edges) or other nodes in the same or other annotation documents via edges. (See 3.3.3).",
+    "错误翻译": "—— 任意数量的标注文档，其中包含与某些或全部节点和/或边相关联的节点、边和特征结构。所有节点或者引用基础切分文档（此时该节点没有出边），或者通过边引用同一文档中或其他标注文档中的其他节点。（见 3.3.3。）",
+    "错误原因": "特征结构关联图节点/边，坏译定语笼统罩住节点边且漏有向图；改文恢复图结构层级。",
+    "正确翻译": "——任意数量的标注文档，内含有向图的节点和边，以及与其中部分或全部节点和／或边关联的特征结构。所有节点要么引用基础切分文档（此时没有出边），要么通过边引用同一文档或其他标注文档中的节点（见3.3.3）。"
+  },
+  {
+    "原始英文句子": "In the general case, primary data does not contain markup of any kind. If markup does exist in primary data (e.g. HTML or XML tags), it is treated as a part of the data stream by referring annotations; no distinction is made between markup and other characters in the data when referring to locations in the document.",
+    "错误翻译": "一般而言，源数据不包含任何置标。如果源数据中确实存在置标（例如 HTML（超文本标记语言） 或 可扩展标记语言(XML) 标记），则将其视为数据流的一部分，方法是引用标注；在文档中引用位置时，不对置标与其他字符加以区分。",
+    "错误原因": "referring annotations是引用数据的标注，不是通过引用标注的方法，引用双方关系错。",
+    "正确翻译": "通常，源数据不包含任何置标。如果存在置标（例如HTML或XML标记），引用源数据的标注也将其视为数据流的一部分；在引用文档中的位置时，不区分置标字符与其他字符。"
+  },
+  {
+    "原始英文句子": "Discontiguous regions are referenced by creating nodes referencing each component region and adding a node that is in turn linked to them.",
+    "错误翻译": "非连续区域则通过创建指称各成分区域的节点，并添加一个按序链接这些节点的节点来指称。",
+    "错误原因": "in turn是再连接上层节点，不规定按序，坏译额外加有序要求。",
+    "正确翻译": "引用非连续区域时，可先为各组成区域建立引用它们的节点，再增加一个与这些节点相链接的节点。"
+  },
+  {
+    "原始英文句子": "Type(s) of annotations included in this file type",
+    "错误翻译": "该文件中包含的标注类型。",
+    "错误原因": "file type指文件类型，“该文件中”将解释对象收窄为单个文件。",
+    "正确翻译": "本文件类型中包含的一种或多种标注类型。"
+  },
+  {
+    "原始英文句子": "Defines a type of anchor used to ground annotations in primary data",
+    "错误翻译": "定义一种用于标注源数据中定点位置的锚点类型",
+    "错误原因": "ground annotations in primary data是把标注定位到数据，不是给定点位置作标注。",
+    "正确翻译": "定义用于将标注定位到源数据的一种锚点类型"
+  },
+  {
+    "原始英文句子": "PID where documentation concerning the data may be found (e.g. description of recording procedures, participants, etc., for spoken data or corpus collection procedures).",
+    "错误翻译": "可找到关于该数据的文档的持久标识符（PID）（例如对口语数据或语料库采集程序的记录程序、参与者等的说明）。",
+    "错误原因": "录制过程参与者属于spoken data，corpus collection procedures为另一文档类型，坏译把采集程序当录制对象。",
+    "正确翻译": "可获取该数据说明文档的持久标识符（PID），例如关于口语数据录制过程及参与者的说明，或关于语料库采集过程的说明。"
+  },
+  {
+    "原始英文句子": "The main task of technical committees is to prepare International Standards. Draft International Standards adopted by the technical committees are circulated to the member bodies for voting. Publication as an International Standard requires approval by at least 75 % of the member bodies casting a vote.",
+    "错误翻译": "技术委员会的主要任务是制定国际标准。技术委员会通过的国际标准草案应发给各成员团体投票。作为国际标准出版，要求至少获得 75% 的成员团体投票赞成。",
+    "错误原因": "75%的分母是参与投票成员，坏译未保限定而可读全体成员，改文清晰恢复分母。",
+    "正确翻译": "技术委员会的主要任务是制定国际标准。经技术委员会通过的国际标准草案分发给各成员团体投票。作为国际标准出版，须获得参与投票的成员团体中至少75%的赞成。"
+  },
+  {
+    "原始英文句子": "c) an annotation structure for representing annotation content with feature structures.",
+    "错误翻译": "c) 一个用于表示标注内容的标注结构，带有特征结构。",
+    "错误原因": "with feature structures为表达内容的手段，带有只陈述附带对象，改文恢复技术关系。",
+    "正确翻译": "c) 一个标注结构，用于通过特征结构表示标注内容。"
+  },
+  {
+    "原始英文句子": "ISO draws attention to the possibility that the implementation of this document may involve the use of (a) patent(s). ISO takes no position concerning the evidence, validity or applicability of any claimed patent rights in respect thereof.",
+    "错误翻译": "ISO提请注意本文件的实施可能涉及使用（a）专利。ISO对任何声称的专利权的证据、有效性或适用性不持任何立场。",
+    "错误原因": "(a) patent(s)是单复数兼容模板，不是编号a，改文译一项或多项；只作语言模板解释。",
+    "正确翻译": "ISO提请注意，实施本文件可能涉及一项或多项专利。对于任何声称与此有关的专利权，ISO对其证据、有效性或适用性不持立场。"
+  },
+  {
+    "原始英文句子": "In ISO 24613:2008, experts identified a nucleus of elements that are sufficiently generic to constitute a common ground.",
+    "错误翻译": "在ISO 24613:2008中，专家们确定了一个足够通用的核心元素，以构成共同点。",
+    "错误原因": "a nucleus of elements为一组核心元素而非一个元素，common ground为共同基础。",
+    "正确翻译": "在ISO 24613:2008中，专家们确定了一组足够通用的核心元素，作为不同模型的共同基础。"
+  },
+  {
+    "原始英文句子": "SynSemCorrespondence is a class representing a set of SynSemArgMap instances for a given SubcategorizationFrame instance.",
+    "错误翻译": "“句法-语义”对应是表示某一给定“次范畴化框架”实例的一组“语义论元映射”实例的类。",
+    "错误原因": "SynSemArgMap涵盖句法和语义两端，删句法会变成另一类名并错对象；现成改文保模型标识。",
+    "正确翻译": "句法—语义对应（SynSemCorrespondence）类表示给定次范畴化框架（SubcategorizationFrame）实例所对应的一组句法—语义论元映射（SynSemArgMap）实例。"
+  },
+  {
+    "原始英文句子": "SyntacticBehaviour is a class representing one of the possible syntactic behaviours of a lexeme. It is a subclass of CrossREF, linking a LexicalEntry instance with a SubcategorizationFrame instance. The presence in a given lexicon of one SyntacticBehaviour instance for a lexical entry means that this entry can have this behaviour in the language under description. Syntactic description is optional, so it is possible to describe morphology and semantics without any syntactic description. LexicalEntry, SyntacticBehaviour and Sense instances form a triangle representing morphology, syntax and semantics. A detailed description of the syntactic behaviour of a lexical entry is defined by the SubcategorizationFrame instance.",
+    "错误翻译": "“句法行为”是一个类，代表词位可能的句法行为之一。它是“交叉引用”的一个子类，将“词项”实例与“次范畴化框架”实例链接起来。在给定的词库中，词项的一个“句法行为”实例的存在意味着该项可以在所描述的语言中具有这种行为。句法描述是可选的，因此可以在没有任何句法描述的情况下描述形态学和语义学。“词项”、“句法行为”和“意义”实例形成一个三角形，代表形态学、句法和语义。词项句法行为的详细描述由“次范畴化框架”实例定义。",
+    "错误原因": "这里描述词条实例的形态和语义信息，“形态学”“语义学”误指研究这些信息的学科。",
+    "正确翻译": "句法行为（SyntacticBehaviour）类表示词位的一种可能句法行为，是交叉引用（CrossREF）的子类，用于连接词条（LexicalEntry）实例与次范畴化框架（SubcategorizationFrame）实例。词库中某词条具有句法行为实例，表示它在所描述的语言中可以呈现这种句法行为。句法描述是可选的，因此可只描述形态和语义而不作句法描述。词条、句法行为和义项（Sense）的实例构成分别对应形态、句法和语义的三角关系。词条句法行为的详细描述由次范畴化框架实例给出。"
+  },
+  {
+    "原始英文句子": "A possible modelling of this with this SubcategorizationFrameSet is achieved as follows: a single SyntacticBehaviour for the LexicalEntry of boil is instantiated; this SyntacticBehaviour links to a SubcategorizationFrameSet called anticausativeVerbType1, and this in turn contains two instances of SubcategorizationFrame, regularSVO and regularSV.",
+    "错误翻译": "使用此次范畴化框架集对此进行建模的可能方式如下：实例化了一个用于“boil”的词条的单一句法行为；此句法行为链接到一个名为anticausativeVerbType1的次范畴化框架集，这反过来又包含两个次范畴化框架实例，即regularSVO和regularSV。",
+    "错误原因": "in turn表示下一结构层，不是反过来，逆向关系无英文依据；实例化了的完成态亦可整理。",
+    "正确翻译": "使用次范畴化框架集进行建模的一种方式如下：为 boil 的词条创建一个句法行为实例，并将其链接到名为 anticausativeVerbType1 的次范畴化框架集；该集合又包含 regularSVO 和 regularSV 两个次范畴化框架实例。"
+  },
+  {
+    "原始英文句子": "ISO and IEC maintain terminology databases for use in standardization at the following addresses:",
+    "错误翻译": "ISO和IEC负责维护术语数据库在标准中的使用，术语数据库通过以下地址进行访问：",
+    "错误原因": "ISO维护数据库，for use限定数据库用途，不是维护在标准中的使用。",
+    "正确翻译": "ISO和IEC维护供标准化工作使用的术语数据库，访问地址如下："
+  },
+  {
+    "原始英文句子": "The modelling of the syntactic and semantic properties of lexicons can differ considerably from lexicon to lexicon, due to different linguistic theories.",
+    "错误翻译": "由于语言学理论不同，各词库在句法属性和语义属性的建模上有可能存在差异。",
+    "错误原因": "considerably显著差异的程度限定遗漏，改文恢复但保can的可能性。",
+    "正确翻译": "由于所依据的语言学理论不同，各词库对句法和语义属性的建模可能存在显著差异。"
+  },
+  {
+    "原始英文句子": "The presence in a given lexicon of one SyntacticBehaviour instance for a lexical entry means that this entry can have this behaviour in the language under description.",
+    "错误翻译": "在给定词库中，一个词条的一个“句法 行为”实例表示在这种语言描述中可以有这种行为。",
+    "错误原因": "in the language under description是被描述语言，坏译改在语言描述中，属性所属对象变化。",
+    "正确翻译": "词库中某词条具有一个句法行为实例，表示该词条在所描述的语言中可以呈现这种句法行为。"
+  },
+  {
+    "原始英文句子": "SemanticArgument is a class representing an argument of a given SemanticPredicate. A SemanticArgument instance may be described in terms of data categories such as \"agent\", \"patient\", and typed by means of a relation to one or many external resources (such as an ontology). Semantic arguments are ordered.",
+    "错误翻译": "“语义论元”是表示给定的“语义谓词”论元的类。“语义论元”实例可以根据如“施 事”，“受事”等数据类别进行描述，并通过与一种或多种外部资源（如本体）的关系进 行类型化。语义论元是有序的。",
+    "错误原因": "one or many external resources是外部资源数量，不能换成资源种类数量。",
+    "正确翻译": "语义论元（SemanticArgument）类表示某一语义谓词（SemanticPredicate）的论元。其实例可用“施事”“受事”等数据类别描述，并通过与一个或多个外部资源（如本体）的关系来指定类型。语义论元是有序的。"
+  },
+  {
+    "原始英文句子": "Since the term ‘cancer’ and ‘tumour’ are terms used in everyday language relating to health, more specific terms like ‘carcinoma’, ‘leukaemia’, and ‘lymphoma’, which refer to different types of cancer, might have to be used in medical diagnoses or prescriptions.",
+    "错误翻译": "“癌症（cancer）”和“肿瘤（tumour）” 是与健康相关的日常用语，但在医学诊断或处方中需使用“癌（carcinoma）”“白血病（leukaemia）”“淋巴瘤（lymphoma）”等更为具体的术语，以指称不同类型的癌症。",
+    "错误原因": "might have to表达可能需要，“需使用”将不确定的必要性提升为确定要求。",
+    "正确翻译": "“癌症（cancer）”和“肿瘤（tumour）”是与健康有关的日常用语，但在医学诊断或处方中，可能需要使用“癌（carcinoma）”“白血病（leukaemia）”“淋巴瘤（lymphoma）”等更具体的术语，以指称不同类型的癌症。"
+  },
+  {
+    "原始英文句子": "Another benefit is that written CNL texts such as the language resources employed in larger application scenarios (e.g. Semantic Web and decision-support systems) can be re-used.",
+    "错误翻译": "另一项益处是，在语义网、决策支持系统等较大应用场景中作为语言资源使用的书面CNL文本能被重用。",
+    "错误原因": "such as后语言资源为书面文本实例，坏译把它变全体限制定语，缩窄重用对象。",
+    "正确翻译": "另一项益处是书面 CNL 文本可以重用，例如在语义网、决策支持系统等较大规模应用场景中使用的语言资源。"
+  },
+  {
+    "原始英文句子": "Likewise, text summarization is different from text generation.",
+    "错误翻译": "文本摘要与通用文本生成也不一样。",
+    "错误原因": "text generation无通用限定，坏译收窄比较对象。",
+    "正确翻译": "同样，文本摘要与文本生成也不相同。"
+  },
+  {
+    "原始英文句子": "7.4.3 BSG Rule 3.3: Do not frequently use the preposition \"with.\" If necessary, paraphrase it (to mean \"accompanied by\").",
+    "错误翻译": "7.4.3 BSG 规则 3.3：不要频繁使用介词 “with”。如有必要，表示“accompanied by”（伴随）之意。。",
+    "错误原因": "paraphrase明确要求改写with，坏译只说表示某意而未给操作；双句号不单立错例。",
+    "正确翻译": "7.4.3 BSG规则3.3：不要频繁使用介词with；必要时将其改写，以明确表达“伴随”等所指关系。"
+  },
+  {
+    "原始英文句子": "— “It is no less important to measure the actual size”; showing the two are equivalent.",
+    "错误翻译": "——“测量实际尺寸不能不一样重要”：表明两者同样重要。",
+    "错误原因": "no less important表示重要性不低于对比对象；“不能不一样重要”既不自然，也未可靠表达该否定比较。",
+    "正确翻译": "——“测量实际尺寸的重要性也不亚于此”：表示两者同样重要。"
+  },
+  {
+    "原始英文句子": "Long words with Latin derivation",
+    "错误翻译": "长词源自拉丁语",
+    "错误原因": "受拉丁语源限定的一类长词变成所有长词均源自拉丁语的断言。",
+    "正确翻译": "拉丁语源的长词"
+  },
+  {
+    "原始英文句子": "Not using contractions",
+    "错误翻译": "不使用缩略形式",
+    "错误原因": "正式写作语境contractions为缩约形式，与技术缩略语须区别；收语言单位规范措辞，需上下文。",
+    "正确翻译": "不使用缩约形式"
+  },
+  {
+    "原始英文句子": "Eventuality modifiers are distinct from other types of participants in that they are used in supplying information that is typically more peripheral and more general, for example, situating the eventuality in time or space.",
+    "错误翻译": "事态修饰语与其他类型参与者不同，通常用于提供更外围、更常规的信息，例如定位事态发生的时间或空间。",
+    "错误原因": "general是一般性/适用范围，常规改变该属性，改文保外围和一般性并列。",
+    "正确翻译": "事态修饰语与其他类型的参与者不同，通常提供更外围、也更具一般性的信息，例如确定事态在时间或空间中的位置。"
+  },
+  {
+    "原始英文句子": "a reference set of data categories that define a structured collection of semantic roles with an explicit semantics",
+    "错误翻译": "一套数据范畴参考集，用于界定具有显式语义学的语义角色的结构集；",
+    "错误原因": "显式语义学把语义解释写成学科，结构集亦误作独立名词；改文保结构化集合。",
+    "正确翻译": "一套数据范畴参考集，用以界定一个具有明确语义的、结构化的语义角色集合；"
+  },
+  {
+    "原始英文句子": "uses Final-Location for physical motion.",
+    "错误翻译": "对于物理运动对象则使用“最终处所（Final-Location）”标记。",
+    "错误原因": "physical motion是位移，不是运动对象；仅截取无缺词的后半句，不据此前英文残缺怪译者。",
+    "正确翻译": "对于物理位移，则使用“最终处所（Final-Location）”标签。"
+  },
+  {
+    "原始英文句子": "All utterances that describe eventualities involving objects being thrown can be considered to be tokens of the eventuality frame ‘throwing of objects’.",
+    "错误翻译": "所有描述事态的话段，包括“投掷物”可视为“投掷物体”这一事态框架的词元。",
+    "错误原因": "涉及被投掷物体限定事态，坏译拆成所有事态；tokens在框架实例关系非分词单元。",
+    "正确翻译": "凡描述涉及物体被投掷的事态的话段，都可视为“投掷物体”这一事态框架的实例。"
+  },
+  {
+    "原始英文句子": "Different senses of a verb are distinguished by differences in the semantic roles of their arguments; this is because they denote eventualities in which one or more of the participants are involved in a different way. They can also have different entailments;",
+    "错误翻译": "动词的不同意义通过论元的语义角色的差异予以区分，这些动词意义所表示的事态中，一个或多个参与者的参与方式有所不同，参与者可能有不同的蕴涵；",
+    "错误原因": "They承接不同动词词义/事态，不能改为参与者具不同蕴涵。",
+    "正确翻译": "动词的不同词义可通过其论元的语义角色差异加以区分，因为这些词义所指的事态中，一个或多个参与者的参与方式不同。这些不同词义也可能具有不同的蕴涵；"
+  },
+  {
+    "原始英文句子": "Where these diversions are necessary, they shall be clearly documented and, as far as possible, mapped to the already existing lexical schema that is the closest, with detailed definitions of discrepancies.",
+    "错误翻译": "在必要时，应清晰记录这些差异，并将差异映射至最接近的现有词汇模式，同时详细说明差异所在。",
+    "错误原因": "as far as possible限定映射要求，坏译变无条件必须映射；when必要偏离也不可改记录可选。",
+    "正确翻译": "当确有必要作出这些偏离时，应清楚记录，并尽可能将其映射到最接近的现有词汇模式，同时详细说明差异。"
+  },
+  {
+    "原始英文句子": "It is likely that certain modifications will be needed to fit this scheme appropriately to the new application area",
+    "错误翻译": "为了使该方案准确适用于新的应用领域，需要进行修改",
+    "错误原因": "likely必要修改是概率判断，不是断言每次应用均需要修改；不将likely误读低概率。",
+    "正确翻译": "为使该方案适用于新的应用领域，可能需要作出某些修改。"
+  },
+  {
+    "原始英文句子": "moreover, only events can have a participant towards whom the action is directed.",
+    "错误翻译": "此外，只有事件能有指向特定参与者的行为。",
+    "错误原因": "事件具有的是行动指向的参与者，不是具有指向参与者的行为，定义中心词改变。",
+    "正确翻译": "此外，只有事件才具有其行动所指向的参与者。"
+  },
+  {
+    "原始英文句子": "The role of manner includes secondary effects (quietly, loudly), and general descriptions comparing events or states (in the same way).",
+    "错误翻译": "方式角色包括次要效果（如：安静地、大声地）以及对事件或状态的一般性描述（如：以同样的方式），",
+    "错误原因": "comparing被漏成一般描述，角色定义遗漏比较事件或状态这一限定。",
+    "正确翻译": "方式角色包括次要效果（如“安静地”“大声地”），也包括对事件或状态进行比较的一般性描述（如“以同样的方式”）。"
+  },
+  {
+    "原始英文句子": "The mayor delayed e1 the ribbon ceremony (by pretending to be ill [means e1])",
+    "错误翻译": "市长（以装病为由[手段e1]）推迟了e1剪彩仪式。",
+    "错误原因": "本例明示means，装病是实现推迟的手段，不能仅写为由混同Reason。",
+    "正确翻译": "市长（通过装病[手段 e1]）推迟了 e1 剪彩仪式。"
+  },
+  {
+    "原始英文句子": "(The baby [agent e1]) crawled e1 (across the floor [path e1])",
+    "错误翻译": "（这个小宝宝[施事e1]）（在地板上[路径e1]）爬来爬去e1。",
+    "错误原因": "across表示横越路径，坏译在地板上变处所且加反复爬来爬去，例子角色改变。",
+    "正确翻译": "（这个小宝宝[施事 e1]）爬过了 e1（地板[路径 e1]）。"
+  },
+  {
+    "原始英文句子": "Property that an event or state associates with one of the other participants.",
+    "错误翻译": "（一个）事件或状态赋予某一参与者所具有的特征或属性。",
+    "错误原因": "associates不是赋予既有属性，other限定也须保留；改文保关联而不强断赋予。",
+    "正确翻译": "事件或状态与其他某一参与者关联起来的性质。"
+  },
+  {
+    "原始英文句子": "VT, a set of eventuality types, for making such distinctions as between a completed accomplishment and a progressive accomplishment",
+    "错误翻译": "VT，一组事态类型，用于区分已完成的事件和进行中的事件",
+    "错误原因": "两项均属于accomplishment这一事件子类；只译为任意事件，丢失了共同的词汇体类别限定。",
+    "正确翻译": "VT，一组事态类型，用于区分处于完成体貌的完成类事件（accomplishment）与处于进行体貌的完成类事件等情形"
+  },
+  {
+    "原始英文句子": "the hardest part of the semantics of SemRoleML is the formal definition of the logical predicates that represent the meanings of the individual semantic roles.",
+    "错误翻译": "SemRoleML的语义学中最困难的部分是对表示个体语义角色意义的逻辑谓词进行形式化定义。",
+    "错误原因": "individual是各个语义角色，非名为个体角色的类别；系统semantics不应泛作学科。",
+    "正确翻译": "SemRoleML语义中最困难的部分，是对表示各个语义角色意义的逻辑谓词进行形式化定义。"
+  },
+  {
+    "原始英文句子": "authorization third-party attestation of a person's right to provide a specialized service",
+    "错误翻译": "资质认证 authorization 第三方出具的个人有资格提供专业服务的证明。",
+    "错误原因": "词头和定义均强调提供专业服务的权利；“资质认证／有资格”把right与qualification混同。",
+    "正确翻译": "授权 authorization 第三方对个人有权提供某项专业服务的证实。"
+  },
+  {
+    "原始英文句子": "This document is intended to provide a description of concepts used in International Standards on translation, interpreting and related technologies. Some of the concepts in these domains are referred to in different ways by practitioners. It is not expected that these differences will disappear in the short term. However, it is likely that in the long term, consistency in terms and definitions across the related International Standards will have a standardizing effect in practice. \n\nInformation within terminological entries in this document has been structured in accordance with ISO 10241-1, and concepts have been grouped, as far as was possible, according to thematic order, as defined in ISO 1087:2019, 3.7.11. Related concepts are grouped together under subheadings. The subheadings are: \n\n— key concepts; \n\n— concepts common to translation and interpreting; \n\n— concepts relating to translation; \n\n— concepts relating to interpreting; \n\n— concepts relating to technology. \n\nThe last subheading is divided into two parts: technology relating to translation and that relating to interpreting. \n\nAn effort has been made to avoid using terms without having defined the relevant concept first. This is to ensure that the reader does not come across a term for the first time within the definition of another concept, with no clear understanding of it. For example, “floor” is defined before the term is used in the definition of “language distribution”. \n\nFor the convenience of readers, an index is provided at the end of this document, in which all terms are listed alphabetically, with their relevant terminological entry numbers. ",
+    "错误翻译": "本文件按ISO 10241-1的规则编制，术语条目按主题分组排列，以便于查阅和使用。分组方式反映了笔译、口译及相关技术领域术语之间的逻辑关系。\n本文件等同采用ISO 20539:2023英文版，术语条目编号及标题译法以最终报批稿为准。",
+    "错误原因": "坏译将完整引言压为主题分组概述并加报批说明，漏实践差异、五组、先定义和索引等核心说明。",
+    "正确翻译": "本文件旨在描述笔译、口译及相关技术国际标准中使用的概念。在这些领域，从业人员对某些概念使用不同的名称。预计这些差异不会在短期内消失；但从长远看，相关国际标准在术语和定义方面的一致性可能对实践产生规范作用。\n本文件术语条目中的信息按照 ISO 10241-1 组织，概念尽可能按照 ISO 1087:2019 中3.7.11定义的主题顺序分组。相关概念分别归入以下小标题：关键概念；笔译与口译的通用概念；与笔译相关的概念；与口译相关的概念；与技术相关的概念。最后一组又分为与笔译技术相关的概念和与口译技术相关的概念。\n本文件力求先界定相关概念，再使用相应术语，以免读者在另一个概念的定义中首次遇到某术语时，尚不清楚其含义。例如，先界定“会场原声”，再在“语言分发”的定义中使用该术语。\n为方便读者，文末提供索引，按字母顺序列出所有英文术语及其对应的术语条目编号。"
+  },
+  {
+    "原始英文句子": "Note 1 to entry: A person usually has more than one language register in their linguistic repertoire and can vary their use of language register according to their perception of what is appropriate for different purposes or domains (3.2.1).",
+    "错误翻译": "注：人们的语言储备中通常有不止一种语域，可根据其对诸多领域（3.2.1）不同目的的理解，选择使用恰切的语域。",
+    "错误原因": "purposes or domains是并列适宜性判断，坏译嵌成领域的不同目的并误为理解目的。",
+    "正确翻译": "注：一个人的语言储备中通常包含不止一种语域，并可根据其对不同目的或领域（3.2.1）中何种语域适宜的判断，调整语域的使用。"
+  },
+  {
+    "原始英文句子": "accepted usage or standard practice in a locale (3.3.26), which is generally expected to apply",
+    "错误翻译": "语言区域（3.3.26）内普遍适用的惯常用法或标准做法。",
+    "错误原因": "accepted及expected说明认可和预期，普遍适用变成实际频率断言。",
+    "正确翻译": "在某一语言区域（3.3.26）内被接受、且通常预期适用的用法或标准做法。"
+  },
+  {
+    "原始英文句子": "request for information about whether an interpreter (3.1.13) is free to accept an assignment from a client (3.2.9) on a specific date or dates ",
+    "错误翻译": "询问口译员（3.1.13）在特定时间是否接受客户（3.2.9）任务的信息请求。",
+    "错误原因": "free to accept问有无档期，不是是否决定接受；date(s)也应保具体日期。",
+    "正确翻译": "询问口译员（3.1.13）在一个或多个特定日期是否有空承接客户（3.2.9）任务的信息请求。"
+  },
+  {
+    "原始英文句子": "booth (3.5.2.1) structurally integrated into a facility ",
+    "错误翻译": "设备嵌入场馆建筑结构的译员箱（3.5.2.1）。",
+    "错误原因": "结构整合的是译员箱本体，不是其中设备，限定对象改变。",
+    "正确翻译": "在结构上与所在设施融为一体的译员箱（3.5.2.1）。"
+  },
+  {
+    "原始英文句子": "Where the FormRepresentation class by itself is sufficient without further qualification, equivalents of TEI elements, such as <Orth>, <Pron>, <Hyph>, <Stress>, and <Syll> can potentially be used for further simplification. In such cases, descriptions of qualifying attributes (e.g. @xml:lang) should be included in <GlobalInformation> or <LexiconInformation>, as appropriate. The following example shows the <Orth> and <Pron> elements for a lemma in a monolingual French dictionary, part of a collection of monolingual French lexicons. In reference to ISO 24613-4:2021, 5.2, there is no requirement to include the language and script codes in the <GlobalInformation> element (although LBX allows the inclusion of these codes). <GlobalInformation> can also be used to implement a definition that assigns the \"ipa\" @ notation value to the <Pron> element. The following example shows the implementation of this principle using a revised version of the example in 5.8. ",
+    "错误翻译": "下面示例改编自5.8的示例，演示上述写法。",
+    "错误原因": "只剩末句示例改编，前部适用条件、可省语言文字代码和ipa配置说明均整段缺失。",
+    "正确翻译": "当`FormRepresentation`类本身已经足够、不需要进一步限定时，可以考虑采用与TEI元素等效的元素来进一步简化，例如`<Orth>`、`<Pron>`、`<Hyph>`、`<Stress>`和`<Syll>`。这时，宜根据情况，在`<GlobalInformation>`或`<LexiconInformation>`中说明相关限定属性，例如`@xml:lang`。\n\n下面的示例展示一个法语单语辞典词目形式的`<Orth>`和`<Pron>`元素；该辞典属于一组法语单语词库。参照ISO 24613-4:2021的5.2，不要求在`<GlobalInformation>`元素中纳入语言代码和文字体系代码，尽管LBX允许纳入。\n\n`<GlobalInformation>`也可以用于给出一项定义，把`@notation`的值“ipa”赋予`<Pron>`元素。下例通过修订5.8中的示例，展示这一原则的实现。"
+  },
+  {
+    "原始英文句子": "The following example from the Oxford Russian-English Dictionary $^{[6]}$ illustrates the use of LBX to mark up a fairly complex Russian verb entry, including different grammatical features for a <Lemma> and an inflected <WordForm>; variant <FormReps>, including a canonical Russian notation and a notation of stressed Russian in Cyrillic script; the use of the <Quote> element for managing variant notations used in the <Example>; and the use of the <Gloss> element for providing an English translation of the <Example>, differentiating the function of the <Gloss> from the function of the <Translation> element, which conveys the semantic meaning of the <Lemma>.",
+    "错误翻译": "下面示例取自《牛津俄-英词典》[6]，演示LBX如何标记复杂俄语动词词条：包含词元与屈折<WordForm>各自的语法特征；变体<FormRep>；<Quote>处理例句内部不同记法；<Gloss>用于提供例句英文释义。",
+    "错误原因": "Gloss译Example与Translation表达Lemma的功能对比及两类俄语记法限定缺失，结构说明不完整。",
+    "正确翻译": "下面取自《牛津俄英辞典》[6]的示例，展示如何用LBX标记一个较复杂的俄语动词词条。内容包括：为`<Lemma>`和屈折变化后的`<WordForm>`记录不同语法特征；记录不同的`<FormReps>`，其中包括规范俄语记法及用西里尔文字标出重音的俄语记法；使用`<Quote>`元素管理`<Example>`中的不同记法。\n\n该例还使用`<Gloss>`元素提供`<Example>`的英语翻译，从而区分`<Gloss>`与`<Translation>`的功能；后者传达`<Lemma>`的语义。"
+  },
+  {
+    "原始英文句子": "the different approval criteria needed for the different types of ISO documents",
+    "错误翻译": "不同类型国际标准的不同审批条件",
+    "错误原因": "ISO文件包括不同文件类型，不能全部窄化为国际标准。",
+    "正确翻译": "不同类型的 ISO 文件所适用的不同批准准则。"
+  },
+  {
+    "原始英文句子": "Lexical base exchange (LBX) serialization",
+    "错误翻译": "词汇基础交换（LBX）序列化",
+    "错误原因": "Lexical base在LBX资源交换名称指词汇库，基础交换误读对象，需LMF/LBX领域context。",
+    "正确翻译": "词汇库交换（LBX）序列化"
+  },
+  {
+    "原始英文句子": "and compliant with the W3C XML schema.",
+    "错误翻译": "兼容 W3C XML 模式规范。",
+    "错误原因": "compliant with表示符合规范要求，兼容仅可共用不等于符合，具标准化表述价值。",
+    "正确翻译": "并符合 W3C XML Schema 的要求。"
+  },
+  {
+    "原始英文句子": "Still, this document does not elaborate on the metadata aspects from LMF, since the LBX schema is by essence much richer for the representation of all the aspects related to the creation, content, versioning and database implementation of lexical content at large. Occasionally, slightly equivalent constructs to explicit requirements from the LMF standard are mentioned.",
+    "错误翻译": "本文件不展开 LMF 元数据相关内容；LBX 模式本身已经对词汇资源的创建、内容、版本、数据库实现等元信息做了完备定义。部分地方会给出与 LMF 标准显式要求等效的构造。",
+    "错误原因": "much richer被扩大成完备定义，slightly近似等效及occasionally偶尔亦消失；改文恢复原因与限定。",
+    "正确翻译": "不过，本文件未进一步展开 LMF 的元数据方面的内容，因为 LBX 模式本身能够更加丰富地表示词汇内容的创建、内容、版本管理及数据库实现等相关信息。对于 LMF 标准明确规定的某些要求，本文件也偶尔提及与之近似等效的构造。"
+  },
+  {
+    "原始英文句子": "as a best practice, the id should be a URI and be unique within a language resource;",
+    "错误翻译": "最佳实践使用URI，全局唯一；",
+    "错误原因": "within a language resource仅局部唯一，坏译全局唯一扩要求且should宜须保。",
+    "正确翻译": "作为最佳实践，标识符宜采用 URI，并在相应语言资源范围内保持唯一。"
+  },
+  {
+    "原始英文句子": "For example, the <Pron> construct is inherited from the fully specified <FormRepresentation> where the @notation value is “French Pronunciation”.",
+    "错误翻译": "<Pron>构件继承自完整的形式表示，其@notation取值为“French Pronunciation”。",
+    "错误原因": "FormRepresentation是命名类，fully specified描述属性完整指定，不是泛称完整形式表示；改文保模型标识。",
+    "正确翻译": "例如，<Pron> 构造继承自属性已完整指定的 FormRepresentation，其 @notation 属性取值为“French Pronunciation”。"
+  },
+  {
+    "原始英文句子": "In the stative perfect tense, the verb has the meaning of state in the present tense.",
+    "错误翻译": "状态完成时表示动作带来的现存状态。",
+    "错误原因": "原文仅说当前状态，动作导致是额外理论限定；不以常识填入原句。",
+    "正确翻译": "在状态完成时中，该动词表示当前所处的状态。"
+  },
+  {
+    "原始英文句子": "Depending on design goals, the FormRepresentation class in LBX shall be serialized by means of a general <FormRep> element derived from the FormRepresentation class, or by elements derived from FormRepresentation subclasses that correspond to the lexical environment of the Form subclasses (see Table 12).",
+    "错误翻译": "根据设计目标，在LBX中，应通过派生自FormRepresentation类的通用<FormRep>元素，或者通过派生自FormRepresentation子类、并与FormRepresentation子类所处词汇环境相对应的元素，对FormRepresentation类进行序列化（见表12）。",
+    "错误原因": "末端明确Form子类词汇环境，坏译换FormRepresentation子类，模型层级对象不同。",
+    "正确翻译": "根据设计目标，在LBX中，应通过派生自FormRepresentation类的通用<FormRep>元素，或通过派生自其子类、且与Form子类所处词汇环境相对应的元素，对FormRepresentation类进行序列化（见表12）。"
+  },
+  {
+    "原始英文句子": "The objective of such a setup would be to facilitate the maintenance of a comprehensive descriptive environment where new categories are easily inserted and re-used without the need for any strong consistency check with the repository at large.",
+    "错误翻译": "此类设置的目标在于便于维护一个综合性的描述环境，在该环境中可轻松插入和复用新类别，而无需对整个存储库进行任何严格的一致性检查。",
+    "错误原因": "consistency with repository检查新类别与既库之间关系，非检查整个库自身，技术比较对象不明。",
+    "正确翻译": "这种组织方式旨在便于维护一个综合性的描述环境，使新类别易于加入和复用，而不必严格核查新类别与整个存储库的一致性。"
+  },
+  {
+    "原始英文句子": "it is more important to provide explicit tokenization with part-of-speech identification, even if some fringe cases are then left to be dealt with, often in ad hoc ways.",
+    "错误翻译": "即使因此会留下一些边缘情形，而且往往只能以特设方式处理，提供带有词性识别的显式词元化仍更为重要。",
+    "错误原因": "often ad hoc没有只能的排他限制；改文保让步和往往，不否认其他处理法。",
+    "正确翻译": "提供带有词性识别的显式词元化更为重要，即使这样会留下一些边缘情形有待处理。这些情形往往需要针对个案另行处理。"
+  },
+  {
+    "原始英文句子": "The example in Figure B.1 presents the TEI encoding of the name-value pair <part of speech, common noun>, where the name (key) \"part of speech\" is abbreviated as \"POS\", and the value \"common noun\" is symbolized by \"NN\".",
+    "错误翻译": "图B.1中的示例给出了名称-值对<词性，普通名词>的TEI编码，其中，名称（键）“词性”缩写为“POS”，值“普通名词”用“NN”表示。",
+    "错误原因": "POS缩写的是英文part of speech，直接说中文词性缩写POS丢字形关系；原字串须保并配释义。",
+    "正确翻译": "图B.1展示了名称—值对〈词性，普通名词〉的 TEI 编码。其中，名称（键）“part of speech”（词性）缩写为“POS”，值“common noun”（普通名词）用“NN”表示。"
+  },
+  {
+    "原始英文句子": "Simple generic-specific relations, when these are useful for the proper identification of interoperability descriptors between data categories.",
+    "错误翻译": "简单的属种关系，用于正确标识数据类别之间的互操作性描述符。",
+    "错误原因": "when有助于才使用简单属种关系的条件漏成无条件用途说明。",
+    "正确翻译": "简单的属种关系：在这类关系有助于正确识别数据类别之间的互操作性描述符时使用。"
+  },
+  {
+    "原始英文句子": "An updated TEI ODD specification illustrating this document is available from Reference $[24]$ together with additional examples.",
+    "错误翻译": "参考文献[24]提供了说明本文件的最新版TEI ODD规范以及其他示例。",
+    "错误原因": "updated仅更新版，不承诺任一时点最新版，修辞比较范围被强化。",
+    "正确翻译": "参考文献[24]提供了用于说明本文件的更新版 TEI ODD 规范及其他示例。"
+  },
+  {
+    "原始英文句子": "The normalization strategy, the kind and granularity level of phonetic transcription, the type of general transcription used (if any), as well as the type of transliteration should all be described in the TEI header accompanying the given MAF-TEI document.",
+    "错误翻译": "规范化策略、语音转写的类别与粒度级别、所采用的一般转写类型（如有），以及转写类型，均宜在给定MAF-TEI文档所附的TEI头部中加以说明。",
+    "错误原因": "最后transliteration为字符转写，与一般/语音transcription并列，不能全混转写。",
+    "正确翻译": "规范化策略、语音转写的类型与粒度、一般转写的类型（采用一般转写时），以及字符转写的类型，均宜在该 MAF-TEI 文档所附的 TEI 头部中说明。"
+  },
+  {
+    "原始英文句子": "Tokens identify segments of the original document, either by enclosing them or by pointing to them in a stand-off manner, through the specification of a start and end point within the character stream that the document consists of.",
+    "错误翻译": "词元通过在构成文档的字符流中指定起点和终点，以将原始文档片段包含在内或以分离式方式指向这些片段，从而标识原始文档的片段。",
+    "错误原因": "字符起止点限定stand-off路径，提至两路径前会使内嵌也必须偏移，编码方式范围错。",
+    "正确翻译": "词元可以通过两种方式标识原始文档片段：用标记将片段包围起来，或采用分离式方式，指定片段在文档字符流中的起点和终点并据此指向片段。"
+  },
+  {
+    "原始英文句子": "The example in Figure B.1 presents the TEI encoding of the name-value pair <part of speech, common noun>, where the name (key) \"part of speech\" is abbreviated as \"POS\", and the value \"common noun\" is symbolized by \"NN\". The entire name-value pair is encoded by means of the element <f>.",
+    "错误翻译": "图B.1中的示例给出了名称-值对<词性，普通名词>的TEI编码，其中，名称（键）“词性”缩写为“POS”，值“普通名词”用“NN”表示。整个名称-值对通过元素<f>编码。",
+    "错误原因": "POS缩写的是英文part of speech；仅说中文“词性”缩写为POS，无法保留原例的字形缩写关系。",
+    "正确翻译": "图B.1展示了名称—值对〈词性，普通名词〉的 TEI 编码。其中，名称（键）“part of speech”（词性）缩写为“POS”，值“common noun”（普通名词）用“NN”表示。整个名称—值对通过 <f> 元素编码。"
+  },
+  {
+    "原始英文句子": "Definition: A loanword in which only the meaning is borrowed with the term being literally translated into the borrowing language.",
+    "错误翻译": "定义：一种借词，只借用其意义，而将原词逐字译入介入语。",
+    "错误原因": "borrowing language指接受借入成分的语言，即借入语；“介入语”没有表达这个关系。",
+    "正确翻译": "定义：一种借词，其意义被借入，而原词被逐字翻译为借入语中的表达。"
+  },
+  {
+    "原始英文句子": "The work of preparing International Standards is normally carried out through ISO technical committees.",
+    "错误翻译": "通常开展国际标准的制定工作。",
+    "错误原因": "ISO技术委员会执行主体整项缺失，不能用通常开展代替。",
+    "正确翻译": "国际标准的制定工作通常由 ISO 技术委员会负责。"
+  },
+  {
+    "原始英文句子": "For the purposes of this document, the terms and definitions given in ISO 24613-1 and the following apply.",
+    "错误翻译": "本文件使用ISO 24613-1中的术语和定义。",
+    "错误原因": "and the following将本文件下列术语纳入适用范围，整项漏译改变定义适用集合。",
+    "正确翻译": "ISO 24613-1 中给出的术语和定义以及下列术语和定义适用于本文件。"
+  },
+  {
+    "原始英文句子": "Instances of either Etymon or Cognate can be assigned a language which is different from the language of the lexicon as a whole (this is specified in the LexiconInformation class as described in ISO 24613-1).",
+    "错误翻译": "Etymon 或 Cognate 的实例可指定为一种语言。该语言不同于词典整体语言的语 言（ ISO 24613-1 所述的 LexiconInformation 类中规定这一内容）。",
+    "错误原因": "这里允许实例的语言不同于整部辞典的语言；“该语言不同于”将可不同写成必然不同。",
+    "正确翻译": "可为Etymon或Cognate的实例指定一种语言。这种语言可以与整部辞典的语言不同。辞典整体使用的语言由LexiconInformation类指定，见ISO 24613-1。"
+  },
+  {
+    "原始英文句子": "The list of data categories provided in Annex B shall be used in complement to the appropriate classes.",
+    "错误翻译": "附录B 中提供的数据类别清单应作为适当类别的补充使用。",
+    "错误原因": "classes是模型类，data categories数据类别，不能用类别抹掉两个层级对象。",
+    "正确翻译": "附录 B 所列数据类别应与相应的类配合使用，作为对这些类的补充。"
+  },
+  {
+    "原始英文句子": "allows for the modelling of a generic sequential temporal ordering of multiple elements, using the attributes prev and next.",
+    "错误翻译": "该属性允许多个元素之间建立非通用顺序、时间顺序或排序关系。",
+    "错误原因": "generic反译非通用，统一时间先后序列又拆成三类关系，语义改变。",
+    "正确翻译": "可以通过 prev 和 next 属性，对多个元素之间一般性的时间先后次序进行建模。"
+  },
+  {
+    "原始英文句子": "The CognateSet is a construct related to onomasiology.",
+    "错误翻译": "CognateSet类也是一种结构，该结构用于存放概念词源学内容。",
+    "错误原因": "onomasiology是从概念出发的命名/词义研究，不是概念词源学；related也非专用于存放内容。",
+    "正确翻译": "CognateSet 是一种与以概念为起点的词义研究（onomasiology）有关的构造。"
+  },
+  {
+    "原始英文句子": "Note: Metaphor in the context of etymology is differentiated from other spontaneous uses in language by the need for the term to be adopted (lexicalized) within the lexicon.",
+    "错误翻译": "注：词源语境中的隐喻与语言中的其他自发用法相区别，其依据是该术语需要在词典中采用（词汇化）。",
+    "错误原因": "词汇化是进入语言词汇系统，不是必须被词典收录；lexicalized提供明确语境。",
+    "正确翻译": "注：词源研究中的隐喻，要求相关用语被词汇系统接受，即发生词汇化；这一点使其区别于语言中其他自发的隐喻使用。"
+  },
+  {
+    "原始英文句子": "The driving forces for this process are ontological correspondences between the attributes or internal structures of entities in the source domain with those of the target domain.",
+    "错误翻译": "这一过程的推动力，是源域实体与目标域实体在属性或内部结构上的对应关系。",
+    "错误原因": "ontological对应关系的性质遗漏，补本体论而不改域间属性/结构选择关系。",
+    "正确翻译": "这一过程的推动力，是源域实体与目标域实体在属性或内部结构上的本体论对应关系。"
+  },
+  {
+    "原始英文句子": "The objective of such a setup would be to facilitate the maintenance of a comprehensive descriptive environment where new categories are easily inserted and re-used without the need for any strong consistency check with the repository at large.",
+    "错误翻译": "这样可以便于维护一个覆盖全面的描述环境，使新类别易于加入和复用，而无须对整个库进行严格的一致性检查。",
+    "错误原因": "检查与整个库的一致性，坏译对整个库检查丢新类别这一比较端，改文明确。",
+    "正确翻译": "这样可以便于维护一个覆盖全面的描述环境，使新类别易于加入和复用，而无须严格检查这些新类别与整个库的一致性。"
+  },
+  {
+    "原始英文句子": "Implementers are encouraged to use external reference taxonomies as described by ISO 12620-2 either directly, or by building on them in defining their own categories (appropriate in the coverage, scope or semantics to the requirements of the given encoding project), in conformity with ISO/TC 37 principles.",
+    "错误翻译": "鼓励实施者遵循ISO/TC 37原则，直接采用ISO 12620-2所述的外部参考分类体系，或在其基础上定义自己的类别，使类别的覆盖面、范围和语义符合具体编码项目的需要。",
+    "错误原因": "coverage scope or semantics是选择/包容方面，和会读成三个方面同时满足，保原选择连词。",
+    "正确翻译": "鼓励实施者遵循ISO/TC 37原则，直接采用ISO 12620-2所述的外部参考分类体系，或在其基础上定义自己的类别，使类别在覆盖面、范围或语义上符合具体编码项目的需要。"
+  },
+  {
+    "原始英文句子": "This document does not address the linguistic choices that identify tokens or determine the language- or context-particular relationships between tokens and word-forms.",
+    "错误翻译": "本文件不讨论确定词元的语言学选择，也不讨论如何确定特定语言或语境下词元与词形之间的关系。",
+    "错误原因": "identify与determine同属linguistic choices限定，坏译第二项排除所有确定关系活动，范围扩大。",
+    "正确翻译": "本文件不讨论用于识别词元，或确定特定语言或语境下词元与词形之间关系的语言学选择。"
+  },
+  {
+    "原始英文句子": "A representation such as <w pos=\"verb\">go</w><pc pos=\"punct\">!</pc> represents a union of the level of tokens (with two anonymous sequences of characters, \"go\" and \"!\") and the level of word-forms, which provides the part-of-speech identification and adds to the anonymous segments the redundant information concerning their status, respectively, as \"word\" and as a punctuation character.",
+    "错误翻译": "例如，`<w pos=\"verb\">`go`</w>``<pc pos=\"punct\">`!`</pc>`合并了两个层次：词元层提供“go”和“!”两个未赋予语言类别的字符序列，词形层提供词性，并额外指明它们分别是“词”和“标点字符”。",
+    "错误原因": "redundant不仅额外，指已可由层次标记推出的冗余性质；坏译漏判断。",
+    "正确翻译": "例如，`<w pos=\"verb\">`go`</w>``<pc pos=\"punct\">`!`</pc>`合并了两个层次：词元层提供“go”和“!”两个未赋予语言类别的字符序列，词形层提供词性信息，并向这两个片段补充它们分别是“词”和“标点字符”这一冗余信息。"
+  },
+  {
+    "原始英文句子": "NOTE 1 Algorithmic conformance can involve information loss. This is why documentation is a crucial condition for claiming algorithmic conformance with ISO MAF.",
+    "错误翻译": "注1：算法符合可能涉及信息损失。因此，记录相关差异是声称算法符合ISO MAF的关键条件。",
+    "错误原因": "documentation是文档说明不限记录差异；源文关键条件更广，算法符合性名词同时规范。",
+    "正确翻译": "注1：算法符合性可能涉及信息损失。因此，提供文档说明是声称在算法上符合ISO MAF的关键条件。"
+  },
+  {
+    "原始英文句子": "collocations, keyword-in-context lines, definitions",
+    "错误翻译": "搭配关系、上下文中的关键词（KWIC）定义",
+    "错误原因": "三个并列项被粘成KWIC定义，lines漏去，KWIC行与definitions需分列。",
+    "正确翻译": "搭配、关键词语境行（KWIC行）、定义"
+  },
+  {
+    "原始英文句子": "PID where the description of this annotation space is located, typically, the annotation scheme documentation or project site.",
+    "错误翻译": "该标注空间所在位置的持久标识符（PID），通常是标注方案文档或项目站点。",
+    "错误原因": "PID指说明文档位置而非标注空间本身位置，引用目标改变。",
+    "正确翻译": "可获取该标注空间说明资料的持久标识符（PID），通常指向标注方案文档或项目站点。"
+  },
+  {
+    "原始英文句子": "Two lexicon developers, for example, a supplier and consumer, can specify simplified formats for data exchange.",
+    "错误翻译": "词典供给方与使用方可约定用于数据交换的简化格式",
+    "错误原因": "原文主体是两个词典开发方，提供方和使用方只是例子；中文将例子改成全部主体，收窄了适用对象。",
+    "正确翻译": "两个词典开发方，例如数据提供方与数据使用方，可以约定用于数据交换的简化格式。"
+  },
+  {
+    "原始英文句子": "LBX typically treats the Form class described in ISO 24613-1 as an abstract class.",
+    "错误翻译": "在LBX中，ISO 24613-1定义的词形（Form）类视为抽象类。",
+    "错误原因": "typically是通常，省略成为无例外类建模断言。",
+    "正确翻译": "在 LBX 中，ISO 24613-1 定义的 Form 类通常被视为抽象类。"
+  },
+  {
+    "原始英文句子": "The @notation=\"French\", denoting canonical French, is used in databases that support a large set of possibly idiosyncratic notations (e.g. for canonical, transliterated and transcribed forms).",
+    "错误翻译": "@notation=\"French\"代表标准法语正字，适用于支持大量自定义记法的数据库（标准形式、转写、记音形式）。",
+    "错误原因": "possibly idiosyncratic指可能有特定约定，不能确定全部自定义；改文保可能范围及记法类列举。",
+    "正确翻译": "@notation=\"French\" 表示规范法语书写形式。这种属性值适用于支持大量不同记法的数据库，其中有些记法可能采用特定体系自身的约定，例如规范书写形式、字符转写形式及语音转写形式。"
+  },
+  {
+    "原始英文句子": "the direct question “What time the next train to Utrecht leaves?\", which carries the assumption that the addressee is able to provide this information,",
+    "错误翻译": "直接问题“下一班去乌得勒支的火车什么时候开？”的假设是发送者能够提供这一信息",
+    "错误原因": "addressee提供信息是提问假定，错发送者颠倒问答角色。",
+    "正确翻译": "直接问题“下一班去乌得勒支的火车什么时候开？”所包含的假设是接收者能够提供这一信息"
+  },
+  {
+    "原始英文句子": "class of dialogue acts (3.6) that are concerned with a particular aspect of communication, corresponding to a particular category of semantic content (3.18) EXAMPLE (1) Dialogue acts advancing the task or activity that motivates the dialogue (the ‘Task' dimension); (2) dialogue acts providing and eliciting feedback (the Auto- and Allo-Feedback dimensions); (3) dialogue acts for allocating the speaker role (the Turn Management dimension).",
+    "错误翻译": "对话行为的类别集合（3.6），涉及交际的特定方面，对应于语义内容（3.18）的特定分类。 （1） 推进任务的对话行为或激发对话的行为（任务维度）。（2） 提供和引发反馈的对话行为（自体和异体反馈维度）。（3）分配讲话者角色的对话行为（话轮管理维度）。",
+    "错误原因": "class of dialogue acts指一类对话行为，而非类别的集合；that motivates the dialogue修饰任务或活动，不能另拆为激发对话的行为。",
+    "正确翻译": "涉及交际某一特定方面、对应于某一特定语义内容（3.18）类别的一类对话行为（3.6）。 示例：（1）推进促成该对话的任务或活动的对话行为（任务维度）；（2）提供和引出反馈的对话行为（自体反馈与异体反馈维度）；（3）分配讲话者角色的对话行为（话轮管理维度）。"
+  },
+  {
+    "原始英文句子": "—\t UC1: manual annotation of spoken, written, or multimodal human-human or human-computer\ndialogue;",
+    "错误翻译": "—UC1：对口头、书面或多模态人机对话的手动标注；",
+    "错误原因": "human-human与human-computer并列，人人对话整类遗漏。",
+    "正确翻译": "—UC1：对口头、书面或多模态人人对话或人机对话的手动标注；"
+  },
+  {
+    "原始英文句子": "Fluent speech is relatively rare in spontaneous conversation. Disfluent speech production commonly \ngives rise to issues of timing: at all levels of planning and processing involved in speech production, \nfrom retrieving a word to deciding what to talk about next, speakers may experience difficulties which\ngive rise to delays [30]. These delays can be minor, giving rise to stalling acts, or prolonged, when the \nspeaker performs a pausing act to suspend the dialogue for a while.",
+    "错误翻译": "流利的语言在自发对话中相对罕见。不流畅的语音产出通常会导致时间问题：在语音产出中涉及的各个层面的规划和处理中，从检索单词到决定接下来要说什么，讲话者可能会遇到困难，从而导致延迟[30]。此类延迟可表现为短暂的拖延行为，也可延续较长时间，当讲话者通过暂停行为暂时中止对话时尤为明显。",
+    "错误原因": "speech产出含规划词检索，语音过窄；when描述长延迟对应暂停，没有尤为明显。",
+    "正确翻译": "自发会话中的流利言语相对少见。不流利的言语产出常引发时间安排问题：从检索词语到决定接下来谈什么，讲话者在言语产出涉及的各层规划和处理过程中都可能遇到困难，因而出现延迟[30]。短暂延迟会引发拖延行为；延迟较长时，讲话者会通过暂停行为将对话暂时中止。"
+  },
+  {
+    "原始英文句子": "A PID framework can be solely dependent on existing web resolution protocols or it can entail the interaction of proxy-based resolvers.",
+    "错误翻译": "PID框架既完全依赖于现有的网络解析协议，也要求基于代理的解析器之间的交互。",
+    "错误原因": "solely dependent or entail是替代路径，既也改同时成立，逻辑错误。",
+    "正确翻译": "PID框架可以完全依赖现有的Web解析协议，也可以涉及基于代理的解析器之间的交互。"
+  },
+  {
+    "原始英文句子": "No: After you have removed the electrical power from the system, make sure that the refueling panel switches go back to their normal position.",
+    "错误翻译": "错误：在您已经从系统移除电力能源之后，确保加油控制面板复位至它们的正常位置。",
+    "错误原因": "panel switches为开关，非面板整体复位；只核例句对象和切断电源译义，不新增设备操作规程。",
+    "正确翻译": "错误：切断系统电源后，确认加油面板上的各个开关恢复到正常位置。"
+  },
+  {
+    "原始英文句子": "An annotation structure is a set of entity structures and link structures. Entity structures contain semantic information about a dialogue segment; link structures describe semantic relations between entity structures. Entity structures are always of the general form 〈m,z〉, where ‘m’ is a markable and ‘z’ designates a structure that describes some linguistic information. Link structures are typically of the form 〈e1, e2, R〉, consisting of two entity structures and a relation.",
+    "错误翻译": "标注结构是一组实体结构和链接结构。实体结构包含关于对话段的语义信息。链接结构描述实体结构之间的语义关系。实体结构总是以〈m,z〉形式表示，其中m是可标记的，z表示描述某些语言信息的结构。链接结构通常采用〈e1,e2,R〉的形式，由两个实体结构和一个关系组成。",
+    "错误原因": "m是a markable实体对象，坏译仅可标记的属性，变量指代未交代对象。",
+    "正确翻译": "标注结构是一组实体结构和链接结构。实体结构包含关于对话段的语义信息。链接结构描述实体结构之间的语义关系。实体结构总是以〈m,z〉形式表示，其中m是标注对象，z表示描述某些语言信息的结构。链接结构通常采用〈e1,e2,R〉的形式，由两个实体结构和一个关系组成。"
+  },
+  {
+    "原始英文句子": "The non-final utterances in a turn have a turn-keeping function when the speaker signals (for example by using a rising intonation or a filled pause) that he/she wants to continue.",
+    "错误翻译": "当讲话者发出信号（例如通过使用升调或插入停顿）表示其希望继续发言时，话轮中的非终结性话语具有话轮保持功能。",
+    "错误原因": "filled pause为含呃嗯填充语的停顿，插入停顿不能区别静默和有声填充。",
+    "正确翻译": "当讲话者发出信号（例如通过使用升调或带填充语的停顿）表示其希望继续发言时，话轮中的非终结性话语具有话轮保持功能。"
+  },
+  {
+    "原始英文句子": "For the purposes of this document, the following terms and definitions apply\n\nISO and IEC maintain terminological databases for use in standardization at the following addresses:",
+    "错误翻译": "就本文件而言，以下术语和定义使用ISO和IEC维护的标准化术语数据库。相关网址为：",
+    "错误原因": "定义适用和ISO维护数据库是两个陈述，坏译合成定义使用数据库，主谓关系改变。",
+    "正确翻译": "下列术语和定义适用于本文件。 ISO和IEC维护供标准化工作使用的术语数据库，访问地址如下："
+  },
+  {
+    "原始英文句子": "feedback act (3.8) where the sender (3.20) provides information about his/her own processing of an utterance (3.25) contributed to the dialogue (3.5) by another participant (3.13)",
+    "错误翻译": "发送者（3.20）提供的他/她自己对另一参与者（3.13）贡献的对话（3.5）的话语（3.25）所处理信息的反馈行为（3.8）。",
+    "错误原因": "信息描述的是发送者对他人话语的处理情况，坏译把它变成发送者所处理的信息，改变反馈的语义对象。",
+    "正确翻译": "一种反馈行为（3.8），发送者（3.20）通过该行为提供有关自己如何处理另一参与者（3.13）在对话（3.5）中所作话语（3.25）的信息。"
+  },
+  {
+    "原始英文句子": "stretch of communicative activity produced by one participant (3.13) who occupies the speaker role (3.22), bounded by periods of inactivity of that sender (3.20) or by periods where another participant occupies the speaker role",
+    "错误翻译": "由一个参与者（3.13）担任讲话者角色（3.22）而产生的交际活动片段，当该发送者（3.20）静默或另一参与者占据讲话者角色时，该话轮单元结束。",
+    "错误原因": "定义要求双侧界限及非活动时段；只说结束并将inactivity限为静默，缩改了多模态话轮单元边界。",
+    "正确翻译": "由占据讲话者角色（3.22）的一个参与者（3.13）产生的一段交际活动，其边界由该发送者（3.20）停止活动的时段，或另一参与者占据讲话者角色的时段界定。"
+  },
+  {
+    "原始英文句子": "Dialogue acts offer a way of characterizing the meaning of communicative behaviour in terms of update operations, to be applied to the information states of participants in the dialogue; this approach is commonly known as the ‘information-state update’ or ‘context-change’ approach; see e.g. References [12] and [56].",
+    "错误翻译": "对话行为提供了一种用更新操作来刻画交际行为的方法，更新操作应用于对话参与者的信息状态；这种方法通常被称为“信息状态更新”或“上下文更改”方法；见参考文献[12]和[56]。",
+    "错误原因": "刻画对象是交际行为的意义；省去meaning使语义更新方法被写成一般行为刻画。",
+    "正确翻译": "对话行为提供了一种用更新操作来刻画交际行为意义的方法，更新操作应用于对话参与者的信息状态；这种方法通常被称为“信息状态更新”或“上下文更改”方法；见参考文献[12]和[56]。"
+  },
+  {
+    "原始英文句子": "Using devices from DR-core, the bottom line of (7b) can be replaced by the more fine-grained representation in (7c), which specifies argument roles.",
+    "错误翻译": "使用DR-core 的标注方案，（7b）的表示可以被（7c）更细粒度的表示所取代，该表示明确了各论元角色。",
+    "错误原因": "bottom line限定只替换最后一行，不能扩为整个(7b)表示。",
+    "正确翻译": "使用DR-core 的标注方案，（7b）的最后一行可用（7c）中更细粒度的表示替换，该表示明确了各论元角色。"
+  },
+  {
+    "原始英文句子": "A dialogue act tag set can be structured according to multiple dimensions by basing the notion of ‘dimension’ on the observation that dialogue participants share information not only about the task they pursue but also about the processing of each other’s messages, about the allocation of turns, about contact and attention, about the use of time, and about various other aspects of the interaction. They thus perform communicative activities of various types, such as giving and eliciting feedback, taking turns, stalling for time, establishing contact, and showing attention, in addition to those for advancing a certain task or performing a certain activity[14]. Each of these types of activity is concerned with a different category of information. In this document the term ‘dimension’ is used to refer to these categories and the corresponding activities. This leads to dimensions such as auto-feedback, turn management, time management, and contact management, besides the dimension formed by the task that motivates the dialogue. Subclause 7.2 describes the dimensions defined in this document.",
+    "错误翻译": "一个对话行为标签集可以根据多个维度进行组织，方法是基于“维度”的概念，即对话参与者不仅共享他们所要完成的任务信息，还共享彼此信息的处理、话轮分配、接触和注意力、时间使用以及交互的其他各个方面。因此，他们会进行各种类型的交际活动，除了推进任务或执行活动外，还有提供和引出反馈、话轮接受、拖延时间、建立联系和表现出注意力[14]。每种类型的活动都涉及不同类别的信息。在本文件中，术语“维度”用于指代这些类别和相应的活动。除了激发对话的任务维度外，还有自体反馈、话轮管理、时间管理和接触管理等维度。7.2描述了本文件中定义的各个维度。",
+    "错误原因": "坏译把观察作为维度概念依据的关系倒置为基于概念，并将taking turns写成话轮接受；有可迁移的定义依据表达价值。",
+    "正确翻译": "对话行为标签集可以按多个维度组织。维度这一概念基于以下观察：对话参与者不仅交流所要完成的任务的信息，还交流对彼此话语的处理、话轮分配、接触与注意、时间使用及交互其他方面的信息。因此，除了推进任务或开展活动，他们还会提供和引出反馈、获取话轮、争取时间、建立接触并表示注意[14]。每类活动涉及不同类别的信息。本文件将这些信息类别及相应活动称为“维度”。由此，除促成对话的任务所形成的维度外，还可区分自体反馈、话轮管理、时间管理和接触管理等维度。7.2介绍本文件定义的维度。"
+  },
+  {
+    "原始英文句子": "Turn Management is the distribution of the right to occupy the speaker role, also called the ‘floor'[51].",
+    "错误翻译": "话轮管理是对讲话者角色权利的分配，也被称为“发言权”[51]。",
+    "错误原因": "floor命名的是占据讲话者角色的权利；坏译的也被称为可能将话轮管理等同于发言权。",
+    "正确翻译": "话轮管理是对占据讲话者角色的权利的分配；这种权利也称“发言权”[51]。"
+  },
+  {
+    "原始英文句子": "one element of such a pair",
+    "错误翻译": "某一对话行为的成分之一",
+    "错误原因": "such a pair在相邻语对语境中指一对行为；不是单个行为内部的成分。",
+    "正确翻译": "这种相邻语对中的一个行为"
+  },
+  {
+    "原始英文句子": "While accepting a request implies a commitment to perform the requested action, declining a request can be viewed as a commitment to not perform the requested action, and is therefore also a commissive act. Accepting and declining a request are two extremes on a scale of possible responses to a request. The communicative function Address Request covers all forms of dealing with a request, with Accept Request and Decline Request as special cases. Similarly for Address Offer and Address Suggestion.",
+    "错误翻译": "虽然接受请求意味着承诺执行所请求的操作，但拒绝请求可以被视为不执行所请求操作的承诺，因此也是一种承诺行为。接受和拒绝请求是对请求的可能响应的两个极端。交际功能提出请求涵盖了处理请求的所有形式，接受请求和拒绝请求是特殊情况。提出提议和提出建议也是如此。",
+    "错误原因": "Accept/Decline为Address的特例，确定此处Address为回应处理；提出请求改变功能方向。",
+    "正确翻译": "接受请求意味着承诺执行所请求的行为；拒绝请求可视为承诺不执行该行为，因此也属于承诺类行为。接受与拒绝是对请求的各种可能回应的两个极端。回应请求（Address Request）涵盖处理请求的所有形式，其中接受请求和拒绝请求是两个特例。回应提议（Address Offer）与回应建议（Address Suggestion）亦然。"
+  },
+  {
+    "原始英文句子": "The certainty values ‘uncertain' and ‘certain' can be associated with information- providing functions in order to represent the speaker's expression of (un)certainty about the correctness of the information that he/she provides, and with commissive functions to indicate uncertainty about the speaker’s commitment to perform the action under discussion.",
+    "错误翻译": "属性@certainty的取值包括“不确定”与“确定”，可用于附着于信息提供类功能，以表示讲话者对其所提供信息的正确性所持的（不）确定态度。同时，该属性亦可用于承诺类功能，以表达讲话者对其所承诺行为的执行程度的不确定性。",
+    "错误原因": "不确定的是承诺，不是执行程度，坏译改变certainty限定对象。",
+    "正确翻译": "属性@certainty的取值包括“不确定”与“确定”，可用于附着于信息提供类功能，以表示讲话者对其所提供信息的正确性所持的（不）确定态度。同时，该属性亦可用于承诺类功能，以表示讲话者对承担执行所讨论行为的承诺的不确定性。"
+  },
+  {
+    "原始英文句子": "the consolidated part of the information state",
+    "错误翻译": "汇总部分",
+    "错误原因": "consolidated指确认整合的信息状态部分，汇总不足以表达已确立的状态。",
+    "正确翻译": "信息状态中已经确认整合的部分"
+  },
+  {
+    "原始英文句子": "Category of dialogue acts whose performance contributes to pursuing the task or activity that motivates the dialogue.",
+    "错误翻译": "对话行为的类别，其表现有助于追求激励对话的任务或活动。",
+    "错误原因": "performance在对话行为定义中为实施行为，表现误导为外观或成绩；追求激励对话也误组了任务关系。",
+    "正确翻译": "实施后有助于推进促成该对话的任务或活动的一类对话行为。"
+  },
+  {
+    "原始英文句子": "(a) it clearly separates form from function by removing any oblique reference to syntactic criteria for the identification of such acts;",
+    "错误翻译": "（a）其明确区分了“形式”与“功能”，避免了依赖句法形式识别言语行为的歧义。",
+    "错误原因": "oblique reference不是歧义，原句是去除间接诉诸句法标准，坏译换成避免句法识别歧义。",
+    "正确翻译": "（a）该名称不再间接暗示应依据句法标准识别这类行为，从而明确区分形式与功能；"
+  },
+  {
+    "原始英文句子": "Communicative function of a dialogue act performed by the sender, S, in order to make certain information available to the addressee, A, which S believes A wants to know; S assumes that this information is correct.",
+    "错误翻译": "对话行为所具备的交际功能，由发送者S执行，旨在向接收者A提供特定信息——这些信息S确信A想要了解，且S假定该信息是准确无误的。",
+    "错误原因": "believes不保证确信，correct不等于绝对准确无误，坏译抬高角色认知承诺。",
+    "正确翻译": "发送者S实施的一项对话行为的交际功能，旨在向接收者A提供S相信A想要知道的某些信息；S假定这些信息正确。"
+  },
+  {
+    "原始英文句子": "Influence-addressee-future-action",
+    "错误翻译": "影响发送者未来行动",
+    "错误原因": "addressee为接收者而非发送者，反转影响对象。",
+    "正确翻译": "影响接收者未来行动"
+  },
+  {
+    "原始英文句子": "\"Uh...\" as a turn-initial segment",
+    "错误翻译": "“呃…”",
+    "错误原因": "turn-initial限定是区分话轮功能的关键，坏译只有呃而缺起始位置。",
+    "正确翻译": "位于话轮起始位置的“呃……”。"
+  },
+  {
+    "原始英文句子": "\"Something else.\"",
+    "错误翻译": "“别的东西”",
+    "错误原因": "真实原上下文是topicShift示例，Something else提示换话题；别的东西会变成物体指称，必须附上下文使用。",
+    "正确翻译": "“换个话题。”"
+  },
+  {
+    "原始英文句子": "\"then we're going to g-- ... turn straight back\"",
+    "错误翻译": "“然后我们将前往g--”",
+    "错误原因": "示例包含撤回后的更正turn straight back，坏译删去后半，破坏用于说明更正的例证。",
+    "正确翻译": "“然后我们要往——……直接往回转。”"
+  },
+  {
+    "原始英文句子": "/contactCheck/",
+    "错误翻译": "/联系人检查（contactCheck）/",
+    "错误原因": "contactCheck检查交际接触是否维持；联系人是地址簿人物义。",
+    "正确翻译": "/接触检查（contactCheck）/"
+  },
+  {
+    "原始英文句子": "defines link structures for relating participants to eventualities in a certain role",
+    "错误翻译": "定义了将参与者与特定角色中的事件相关联的链接结构",
+    "错误原因": "in a certain role是参与者与事态的角色关系，不能让事件本身处于角色中。",
+    "正确翻译": "定义了将具有特定角色的参与者与相应事态相关联的链接结构"
+  },
+  {
+    "原始英文句子": "Participant in an eventuality",
+    "错误翻译": "可能事件的参与者",
+    "错误原因": "eventuality是事件状态等事态的上位概念，不是可能发生的事件。",
+    "正确翻译": "事态的参与者"
+  },
+  {
+    "原始英文句子": "rather elaborate initial phases",
+    "错误翻译": "精心设计的初始阶段",
+    "错误原因": "自然交谈初始段elaborate指展开充分，精心设计添加人为安排意图。",
+    "正确翻译": "较为充分展开的初始阶段"
+  },
+  {
+    "原始英文句子": "D.5 Plug-ins for emotion annotation",
+    "错误翻译": "D.5 情感标注插件",
+    "错误原因": "同文明确区分sentiment与emotion，标题把emotion译情感会合并该对比；判断依赖真实上下文。",
+    "正确翻译": "D.5 情绪标注插件"
+  },
+  {
+    "原始英文句子": "Action discussion functions have in common that their semantic content describes an action, possibly with specifications of manner or frequency.",
+    "错误翻译": "行为讨论功能（Action discussion functions）的共同特征在于，其语义内容通常描述某一行为，该行为可带有方式或频率等具体说明。",
+    "错误原因": "描述行为是共同特征，原文没有usually，通常无据引入例外。",
+    "正确翻译": "行为讨论功能（Action discussion functions）的共同特征在于，其语义内容描述某一行为，该行为可带有方式或频率等具体说明。"
+  },
+  {
+    "原始英文句子": "(E.18) a. P1: Would you like to say something at this point? [m1]",
+    "错误翻译": "（E.18）a.P1：就这点你想说点什么吗？[m1]",
+    "错误原因": "示例at this point指当前时点，不是就某个论点。",
+    "正确翻译": "（E.18）a. P1：你现在想说些什么吗？[m1]"
+  },
+  {
+    "原始英文句子": "Do not attach any certainty qualifier Attach qualifier “uncertain” Attach qualifier “certain”",
+    "错误翻译": "不包含确定性限定词 包含“uncertain”限定词 包含“certain”限定词",
+    "错误原因": "决策树命令attach指导标注操作，包含误为描述片段中已有属性。",
+    "正确翻译": "不添加确定性限定词； 添加限定词“uncertain”； 添加限定词“certain”。"
+  },
+  {
+    "原始英文句子": "includes in its first edition the option",
+    "错误翻译": "本文件允许",
+    "错误原因": "原文in its first edition仅述第一版选择，坏译将历史选项归为现文件现行许可。",
+    "正确翻译": "第一版允许"
+  },
+  {
+    "原始英文句子": "feedback act (3.8) where the sender (3.20) elicits information about the addressee's (3.1) processing \nof an utterance (3.25) that the sender contributed to the dialogue (3.5), or where the sender provides \ninformation about his perceived processing by the addressee of an utterance that the sender contributed \nto the dialogue",
+    "错误翻译": "一种反馈行为（3.8），发送者（3.20）获取接收者（3.1）对发送者所贡献于对话（3.5）的某一话语（3.25）的处理信息，或发送者提供关于其所感知到的接收者对发送者贡献于对话的某一话语的处理信息。",
+    "错误原因": "elicit是引出或促使对方提供信息，不等于已经获取信息；这里的信息涉及接收者处理发送者先前话语的情况。",
+    "正确翻译": "一种反馈行为（3.8）：发送者（3.20）引出有关接收者（3.1）如何处理发送者先前在对话（3.5）中所作话语（3.25）的信息，或提供自己所感知到的、接收者对该话语的处理情况。"
+  },
+  {
+    "原始英文句子": "The TCU seems a rather intuitive and holistic notion",
+    "错误翻译": "TCU作为一个较为主观和整体性的概念",
+    "错误原因": "intuitive为直观而非主观，seems也须保留评估性。",
+    "正确翻译": "TCU似乎是一个较为直观和整体性的概念"
+  },
+  {
+    "原始英文句子": "They are both to be used in combination with a plug-in that specifies a set of rhetorical relations",
+    "错误翻译": "两种结构都可与一个插件结合使用，该插件指定了一组修辞关系",
+    "错误原因": "are to be used要求使用两结构时配合插件，可结合使用变成可选组合。",
+    "正确翻译": "两种结构均须与规定修辞关系集合的插件结合使用"
+  },
+  {
+    "原始英文句子": "(self-)repairs and restarts",
+    "错误翻译": "（自发的）修正与重新开始",
+    "错误原因": "self-repair为自我修正，不等于自发修正。",
+    "正确翻译": "（自我）修正与重新开始"
+  },
+  {
+    "原始英文句子": "Communicative function of a dialogue act performed by the sender, S, in order to know which one from a list of alternative propositions, specified by the semantic content, is true; S believes that exactly one element of that list is true; S assumes that the ad­ dressee, A, knows which of the alternative propositions is true, and S puts pressure on A to provide this information.",
+    "错误翻译": "发送者S执行对话行为的交际功能，旨在获知语义内容指定的备选命题列表中的哪一个为真。S确信该列表中仅有一个命题为真。S认为接收者A知道哪个选命题为真，S向A施加压力，要求其提供该信息。",
+    "错误原因": "believes描述相信的认知状态，“确信”提高了确定程度。",
+    "正确翻译": "发送者S执行对话行为的交际功能，旨在获知语义内容指定的备选命题列表中的哪一个为真。S相信该列表中恰好有一个命题为真。S认为接收者A知道哪个备选命题为真，S向A施加压力，要求其提供该信息。"
+  },
+  {
+    "原始英文句子": "Dispreferred answer",
+    "错误翻译": "反驳回答",
+    "错误原因": "会话分析dispreferred为非优选回应，不等于反驳回应。",
+    "正确翻译": "非优选回答"
+  },
+  {
+    "原始英文句子": "perform the action, specified in the semantic content",
+    "错误翻译": "执行某项行为",
+    "错误原因": "specified in semantic content限定所承诺的行为，而不是只限定方式频率；坏译某项行为缺这一绑定。",
+    "正确翻译": "执行语义内容中规定的行为"
+  },
+  {
+    "原始英文句子": "/selfError/",
+    "错误翻译": "/自我纠错（selfError）/",
+    "错误原因": "selfError标说错或意识到错误的信号，不必完成纠错，需与selfCorrection区分。",
+    "正确翻译": "自我语误提示（selfError）"
+  },
+  {
+    "原始英文句子": "Action discussion functions have in common that their semantic content describes an action, possibly with specifications of manner or frequency.",
+    "错误翻译": "行为讨论功能（Action discussion functions）的共同特征在于，语义内容通常描述某一行为，该行为可带有方式或频率等具体说明。",
+    "错误原因": "原文将语义内容描述行为作为共同性质；“通常”无依据地引入了例外。",
+    "正确翻译": "行为讨论功能（Action discussion functions）的共同特征在于，语义内容描述某一行为，该行为可带有方式或频率等具体说明。"
+  },
+  {
+    "原始英文句子": "B: Thanks, only if you have it ready.",
+    "错误翻译": "B： 谢谢，如果你有的话。",
+    "错误原因": "only if是必要条件且ready为已备好，坏译普通如果你有未保二者。",
+    "正确翻译": "B：谢谢，只有你已经备好了，我才喝。"
+  },
+  {
+    "原始英文句子": "Directives",
+    "错误翻译": "指示",
+    "错误原因": "真实图文上下文中父类Directives与子功能Instruct应区分，父类译指令类功能可避免同名折叠；不是要求单词普遍只能此译。",
+    "正确翻译": "指令类功能"
+  },
+  {
+    "原始英文句子": "Additionally, it is possible for constituent characteristics such as “unfinished” to require frequently repetition.",
+    "错误翻译": "此外，诸如“未穷尽”之类的构成特征可能需要频繁重复。",
+    "错误原因": "unfinished指构成特征未完成，不等于类目未穷尽。",
+    "正确翻译": "此外，诸如“未完成”之类的构成特征可能需要反复出现。"
+  },
+  {
+    "原始英文句子": "The statement “In faceted classification systems an entry class common to all facets does not exist” should be moderated by indicating that such an entry class may be difficult to reach. However, for a given purpose, it may be possible to have an “entry class” that permits response to market needs.",
+    "错误翻译": "“分面分类系统中不存在适用于所有分面的通用入口类”这一表述宜修正为：无全分面通用入口类，但针对特定场景可设立响应市场需求的“入口类”）。",
+    "错误原因": "原句要求缓和不存在为可能难以获得，坏译再次断言无通用入口类，未执行关键修正。",
+    "正确翻译": "“分面式分类系统中不存在适用于所有分面的通用入口类”这一说法宜作适当缓和，改为这类入口类可能难以确定。不过，针对某一具体目的，仍可能设置一个能够满足市场需求的入口类。"
+  },
+  {
+    "原始英文句子": "ISO and IEC maintain terminological databases for use in standardization",
+    "错误翻译": "ISO和IEC负责维护术语数据库在标准中的使用",
+    "错误原因": "maintain宾语是术语数据库，供标准化使用为目的，不是维护使用这项活动。",
+    "正确翻译": "ISO和IEC维护供标准化工作使用的术语数据库"
+  },
+  {
+    "原始英文句子": "term (3.8) that is applied to a group of objects (3.3) whose relevant properties are identical",
+    "错误翻译": "表示一组具有某些相同属性的客体（3.3）的术语（3.8）。",
+    "错误原因": "相关属性相同是此概念判据，某些属性相同扩大了可纳入客体范围。",
+    "正确翻译": "用于一组相关属性相同的客体（3.3）的术语（3.8）"
+  },
+  {
+    "原始英文句子": "note in a terminological data collection (3.21)",
+    "错误翻译": "术语数据集（3.21）中提供的信息",
+    "错误原因": "定义中心note为注释，不是任意提供的信息，省去它改变被定义对象类别。",
+    "正确翻译": "术语数据集（3.21）中的注释"
+  },
+  {
+    "原始英文句子": "future translation projects from and into all of the working languages covered in the terminological entries",
+    "错误翻译": "涉及术语条目中所涵盖所有工作语言的未来翻译项目",
+    "错误原因": "from and into明确各工作语言的源与目标方向；涉及各语言过于笼统，标准翻译项目复用语境有区分价值。",
+    "正确翻译": "今后以条目所涵盖的任一工作语言作为源语言或目标语言的翻译项目"
+  },
+  {
+    "原始英文句子": "comparing the concept with neighbouring or related concepts, and delineating the concept from these concepts",
+    "错误翻译": "将概念与邻近或相关概念进行比较，以及将这些概念与上述概念区分开来",
+    "错误原因": "要区分的是目标概念与邻近概念，坏译这些与上述两组指代均可能回指邻近概念。",
+    "正确翻译": "将所研究的概念与邻近或相关概念比较，并将该概念与这些邻近或相关概念区分开来。"
+  },
+  {
+    "原始英文句子": "Only terminology workers in standardizing bodies do a form of prescriptive terminology work called normative.",
+    "错误翻译": "规范性：仅标准化机构的术语工作者执行",
+    "错误原因": "normative是prescriptive的一种，坏译只列机构执行而漏分类包含关系；good的机构开展为施事概括，不据此声称所有用词唯一。",
+    "正确翻译": "规范性术语工作是由标准化机构开展的一种规定性术语工作"
+  },
+  {
+    "原始英文句子": "processing and documenting terminological data",
+    "错误翻译": "术语加工与归档",
+    "错误原因": "processing/documenting对象为术语数据，documenting是记录研究信息而非仅归档；术语加工缩去数据对象。",
+    "正确翻译": "术语数据的处理与记录"
+  },
+  {
+    "原始英文句子": "integrated",
+    "错误翻译": "深度集成",
+    "错误原因": "integrated无深度程度要求，添加深度会无据增加集成强度。",
+    "正确翻译": "集成"
+  },
+  {
+    "原始英文句子": "proper name",
+    "错误翻译": "专有名词",
+    "错误原因": "此处指称类型维度使用proper name并与下一词性维度区分，专有名称符合本文件定名；不泛称专有名词在所有语境皆错。",
+    "正确翻译": "专有名称"
+  },
+  {
+    "原始英文句子": "Best practices for open data categories",
+    "错误翻译": "开放式数据字段的最佳实践",
+    "错误原因": "data categories已与数据库fields分开，开放数据类目不可改为开放字段。",
+    "正确翻译": "开放型数据类目的最佳实践"
+  },
+  {
+    "原始英文句子": "Proper name; appellation",
+    "错误翻译": "专有名称/专名",
+    "错误原因": "表中proper name和appellation对应分别定义的两类别，专有名称/专名会合并后者；须随原表及3.9/3.10语境使用。",
+    "正确翻译": "专有名称；名称"
+  },
+  {
+    "原始英文句子": "Notes shall be kept to a minimum and only be used if the information cannot be documented in other fields.",
+    "错误翻译": "注释内容应简明扼要，仅当信息无法记录在其他字段时使用。",
+    "错误原因": "keep notes to a minimum限制少用注释，坏译只限制注释简短，改变要求对象。",
+    "正确翻译": "应尽量少用注释，且仅当信息无法记录在其他字段中时使用。"
+  },
+  {
+    "原始英文句子": "A standard system should be used (see ISO 12615 and ISO 690), especially when data is to be exchanged with others.",
+    "错误翻译": "数据交换（尤其对外数据交换）宜遵循标准化体系（参见 ISO 12615、ISO 690）。",
+    "错误原因": "来源代码和书目记录语境中的standard system是来源著录体系，不是数据交换的一般体系。",
+    "正确翻译": "来源信息的著录与标识宜采用标准体系（见ISO12615和ISO690），尤其是在需要与他人交换数据时。"
+  },
+  {
+    "原始英文句子": "their equivalents in other languages of the translation project",
+    "错误翻译": "在翻译项目目标语言中的对应词",
+    "错误原因": "项目other languages不等于固定目标语言，双向项目复用时坏译缩窄语种角色。",
+    "正确翻译": "其在该翻译项目其他工作语言中的对等表达"
+  },
+  {
+    "原始英文句子": "document the quasi-equivalence of the designations and the degree of equivalence, as well as (where applicable) its directional nature",
+    "错误翻译": "标注准等效关系、等效程度及方向性",
+    "错误原因": "where applicable条件被省略，方向性说明从适用时要求变成无条件要求。",
+    "正确翻译": "记录准等效关系及等效程度，并在适用时说明其方向性"
+  },
+  {
+    "原始英文句子": "should be “repeatable”",
+    "错误翻译": "应设为“可重复”",
+    "错误原因": "标准正文should为推荐，译应抬高为要求；采用宜保持规范性层级。",
+    "正确翻译": "宜设为可重复"
+  },
+  {
+    "原始英文句子": "It also involves researching linguistic as well as subject-related information that is necessary for carrying out these activities.",
+    "错误翻译": "同时，该工作还包含为完成这些活动所必需的语言学与专业领域信息。",
+    "错误原因": "researching为研究检索信息的活动，包含信息将动态工作变成静态内容。",
+    "正确翻译": "该工作还涉及研究完成这些活动所需的语言及专业领域信息。"
+  },
+  {
+    "原始英文句子": "understand the basics of XML and be aware of related standards",
+    "错误翻译": "理解XML基础及关联标准",
+    "错误原因": "理解XML基础与知悉相关标准是两种能力程度，统用理解抬高后者。",
+    "正确翻译": "理解XML基础知识，并了解相关标准。"
+  },
+  {
+    "原始英文句子": "created automatically in terminology management systems",
+    "错误翻译": "在术语管理系统中自动创建或识别",
+    "错误原因": "created automatically仅自动创建，无或识别分支。",
+    "正确翻译": "由术语管理系统自动创建"
+  },
+  {
+    "原始英文句子": "TMS",
+    "错误翻译": "术语数据集",
+    "错误原因": "TMS指术语管理系统，坏译误用TDC术语数据集概念。",
+    "正确翻译": "术语管理系统"
+  },
+  {
+    "原始英文句子": "rejected",
+    "错误翻译": "已弃用",
+    "错误原因": "rejected为拒用，不应与同文deprecated已弃用状态合并；依赖数据值对照语境。",
+    "正确翻译": "拒用"
+  },
+  {
+    "原始英文句子": "formal language (3.6)",
+    "错误翻译": "正式语言(3.6)",
+    "错误原因": "formal language在此是形式语言，正式语言是日常正式程度义，破坏概念模型说明。",
+    "正确翻译": "形式语言（3.6）"
+  },
+  {
+    "原始英文句子": "language whose rules are explicitly established before its use",
+    "错误翻译": "语言规则在使用前已明确。",
+    "错误原因": "定义对象为语言，坏译成为规则已明确的陈述，丢语言中心名词及预先规定动作。",
+    "正确翻译": "在使用前已明确规定其规则的语言"
+  },
+  {
+    "原始英文句子": "Mapping UML symbols to terminological concepts",
+    "错误翻译": "根据术语概念编制UML符号",
+    "错误原因": "mapping是已有UML符号映射到术语概念，编制符号换成新建动作。",
+    "正确翻译": "将UML符号映射到术语学概念"
+  },
+  {
+    "原始英文句子": "generic concept",
+    "错误翻译": "一般概念",
+    "错误原因": "generic与specific构成属种维度，不能与general/individual的一般个别维度合并。",
+    "正确翻译": "属概念"
+  },
+  {
+    "原始英文句子": "partitive relation",
+    "错误翻译": "区分关系",
+    "错误原因": "partitive表示整体部分关系，不是区分关系。",
+    "正确翻译": "部分关系"
+  },
+  {
+    "原始英文句子": "partitive concept",
+    "错误翻译": "区分概念",
+    "错误原因": "partitive concept表示组成部分概念，区分概念不对应模型角色。",
+    "正确翻译": "部分概念"
+  },
+  {
+    "原始英文句子": "Component",
+    "错误翻译": "聚集",
+    "错误原因": "Component为组件，聚集指整体聚合角色，坏译合并模型两端。",
+    "正确翻译": "组件"
+  },
+  {
+    "原始英文句子": "generic relation (separate target style)",
+    "错误翻译": "一般概念（单独目标风格）",
+    "错误原因": "relation是关系非concept概念，generic在此为属种；标题有真实语义差异不只样式措辞。",
+    "正确翻译": "属种关系（独立目标样式）"
+  },
+  {
+    "原始英文句子": "Two different association lines should be drawn",
+    "错误翻译": "应画两条不同的关联线",
+    "错误原因": "should推荐画线而非shall要求，宜保规范性层级。",
+    "正确翻译": "宜画两条不同的关联线"
+  },
+  {
+    "原始英文句子": "should be separated by commas",
+    "错误翻译": "应以逗号分隔",
+    "错误原因": "should推荐分隔方式，应会升级文件内要求。",
+    "正确翻译": "宜用逗号分隔"
+  },
+  {
+    "原始英文句子": "identifiable, accessible entity embedded in an independent resource (3.1.1) or in a larger part thereof",
+    "错误翻译": "嵌入独立的资源（3.1.1）或更大资源的可标识、可访问的实体。",
+    "错误原因": "a larger part thereof是同资源中的较大部分而不是另一个更大资源，定义嵌套层次被改。",
+    "正确翻译": "嵌入独立资源（3.1.1）或该资源的更大组件中的可标识、可访问实体。"
+  },
+  {
+    "原始英文句子": "References can be machine-readable",
+    "错误翻译": "通过机器读取",
+    "错误原因": "can be machine-readable说明可具机器可读属性，坏译通过机器读取未保能力性。",
+    "正确翻译": "参引可以是机器可读的"
+  },
+  {
+    "原始英文句子": "With the Handle System as an example, the HTTP resolver proxy is either the central resolver proxy of the Handle System or a Handle System resolver proxy guaranteed to be available by the resource provider.",
+    "错误翻译": "以HS为例，HTTP解析器代理既是HS的中央解析器代理，也是资源提供者承诺可用的HS解析器代理。",
+    "错误原因": "either or列两个可选代理，既是也是强制兼任两种身份。",
+    "正确翻译": "以句柄系统为例，HTTP解析器代理可以是句柄系统的中央解析器代理，也可以是由资源提供者保证可用的句柄系统解析器代理。"
+  },
+  {
+    "原始英文句子": "can be added",
+    "错误翻译": "添加",
+    "错误原因": "can保可选择添加，只有添加会丢可选性；源理由还引其他条款，不把这些未配对条款生成新错例。",
+    "正确翻译": "可添加"
+  },
+  {
+    "原始英文句子": "a graph or sub-graph",
+    "错误翻译": "图表或子图表",
+    "错误原因": "RDF graph为数据图结构，图表误导为呈现图形。",
+    "正确翻译": "图或子图"
+  },
+  {
+    "原始英文句子": "For virtual collections, the PID should refer to a machine-readable metadata description which provides access to the relevant information, in particular to the resources that are included, referenced by their own individual PIDs.",
+    "错误翻译": "对于虚拟集合，分配的PID宜指向机器可读的元数据描述，这种描述提供对相关信息的访问，特别是对其自身各PID所包含和引用的资源的访问。",
+    "错误原因": "集合包含资源，各PID引用资源，坏译把包含和引用都归到PID。",
+    "正确翻译": "对于虚拟集合，PID宜指向机器可读的元数据描述，该描述提供相关信息的访问，尤其是对集合所包含、并由各自PID引用的资源的访问。"
+  },
+  {
+    "原始英文句子": "may not have any significance",
+    "错误翻译": "就没有任何意义",
+    "错误原因": "may not是可能没有，坏译就没有改成绝对断言。",
+    "正确翻译": "可能没有相应意义"
+  },
+  {
+    "原始英文句子": "Such cases do not involve an identifiable resource, since the referenced resource is the entire database.",
+    "错误翻译": "鉴于所引用的资源是整个数据库，这类情况不涉及对资源的识别。",
+    "错误原因": "identifiable resource是可标识资源对象，不是不涉及识别资源的动作。",
+    "正确翻译": "这些情况并不涉及可单独标识的资源，因为所引用的资源是整个数据库"
+  },
+  {
+    "原始英文句子": "Here, the resource identifier should be amended with a resource-specific part identifier designed to access the relevant information fragment.",
+    "错误翻译": "资源标识符宜修正为资源组件标识符，用于访问相关信息片段。",
+    "错误原因": "amended with在原资源标识符上附加组件标识符，修正为容易写成整体替换。",
+    "正确翻译": "此时，宜在资源标识符上追加与该资源类型相适应的组件标识符，以访问相关信息片段。"
+  },
+  {
+    "原始英文句子": "which can also contain citation information",
+    "错误翻译": "标识符也包含引用信息",
+    "错误原因": "真实上下文which指关联元数据，不是标识符本身，且can的可能性要保留。",
+    "正确翻译": "这些元数据还可包含引用信息"
+  },
+  {
+    "原始英文句子": "⎯ It does not have to be urlified to become actionable, which means an ARK can be a URI.",
+    "错误翻译": "——无需转换为URL格式就可操作，这意味着ARK是一种URI。",
+    "错误原因": "can be只说明ARK可采用URI表示，坏译是一种移去可能性。",
+    "正确翻译": "无需另行URL化即可具备可操作性，这意味着ARK可以是URI。"
+  },
+  {
+    "原始英文句子": "they are a good representation of existing approaches",
+    "错误翻译": "这3个系统是当前相关方法中成熟的表现方式",
+    "错误原因": "representation of approaches指现有方法的代表性，不等于技术成熟度。",
+    "正确翻译": "这三种系统较有代表性地体现了现有的实现方式"
+  },
+  {
+    "原始英文句子": "Note 1 to entry: Users can be part of a specific target audience (3.2.2).",
+    "错误翻译": "注1：用户是特定目标受众（3.2.2）的一部分。",
+    "错误原因": "can be part of是可能属于，不应改成用户必定属于特定受众。",
+    "正确翻译": "注1：用户可以是某一特定目标受众（3.2.2）的一部分。"
+  },
+  {
+    "原始英文句子": "period of time from the first idea to the ultimate disposal (3.3.4.10) or recycling (3.3.4.11) of a product (3.1.3)",
+    "错误翻译": "从第一个设计思想到产品的最终处理的时间周期",
+    "错误原因": "定义包括最终处置或回收利用两种终点，坏译最终处理未保回收利用；不是只因少编号判错。",
+    "正确翻译": "从最初构想到产品（3.1.3）最终处置（3.3.4.10）或回收利用（3.3.4.11）的时间跨度。"
+  },
+  {
+    "原始英文句子": "set of actions and functions intended to end or avert an emergency situation",
+    "错误翻译": "用于终止或避免紧急状态的所有操作和功能。",
+    "错误原因": "set of为一组，all为所有，源修改说明特意取消all；坏译恢复全称范围。",
+    "正确翻译": "旨在终止或避免紧急状态的一组行动和功能"
+  },
+  {
+    "原始英文句子": "set of actions that are necessary to find information on a specific subject",
+    "错误翻译": "查找特定专业信息必要的一组行动",
+    "错误原因": "information research定义不限定特定专业领域，subject应为主题；专业无据收窄，所字省略只是附带表达问题。",
+    "正确翻译": "查找特定主题相关信息所必需的一组行动。"
+  },
+  {
+    "原始英文句子": "Note 1 to entry: Functions or applications not listed by the supplier are excluded from the intended use of the supported product and shall not be referred to in the information product (3.1.4).",
+    "错误翻译": "注1：供应商未列出的功能或应用不属于受支持产品的预期用途，不在信息产品（3.1.4）中提及。",
+    "错误原因": "shall not为明确禁止，不在中提及仅陈述现状，未表达规范性要求。",
+    "正确翻译": "注1：供应商未列出的功能或应用不属于受支持产品的预期用途，不应在信息产品（3.1.4）中提及。"
+  },
+  {
+    "原始英文句子": "Terminology extraction, which goes beyond mere extraction of terms, is undertaken by a range of specialists including language professionals in general, and terminologists in particular, as well as ontology engineers, and both information and data scientists.",
+    "错误翻译": "术语数据抽取工作 通常由多个领域的专业人员共同开展，如术语学家、本体工程师、信息科学家和数据科学家等。",
+    "错误原因": "range of specialists列可实施者范围，未要求共同开展，且坏译漏抽取超出单纯术语抽取这一范围说明。",
+    "正确翻译": "术语数据抽取的范围超出单纯的术语抽取，可由语言专业人员，尤其是术语学家，以及本体工程师、信息科学家和数据科学家等开展。"
+  },
+  {
+    "原始英文句子": "A set of annual reports in English aligned segment by segment with the same annual reports translated into Tagalog.",
+    "错误翻译": "一组英语年度报告与翻译为他加禄语的相同年度报告按段落对齐。",
+    "错误原因": "segment不限定段落，按段落对齐无据固定粒度。",
+    "正确翻译": "一组英语年度报告与对应的他加禄语译文逐片段对齐。"
+  },
+  {
+    "原始英文句子": "identifying acronyms as a group of up to n capital letters",
+    "错误翻译": "将缩合词识别为由n个大写字母构成的组合",
+    "错误原因": "up to n允许少于n，恰n改变识别规则；acronym一词译法不是本条唯一判错依据。",
+    "正确翻译": "将首字母缩略词识别为由不超过 n 个大写字母构成的组合。"
+  },
+  {
+    "原始英文句子": "the criteria in this subclause can be considered",
+    "错误翻译": "还要遵循5.4.6.2中的准则",
+    "错误原因": "can be considered为可考虑而非必须遵循，坏译强制准则。",
+    "正确翻译": "可考虑本条中的准则"
+  },
+  {
+    "原始英文句子": "prioritizing candidate terms that require little further research can be an option",
+    "错误翻译": "则优先处理几乎无需进一步研究的候选术语",
+    "错误原因": "can be an option是可选办法，坏译则优先丢可选性；little也不必等于几乎无需。",
+    "正确翻译": "可考虑优先处理只需较少追加研究的候选术语"
+  },
+  {
+    "原始英文句子": "ensuring consistent terminology use",
+    "错误翻译": "确保了术语数据使用的一致 性",
+    "错误原因": "本处译者一致用词，不是术语数据字段使用一致，坏译添加数据改变对象层级。",
+    "正确翻译": "确保术语使用的一致性"
+  },
+  {
+    "原始英文句子": "these five-word candidate terms provided by an extraction tool",
+    "错误翻译": "抽取工具提供的五个 单词候选术语",
+    "错误原因": "five-word修饰每个候选词串长度，不是候选项总数五个。",
+    "正确翻译": "抽取工具提供的这些由5个单词组成的候选术语"
+  },
+  {
+    "原始英文句子": "a) Universal requirements that define common notation to be used by all organizations to assist communication.",
+    "错误翻译": "通用要求：规定所有组织采用的常用表示法，以促进交流。",
+    "错误原因": "common notation在各组织互通语境是共同采用的约定，常用仅表频率，弱化一致采用。",
+    "正确翻译": "a) 通用要求：规定所有组织共同采用的表示法，以促进交流。"
+  },
+  {
+    "原始英文句子": "Conformity to this document can strengthen processes designed to support a quality management system, such as ISO 9001",
+    "错误翻译": "可以加强旨在支持质量管理体系（如ISO 9001）的流程",
+    "错误原因": "Conformity to this document是促进管理过程的前提主语，漏掉后作用来源消失。",
+    "正确翻译": "符合本文件有助于加强旨在支持质量管理体系（如ISO 9001所述体系）的过程"
+  },
+  {
+    "原始英文句子": "planned and systematic activities",
+    "错误翻译": "一组计划和系统活动",
+    "错误原因": "planned及systematic均修饰活动，不能切成计划这一名词和系统活动。",
+    "正确翻译": "一组有计划、系统性的活动"
+  },
+  {
+    "原始英文句子": "“Mouse” has termhood in computer applications, whereas it does not in general language.",
+    "错误翻译": "“鼠标”在计算机应用中具有术语性，而在普通语言中则没有。",
+    "错误原因": "原例同一mouse在专业和日常语境异义，直接译鼠标后失去动物普通义对照；改文保英文词并解释两义。",
+    "正确翻译": "英语词“mouse”在计算机应用中表示“鼠标”，具有术语性；在普通语言中表示“老鼠”时，则不具有此处所说的术语性。"
+  },
+  {
+    "原始英文句子": "A TBX document instance, ISO 1087.",
+    "错误翻译": "GB/T 15237 TBX文件实例。",
+    "错误原因": "术语数据集例子应有TBX实例和标准两个并列项，现译连成标准的TBX实例；不将ISO到GB的采用关系当本条错误。",
+    "正确翻译": "一个TBX文档实例；ISO 1087。"
+  },
+  {
+    "原始英文句子": "A multi-word lexical unit which meets the criteria for unithood functions as a term if it designates an identifiable concept in the textual and operational context in question.",
+    "错误翻译": "如果一个多词词汇单元在所讨论的文本和操作上下文中指定了一个可识别的概念，那么它就可以作为一个术语发挥作用。",
+    "错误原因": "满足unithood及指称可识别概念是双条件，坏译漏第一条件扩大术语判定范围。",
+    "正确翻译": "满足单元性判据的多词词汇单元，如果在相关文本和操作语境中指称一个可识别的概念，就起术语的作用。"
+  },
+  {
+    "原始英文句子": "criteria for termhood",
+    "错误翻译": "术语相关准则",
+    "错误原因": "termhood是专门定义的术语性，不等于任意术语相关准则。",
+    "正确翻译": "术语性判据"
+  },
+  {
+    "原始英文句子": "The purpose shall be clearly articulated and shall comprise the basis for specifying data requirements.",
+    "错误翻译": "目的应明确阐述，并应包括规定数据要求的依据。",
+    "错误原因": "purpose应成为规定数据要求的依据，不是目的包括这些依据。",
+    "正确翻译": "应清楚阐明其目的，并以该目的作为规定数据要求的依据。"
+  },
+  {
+    "原始英文句子": "To be fit for use",
+    "错误翻译": "为便于使用",
+    "错误原因": "fit for use指适合预定用途，便于使用只表达操作方便。",
+    "正确翻译": "为使术语数据适合使用"
+  },
+  {
+    "原始英文句子": "if that concept is not also represented by an /abbreviated form/",
+    "错误翻译": "术语如果没有/缩写形式/",
+    "错误原因": "原文以同一概念是否另有缩略指称为判据，坏译改为某个术语有没有缩写，关系层级改变。",
+    "正确翻译": "如果同一概念未同时由某个/abbreviated form/（缩略形式）表示"
+  },
+  {
+    "原始英文句子": "assign a 10-point scale",
+    "错误翻译": "分配10分",
+    "错误原因": "assign a scale建立或采用量尺，不是直接分配满分10分。",
+    "正确翻译": "采用十分制评分"
+  },
+  {
+    "原始英文句子": "Register: slang",
+    "错误翻译": "注册：slang",
+    "错误原因": "与slang搭配的Register为语域字段，注册为错误义项；把字段标签与字段值分段。",
+    "正确翻译": "语域：slang"
+  },
+  {
+    "原始英文句子": "false calque",
+    "错误翻译": "错误译名",
+    "错误原因": "false calque是不当仿译这一特定误译类型，不是所有错误译名。",
+    "正确翻译": "不当仿译"
+  },
+  {
+    "原始英文句子": "Incorrect number or case (plural, dative, etc.)",
+    "错误翻译": "数目或大小写（复数、助词等）不正确",
+    "错误原因": "number/case/dative在语法表中为数格与格，不是数目大小写助词。",
+    "正确翻译": "数或格不正确（如复数、与格等）。"
+  },
+  {
+    "原始英文句子": "diacritics",
+    "错误翻译": "分音符",
+    "错误原因": "diacritics为附加符号总类，分音符只为一种，坏译缩窄。",
+    "正确翻译": "附加符号"
+  },
+  {
+    "原始英文句子": "Conflation of forms",
+    "错误翻译": "形式冲突",
+    "错误原因": "conflation指混合不同形式，不是形式冲突。",
+    "正确翻译": "形式混合"
+  },
+  {
+    "原始英文句子": "Instead of following capitalization and punctuation from the original context, rules for definition style are inappropriately applied to text in the /context/ field",
+    "错误翻译": "定义文体的规则没有遵循原始语境中的大小写和标点符号，而是不恰当地应用到/上下文/字段中的文本中",
+    "错误原因": "人错误地把定义文体套于context文本，不是定义规则自己没有遵循原始标点。",
+    "正确翻译": "未沿用原语境的大小写和标点，而将定义的文体规则不恰当地应用于/context/字段中的文本。"
+  },
+  {
+    "原始英文句子": "— P1.3a. Project work order.",
+    "错误翻译": "1.3a 活动定义/ 优先级",
+    "错误原因": "Project work order指项目工作指令；“活动定义／优先级”换成了另一种工作产物。",
+    "正确翻译": "1.3a 项目工作指令"
+  },
+  {
+    "原始英文句子": "NOTE LAF does not include specifications for annotation content categories (i.e. the contents of the associated linguistic phenomena).",
+    "错误翻译": "注：语言标注框架 不包含标注内容类别（即相关语言现象的目录）的规范。",
+    "错误原因": "contents为语言现象内容，不是目录，此处是注释不是术语词头。",
+    "正确翻译": "注：LAF不规定标注内容类别（即所关联语言现象的内容）。"
+  },
+  {
+    "原始英文句子": "Overlapping regions should be treated as composed of finer-grained sub-components.",
+    "错误翻译": "重叠区域应被视为细粒度子成分。",
+    "错误原因": "由细粒度子成分构成不等于自身为子成分；另should原为宜，good一并保留。",
+    "正确翻译": "重叠区域宜视为由更细粒度的子区域组合而成。"
+  },
+  {
+    "原始英文句子": "For primary data comprising a valid XML document",
+    "错误翻译": "对于包含有效可扩展标记语言(XML) 文档的源数据（即 可扩展标记语言(XML) 要素内容）",
+    "错误原因": "XML element content解释元素内部位置，不解释整个有效XML源文档；坏译增添括注造成层级混同。",
+    "正确翻译": "对于构成有效XML文档的源数据"
+  },
+  {
+    "原始英文句子": "Prose description of the directory contents.",
+    "错误翻译": "对名录目录的说明。",
+    "错误原因": "directory contents为目录所含内容，名录目录误成两个目录层级。",
+    "正确翻译": "对目录内容的文字说明。"
+  },
+  {
+    "原始英文句子": "homonym identifiers",
+    "错误翻译": "同形异义项",
+    "错误原因": "表4实际讨论标识符，同名标识符不能换为同形异义词项。",
+    "正确翻译": "同名标识符"
+  },
+  {
+    "原始英文句子": "Each member body interested in a subject for which a technical committee has been established has the right to be represented on that committee.",
+    "错误翻译": "各成员团体若对某技术委员会已设立的项目感兴趣，均有权参加该委员会。",
+    "错误原因": "为主题设立委员会不等于委员会设立项目，坏译倒置组织与主题的关系。",
+    "正确翻译": "对于已经设立技术委员会的某一主题，任何对此感兴趣的成员团体均有权派代表参加该委员会。"
+  },
+  {
+    "原始英文句子": "Effective creation, encoding, processing and management of language resources is facilitated by a single high-level data model that supports analysis and design of both annotation schemes and representation formats.",
+    "错误翻译": "语言资源的有效创建、编码、处理和管理，有赖于一个支持各类标注方案与表示格式的分析和设计的单一高层数据模型。",
+    "错误原因": "facilitated说明促进作用，“有赖于”将其强化为必要条件。",
+    "正确翻译": "统一的高层数据模型能够支持标注方案和表示格式的分析与设计，有助于有效创建、编码、处理和管理语言资源。"
+  },
+  {
+    "原始英文句子": "Note to entry: Stand-off annotations refer to specific locations in the primary data, by addressing character offsets, elements, etc. to which the annotation applies. Multiple stand-off annotation documents for a given type of annotation can refer to the same primary document (e.g. two different part of speech annotations for a given text).",
+    "错误翻译": "注：分离式标注通过字符偏移、要素等来指称源数据中的特定的位置，具体方式取决于应用。针对某一类型标注的多份分离式标注文档可以指称同一原始文档（例如对给定文本的两种不同的词性标注）。",
+    "错误原因": "to which annotation applies限定标注适用位置，不是由应用决定方法，坏译无据加应用条件。",
+    "正确翻译": "注：分离式标注通过寻址字符偏移量、元素等，引用源数据中该标注所适用的特定位置。某一标注类型的多份分离式标注文档可以引用同一源数据文档，例如针对同一文本作出的两种不同词性标注。"
+  },
+  {
+    "原始英文句子": "The data model for annotations thus comprises a directed graph referencing n-dimensional regions of primary data as well as other annotations, in which nodes are associated with feature structures providing the annotation content.",
+    "错误翻译": "因此，用于标注的数据模型包含一个有向图，该图指称源数据的 n 维区域以及标注中的其他标注，其中节点与提供标注内容的特征结构相关联。",
+    "错误原因": "有向图引用其他标注，原句无标注中的其他标注这一嵌套限定。",
+    "正确翻译": "因此，标注的数据模型包含一个有向图，该图引用源数据的n维区域以及其他标注；图中节点关联提供标注内容的特征结构。"
+  },
+  {
+    "原始英文句子": "The resource header describes the resource as a whole, including its contents, file structure and encoding, and establishes definitions that are used in the primary data document and annotation document headers.",
+    "错误翻译": "资源头描述作为整体的资源，包括其目录、文件结构和编码，并确立在源数据文档头和标注文档头中使用的定义。",
+    "错误原因": "resource contents为资源内容而非目录，坏译缩改头部元数据范围。",
+    "正确翻译": "资源头描述资源整体，包括其内容、文件结构和编码，并确立源数据文档头及标注文档头中所用的定义。"
+  },
+  {
+    "原始英文句子": "formal semantic unit that is an essential constituent of a predicate-argument structure and can have variable instantiations depending on the utterance",
+    "错误翻译": "形式语义单元，是谓词-论元结构的重要组成部分，根据话段的不同可以有不同的实例化",
+    "错误原因": "essential constituent为必要组成，不只是重要组成，定义成员判据不同。",
+    "正确翻译": "形式语义单元，是谓词—论元结构的必要组成成分，可随具体话语而有不同的实例化。"
+  },
+  {
+    "原始英文句子": "describe morphology and semantics",
+    "错误翻译": "描述形态学和语义学",
+    "错误原因": "词条描述形态与语义属性，不是描述形态学语义学学科。",
+    "正确翻译": "描述形态和语义"
+  },
+  {
+    "原始英文句子": "the predicate",
+    "错误翻译": "谓语",
+    "错误原因": "LMF SemanticPredicate建模语境指语义谓词，句子成分谓语不相同；需保真实类上下文。",
+    "正确翻译": "该语义谓词"
+  },
+  {
+    "原始英文句子": "For the purposes of this document, the terms and definitions given in ISO 24613-1 and the following apply.",
+    "错误翻译": "ISO 24613-1中给出的下列术语和定义适用于本文件。",
+    "错误原因": "原句合并ISO24613-1中的定义与本文件下列定义，坏译将下列全部归于前一来源。",
+    "正确翻译": "ISO 24613-1界定的术语和定义以及下列术语和定义适用于本文件。"
+  },
+  {
+    "原始英文句子": "EXAMPLE In a LexicalEntry for the Italian verb \"amare\", a SyntacticBehaviour instance can be created and associated with a SubcategorizationFrame instance called regularSVOAvere. This latter instance describes the regular subject, verb, object structure with a verb using the auxiliary \"avere\".",
+    "错误翻译": "示例：动词“爱”（amare）的“词条”中，可以创建一个“句法行为”实例，并将其与名为“常 规主动宾Avere（regularSVOAvere）”的“次范畴化框架”实例相关联。后一个实例描述了规则的主语、 动词、宾语结构，实例中动词使用助词“过”。",
+    "错误原因": "意大利语amare及助动词avere不能局部换成汉语爱与体助词过而仍保原框架代码，破坏示例语言条件。",
+    "正确翻译": "示例：对于意大利语动词amare（“爱”）的词条（LexicalEntry）实例，可以创建一个句法行为（SyntacticBehaviour）实例，并将其与名为regularSVOAvere的次范畴化框架（SubcategorizationFrame）实例关联。该框架描述常规的主语—动词—宾语结构，其中动词使用助动词avere。"
+  },
+  {
+    "原始英文句子": "The link between the sense of the noun (i.e. \"buyer\") and the predicate can be marked for instance as VerbNominalization.",
+    "错误翻译": "名词 （如“买方”）意义和谓词实例可记为“动词名词化”。",
+    "错误原因": "被标记的是名词义项与谓词的连接，坏译漏连接并将for instance的例示附到谓词实例。",
+    "正确翻译": "名词“买方”的义项与该谓词之间的连接，例如可标记为VerbNominalization。"
+  },
+  {
+    "原始英文句子": "must necessarily exist",
+    "错误翻译": "应存在",
+    "错误原因": "must necessarily exist描述建模关系必然存在，不是建议或要求将其设置存在。",
+    "正确翻译": "必然存在"
+  },
+  {
+    "原始英文句子": "The same resource",
+    "错误翻译": "同种资源",
+    "错误原因": "同一个资源不等于同种资源，坏译改变对象身份关系。",
+    "正确翻译": "同一资源"
+  },
+  {
+    "原始英文句子": "Spell- checkers and grammar checkers could also be seen as ways of controlling language and its use by imposing certain spelling preferences (e.g. ‘honor’ vs ‘honour’ or ‘convenor’ vs ‘convener’) or recommending the use of ‘that’ rather than ‘which’ or even ‘who’ for relative clause constructions.",
+    "错误翻译": "拼写检查器和语法检查器通过规定某些拼写偏好（如“honor”与“honour”或“convenor”与“convener”），或建议在关系从句中使用“that”而不用“which”、甚至“who”，也视为是一种控制语言及其使用的手段。",
+    "错误原因": "could be seen as保分析视角可能性，坏译也视为写成确定归类。",
+    "正确翻译": "拼写检查器和语法检查器也可视为控制语言及其使用的手段，例如规定某些拼写偏好（如“honor”与“honour”或“convenor”与“convener”），或建议在关系从句中使用“that”，而不使用“which”乃至“who”。"
+  },
+  {
+    "原始英文句子": "People should use plain, concise and understandable language because so many of their counterparts are not good at English and stick to their own language.",
+    "错误翻译": "人们应该使用简明、简洁且易于理解的语言，因为他们交流的对象并不擅长英语且坚持使用自己的语言。",
+    "错误原因": "so many限定许多交流对象，坏译裸称交流对象扩大成泛指全体。",
+    "正确翻译": "人们应使用简明、简洁、易于理解的语言，因为许多交流对象并不擅长英语，并坚持使用自己的语言。"
+  },
+  {
+    "原始英文句子": "community",
+    "错误翻译": "社会团体",
+    "错误原因": "语言使用群体community为社群，不必是组织化社会团体，坏译无据限定组织性质。",
+    "正确翻译": "语言社群"
+  },
+  {
+    "原始英文句子": "The dictionary should be created for each language to make effective use of this rule set.",
+    "错误翻译": "词典应针对每种语言编制，以有效利用此规则。",
+    "错误原因": "真实上下文明确非强制，should为推荐各语言词典，应升级要求。",
+    "正确翻译": "为有效使用本规则集，宜针对每种语言分别编制词典。"
+  },
+  {
+    "原始英文句子": "7.4.5 BSG Rule 3.5: Show the end of the term clearly (use more specific word or add a comment, if necessary).",
+    "错误翻译": "7.4.5 BSG 规则 3.5：清晰标明期限的截止时间。",
+    "错误原因": "括注给出必要时具体用词或加注两种办法，坏译只保目标，丢完整规则内的方法条件。",
+    "正确翻译": "7.4.5 BSG规则3.5：清晰标明期限的终点；必要时使用更明确的词语或补充说明。"
+  },
+  {
+    "原始英文句子": "No: The rest of the existing documents such as brochures, catalogues, training materials, service manuals, owner's manuals and specifications are further important resources. Yes: The rest of the existing documents are further important resources. They are brochures, catalogues, training materials, service manuals, owner's manuals and specifications.",
+    "错误翻译": "错误： 现存文档的其余部分，诸如小册子、目录、培训材料、服务手册、用户手册和规格说明，是更多的重要资源。 正确： 现存文档的其余部分是更多的重要资源。它们是小册子、目录、培训材料、服务手册、用户手册和规格说明。",
+    "错误原因": "the rest of existing documents为其余文档集合，不是文档内部其余部分；改文保例子要说明的拆句。",
+    "正确翻译": "错误：其余现有文档，例如小册子、目录、培训材料、服务手册、用户手册和规格说明，也是重要资源。 正确：其余现有文档也是重要资源。这些文档包括小册子、目录、培训材料、服务手册、用户手册和规格说明。"
+  },
+  {
+    "原始英文句子": "these communication difficulties can further increase",
+    "错误翻译": "这些交流困难会进一步增加",
+    "错误原因": "can further increase为可能增加，坏译会增加写成确定趋势。",
+    "正确翻译": "这些困难可能进一步增加"
+  },
+  {
+    "原始英文句子": "individual semantic roles",
+    "错误翻译": "个性化的语义角色",
+    "错误原因": "individual为各个语义角色，不是为人定制的个性化。",
+    "正确翻译": "各个语义角色"
+  },
+  {
+    "原始英文句子": "Researchers are free to define their own sets of semantic roles, but explicit information on how they can be mapped to the reference set will make resources more interoperable.",
+    "错误翻译": "研究员可自行界定语义角色集，如何能将明确信息映射至参考集，将有助于提高资源之间的互操作性，",
+    "错误原因": "映射对象为自定义角色集，explicit information为如何映射的说明；坏译把明确信息本身映射。",
+    "正确翻译": "研究人员可自行定义语义角色集；明确说明这些角色集如何映射到参考集，有助于提高资源之间的互操作性。"
+  },
+  {
+    "原始英文句子": "The thematic role associated with the Noun Phrase expressing the location in a sentence with a verb of location [perhaps in a Prepositional Phrase (PP)];",
+    "错误翻译": "在一个含有位置动词的句子（或介词短语）中，与表达位置的名词短语相关的题元角色。",
+    "错误原因": "PP可容纳表示处所的NP，不与整句并列为另一容器。",
+    "正确翻译": "在含有处所动词的句子中，与表示处所的名词短语相关的题元角色；该名词短语也可能位于介词短语中。"
+  },
+  {
+    "原始英文句子": "defines a Frame File with one or more framesets",
+    "错误翻译": "用一个或多个框架集（也称为“角色集”）界定了一个框架文件",
+    "错误原因": "with framesets是文件含框架集，用框架集界定文件未明确模型包含关系，标准模型说明有改正价值。",
+    "正确翻译": "定义一个框架文件，其中包含一个或多个框架集（也称“角色集”）"
+  },
+  {
+    "原始英文句子": "A predicative expression in natural language, in the sense in which it is understood in a given utterance, is viewed as denoting a certain type of eventuality, and its occurrence in the utterance as denoting an instance (or ‘token’) of that type of eventuality.",
+    "错误翻译": "自然语言中的谓词表达，从某种意义上讲，是在给定话段上指称某种事态类型，谓词表达在话段中的出现，是表示事态类型的实例。",
+    "错误原因": "in the sense在此指该谓词表达的具体义项，不是从某种意义上讲这一泛化话语标记。",
+    "正确翻译": "自然语言中的谓词表达，按其在特定话段中的含义，被视为指称某种事态类型；该表达在话段中的一次出现，则表示该事态类型的一个实例。"
+  },
+  {
+    "原始英文句子": "annotators disagree as to whether entities that are not affected in their physical integrity but undergo termination of their functionality as a result of the event should be labelled Patient.",
+    "错误翻译": "例如，标注者之间常对于那些物理完整性未受影响，但经历了事件终结功能的结果实体是否宜标记为“受事”存在分歧。",
+    "错误原因": "功能因事件终止被误组为事件终结功能，结果又附成结果实体，混淆受事与Result语义角色。",
+    "正确翻译": "例如，对于物理完整性未受损、但其功能因事件而终止的实体，是否宜将其标注为“受事”，标注者之间常存在分歧。"
+  },
+  {
+    "原始英文句子": "Other meta-roles immediately below Participant include Place and Time.",
+    "错误翻译": "紧随“参与者”之下的其他论元角色包括“地点”和“时间”。",
+    "错误原因": "meta-role为元角色这一层级标签，不能泛化为普通论元角色。",
+    "正确翻译": "直接位于“参与者”之下的其他元角色包括“地点”和“时间”。"
+  },
+  {
+    "原始英文句子": "Participant in an eventuality that is advantaged or disadvantaged by the eventuality, and that exists independently of the event.",
+    "错误翻译": "事件的参与者，因该事态而受到有利或不利的影响；该参与者独立于事件存在。",
+    "错误原因": "首个eventuality涵盖状态等，不应缩成event事件；后半本来event仍保事件，避免机械全同。",
+    "正确翻译": "事态中的参与者，因该事态而获益或受损，且独立于事件而存在。"
+  },
+  {
+    "原始英文句子": "Participant in an event that is manipulated by an agent, and with which an intentional act is performed; it exists independently of the event.",
+    "错误翻译": "事件中的参与者，由施事操控，且施事对执行有意识的行为；该参与者独立于事件存在。",
+    "错误原因": "with which表施事借该参与者完成行为，坏译残缺且关键工具关系缺失；不是只修随机残字。",
+    "正确翻译": "事件中的参与者，由施事操控，施事借助它执行有意的行动；该参与者独立于事件而存在。"
+  },
+  {
+    "原始英文句子": "Procedure for performing an action in terms of component steps, or a methodology by which an intentional act is performed by an agent. A means does not necessarily exist independently of the event.",
+    "错误翻译": "描述执行某一行动的具体步骤或方法论，即施事实施有意行为的过程。手段不一定独立于事件而存在。",
+    "错误原因": "procedure为程序非描述，or列备选程序或方法而非即这一同义等同，改变手段定义。",
+    "正确翻译": "按组成步骤执行行动的程序，或施事实施有意行动所采用的方法。手段不一定独立于事件而存在。"
+  },
+  {
+    "原始英文句子": "however, this is not part of the conceptual inventory, but follows on from the definitions of these roles",
+    "错误翻译": "但这不属于概念清单的一部分，而是基于这些角色衍生出来的定义。",
+    "错误原因": "层级由角色定义推得，不是角色推生定义，坏译反转推导方向。",
+    "正确翻译": "但这种层级组织不属于概念清单本身，而是由这些角色的定义推导出来的。"
+  },
+  {
+    "原始英文句子": "authorization",
+    "错误翻译": "资质认证",
+    "错误原因": "authorization授予执业服务权，与qualification教育培训经历资质不同；资质认证会混淆此文件概念。",
+    "正确翻译": "授权"
+  },
+  {
+    "原始英文句子": "unique process",
+    "错误翻译": "特定过程",
+    "错误原因": "project定义unique强调过程独特非重复性，特定仅指某个，未表达该定义属性。",
+    "正确翻译": "独特过程"
+  },
+  {
+    "原始英文句子": "distant audience",
+    "错误翻译": "远程听众",
+    "错误原因": "同文audience包含listeners与spectators且涉及手语视频，听众缩去视觉受众。",
+    "正确翻译": "远程受众"
+  },
+  {
+    "原始英文句子": "Each member body interested in a subject for which a technical committee has been established has the right to be represented on that committee.",
+    "错误翻译": "对某技术委员会设立的主题感兴趣的每个成员团体，均有权在该委员会中派代表。",
+    "错误原因": "主题已有相应委员会，不是主题由委员会创设，坏译倒置关系。",
+    "正确翻译": "凡对已设立技术委员会的某一工作领域感兴趣的成员机构，均有权派代表参加该委员会的工作。"
+  },
+  {
+    "原始英文句子": "entire revision of the content",
+    "错误翻译": "完整重写全部内容",
+    "错误原因": "revision全面修订不必逐字重写，完整重写全部内容无据增加彻底重写程度。",
+    "正确翻译": "对原标准内容进行全面修订"
+  },
+  {
+    "原始英文句子": "proprietary large-scale language resource",
+    "错误翻译": "商用大型语言资源",
+    "错误原因": "proprietary为专有控制，并不必然商业用途，商用误换维度。",
+    "正确翻译": "专有大型语言资源"
+  },
+  {
+    "原始英文句子": "The set of grammatical features at the LexicalEntry level, with the possible addition of other features, can be used to facilitate the building of a lexicon for a morphological analyzer.",
+    "错误翻译": "词条层级设置语法特征，便于形态分析器构建词典。",
+    "错误原因": "形态分析器为词典的用途而非构建者；坏译还丢可增补其他特征及can的选择性。",
+    "正确翻译": "可以利用词条层级的语法特征集合，并根据需要补充其他特征，以辅助构建供形态分析器使用的词典。"
+  },
+  {
+    "原始英文句子": "variant",
+    "错误翻译": "屈折形式",
+    "错误原因": "variant为变体而非限定屈折形式，同表与inflection需保区分。",
+    "正确翻译": "变体"
+  },
+  {
+    "原始英文句子": "Orthographic representations shall be implemented in LBX by means of elements corresponding to OrthographicRepresentation subclasses that are introduced in ISO 24613-2 (machine-readable dictionary (MRD) model), or possible new OrthographicRepresentation subclasses derived through the principles for LMF extensions described in ISO 24613-1 (core model).",
+    "错误翻译": "在LBX中，应通过与ISO 24613-2〔机器可读词典（MRD）模型〕所引入的OrthographicRepresentation子类相对应的元素，或者通过按照ISO 24613-1（核心模型）所述LMF扩展原则派生的其他可能的新OrthographicRepresentation子类，实现正字法表征。",
+    "错误原因": "两分支都应通过对应XML元素实现，坏译第二分支直接通过新子类而弱化元素层，数据模型语境有改正价值。",
+    "正确翻译": "在LBX中，正字法表征应通过与下列子类相对应的元素实现：ISO 24613-2（MRD模型）引入的OrthographicRepresentation子类，或依据ISO 24613-1（核心模型）所述LMF扩展原则派生的其他新子类。"
+  },
+  {
+    "原始英文句子": "At the same time, this example shows one way of encoding a tagset, i.e. an established inventory of values of (in the case at hand) morphosyntactic categories.",
+    "错误翻译": "同时，该示例展示了一种编码标签集的方法，即建立一个（在本例中为）形态句法类别值的清单。",
+    "错误原因": "i.e.定义标签集这个名词，坏译变成编码方法即建立清单的操作，established既定属性也遗漏。",
+    "正确翻译": "同时，该示例展示了标签集的一种编码方法。这里的标签集是指一套既定的类别取值清单；本例所涉及的是形态句法类别。"
+  },
+  {
+    "原始英文句子": "Instances of either Etymon or Cognate can be assigned a language which is different from the language of the lexicon as a whole (this is specified in the LexiconInformation class as described in ISO 24613-1).",
+    "错误翻译": "同源词（Cognate）和词源词（Etymon）的实例可能是一种不同于词典整体语言的语言（ISO 24613-1所述LexiconInformation类对此作了规定）。",
+    "错误原因": "实例可指定语言属性，不是实例本身可能是一种语言，坏译混淆对象与属性。",
+    "正确翻译": "可为 Etymon 或 Cognate 的实例指定一种不同于整个词库语言的语言；词库整体的语言信息由 ISO 24613-1 所述的 LexiconInformation 类规定。"
+  },
+  {
+    "原始英文句子": "place assimilation",
+    "错误翻译": "同化",
+    "错误原因": "place assimilation为发音部位同化，单说同化失去特定类型。",
+    "正确翻译": "发音部位同化"
+  },
+  {
+    "原始英文句子": "The use of CrossREF requires that the target objects representing the given lexical content be given id attributes.",
+    "错误翻译": "使用交叉引用（CrossREF要求）时，表示给定词汇内容的目标对象具有id属性。",
+    "错误原因": "requires要求赋予目标对象id属性，坏译把要求夹进括注使主句只有具有属性的陈述。",
+    "正确翻译": "使用交叉引用（CrossREF）时，要求为表示给定词汇内容的目标对象赋予 id 属性。"
+  },
+  {
+    "原始英文句子": "The CrossREF individuals in question are typed as attestations using the attribute type",
+    "错误翻译": "相关CrossREF实例的type属性取值为attestations",
+    "错误原因": "typed as attestations为叙述分类，不直接规定复数代码值；原图证据有attestation单数，good避无据代码断言。",
+    "正确翻译": "相关 CrossREF 实例通过 type 属性标明为文献见证"
+  },
+  {
+    "原始英文句子": "Any trade name used in this document is information given for the convenience of users and does not constitute an endorsement.",
+    "错误翻译": "本文件中使用的任何商标名称，仅用于方便用户使用相关信息，不构成ISO对相关产品的认可。",
+    "错误原因": "trade name不只商标名称，商品名称更能保持标准免责声明所涉商业名称范围；无需将认可主体额外添加当新错。",
+    "正确翻译": "本文件提及的任何商品名称仅用于方便使用者，不构成 ISO 的认可。"
+  },
+  {
+    "原始英文句子": "Instances of either Etymon or Cognate can be assigned a language",
+    "错误翻译": "Etymon 或 Cognate 的实例可指定为一种语言。",
+    "错误原因": "为实例指定语言属性不能写成实例指定为语言，改变对象类别。",
+    "正确翻译": "可为 Etymon 或 Cognate 的实例指定一种语言"
+  },
+  {
+    "原始英文句子": "When describing etymologies, there are cases in which it is necessary to deal with instances of LexicalEntry (and hence also by the subclass relation instances of Etymon and Cognate) which are roots, and in particular reconstructed roots.",
+    "错误翻译": "在描述词源时，存在需要处 理 LexicalEntry 实例的情况。相关实 还包括通过子类关系形成的 Etymon 和 Cognate 实 。重构词根属于特别情况。",
+    "错误原因": "which are roots限定LexicalEntry实例本身为词根且含重构词根，坏译拆散为相关实例及特别情况，关键模型对象条件丢失。",
+    "正确翻译": "在描述词源时，有时需要处理本身属于词根的 LexicalEntry 实例，包括因子类关系而属于 LexicalEntry 的 Etymon 和 Cognate 实例，尤其是重构词根。"
+  },
+  {
+    "原始英文句子": "and/or",
+    "错误翻译": "以及",
+    "错误原因": "and/or允许任一或共同依据，只有以及要求二者同时。",
+    "正确翻译": "和／或"
+  },
+  {
+    "原始英文句子": "Its contents are items from languages related to that of a given LexicalEntry",
+    "错误翻译": "相关内容由来自不同语言的词项组成。相关词项与 给定LexicalEntry具有概念对应关系。",
+    "错误原因": "related修饰词项来源语言的亲缘关系，不是词项与词条概念对应，坏译换了关系层。",
+    "正确翻译": "它所包含的词项来自与给定 LexicalEntry 所用语言存在亲缘关系的其他语言"
+  },
+  {
+    "原始英文句子": "(and therefore by the subclass relation of any given Etymon or Cognate)",
+    "错误翻译": "任意给定Etymon或Cognate实例的子类实 例",
+    "错误原因": "Etymon/Cognate作为LexicalEntry子类受前文包含关系覆盖，不能变成某个实例的子类实例，需真实LexicalEntry先行上下文。",
+    "正确翻译": "因此也包括作为其子类的 Etymon 或 Cognate 的实例"
+  },
+  {
+    "原始英文句子": "to the immediate predecessor of the word in its current manifestation",
+    "错误翻译": "直到当前词形",
+    "错误原因": "immediate predecessor终点为当前形式的直接前身，坏译直到当前词形漏前身并改终点。",
+    "正确翻译": "直到当前形式的直接前身"
+  },
+  {
+    "原始英文句子": "The suffix -ārus is only attested as a primary derivative in avārus 'greedy' to aveo",
+    "错误翻译": "后缀-ārus 只在 avārus“贪婪的”至aveo 中得到一个初级派生形式的证实",
+    "错误原因": "to aveo表达以aveo为基础的派生关系，在至句式不仅不顺且失去派生依据。",
+    "正确翻译": "后缀 -ārus 作为直接派生形式仅见于由 aveo 派生的 avārus（“贪婪的”）一词。"
+  },
+  {
+    "原始英文句子": "meronymy",
+    "错误翻译": "部分学",
+    "错误原因": "meronymy是部分整体关系，部分学误造学科。",
+    "正确翻译": "部分与整体关系"
+  },
+  {
+    "原始英文句子": "the various descriptors used, either in the form of formal features and feature values, or directly as objects in a representation that is expressed, for instance, in XML.",
+    "错误翻译": "这些描述项既可表达为形式化特征及特征值，也可直接作为表示中的对象，例如XML对象。",
+    "错误原因": "用XML表达的是表示结构，不是定义出一类XML对象，坏译把修饰语附到对象。",
+    "正确翻译": "这些描述项既可表达为形式化特征及特征值，也可直接作为对象出现在以XML等形式表达的表示结构中。"
+  },
+  {
+    "原始英文句子": "can be a subset of {/masculine/, /feminine/ and /neuter/}",
+    "错误翻译": "是{/masculine/、/feminine/、/neuter/}的一个子集",
+    "错误原因": "can be a subset只述一种可用取值约束，坏译是写为确定集合关系。",
+    "正确翻译": "可为{/masculine/、/feminine/、/neuter/}的一个子集"
+  },
+  {
+    "原始英文句子": "This document does not apply to structural ambiguities or the structure and composition of morphosyntactic tagsets.",
+    "错误翻译": "本文件不适用于结构歧义，也不规定形态句法标记集的结构与组成。",
+    "错误原因": "标准范围does not apply to两对象均排除适用，不规定只否认提出规则而未同样明示排除；按标准范围习惯有复用价值，不泛称日常句义必错。",
+    "正确翻译": "本文件不适用于结构歧义，也不适用于形态句法标记集的结构与组成。"
+  },
+  {
+    "原始英文句子": "That should not be seen as \"wrong\" but rather \"pragmatic\" or \"shorthand\"",
+    "错误翻译": "这种做法宜视为实用的简写",
+    "错误原因": "原文明确不视为错误并列实用或简写两解释，坏译仅实用的简写把否定评价及备选关系压去。",
+    "正确翻译": "这种做法不宜视为“错误”，而宜视为实用做法或简写方式"
+  },
+  {
+    "原始英文句子": "In cases where the agglutinated form is not a simple concatenation of the free-standing forms corresponding to the individual word-forms, the tokenizer will make an arbitrary decision concerning the segmentation of the surface character sequence.",
+    "错误翻译": "如果黏合形式不是各词形独立形式的简单拼接，切分器就必须为表层字符序列选择切分位置。",
+    "错误原因": "will为结果描述非必须要求，arbitrary切分任意性又漏译，改变算法解释。",
+    "正确翻译": "如果黏合形式不是各词形独立形式的简单拼接，切分器对表层字符序列切分位置的选择就会带有任意性。"
+  },
+  {
+    "原始英文句子": "preference should be given to closed data categories",
+    "错误翻译": "则应优先选用封闭型而非开放型数据类目",
+    "错误原因": "should推荐封闭数据类目，不能与下文shall的要求等同。",
+    "正确翻译": "则宜优先选用封闭型数据类目，而非开放型数据类目"
+  },
+  {
+    "原始英文句子": "Thus, the number of subclasses of any class may require a limitation for ease of handling by the intended users of the classification system.",
+    "错误翻译": "任一类的子类数量可加以限制以确保预期用户的可操作性。",
+    "错误原因": "may require为可能需要限制，不能只以可限制表达许可或可行性。",
+    "正确翻译": "因此，为便于分类系统的预期用户使用，可能需要限制任一类的子类数量。"
+  },
+  {
+    "原始英文句子": "the language of the <Lemma> element or its inflected forms;",
+    "错误翻译": "词条词元语言或其屈折形式",
+    "错误原因": "原文描述Lemma元素或其屈折形式所属的语言；中文将语言与屈折形式并列，且漏去元素的身份。",
+    "正确翻译": "<Lemma> 元素或其屈折形式所使用的语言。"
+  },
+  {
+    "原始英文句子": "meta-lexicographic relations in a dictionary entry",
+    "错误翻译": "词典条目元词汇关系",
+    "错误原因": "meta-lexicographic指词典编纂层面，不是元词汇，词典条目关系标题混淆层面。",
+    "正确翻译": "词条内部词典编纂层面关系"
+  },
+  {
+    "原始英文句子": "Technical Barriers to Trade",
+    "错误翻译": "技术壁垒贸易",
+    "错误原因": "Technical Barriers to Trade中心词为壁垒，技术壁垒贸易错组中心，标准主题名称应保持技术性贸易壁垒。",
+    "正确翻译": "技术性贸易壁垒"
+  },
+  {
+    "原始英文句子": "For effectively supporting this use case, it may be useful to extend the annotation scheme with application-specific concepts.",
+    "错误翻译": "为了有效地支持该用例，标注方案需要扩展出专用于应用的概念。",
+    "错误原因": "may be useful只表可能有助，坏译需要扩展改为必要措施。",
+    "正确翻译": "为了有效地支持该用例，为标注方案增加特定应用的概念可能有所帮助。"
+  },
+  {
+    "原始英文句子": "The non-final utterances in a turn have a turn-keeping function when the speaker signals (for example by using a rising intonation or a filled pause) that he/she wants to continue.",
+    "错误翻译": "当讲话者发出信号（例如通过使用升调或停顿）表示他/她想继续时，话轮中的非终结性话语具有话轮保持功能。",
+    "错误原因": "filled pause为填充性停顿，不包括所有停顿，坏译抹去功能信号类型。",
+    "正确翻译": "当讲话者发出信号（例如通过使用升调或填充性停顿）表示他/她想继续时，话轮中的非终结性话语具有话轮保持功能。"
+  },
+  {
+    "原始英文句子": "Communicative functions for which there is a less specific function in the annotation scheme may\n\nbe left out, since the remaining set of functions is still semantically connected.",
+    "错误翻译": "—标注方案中不太具体的交际功能可以省略，因为其余的功能集在语义上仍然是连通的。",
+    "错误原因": "可省略的是有上位概括功能替代的较具体功能，不是省略上位不太具体功能，方向反转。",
+    "正确翻译": "—对于标注方案中存在更概括功能可替代的交际功能，可以省略该较具体的功能，因为保留下来的功能集合仍具有语义连通性。"
+  },
+  {
+    "原始英文句子": "the attribute @feedbackDependence, which is obligatory for dialogue acts with a dimension-specific\n\nfunction in the dimensions Auto-Feedback, Allo-Feedback, Own Communication Management, and \nPartner Communication Management, and which is not applicable in other cases; its values refer to \none or more dialogue acts or reference segments;",
+    "错误翻译": "—属性@feedbackDependence，当交际功能属于自体反馈、异体反馈、自我交际管理和伙伴交际管理维度时必需，在其他情况下不适用。其值指向一个或多个对话行为或参考段。",
+    "错误原因": "obligatory只对四维度中特定功能行为，漏dimension-specific使要求扩大到通用功能。",
+    "正确翻译": "—属性@feedbackDependence：对于在自体反馈、异体反馈、自我交际管理或伙伴交际管理维度中具有维度特定功能的对话行为，该属性为必备；其他情形不适用。其值指向一个或多个对话行为或参照段。"
+  },
+  {
+    "原始英文句子": "on Friday",
+    "错误翻译": "每周五",
+    "错误原因": "on Friday未明说每周重复，坏译添加周期性；与原例时间先后疑点无关。",
+    "正确翻译": "在星期五"
+  },
+  {
+    "原始英文句子": "distinctive semantic properties",
+    "错误翻译": "典型的语义属性",
+    "错误原因": "distinctive强调区分角色的属性，典型只是代表性，改变角色判别依据。",
+    "正确翻译": "区分性语义属性"
+  },
+  {
+    "原始英文句子": "In addition, if a text corpus resource consists of previously published texts and corresponding metadata are available, these texts and their parts can, if appropriate, also be referenced using customary conventions for indirect citation.",
+    "错误翻译": "此外，文本语料库资源由之前发布的文本组成，并且有相应的元数据可用，在合适的情形下，也会根据间接引用的典型惯例引用这些文本及其组件。",
+    "错误原因": "if限定语料库与元数据满足条件才可间接引用，坏译当所有语料库均已满足且会被引用。",
+    "正确翻译": "此外，如果文本语料库由先前出版的文本组成，且有相应元数据，那么在适当情况下，也可按间接引用的通常惯例引用这些文本及其组件。"
+  },
+  {
+    "原始英文句子": "some view on representations of the primary resource",
+    "错误翻译": "该主要的资源各表示形式中的某种呈现形式",
+    "错误原因": "view on representations是对表示的视图，坏译表示形式中的呈现形式层级绕回且未明确视图对象；标准定义表述有修复价值。",
+    "正确翻译": "对主资源表示形式的某种视图"
+  },
+  {
+    "原始英文句子": "ISO reference model for long-term data preservation",
+    "错误翻译": "长期数据保存ISO引用模型",
+    "错误原因": "reference model为参考模型，不是执行引用的模型。",
+    "正确翻译": "用于长期数据保存的ISO参考模型"
+  },
+  {
+    "原始英文句子": "There is no single procedure for handling the versioning of metadata.",
+    "错误翻译": "元数据版本管理并没有单独的程序。",
+    "错误原因": "no single procedure为无统一单一办法，不是没有独立程序；上下文多种库做法支持前义。",
+    "正确翻译": "元数据版本管理没有统一的处理程序。"
+  },
+  {
+    "原始英文句子": "Communicative functions for which there is a less specific function in the annotation scheme may\n\nbe left out, since the remaining set of functions is still semantically connected.",
+    "错误翻译": "——标注方案中不太具体的交际功能允许省略，因为其余的功能集在语义上仍然是连通的；",
+    "错误原因": "可省略的是已有更概括功能可替代的具体功能；中文却允许省略不太具体的功能，方向相反。",
+    "正确翻译": "—对于标注方案中存在更概括功能可替代的交际功能，可以省略该较具体的功能，因为保留下来的功能集合仍具有语义连通性。"
+  },
+  {
+    "原始英文句子": "Dialogue acts advancing the task or activity that motivates the dialogue (the ‘Task' dimension)",
+    "错误翻译": "推进任务的对话行为或激发对话的行为（任务维度）",
+    "错误原因": "that motivates dialogue修饰task or activity，坏译把激发对话行为与推进任务行为并列。",
+    "正确翻译": "推进促成该对话的任务或活动的对话行为（任务维度）"
+  },
+  {
+    "原始英文句子": "the attribute @feedbackDependence, which is obligatory for dialogue acts with a dimension-specific\n\nfunction in the dimensions Auto-Feedback, Allo-Feedback, Own Communication Management, and \nPartner Communication Management, and which is not applicable in other cases; its values refer to \none or more dialogue acts or reference segments;",
+    "错误翻译": "——属性@feedbackDependence，当交际功能属于自体反馈、异体反馈、自我交际管理和伙伴交际管理维度时必需，在其他情况下不适用。取值指向一个或多个对话行为或参照段。",
+    "错误原因": "必备条件不仅限定四个维度，还限定这些维度中的dimension-specific功能；中文遗漏后者，扩大了必备属性的适用范围。",
+    "正确翻译": "—属性@feedbackDependence：对于在自体反馈、异体反馈、自我交际管理或伙伴交际管理维度中具有维度特定功能的对话行为，该属性为必备；其他情形不适用。其值指向一个或多个对话行为或参照段。"
+  },
+  {
+    "原始英文句子": "I.e., the interpretation of a dialogue act structure is the interpretation of its communicative function, applied to the interpretations of its sender, its addressee, and its dimension. Annex A provides more information about the DiAML semantics; a full specification can be found in Reference [19].",
+    "错误翻译": "也就是说，对对话行为结构的解释就是对其交际功能的解释，适用于对其发送者、接收者及其维度的解释。附件A提供了有关DiAML语义的更多信息，完整的规范见参考文献[19]。",
+    "错误原因": "applied to在组合语义为解释函数对参数应用，不是一般适用范围，坏译丢计算构造关系。",
+    "正确翻译": "即：将交际功能的解释函数应用于发送者、接收者和维度的解释，即得到对话行为结构的解释。附录A提供了有关DiAML语义的更多信息；完整规范见参考文献[19]。"
+  },
+  {
+    "原始英文句子": "If the recognition of implicated functions is a focus of interest, then their annotation can be done post-hoc by checking whether the context allows the inference of these functions.",
+    "错误翻译": "当交际功能的识别本身构成研究重点时，可在后期进行附加标注，即通过判断语境是否支持对该隐含功能的推理来补充标注。",
+    "错误原因": "implicated functions限定隐含功能，坏译扩为全部交际功能识别。",
+    "正确翻译": "当隐含交际功能的识别构成研究重点时，可在后期进行附加标注，即通过判断语境是否支持对该隐含功能的推理来补充标注。"
+  },
+  {
+    "原始英文句子": "I.e., the interpretation of a dialogue act structure is the interpretation of its communicative function, applied to the interpretations of its sender, its addressee, and its dimension.",
+    "错误翻译": "也就是说，对对话行为结构的解释就是对其交际功能的解释，适用于对其发送者、接收者及其维度的解释。",
+    "错误原因": "解释函数应用到发送者等参数产生结构解释，不是交际功能解释适用这些对象；与537有包含关系需防泄漏。",
+    "正确翻译": "即：将交际功能的解释函数应用于发送者、接收者和维度的解释，即得到对话行为结构的解释。"
+  },
+  {
+    "原始英文句子": "ISO (the International Organization for Standardization) is a worldwide federation of national standards bodies (ISO member bodies). The work of preparing International Standards is normally carried out through ISO technical committees. Each member body interested in a subject for which a technical committee has been established has the right to be represented on that committee. International organizations, governmental and non-governmental, in liaison with ISO, also take part in the work. ISO collaborates closely with the International Electrotechnical Commission (IEC) on all matters of electrotechnical standardization.",
+    "错误翻译": "ISO（国际标准化组织）是由各国家标准团体（ISO 成员团体）组成的全球性联合会。制定国际标准的工作通常由 ISO 的各技术委员会完成。各成员团体若对某技术委员会已设立的项目感兴趣，均有权参加该委员会。与 ISO 保持联系的各国际组织（官方的或非官方的）也可参加有关工作。ISO 在电工技术标准化方面与国际电工委员会（IEC）保持密切合作。",
+    "错误原因": "委员会为主题设立而非设项目；governmental为政府间或政府组织性质非官方性。整段同域，其他措辞不逐一强判。",
+    "正确翻译": "ISO（国际标准化组织）是由各国标准团体（ISO成员团体）组成的全球性联合会。国际标准的制定工作通常由ISO技术委员会承担。对于已经设立技术委员会的某一主题，任何对此感兴趣的成员团体均有权派代表参加该委员会。与ISO保持联系的政府间和非政府国际组织也参与有关工作。ISO与国际电工委员会（IEC）在电工技术标准化的所有事项上密切合作。"
+  },
+  {
+    "原始英文句子": "Publication as an International Standard requires approval by at least 75 % of the member bodies casting a vote.",
+    "错误翻译": "作为国际标准出版，要求至少获得 75% 的成员团体投票赞成。",
+    "错误原因": "75%的分母为参与投票成员，不是所有成员，坏译省限定使通过门槛扩大。",
+    "正确翻译": "作为国际标准出版，须获得参与投票的成员团体中至少75%的赞成。"
+  },
+  {
+    "原始英文句子": "The data model for annotations thus comprises a directed graph referencing n-dimensional regions of primary data as well as other annotations, in which nodes are associated with feature structures providing the annotation content. LAF conformance requires that an annotation scheme shall be (or be rendered via the mapping) isomorphic to the LAF data model.",
+    "错误翻译": "因此，用于标注的数据模型包含一个有向图，该图指称源数据的 n 维区域以及标注中的其他标注，其中节点与提供标注内容的特征结构相关联。语言标注框架（LAF）一致性要求标注方案（或经映射后）应同构于语言标注框架数据模型。",
+    "错误原因": "其他标注与源区域并列引用，坏译无据加标注中的嵌套；同构括注改文更清楚但本轮不据此放大为必错。",
+    "正确翻译": "因此，标注的数据模型包含一个有向图，该图引用源数据的n维区域以及其他标注；图中节点关联提供标注内容的特征结构。LAF符合性要求标注方案本身与LAF数据模型同构，或能经映射成为与该模型同构的表示。"
+  },
+  {
+    "原始英文句子": "between the base units of the primary data representation.",
+    "错误翻译": "源数据表示的基本单位处。",
+    "错误原因": "between单位之间不等于单位处，锚定位置关系不同。",
+    "正确翻译": "源数据表示的基本单位之间。"
+  },
+  {
+    "原始英文句子": "can have participants",
+    "错误翻译": "具有参与者",
+    "错误原因": "can have是可有参与者，不是每个事态无条件具有参与者。",
+    "正确翻译": "可具有参与者"
+  },
+  {
+    "原始英文句子": "The LIRICS Partner role was seriously considered, however, given the possibility of plural Agents and plural Patients occurring in the same sentence, there was a concern Partner could be ambiguous. The LIRICS Pivot role was adopted for verbs of possession.",
+    "错误翻译": "语义角色标注框架样例一认真考量过“Partner”（伙伴）角色，然而鉴于同一个句子可能出现复数“Agent”（施事）和“Patient”（受事），该角色可能产生歧义。语义角色标注框架样例一中保留的角色“枢轴”（Pivot），用于表示领属类动词。",
+    "错误原因": "原文讨论从LIRICS选择Partner或Pivot，坏译将考虑主体改为来源框架并把采用写成保留，改变模型选择解释。",
+    "正确翻译": "在修订语义角色标注框架样例二时，曾认真考虑采用样例一中的“伙伴（Partner）”角色；但同一句中可能出现复数施事和复数受事，因此担心“伙伴”这一标签会产生歧义。样例二采用了样例一中的“枢轴（Pivot）”角色来处理领属类动词。"
+  },
+  {
+    "原始英文句子": "a set of distinctive semantic properties",
+    "错误翻译": "一组典型的语义属性",
+    "错误原因": "distinctive指能够区分角色的属性；“典型”只表达代表性，改变了属性的用途。",
+    "正确翻译": "一组区分性语义属性"
+  },
+  {
+    "原始英文句子": "linguistic accuracy",
+    "错误翻译": "语言措辞准确",
+    "错误原因": "linguistic accuracy包含语言层各方面，措辞缩为用词准确，不足覆盖语法等。",
+    "正确翻译": "语言准确"
+  },
+  {
+    "原始英文句子": "which they would otherwise be unable to access owing to a language $(3.1.1)$ barrier",
+    "错误翻译": "特别是面向因语言（3.1.1）障碍而原本无法获取该服务的群体。",
+    "错误原因": "限制服务可达性的关系被改成重点面向某群体，特别是无原文依据；保完整原上下文解释指代。",
+    "正确翻译": "而他们原本因语言（3.1.1）障碍无法获得的服务"
+  },
+  {
+    "原始英文句子": "virtual environment used in simultaneous interpreting (3.4.12) for managing the processing of audio and video signals (3.5.2.4) during the transmission of information from speakers (3.4.5) or signers (3.4.6) to distant interpreters (3.1.13) and the interpreters' renditions to a distant audience (3.4.36)",
+    "错误翻译": "在信息从发言人（3.4.5）或手语者（3.4.6）传送至远程口译员（3.1.13）、以及口译员的口译输出传送至远程听众（3.4.36）的过程中，用于管理同声传译（3.4.12）音视频信号（3.5.2.4）处理的虚拟环境。",
+    "错误原因": "该定义涉及手语者和音视频传送，audience包含视觉受众；“远程听众”将其缩窄为听觉接收者。",
+    "正确翻译": "用于同声传译（3.4.12）的虚拟环境，管理信息传送过程中音频和视频信号（3.5.2.4）的处理：信息从发言人（3.4.5）或手语者（3.4.6）传送至远程口译员（3.1.13），口译员的译出内容再传送至远程受众（3.4.36）。"
+  },
+  {
+    "原始英文句子": "retro-digitized",
+    "错误翻译": "重新数字化",
+    "错误原因": "retro-digitized与born-digital对立，指既有非数字文献回溯数字化，不是再次数字化。",
+    "正确翻译": "回溯数字化"
+  },
+  {
+    "原始英文句子": "In this vein",
+    "错误翻译": "因此",
+    "错误原因": "In this vein承接相同思路，不直接断言因果，因此无据加强逻辑。",
+    "正确翻译": "沿着这一思路"
+  },
+  {
+    "原始英文句子": "defines link structures for relating participants to eventualities in a certain role.",
+    "错误翻译": "并定义了将参与者与特定角色中的事件相关联的链接结构。",
+    "错误原因": "语义角色属于参与者在事件中所承担的角色，不是“特定角色中的事件”。",
+    "正确翻译": "并定义了将参与者以特定语义角色与事件相关联的链接结构。"
+  },
+  {
+    "原始英文句子": "Geographical usage",
+    "错误翻译": "地理用途",
+    "错误原因": "usage在此是术语使用的地域范围，不是地域的用途。",
+    "正确翻译": "使用地域"
+  },
+  {
+    "原始英文句子": "be consistently learnable by humans and machines,",
+    "错误翻译": "供人类和机器持续学习；",
+    "错误原因": "consistently限定习得方式的一致性，不是学习持续时间；“持续学习”改变了评价条件。",
+    "正确翻译": "能由人和机器以一致的方式习得；"
+  },
+  {
+    "原始英文句子": "the addressee is able to provide this information",
+    "错误翻译": "发送者能够提供这一信息",
+    "错误原因": "能够提供被询问信息的人是接收者addressee，不是提问的发送者。",
+    "正确翻译": "接收者能够提供这一信息"
+  }
+]

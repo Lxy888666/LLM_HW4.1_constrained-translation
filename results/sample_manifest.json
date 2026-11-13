@@ -1,0 +1,464 @@
+{
+  "split_counts": {
+    "eligible_unique": 341,
+    "previously_examined_excluded": 30,
+    "remaining": 311,
+    "remaining_by_type": {
+      "术语与指代": 72,
+      "数字与单位": 2,
+      "否定范围": 23,
+      "条件与顺序": 17,
+      "情态与规范强度": 34,
+      "其他语义问题": 163
+    },
+    "development_by_type": {
+      "术语与指代": 5,
+      "否定范围": 5,
+      "条件与顺序": 5,
+      "情态与规范强度": 5,
+      "其他语义问题": 9
+    },
+    "test_by_type": {
+      "术语与指代": 10,
+      "数字与单位": 2,
+      "否定范围": 9,
+      "条件与顺序": 9,
+      "情态与规范强度": 9,
+      "其他语义问题": 18
+    }
+  },
+  "development": [
+    {
+      "id": "D001",
+      "issue_type": "术语与指代",
+      "source": "language whose rules are explicitly established before its use"
+    },
+    {
+      "id": "D002",
+      "issue_type": "术语与指代",
+      "source": "either a definition or a context shall be present"
+    },
+    {
+      "id": "D003",
+      "issue_type": "术语与指代",
+      "source": "authorized legal translator legal translator (3.3.24) who has been granted authorization (3.2.7) by a court or government body"
+    },
+    {
+      "id": "D004",
+      "issue_type": "术语与指代",
+      "source": "Still, this document does not elaborate on the metadata aspects from LMF, since the LBX schema is by essence much richer for the representation of all the aspects related to the creation, content, versioning and database implementation of lexical content at large. Occasionally, slightly equivalent constructs to explicit requirements from the LMF standard are mentioned."
+    },
+    {
+      "id": "D005",
+      "issue_type": "术语与指代",
+      "source": "Terminology extraction, which goes beyond mere extraction of terms, is undertaken by a range of specialists including language professionals in general, and terminologists in particular, as well as ontology engineers, and both information and data scientists."
+    },
+    {
+      "id": "D006",
+      "issue_type": "否定范围",
+      "source": "Failure to identify mass nouns and occasional documented plurals"
+    },
+    {
+      "id": "D007",
+      "issue_type": "否定范围",
+      "source": "— “It is no less important to measure the actual size”; showing the two are equivalent."
+    },
+    {
+      "id": "D008",
+      "issue_type": "否定范围",
+      "source": "and compliant with the W3C XML schema."
+    },
+    {
+      "id": "D009",
+      "issue_type": "否定范围",
+      "source": "Do not use long words or big words."
+    },
+    {
+      "id": "D010",
+      "issue_type": "否定范围",
+      "source": "g) \"Of which\" columns showing parts of an aggregated column without adding up to the total of the aggregated column."
+    },
+    {
+      "id": "D011",
+      "issue_type": "条件与顺序",
+      "source": "In addition, if a text corpus resource consists of previously published texts and corresponding metadata are available, these texts and their parts can, if appropriate, also be referenced using customary conventions for indirect citation."
+    },
+    {
+      "id": "D012",
+      "issue_type": "条件与顺序",
+      "source": "Where in (7a) having the flu is the cause of not coming in (‘semantic cause’),"
+    },
+    {
+      "id": "D013",
+      "issue_type": "条件与顺序",
+      "source": "Effective creation, encoding, processing and management of language resources is facilitated by a single high-level data model that supports analysis and design of both annotation schemes and representation formats."
+    },
+    {
+      "id": "D014",
+      "issue_type": "条件与顺序",
+      "source": "Action discussion functions have in common that their semantic content describes an action, possibly with specifications of manner or frequency."
+    },
+    {
+      "id": "D015",
+      "issue_type": "条件与顺序",
+      "source": "Note to entry: Stand-off annotations refer to specific locations in the primary data, by addressing character offsets, elements, etc. to which the annotation applies. Multiple stand-off annotation documents for a given type of annotation can refer to the same primary document (e.g. two different part of speech annotations for a given text)."
+    },
+    {
+      "id": "D016",
+      "issue_type": "情态与规范强度",
+      "source": "it is also desirable to extract not only terms, but also definitions"
+    },
+    {
+      "id": "D017",
+      "issue_type": "情态与规范强度",
+      "source": "A partitive relation should be depicted using a UML aggregation symbol."
+    },
+    {
+      "id": "D018",
+      "issue_type": "情态与规范强度",
+      "source": "To make a precaution message effective, you should show the consequences of the potential risks to the user."
+    },
+    {
+      "id": "D019",
+      "issue_type": "情态与规范强度",
+      "source": "Possible values for type and subtype can vary according to the theoretical approach adopted by the compiler of a resource and/or the linguistic or editorial focus of the resource."
+    },
+    {
+      "id": "D020",
+      "issue_type": "情态与规范强度",
+      "source": "Specific parts of an RDF graph can be addressed using one of the proposed RDF query languages, but no definitive specification is currently available."
+    },
+    {
+      "id": "D021",
+      "issue_type": "其他语义问题",
+      "source": "\"then we're going to g-- ... turn straight back\""
+    },
+    {
+      "id": "D022",
+      "issue_type": "其他语义问题",
+      "source": "Note 1 to entry: A person usually has more than one language register in their linguistic repertoire and can vary their use of language register according to their perception of what is appropriate for different purposes or domains (3.2.1)."
+    },
+    {
+      "id": "D023",
+      "issue_type": "其他语义问题",
+      "source": "It is likely that certain modifications will be needed to fit this scheme appropriately to the new application area"
+    },
+    {
+      "id": "D024",
+      "issue_type": "其他语义问题",
+      "source": "The option to add parameters to the URI in a query in order to transfer extra information to the remote web server."
+    },
+    {
+      "id": "D025",
+      "issue_type": "其他语义问题",
+      "source": "The term ‘Own Communication Management' has been introduced[6],[7] for describing the communicative activity of a speaker relating to the management, planning, and execution of his/her own speech production. This activity is indispensable in the description of spoken dialogue, and is illustrated by the occurrence of speech-editing acts such as (self-)repairs and restarts."
+    },
+    {
+      "id": "D026",
+      "issue_type": "其他语义问题",
+      "source": "as the dialogue segments that these acts provide or elicit information about."
+    },
+    {
+      "id": "D027",
+      "issue_type": "其他语义问题",
+      "source": "Definition Communicative function of a dialogue act performed by the sender, S, in order to obtain the information, described by the semantic content, which S assumes that the addressee, A, possesses; S puts pressure on A to provide this information."
+    },
+    {
+      "id": "D028",
+      "issue_type": "其他语义问题",
+      "source": "Tone is a set of styles that creates a specific atmosphere in a document."
+    },
+    {
+      "id": "D029",
+      "issue_type": "其他语义问题",
+      "source": "the language of the <Lemma> element or its inflected forms;"
+    }
+  ],
+  "test": [
+    {
+      "id": "H001",
+      "issue_type": "术语与指代",
+      "source": "Dialogue acts advancing the task or activity that motivates the dialogue (the ‘Task' dimension)"
+    },
+    {
+      "id": "H002",
+      "issue_type": "术语与指代",
+      "source": "class of dialogue acts (3.6) that are concerned with a particular aspect of communication, corresponding to a particular category of semantic content (3.18) EXAMPLE (1) Dialogue acts advancing the task or activity that motivates the dialogue (the ‘Task' dimension); (2) dialogue acts providing and eliciting feedback (the Auto- and Allo-Feedback dimensions); (3) dialogue acts for allocating the speaker role (the Turn Management dimension)."
+    },
+    {
+      "id": "H003",
+      "issue_type": "术语与指代",
+      "source": "The example in Figure A.1 describes the inheritance of a lexical entry from a parent language, in this case the adverb semper in Sardinian which comes from the Latin word semper."
+    },
+    {
+      "id": "H004",
+      "issue_type": "术语与指代",
+      "source": "however, this is not part of the conceptual inventory, but follows on from the definitions of these roles"
+    },
+    {
+      "id": "H005",
+      "issue_type": "术语与指代",
+      "source": "Different senses of a verb are distinguished by differences in the semantic roles of their arguments; this is because they denote eventualities in which one or more of the participants are involved in a different way. They can also have different entailments;"
+    },
+    {
+      "id": "H006",
+      "issue_type": "术语与指代",
+      "source": "Category of dialogue acts whose performance contributes to pursuing the task or activity that motivates the dialogue."
+    },
+    {
+      "id": "H007",
+      "issue_type": "术语与指代",
+      "source": "Definition Category of dialogue acts by which the sender discusses or reports on his processing of previous dialogue contributions."
+    },
+    {
+      "id": "H008",
+      "issue_type": "术语与指代",
+      "source": "application that implements a service supporting the use of urlified (3.4.3) PIDs (3.2.4) to access resources or other PID-related information, or both"
+    },
+    {
+      "id": "H009",
+      "issue_type": "术语与指代",
+      "source": "if that concept is not also represented by an /abbreviated form/"
+    },
+    {
+      "id": "H010",
+      "issue_type": "术语与指代",
+      "source": "The CognateSet is a construct related to onomasiology."
+    },
+    {
+      "id": "H011",
+      "issue_type": "数字与单位",
+      "source": "The main task of technical committees is to prepare International Standards. Draft International Standards adopted by the technical committees are circulated to the member bodies for voting. Publication as an International Standard requires approval by at least 75 % of the member bodies casting a vote."
+    },
+    {
+      "id": "H012",
+      "issue_type": "数字与单位",
+      "source": "Publication as an International Standard requires approval by at least 75 % of the member bodies casting a vote."
+    },
+    {
+      "id": "H013",
+      "issue_type": "否定范围",
+      "source": "Concepts are not necessarily bound to particular natural languages. They are, however, influenced by the social or cultural background which often leads to different categorizations."
+    },
+    {
+      "id": "H014",
+      "issue_type": "否定范围",
+      "source": "Overlapping regions should be treated as composed of finer-grained sub-components."
+    },
+    {
+      "id": "H015",
+      "issue_type": "否定范围",
+      "source": "Terminology extraction requires a deep understanding of terminology theory and terminology work."
+    },
+    {
+      "id": "H016",
+      "issue_type": "否定范围",
+      "source": "He had to button e1 his sleeve (by holding e2 the cuff in his mouth [means e1])"
+    },
+    {
+      "id": "H017",
+      "issue_type": "否定范围",
+      "source": "(One man [agent e1]) wrapped e1 (several diamonds [theme e1]) (in the knot of his tie [final-location e1])"
+    },
+    {
+      "id": "H018",
+      "issue_type": "否定范围",
+      "source": "d) “Of which” rows presenting parts of an aggregated row without adding up to the total of the aggregated row."
+    },
+    {
+      "id": "H019",
+      "issue_type": "否定范围",
+      "source": "An agent may be animate, or only seemingly so, or perceived as animate;"
+    },
+    {
+      "id": "H020",
+      "issue_type": "否定范围",
+      "source": "This document does not apply to structural ambiguities or the structure and composition of morphosyntactic tagsets."
+    },
+    {
+      "id": "H021",
+      "issue_type": "否定范围",
+      "source": "Note 3 to entry: The term ‘turn unit’ is useful in the description of dialogue (3.5) behaviour, but is not of central importance in this document, since dialogue acts (3.6) are not assumed to correspond to turn units."
+    },
+    {
+      "id": "H022",
+      "issue_type": "条件与顺序",
+      "source": "the formats in which documents are available and the formats the terminology extraction tool can handle limit the amount of text that can be included in a text corpus"
+    },
+    {
+      "id": "H023",
+      "issue_type": "条件与顺序",
+      "source": "LBX typically treats the Form class described in ISO 24613-1 as an abstract class."
+    },
+    {
+      "id": "H024",
+      "issue_type": "条件与顺序",
+      "source": "Definition Communicative function of a dialogue act by which the sender, S, indicates that he/she considers to perform an action that was suggested to him/her, possibly depending on certain conditions that he/she makes explicit."
+    },
+    {
+      "id": "H025",
+      "issue_type": "条件与顺序",
+      "source": "Effective creation, encoding, processing and management of language resources is facilitated by a single high-level data model that supports analysis and design of both annotation schemes and representation formats. This International Standard is designed to support the development and use of computer applications relying on linguistically annotated resources and the exchange of these resources among different applications."
+    },
+    {
+      "id": "H026",
+      "issue_type": "条件与顺序",
+      "source": "Simple generic-specific relations, when these are useful for the proper identification of interoperability descriptors between data categories."
+    },
+    {
+      "id": "H027",
+      "issue_type": "条件与顺序",
+      "source": "document the quasi-equivalence of the designations and the degree of equivalence, as well as (where applicable) its directional nature"
+    },
+    {
+      "id": "H028",
+      "issue_type": "条件与顺序",
+      "source": "Where in (7a) having the flu is the cause of not coming in (‘semantic cause’), in (8) beating his children is not the cause of Jim being an idiot, but is a reason for the speaker to say that Jim is an idiot, so the causal relation is between the semantic content of the second dialogue act and the performance of the first (‘pragmatic cause’)."
+    },
+    {
+      "id": "H029",
+      "issue_type": "条件与顺序",
+      "source": "The GrammaticalInformation class groups grammatical features associated with the LexicalEntry class, Form class, or other classes (e.g. Translation, Sense) in case of specific grammatical restrictions."
+    },
+    {
+      "id": "H030",
+      "issue_type": "条件与顺序",
+      "source": "Where these diversions are necessary, they shall be clearly documented and, as far as possible, mapped to the already existing lexical schema that is the closest, with detailed definitions of discrepancies."
+    },
+    {
+      "id": "H031",
+      "issue_type": "情态与规范强度",
+      "source": "Instances of either Etymon or Cognate can be assigned a language which is different from the language of the lexicon as a whole (this is specified in the LexiconInformation class as described in ISO 24613-1)."
+    },
+    {
+      "id": "H032",
+      "issue_type": "情态与规范强度",
+      "source": "For effectively supporting this use case, it may be useful to extend the annotation scheme with application-specific concepts."
+    },
+    {
+      "id": "H033",
+      "issue_type": "情态与规范强度",
+      "source": "The modelling of the syntactic and semantic properties of lexicons can differ considerably from lexicon to lexicon, due to different linguistic theories."
+    },
+    {
+      "id": "H034",
+      "issue_type": "情态与规范强度",
+      "source": "perform the action, specified in the semantic content"
+    },
+    {
+      "id": "H035",
+      "issue_type": "情态与规范强度",
+      "source": "prioritizing candidate terms that require little further research can be an option"
+    },
+    {
+      "id": "H036",
+      "issue_type": "情态与规范强度",
+      "source": "A difficulty may be the need to avoid absurd combinations of classes."
+    },
+    {
+      "id": "H037",
+      "issue_type": "情态与规范强度",
+      "source": "can be a subset of {/masculine/, /feminine/ and /neuter/}"
+    },
+    {
+      "id": "H038",
+      "issue_type": "情态与规范强度",
+      "source": "The statement “In faceted classification systems an entry class common to all facets does not exist” should be moderated by indicating that such an entry class may be difficult to reach. However, for a given purpose, it may be possible to have an “entry class” that permits response to market needs."
+    },
+    {
+      "id": "H039",
+      "issue_type": "情态与规范强度",
+      "source": "identifying acronyms as a group of up to n capital letters"
+    },
+    {
+      "id": "H040",
+      "issue_type": "其他语义问题",
+      "source": "The example in Figure B.1 presents the TEI encoding of the name-value pair <part of speech, common noun>, where the name (key) \"part of speech\" is abbreviated as \"POS\", and the value \"common noun\" is symbolized by \"NN\". The entire name-value pair is encoded by means of the element <f>."
+    },
+    {
+      "id": "H041",
+      "issue_type": "其他语义问题",
+      "source": "Notes shall be kept to a minimum and only be used if the information cannot be documented in other fields."
+    },
+    {
+      "id": "H042",
+      "issue_type": "其他语义问题",
+      "source": "Depending on design goals, the FormRepresentation class in LBX shall be serialized by means of a general <FormRep> element derived from the FormRepresentation class, or by elements derived from FormRepresentation subclasses that correspond to the lexical environment of the Form subclasses (see Table 12)."
+    },
+    {
+      "id": "H043",
+      "issue_type": "其他语义问题",
+      "source": "future translation projects from and into all of the working languages covered in the terminological entries"
+    },
+    {
+      "id": "H044",
+      "issue_type": "其他语义问题",
+      "source": "Discontiguous regions are referenced by creating nodes referencing each component region and adding a node that is in turn linked to them."
+    },
+    {
+      "id": "H045",
+      "issue_type": "其他语义问题",
+      "source": "NOTE 1 The <usg> element is introduced later in this document."
+    },
+    {
+      "id": "H046",
+      "issue_type": "其他语义问题",
+      "source": "Figure A.1 — Full annotation of the sentence “I wanna put up new wallpaper” (en), in compliance with the TEI Guidelines (with simplified lexical entries, for the sake of illustration)"
+    },
+    {
+      "id": "H047",
+      "issue_type": "其他语义问题",
+      "source": "know how to use search engines and specialized databases"
+    },
+    {
+      "id": "H048",
+      "issue_type": "其他语义问题",
+      "source": "(The baby [agent e1]) crawled e1 (across the floor [path e1])"
+    },
+    {
+      "id": "H049",
+      "issue_type": "其他语义问题",
+      "source": "People should use plain, concise and understandable language because so many of their counterparts are not good at English and stick to their own language."
+    },
+    {
+      "id": "H050",
+      "issue_type": "其他语义问题",
+      "source": "They are both to be used in combination with a plug-in that specifies a set of rhetorical relations"
+    },
+    {
+      "id": "H051",
+      "issue_type": "其他语义问题",
+      "source": "f) Group: another group or set of groups. This can be used to group several enumeration groups whose IDs appear in different annotation documents."
+    },
+    {
+      "id": "H052",
+      "issue_type": "其他语义问题",
+      "source": "All utterances that describe eventualities involving objects being thrown can be considered to be tokens of the eventuality frame ‘throwing of objects’."
+    },
+    {
+      "id": "H053",
+      "issue_type": "其他语义问题",
+      "source": "“Mouse” has termhood in computer applications, whereas it does not in general language."
+    },
+    {
+      "id": "H054",
+      "issue_type": "其他语义问题",
+      "source": "Translated texts can be used, particularly where original texts are not available"
+    },
+    {
+      "id": "H055",
+      "issue_type": "其他语义问题",
+      "source": "The use of CrossREF requires that the target objects representing the given lexical content be given id attributes."
+    },
+    {
+      "id": "H056",
+      "issue_type": "其他语义问题",
+      "source": "All rights reserved. Unless otherwise specified, no part of this publication may be reproduced or utilized in any form or by any means, electronic or mechanical, including photocopying and microfilm, without permission in writing from either ISO at the address below or ISO's member body in the country of the requester."
+    },
+    {
+      "id": "H057",
+      "issue_type": "其他语义问题",
+      "source": "In the stative perfect tense, the verb has the meaning of state in the present tense."
+    }
+  ]
+}

@@ -1,0 +1,3663 @@
+{
+  "samples": [
+    {
+      "source": "language whose rules are explicitly established before its use",
+      "known_incorrect": "语言规则在使用前已明确。",
+      "error_note": "定义对象为语言，坏译成为规则已明确的陈述，丢语言中心名词及预先规定动作。",
+      "reference": "在使用前已明确规定其规则的语言",
+      "issue_type": "术语与指代",
+      "split": "development",
+      "sample_id": "D001"
+    },
+    {
+      "source": "either a definition or a context shall be present",
+      "known_incorrect": "定义或上下文都应存在",
+      "error_note": "either or要求至少一项，定义或上下文都应存在会要求两者，逻辑改变。",
+      "reference": "应至少提供定义或语境中的一项；",
+      "issue_type": "术语与指代",
+      "split": "development",
+      "sample_id": "D002"
+    },
+    {
+      "source": "authorized legal translator legal translator (3.3.24) who has been granted authorization (3.2.7) by a court or government body",
+      "known_incorrect": "资质认证法律笔译员 authorized legal translator 获法院或政府机构资质认证（3.2.7）的法律笔译员（3.3.24）。",
+      "error_note": "法院或政府机构给予的是授权 定义使用 has been granted authorization，明确是已获授权。现译“资质认证”继续将授权关系误读为资格认证；与3.3.24已有资格条件的定义也没有形成应有区别。",
+      "reference": "获授权法律笔译员 authorized legal translator 获得法院或政府机构授权（3.2.7）的法律笔译员（3.3.24）。",
+      "issue_type": "术语与指代",
+      "split": "development",
+      "sample_id": "D003"
+    },
+    {
+      "source": "Still, this document does not elaborate on the metadata aspects from LMF, since the LBX schema is by essence much richer for the representation of all the aspects related to the creation, content, versioning and database implementation of lexical content at large. Occasionally, slightly equivalent constructs to explicit requirements from the LMF standard are mentioned.",
+      "known_incorrect": "本文件不展开 LMF 元数据相关内容；LBX 模式本身已经对词汇资源的创建、内容、版本、数据库实现等元信息做了完备定义。部分地方会给出与 LMF 标准显式要求等效的构造。",
+      "error_note": "much richer被扩大成完备定义，slightly近似等效及occasionally偶尔亦消失；改文恢复原因与限定。",
+      "reference": "不过，本文件未进一步展开 LMF 的元数据方面的内容，因为 LBX 模式本身能够更加丰富地表示词汇内容的创建、内容、版本管理及数据库实现等相关信息。对于 LMF 标准明确规定的某些要求，本文件也偶尔提及与之近似等效的构造。",
+      "issue_type": "术语与指代",
+      "split": "development",
+      "sample_id": "D004"
+    },
+    {
+      "source": "Terminology extraction, which goes beyond mere extraction of terms, is undertaken by a range of specialists including language professionals in general, and terminologists in particular, as well as ontology engineers, and both information and data scientists.",
+      "known_incorrect": "术语数据抽取工作 通常由多个领域的专业人员共同开展，如术语学家、本体工程师、信息科学家和数据科学家等。",
+      "error_note": "range of specialists列可实施者范围，未要求共同开展，且坏译漏抽取超出单纯术语抽取这一范围说明。",
+      "reference": "术语数据抽取的范围超出单纯的术语抽取，可由语言专业人员，尤其是术语学家，以及本体工程师、信息科学家和数据科学家等开展。",
+      "issue_type": "术语与指代",
+      "split": "development",
+      "sample_id": "D005"
+    },
+    {
+      "source": "Failure to identify mass nouns and occasional documented plurals",
+      "known_incorrect": "未能识别大量名词和偶然记录的复数",
+      "error_note": "mass nouns为物质/不可数名词，非大量名词；改文保偶见但有记录复数用法。",
+      "reference": "未能识别物质名词（不可数名词）及有记录的偶见复数用法",
+      "issue_type": "否定范围",
+      "split": "development",
+      "sample_id": "D006"
+    },
+    {
+      "source": "— “It is no less important to measure the actual size”; showing the two are equivalent.",
+      "known_incorrect": "——“测量实际尺寸不能不一样重要”：表明两者同样重要。",
+      "error_note": "no less important表示重要性不低于对比对象；“不能不一样重要”既不自然，也未可靠表达该否定比较。",
+      "reference": "——“测量实际尺寸的重要性也不亚于此”：表示两者同样重要。",
+      "issue_type": "否定范围",
+      "split": "development",
+      "sample_id": "D007"
+    },
+    {
+      "source": "and compliant with the W3C XML schema.",
+      "known_incorrect": "兼容 W3C XML 模式规范。",
+      "error_note": "compliant with表示符合规范要求，兼容仅可共用不等于符合，具标准化表述价值。",
+      "reference": "并符合 W3C XML Schema 的要求。",
+      "issue_type": "否定范围",
+      "split": "development",
+      "sample_id": "D008"
+    },
+    {
+      "source": "Do not use long words or big words.",
+      "known_incorrect": "不要使用长词或大词。",
+      "error_note": "big words在这里与long words并列，指生僻或故作高深的词，并非物理意义上大小的词。",
+      "reference": "不要使用冗长或生僻难懂的词语。",
+      "issue_type": "否定范围",
+      "split": "development",
+      "sample_id": "D009"
+    },
+    {
+      "source": "g) \"Of which\" columns showing parts of an aggregated column without adding up to the total of the aggregated column.",
+      "known_incorrect": "g)“其中”列：显示汇总列中的部分数据，这些部分的合计不计入该汇总列的总计。",
+      "error_note": "部分明细不合为全额不等于不计入总计，坏译改变汇总计算关系。",
+      "reference": "g) “其中”列：列示汇总列中的部分明细，这些明细的合计并不构成该汇总列的全部总额。",
+      "issue_type": "否定范围",
+      "split": "development",
+      "sample_id": "D010"
+    },
+    {
+      "source": "In addition, if a text corpus resource consists of previously published texts and corresponding metadata are available, these texts and their parts can, if appropriate, also be referenced using customary conventions for indirect citation.",
+      "known_incorrect": "此外，文本语料库资源由之前发布的文本组成，并且有相应的元数据可用，在合适的情形下，也会根据间接引用的典型惯例引用这些文本及其组件。",
+      "error_note": "if限定语料库与元数据满足条件才可间接引用，坏译当所有语料库均已满足且会被引用。",
+      "reference": "此外，如果文本语料库由先前出版的文本组成，且有相应元数据，那么在适当情况下，也可按间接引用的通常惯例引用这些文本及其组件。",
+      "issue_type": "条件与顺序",
+      "split": "development",
+      "sample_id": "D011"
+    },
+    {
+      "source": "Where in (7a) having the flu is the cause of not coming in (‘semantic cause’),",
+      "known_incorrect": "在（7a）中，流感是不来的原因（“言语因果”）。",
+      "error_note": "semantic cause与pragmatic cause构成语义/语用对举，“言语因果”误解了这里的语义维度。",
+      "reference": "在（7a）中，流感是不来的原因（“语义因果”）。",
+      "issue_type": "条件与顺序",
+      "split": "development",
+      "sample_id": "D012"
+    },
+    {
+      "source": "Effective creation, encoding, processing and management of language resources is facilitated by a single high-level data model that supports analysis and design of both annotation schemes and representation formats.",
+      "known_incorrect": "语言资源的有效创建、编码、处理和管理，有赖于一个支持各类标注方案与表示格式的分析和设计的单一高层数据模型。",
+      "error_note": "facilitated说明促进作用，“有赖于”将其强化为必要条件。",
+      "reference": "统一的高层数据模型能够支持标注方案和表示格式的分析与设计，有助于有效创建、编码、处理和管理语言资源。",
+      "issue_type": "条件与顺序",
+      "split": "development",
+      "sample_id": "D013"
+    },
+    {
+      "source": "Action discussion functions have in common that their semantic content describes an action, possibly with specifications of manner or frequency.",
+      "known_incorrect": "行为讨论功能（Action discussion functions）的共同特征在于，其语义内容通常描述某一行为，该行为可带有方式或频率等具体说明。",
+      "error_note": "描述行为是共同特征，原文没有usually，通常无据引入例外。",
+      "reference": "行为讨论功能（Action discussion functions）的共同特征在于，其语义内容描述某一行为，该行为可带有方式或频率等具体说明。",
+      "issue_type": "条件与顺序",
+      "split": "development",
+      "sample_id": "D014"
+    },
+    {
+      "source": "Note to entry: Stand-off annotations refer to specific locations in the primary data, by addressing character offsets, elements, etc. to which the annotation applies. Multiple stand-off annotation documents for a given type of annotation can refer to the same primary document (e.g. two different part of speech annotations for a given text).",
+      "known_incorrect": "注：分离式标注通过字符偏移、要素等来指称源数据中的特定的位置，具体方式取决于应用。针对某一类型标注的多份分离式标注文档可以指称同一原始文档（例如对给定文本的两种不同的词性标注）。",
+      "error_note": "to which annotation applies限定标注适用位置，不是由应用决定方法，坏译无据加应用条件。",
+      "reference": "注：分离式标注通过寻址字符偏移量、元素等，引用源数据中该标注所适用的特定位置。某一标注类型的多份分离式标注文档可以引用同一源数据文档，例如针对同一文本作出的两种不同词性标注。",
+      "issue_type": "条件与顺序",
+      "split": "development",
+      "sample_id": "D015"
+    },
+    {
+      "source": "it is also desirable to extract not only terms, but also definitions",
+      "known_incorrect": "在术语数据抽取过程中，抽取的术语数据不仅有术语，而且还有定义",
+      "error_note": "is desirable是建议抽取，不是断言现有输出含定义；改文恢复宜的建议功能。",
+      "reference": "除术语外，还宜抽取定义",
+      "issue_type": "情态与规范强度",
+      "split": "development",
+      "sample_id": "D016"
+    },
+    {
+      "source": "A partitive relation should be depicted using a UML aggregation symbol.",
+      "known_incorrect": "部分关系应使用UML聚合符号描绘",
+      "error_note": "标准化措辞should是建议宜，不能提升为应的要求；保UML聚合符号不变。",
+      "reference": "部分关系宜使用UML聚合符号表示",
+      "issue_type": "情态与规范强度",
+      "split": "development",
+      "sample_id": "D017"
+    },
+    {
+      "source": "To make a precaution message effective, you should show the consequences of the potential risks to the user.",
+      "known_incorrect": "要使注意事项提示有效，您应向用户说明潜在风险造成的后果。",
+      "error_note": "[S0144] 规范性措辞：should在这里给出建议，不应强化为表示要求的“应”。本次仅校正建议强度，不重组“不推荐写法”的段落，也不改变其示范的结构问题。ISO官方用语说明区分should（建议）与shall（要求）：https://www.iso.org/foreword-supplementary-information.html。",
+      "reference": "要使注意事项提示有效，您宜向用户说明潜在风险造成的后果。",
+      "issue_type": "情态与规范强度",
+      "split": "development",
+      "sample_id": "D018"
+    },
+    {
+      "source": "Possible values for type and subtype can vary according to the theoretical approach adopted by the compiler of a resource and/or the linguistic or editorial focus of the resource.",
+      "known_incorrect": "type和subtype的可选值，会随资源编纂者采用的理论方法，以及资源在语言学或编纂方面的侧重点而变化。",
+      "error_note": "【S0054】逻辑连接和情态未准确保留。and/or允许理论方法、资源侧重点分别或共同影响取值，不能只译成并列的“以及”；can vary表达可能变化，译为“会”过于确定。分别恢复“和／或”与“可能”。",
+      "reference": "type和subtype的可选值，可能随资源编纂者采用的理论方法和／或资源在语言学或编纂方面的侧重点而变化。",
+      "issue_type": "情态与规范强度",
+      "split": "development",
+      "sample_id": "D019"
+    },
+    {
+      "source": "Specific parts of an RDF graph can be addressed using one of the proposed RDF query languages, but no definitive specification is currently available.",
+      "known_incorrect": "对于RDF图形的组件，使用推荐的其中一种RDF查询语言寻址，但目前还没有明确的规范。",
+      "error_note": "proposed为已提出，推荐暗添正式建议身份，且can的能力含义应保留。",
+      "reference": "RDF图的特定部分可以用已提出的某一种RDF查询语言寻址，但目前尚无确定的规范。",
+      "issue_type": "情态与规范强度",
+      "split": "development",
+      "sample_id": "D020"
+    },
+    {
+      "source": "\"then we're going to g-- ... turn straight back\"",
+      "known_incorrect": "“然后我们将前往g--”",
+      "error_note": "示例包含撤回后的更正turn straight back，坏译删去后半，破坏用于说明更正的例证。",
+      "reference": "“然后我们要往——……直接往回转。”",
+      "issue_type": "其他语义问题",
+      "split": "development",
+      "sample_id": "D021"
+    },
+    {
+      "source": "Note 1 to entry: A person usually has more than one language register in their linguistic repertoire and can vary their use of language register according to their perception of what is appropriate for different purposes or domains (3.2.1).",
+      "known_incorrect": "注：人们的语言储备中通常有不止一种语域，可根据其对诸多领域（3.2.1）不同目的的理解，选择使用恰切的语域。",
+      "error_note": "purposes or domains是并列适宜性判断，坏译嵌成领域的不同目的并误为理解目的。",
+      "reference": "注：一个人的语言储备中通常包含不止一种语域，并可根据其对不同目的或领域（3.2.1）中何种语域适宜的判断，调整语域的使用。",
+      "issue_type": "其他语义问题",
+      "split": "development",
+      "sample_id": "D022"
+    },
+    {
+      "source": "It is likely that certain modifications will be needed to fit this scheme appropriately to the new application area",
+      "known_incorrect": "为了使该方案准确适用于新的应用领域，需要进行修改",
+      "error_note": "likely必要修改是概率判断，不是断言每次应用均需要修改；不将likely误读低概率。",
+      "reference": "为使该方案适用于新的应用领域，可能需要作出某些修改。",
+      "issue_type": "其他语义问题",
+      "split": "development",
+      "sample_id": "D023"
+    },
+    {
+      "source": "The option to add parameters to the URI in a query in order to transfer extra information to the remote web server.",
+      "known_incorrect": "在查询过程中向URI添加参数的选项，以便将额外信息传输到远程网络服务器。",
+      "error_note": "query在URI结构内是查询部分，不是查询过程，作用位置错误。",
+      "reference": "可在URI的查询部分添加参数，以便向远程Web服务器传输额外信息。",
+      "issue_type": "其他语义问题",
+      "split": "development",
+      "sample_id": "D024"
+    },
+    {
+      "source": "The term ‘Own Communication Management' has been introduced[6],[7] for describing the communicative activity of a speaker relating to the management, planning, and execution of his/her own speech production. This activity is indispensable in the description of spoken dialogue, and is illustrated by the occurrence of speech-editing acts such as (self-)repairs and restarts.",
+      "known_incorrect": "引入了“自我交际管理”一词[6],[7]，用于描述讲话者在自身语音生成过程中所进行的管理、规划和执行有关的交际活动。这种活动在口语对话的描述中不可或缺，其典型表现为语音编辑行为，例如（自发的）修正与重启。",
+      "error_note": "自我修正不能写自发修正；言语生成和重新起说限定在对话而非设备重启。",
+      "reference": "引入了“自我交际管理”一词[6],[7]，用于描述讲话者在自身言语生成过程中所进行的管理、规划和执行有关的交际活动。这种活动在口语对话的描述中不可或缺，其典型表现为言语编辑行为，例如（自我）修正与重新起说。",
+      "issue_type": "其他语义问题",
+      "split": "development",
+      "sample_id": "D025"
+    },
+    {
+      "source": "as the dialogue segments that these acts provide or elicit information about.",
+      "known_incorrect": "因为这些行为提供或引发了相关信息的对话片段。",
+      "error_note": "as在此同位解释reference segments而非因为；坏译既改逻辑关系又缺谓语。改文的这些参照语段须随原段context使用。",
+      "reference": "这些参照语段就是上述行为所提供或引出信息涉及的对话片段。",
+      "issue_type": "其他语义问题",
+      "split": "development",
+      "sample_id": "D026"
+    },
+    {
+      "source": "Definition Communicative function of a dialogue act performed by the sender, S, in order to obtain the information, described by the semantic content, which S assumes that the addressee, A, possesses; S puts pressure on A to provide this information.",
+      "known_incorrect": "定义 | 发送者S为获取语义内容所描述的信息而进行对话行为的交际功能，S假设接收者A拥有该语义内容，S向A施压，要求其提供此信息。",
+      "error_note": "A掌握的是所问信息，不是抽象语义内容；改文只修先行词关系。",
+      "reference": "定义 | 发送者S为获取语义内容所描述的信息而进行对话行为的交际功能，S假设接收者A掌握该信息，S向A施压，要求其提供此信息。",
+      "issue_type": "其他语义问题",
+      "split": "development",
+      "sample_id": "D027"
+    },
+    {
+      "source": "Tone is a set of styles that creates a specific atmosphere in a document.",
+      "known_incorrect": "语气是由一组行文风格形成的文档特定氛围。",
+      "error_note": "[S0438] 原文将tone界定为一组styles，后面的that从句说明这组风格产生的氛围；现译把定义的中心词改成了“氛围”，混淆构成与效果。恢复两者关系。原文自身的定义方式仍照录其含义，不另行改写理论。",
+      "reference": "语气由一组行文风格构成，这组风格在文档中营造出特定氛围。",
+      "issue_type": "其他语义问题",
+      "split": "development",
+      "sample_id": "D028"
+    },
+    {
+      "source": "the language of the <Lemma> element or its inflected forms;",
+      "known_incorrect": "词条词元语言或其屈折形式",
+      "error_note": "原文描述Lemma元素或其屈折形式所属的语言；中文将语言与屈折形式并列，且漏去元素的身份。",
+      "reference": "<Lemma> 元素或其屈折形式所使用的语言。",
+      "issue_type": "其他语义问题",
+      "split": "development",
+      "sample_id": "D029"
+    }
+  ],
+  "generated": {
+    "D001": {
+      "fact_map": {
+        "ok": true,
+        "text": "其规则在使用前被明确规定的语言",
+        "finish": "stop",
+        "usage": {
+          "prompt": 131,
+          "completion": 8,
+          "total": 139
+        },
+        "seconds": 1.324,
+        "error": null
+      },
+      "baseline": {
+        "ok": true,
+        "text": "其规则在使用前已被明确建立的语言",
+        "finish": "stop",
+        "usage": {
+          "prompt": 111,
+          "completion": 8,
+          "total": 119
+        },
+        "seconds": 1.506,
+        "error": null
+      },
+      "plain": {
+        "ok": true,
+        "text": "其规则在使用前已被明确建立的语言",
+        "finish": "stop",
+        "usage": {
+          "prompt": 35,
+          "completion": 8,
+          "total": 43
+        },
+        "seconds": 1.542,
+        "error": null
+      },
+      "self_audit": {
+        "ok": true,
+        "text": "其规则在使用前已被明确规定的人工语言",
+        "finish": "stop",
+        "usage": {
+          "prompt": 117,
+          "completion": 8,
+          "total": 125
+        },
+        "seconds": 2.099,
+        "error": null
+      }
+    },
+    "D002": {
+      "plain": {
+        "ok": true,
+        "text": "定义或上下文须至少具备其一",
+        "finish": "stop",
+        "usage": {
+          "prompt": 35,
+          "completion": 7,
+          "total": 42
+        },
+        "seconds": 1.087,
+        "error": null
+      },
+      "baseline": {
+        "ok": true,
+        "text": "定义或上下文必须至少存在其一",
+        "finish": "stop",
+        "usage": {
+          "prompt": 111,
+          "completion": 7,
+          "total": 118
+        },
+        "seconds": 1.132,
+        "error": null
+      },
+      "fact_map": {
+        "ok": true,
+        "text": "定义或上下文须至少具备其一",
+        "finish": "stop",
+        "usage": {
+          "prompt": 131,
+          "completion": 7,
+          "total": 138
+        },
+        "seconds": 1.097,
+        "error": null
+      },
+      "self_audit": {
+        "ok": true,
+        "text": "定义或上下文必须存在其一",
+        "finish": "stop",
+        "usage": {
+          "prompt": 117,
+          "completion": 6,
+          "total": 123
+        },
+        "seconds": 0.851,
+        "error": null
+      }
+    },
+    "D003": {
+      "baseline": {
+        "ok": true,
+        "text": "经法院或政府机构授予授权（3.2.7）的授权法律翻译人员法律翻译人员（3.3.24）",
+        "finish": "stop",
+        "usage": {
+          "prompt": 133,
+          "completion": 29,
+          "total": 162
+        },
+        "seconds": 0.542,
+        "error": null
+      },
+      "plain": {
+        "ok": true,
+        "text": "经法院或政府机构授权（3.2.7）的法定翻译（3.3.24）",
+        "finish": "stop",
+        "usage": {
+          "prompt": 57,
+          "completion": 23,
+          "total": 80
+        },
+        "seconds": 0.738,
+        "error": null
+      },
+      "fact_map": {
+        "ok": true,
+        "text": "经法院或政府机构授予授权（3.2.7）的授权法律翻译人员法律翻译人员（3.3.24）",
+        "finish": "stop",
+        "usage": {
+          "prompt": 153,
+          "completion": 29,
+          "total": 182
+        },
+        "seconds": 1.041,
+        "error": null
+      },
+      "self_audit": {
+        "ok": true,
+        "text": "经法院或政府机构授权（3.2.7）的法定翻译（3.3.24）",
+        "finish": "stop",
+        "usage": {
+          "prompt": 139,
+          "completion": 23,
+          "total": 162
+        },
+        "seconds": 0.994,
+        "error": null
+      }
+    },
+    "D004": {
+      "baseline": {
+        "ok": true,
+        "text": "尽管如此，本文档并未详细阐述LMF中的元数据方面，因为LBX模式在表示与广义词汇内容的创建、内容、版本管理和数据库实现相关的所有方面时，本质上要丰富得多。文中偶尔提及与LMF标准的明确要求略微等效的构造。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 168,
+          "completion": 56,
+          "total": 224
+        },
+        "seconds": 0.87,
+        "error": null
+      },
+      "plain": {
+        "ok": true,
+        "text": "然而，本文档并未详细阐述LMF中的元数据方面，因为LBX模式在表示与词汇内容整体的创建、内容、版本管理和数据库实现相关的所有方面本质上要丰富得多。偶尔会提及与LMF标准中明确要求略微等效的构造。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 92,
+          "completion": 55,
+          "total": 147
+        },
+        "seconds": 1.473,
+        "error": null
+      },
+      "self_audit": {
+        "ok": true,
+        "text": "尽管如此，本文档并未详细阐述LMF中的元数据方面，因为LBX模式在表示与广义词汇内容的创建、内容、版本管理和数据库实现相关的所有方面时，本质上要丰富得多。文中偶尔会提及与LMF标准的明确要求略微等效的构造。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 174,
+          "completion": 57,
+          "total": 231
+        },
+        "seconds": 1.311,
+        "error": null
+      },
+      "fact_map": {
+        "ok": true,
+        "text": "尽管如此，本文档并未详细阐述LMF中的元数据方面，因为LBX模式在表示与广义词汇内容的创建、内容、版本管理和数据库实现相关的所有方面时，本质上要丰富得多。文中偶尔会提及与LMF标准中明确要求略微等效的构造。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 188,
+          "completion": 58,
+          "total": 246
+        },
+        "seconds": 1.618,
+        "error": null
+      }
+    },
+    "D005": {
+      "plain": {
+        "ok": true,
+        "text": "术语提取不仅仅是简单的术语抽取，它由各类专家共同完成，包括一般语言专业人员，特别是术语学家，以及本体工程师、信息科学家和数据科学家。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 70,
+          "completion": 32,
+          "total": 102
+        },
+        "seconds": 1.099,
+        "error": null
+      },
+      "baseline": {
+        "ok": true,
+        "text": "术语提取不仅仅是简单的术语抽取，它由一系列专家负责，包括一般意义上的语言专业人员，尤其是术语学家，以及本体工程师、信息科学家和数据科学家。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 146,
+          "completion": 32,
+          "total": 178
+        },
+        "seconds": 1.165,
+        "error": null
+      },
+      "fact_map": {
+        "ok": true,
+        "text": "术语提取并不仅限于单纯的术语抽取，它由一系列专家负责实施，包括一般意义上的语言专业人员，尤其是术语学家，以及本体工程师、信息科学家和数据科学家。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 166,
+          "completion": 35,
+          "total": 201
+        },
+        "seconds": 1.155,
+        "error": null
+      },
+      "self_audit": {
+        "ok": true,
+        "text": "术语提取并不仅限于单纯的术语抽取，它由一系列专家开展，包括一般意义上的语言专业人员，尤其是术语学家，以及本体工程师、信息科学家和数据科学家。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 152,
+          "completion": 34,
+          "total": 186
+        },
+        "seconds": 1.356,
+        "error": null
+      }
+    },
+    "D006": {
+      "plain": {
+        "ok": true,
+        "text": "未能识别物质名词和偶尔有记录复数形式",
+        "finish": "stop",
+        "usage": {
+          "prompt": 36,
+          "completion": 10,
+          "total": 46
+        },
+        "seconds": 0.995,
+        "error": null
+      },
+      "fact_map": {
+        "ok": true,
+        "text": "未能识别物质名词和偶尔有文献记载的复数形式",
+        "finish": "stop",
+        "usage": {
+          "prompt": 132,
+          "completion": 12,
+          "total": 144
+        },
+        "seconds": 1.102,
+        "error": null
+      },
+      "baseline": {
+        "ok": true,
+        "text": "未能识别物质名词和偶尔有文献记载的复数形式",
+        "finish": "stop",
+        "usage": {
+          "prompt": 112,
+          "completion": 12,
+          "total": 124
+        },
+        "seconds": 1.704,
+        "error": null
+      },
+      "self_audit": {
+        "ok": true,
+        "text": "未能识别物质名词和偶尔有文献记载的复数形式",
+        "finish": "stop",
+        "usage": {
+          "prompt": 118,
+          "completion": 12,
+          "total": 130
+        },
+        "seconds": 1.338,
+        "error": null
+      }
+    },
+    "D007": {
+      "plain": {
+        "ok": true,
+        "text": "—“衡量实际大小同样重要”；表明两者是等价的。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 45,
+          "completion": 13,
+          "total": 58
+        },
+        "seconds": 0.884,
+        "error": null
+      },
+      "fact_map": {
+        "ok": true,
+        "text": "— “测量实际尺寸同样重要”；表明两者是等价的。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 141,
+          "completion": 14,
+          "total": 155
+        },
+        "seconds": 0.636,
+        "error": null
+      },
+      "self_audit": {
+        "ok": true,
+        "text": "——“测量实际大小同样重要”；表明两者是等价的。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 127,
+          "completion": 13,
+          "total": 140
+        },
+        "seconds": 0.78,
+        "error": null
+      },
+      "baseline": {
+        "ok": true,
+        "text": "— “测量实际尺寸同样重要”；表明两者是等价的。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 121,
+          "completion": 14,
+          "total": 135
+        },
+        "seconds": 0.975,
+        "error": null
+      }
+    },
+    "D008": {
+      "plain": {
+        "ok": true,
+        "text": "并且符合W3C XML模式。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 36,
+          "completion": 8,
+          "total": 44
+        },
+        "seconds": 1.155,
+        "error": null
+      },
+      "baseline": {
+        "ok": true,
+        "text": "并且符合W3C XML架构。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 112,
+          "completion": 8,
+          "total": 120
+        },
+        "seconds": 0.835,
+        "error": null
+      },
+      "self_audit": {
+        "ok": true,
+        "text": "并且符合W3C XML架构。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 118,
+          "completion": 8,
+          "total": 126
+        },
+        "seconds": 1.148,
+        "error": null
+      },
+      "fact_map": {
+        "ok": true,
+        "text": "并符合W3C XML模式。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 132,
+          "completion": 8,
+          "total": 140
+        },
+        "seconds": 1.238,
+        "error": null
+      }
+    },
+    "D009": {
+      "plain": {
+        "ok": true,
+        "text": "不要使用长词或大词。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 35,
+          "completion": 8,
+          "total": 43
+        },
+        "seconds": 0.834,
+        "error": null
+      },
+      "baseline": {
+        "ok": true,
+        "text": "不要使用长词或大词。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 111,
+          "completion": 8,
+          "total": 119
+        },
+        "seconds": 0.679,
+        "error": null
+      },
+      "fact_map": {
+        "ok": true,
+        "text": "不要用长词或大词。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 131,
+          "completion": 8,
+          "total": 139
+        },
+        "seconds": 0.747,
+        "error": null
+      },
+      "self_audit": {
+        "ok": true,
+        "text": "不要使用长词或大词。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 117,
+          "completion": 8,
+          "total": 125
+        },
+        "seconds": 0.85,
+        "error": null
+      }
+    },
+    "D010": {
+      "plain": {
+        "ok": true,
+        "text": "g) “其中”列显示聚合列的组成部分，但这些部分相加不等于聚合列的总计。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 50,
+          "completion": 20,
+          "total": 70
+        },
+        "seconds": 0.927,
+        "error": null
+      },
+      "baseline": {
+        "ok": true,
+        "text": "g) “其中”列显示聚合列的组成部分，但这些部分相加不等于聚合列的总计。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 126,
+          "completion": 20,
+          "total": 146
+        },
+        "seconds": 1.084,
+        "error": null
+      },
+      "self_audit": {
+        "ok": true,
+        "text": "g) “其中”列显示聚合列的组成部分，但这些部分相加不等于该聚合列的合计。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 132,
+          "completion": 20,
+          "total": 152
+        },
+        "seconds": 0.631,
+        "error": null
+      },
+      "fact_map": {
+        "ok": true,
+        "text": "g) “其中”列显示聚合列的组成部分，但这些部分相加不等于聚合列的总计。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 146,
+          "completion": 20,
+          "total": 166
+        },
+        "seconds": 1.29,
+        "error": null
+      }
+    },
+    "D011": {
+      "fact_map": {
+        "ok": true,
+        "text": "此外，如果文本语料资源由先前已出版的文本组成，且相应的元数据可用，那么在适当情况下，这些文本及其部分也可以按照间接引用的惯常惯例加以引用。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 161,
+          "completion": 39,
+          "total": 200
+        },
+        "seconds": 0.861,
+        "error": null
+      },
+      "plain": {
+        "ok": true,
+        "text": "此外，如果文本语料库资源由先前出版的文本组成，并且相应的元数据可用，那么在适当的情况下，这些文本及其部分也可以使用间接引用的惯常惯例进行引用。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 65,
+          "completion": 39,
+          "total": 104
+        },
+        "seconds": 1.333,
+        "error": null
+      },
+      "baseline": {
+        "ok": true,
+        "text": "此外，如果文本语料资源由先前已出版的文本组成，且相应的元数据可用，则在适当情况下，这些文本及其部分也可以按照间接引用的惯常做法进行引用。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 141,
+          "completion": 39,
+          "total": 180
+        },
+        "seconds": 1.24,
+        "error": null
+      },
+      "self_audit": {
+        "ok": true,
+        "text": "此外，如果文本语料资源由先前已出版的文本组成，且相应的元数据可用，那么在适当情况下，这些文本及其各部分也可以使用惯用的间接引用惯例进行引用。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 147,
+          "completion": 38,
+          "total": 185
+        },
+        "seconds": 1.376,
+        "error": null
+      }
+    },
+    "D012": {
+      "baseline": {
+        "ok": true,
+        "text": "在（7a）中，患流感是不进来的原因（“语义原因”），这体现在哪里？",
+        "finish": "stop",
+        "usage": {
+          "prompt": 123,
+          "completion": 22,
+          "total": 145
+        },
+        "seconds": 0.822,
+        "error": null
+      },
+      "plain": {
+        "ok": true,
+        "text": "在(7a)中，患流感是没来的原因（“语义原因”），这体现在哪里？",
+        "finish": "stop",
+        "usage": {
+          "prompt": 47,
+          "completion": 23,
+          "total": 70
+        },
+        "seconds": 1.307,
+        "error": null
+      },
+      "fact_map": {
+        "ok": true,
+        "text": "在（7a）中，患流感是不进来的原因（“语义原因”），这体现在哪里？",
+        "finish": "stop",
+        "usage": {
+          "prompt": 143,
+          "completion": 22,
+          "total": 165
+        },
+        "seconds": 1.366,
+        "error": null
+      },
+      "self_audit": {
+        "ok": true,
+        "text": "在（7a）中，患流感是不进来的原因（“语义原因”），这一点体现在哪里？",
+        "finish": "stop",
+        "usage": {
+          "prompt": 129,
+          "completion": 22,
+          "total": 151
+        },
+        "seconds": 1.18,
+        "error": null
+      }
+    },
+    "D013": {
+      "fact_map": {
+        "ok": true,
+        "text": "单一高层数据模型支持对标注方案和表示格式进行分析与设计，从而促进语言资源的有效创建、编码、处理和管理。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 155,
+          "completion": 27,
+          "total": 182
+        },
+        "seconds": 0.804,
+        "error": null
+      },
+      "baseline": {
+        "ok": true,
+        "text": "一个单一的高层数据模型促进了语言资源的有效创建、编码、处理和管理，该模型支持对标注方案和表示格式进行分析与设计。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 135,
+          "completion": 30,
+          "total": 165
+        },
+        "seconds": 0.99,
+        "error": null
+      },
+      "plain": {
+        "ok": true,
+        "text": "单一高层数据模型支持注释方案和表示格式的分析与设计，从而促进语言资源的有效创建、编码、处理和管理。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 59,
+          "completion": 26,
+          "total": 85
+        },
+        "seconds": 1.338,
+        "error": null
+      },
+      "self_audit": {
+        "ok": true,
+        "text": "一个单一的高层数据模型促进了语言资源的有效创建、编码、处理和管理，该模型支持对标注方案和表示格式进行分析与设计。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 141,
+          "completion": 30,
+          "total": 171
+        },
+        "seconds": 2.228,
+        "error": null
+      }
+    },
+    "D014": {
+      "fact_map": {
+        "ok": true,
+        "text": "动作讨论功能的共同点在于，其语义内容描述一个动作，可能带有方式或频率的说明。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 144,
+          "completion": 22,
+          "total": 166
+        },
+        "seconds": 0.685,
+        "error": null
+      },
+      "baseline": {
+        "ok": true,
+        "text": "动作讨论功能的共同点在于，其语义内容描述一个动作，可能带有方式或频率的说明。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 124,
+          "completion": 22,
+          "total": 146
+        },
+        "seconds": 0.931,
+        "error": null
+      },
+      "plain": {
+        "ok": true,
+        "text": "动作讨论功能的共同点在于，其语义内容描述一个动作，可能带有方式或频率的说明。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 48,
+          "completion": 22,
+          "total": 70
+        },
+        "seconds": 1.213,
+        "error": null
+      },
+      "self_audit": {
+        "ok": true,
+        "text": "动作讨论功能的共同点在于，其语义内容描述一个动作，可能带有方式或频率的说明。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 130,
+          "completion": 22,
+          "total": 152
+        },
+        "seconds": 0.637,
+        "error": null
+      }
+    },
+    "D015": {
+      "plain": {
+        "ok": true,
+        "text": "条目说明：分离注释通过定位字符偏移量、元素等注释所适用的具体位置，来指向原始数据中的特定位置。针对某一注释类型的多个分离注释文档可以指向同一原始文档（例如，针对给定文本的两种不同的词性注释）。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 90,
+          "completion": 53,
+          "total": 143
+        },
+        "seconds": 1.134,
+        "error": null
+      },
+      "baseline": {
+        "ok": true,
+        "text": "条目说明：分离式注释通过寻址字符偏移、元素等注释所适用的目标，来指向原始数据中的特定位置。针对某一给定注释类型的多个分离式注释文档可以引用同一原始文档（例如，针对某一给定文本的两种不同的词性注释）。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 166,
+          "completion": 56,
+          "total": 222
+        },
+        "seconds": 1.248,
+        "error": null
+      },
+      "fact_map": {
+        "ok": true,
+        "text": "入目注释：分离注释通过处理字符偏移量、元素等注释所适用的定位方式，指向原始数据中的特定位置。针对某一给定注释类型的多个分离注释文档可指向同一原始文档（例如，针对某一给定文本的两种不同词性注释）。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 186,
+          "completion": 55,
+          "total": 241
+        },
+        "seconds": 1.145,
+        "error": null
+      },
+      "self_audit": {
+        "ok": true,
+        "text": "入门注：离标注释通过指明字符偏移量、元素等注释所适用的对象，来指向原始数据中的特定位置。对于某一给定类型的注释，多个离标注释文档可以指向同一原始文档（例如，针对某一给定文本的两种不同的词性注释）。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 172,
+          "completion": 58,
+          "total": 230
+        },
+        "seconds": 1.272,
+        "error": null
+      }
+    },
+    "D016": {
+      "plain": {
+        "ok": true,
+        "text": "不仅提取术语，还提取定义也是可取的。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 39,
+          "completion": 11,
+          "total": 50
+        },
+        "seconds": 0.618,
+        "error": null
+      },
+      "fact_map": {
+        "ok": true,
+        "text": "同样可取的是，不仅提取术语，还提取定义。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 135,
+          "completion": 12,
+          "total": 147
+        },
+        "seconds": 0.696,
+        "error": null
+      },
+      "baseline": {
+        "ok": true,
+        "text": "不仅提取术语，还提取定义也是可取的。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 115,
+          "completion": 11,
+          "total": 126
+        },
+        "seconds": 0.852,
+        "error": null
+      },
+      "self_audit": {
+        "ok": true,
+        "text": "同样可取的是，不仅提取术语，还提取定义。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 121,
+          "completion": 12,
+          "total": 133
+        },
+        "seconds": 1.203,
+        "error": null
+      }
+    },
+    "D017": {
+      "plain": {
+        "ok": true,
+        "text": "部分关系应使用UML聚合符号来表示。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 39,
+          "completion": 10,
+          "total": 49
+        },
+        "seconds": 0.94,
+        "error": null
+      },
+      "baseline": {
+        "ok": true,
+        "text": "部分关系应使用 UML 聚合符号来表示。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 115,
+          "completion": 10,
+          "total": 125
+        },
+        "seconds": 1.118,
+        "error": null
+      },
+      "fact_map": {
+        "ok": true,
+        "text": "部分关系应使用 UML 聚合符号来表示。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 135,
+          "completion": 10,
+          "total": 145
+        },
+        "seconds": 1.306,
+        "error": null
+      },
+      "self_audit": {
+        "ok": true,
+        "text": "部分关系应使用UML聚合符号来表示。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 121,
+          "completion": 10,
+          "total": 131
+        },
+        "seconds": 1.02,
+        "error": null
+      }
+    },
+    "D018": {
+      "plain": {
+        "ok": true,
+        "text": "要使预防信息有效，你应向用户展示潜在风险的后果。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 46,
+          "completion": 13,
+          "total": 59
+        },
+        "seconds": 0.877,
+        "error": null
+      },
+      "baseline": {
+        "ok": true,
+        "text": "为使预防信息有效，你应向用户展示潜在风险的后果。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 122,
+          "completion": 13,
+          "total": 135
+        },
+        "seconds": 0.974,
+        "error": null
+      },
+      "self_audit": {
+        "ok": true,
+        "text": "要使预防信息有效，你应当向用户展示潜在风险的后果。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 128,
+          "completion": 14,
+          "total": 142
+        },
+        "seconds": 0.548,
+        "error": null
+      },
+      "fact_map": {
+        "ok": true,
+        "text": "为使预防信息有效，你应向用户展示潜在风险带来的后果。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 142,
+          "completion": 14,
+          "total": 156
+        },
+        "seconds": 1.297,
+        "error": null
+      }
+    },
+    "D019": {
+      "baseline": {
+        "ok": true,
+        "text": "type和subtype的可能取值可能因资源编制者所采用的理论方法以及/或资源的语言或编辑重点而有所不同。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 133,
+          "completion": 26,
+          "total": 159
+        },
+        "seconds": 0.863,
+        "error": null
+      },
+      "plain": {
+        "ok": true,
+        "text": "type和subtype的可能值可能因资源编制者采用的理论方法及/或资源的语言或编辑重点而异。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 57,
+          "completion": 24,
+          "total": 81
+        },
+        "seconds": 1.29,
+        "error": null
+      },
+      "fact_map": {
+        "ok": true,
+        "text": "type和subtype的可能取值会因资源编制者所采用的理论方法以及/或资源的语言或编辑侧重点而有所不同。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 153,
+          "completion": 27,
+          "total": 180
+        },
+        "seconds": 0.995,
+        "error": null
+      },
+      "self_audit": {
+        "ok": true,
+        "text": "type和subtype的可能取值会因资源编制者所采用的理论方法以及/或者资源的语言学或编辑侧重点而有所不同。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 139,
+          "completion": 27,
+          "total": 166
+        },
+        "seconds": 1.198,
+        "error": null
+      }
+    },
+    "D020": {
+      "baseline": {
+        "ok": true,
+        "text": "可以使用一种提议的RDF查询语言来寻址RDF图的特定部分，但目前尚无明确的规范可用。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 130,
+          "completion": 23,
+          "total": 153
+        },
+        "seconds": 0.772,
+        "error": null
+      },
+      "plain": {
+        "ok": true,
+        "text": "RDF图的特定部分可以使用已提出的RDF查询语言之一来寻址，但目前尚无明确的规范可用。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 54,
+          "completion": 23,
+          "total": 77
+        },
+        "seconds": 1.061,
+        "error": null
+      },
+      "fact_map": {
+        "ok": true,
+        "text": "可以使用一种提议的RDF查询语言来寻址RDF图的特定部分，但目前尚无明确的规范可用。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 150,
+          "completion": 23,
+          "total": 173
+        },
+        "seconds": 1.042,
+        "error": null
+      },
+      "self_audit": {
+        "ok": true,
+        "text": "可以使用一种已提出的RDF查询语言来寻址RDF图的特定部分，但目前尚无 definitive 规范可用。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 136,
+          "completion": 24,
+          "total": 160
+        },
+        "seconds": 1.449,
+        "error": null
+      }
+    },
+    "D021": {
+      "baseline": {
+        "ok": true,
+        "text": "“那我们就要——……直接掉头回去”",
+        "finish": "stop",
+        "usage": {
+          "prompt": 115,
+          "completion": 10,
+          "total": 125
+        },
+        "seconds": 0.918,
+        "error": null
+      },
+      "plain": {
+        "ok": true,
+        "text": "“那我们就要去……直接掉头回来”",
+        "finish": "stop",
+        "usage": {
+          "prompt": 39,
+          "completion": 10,
+          "total": 49
+        },
+        "seconds": 1.183,
+        "error": null
+      },
+      "fact_map": {
+        "ok": true,
+        "text": "“然后我们要——……直接掉头回去”",
+        "finish": "stop",
+        "usage": {
+          "prompt": 135,
+          "completion": 10,
+          "total": 145
+        },
+        "seconds": 0.968,
+        "error": null
+      },
+      "self_audit": {
+        "ok": true,
+        "text": "“然后我们要——……直接掉头回去”",
+        "finish": "stop",
+        "usage": {
+          "prompt": 121,
+          "completion": 10,
+          "total": 131
+        },
+        "seconds": 0.877,
+        "error": null
+      }
+    },
+    "D022": {
+      "plain": {
+        "ok": true,
+        "text": "条目注1：一个人在其语言库中通常拥有不止一种语言语域，并可根据其对不同目的或领域（3.2.1）何为恰当的认知来改变语言语域的使用。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 73,
+          "completion": 41,
+          "total": 114
+        },
+        "seconds": 1.258,
+        "error": null
+      },
+      "baseline": {
+        "ok": true,
+        "text": "条目注1：一个人在其语言库中通常拥有不止一种语言语域，并能够根据其对不同目的或领域（3.2.1）何为适当的感知来改变其语言语域的使用。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 149,
+          "completion": 43,
+          "total": 192
+        },
+        "seconds": 1.202,
+        "error": null
+      },
+      "fact_map": {
+        "ok": true,
+        "text": "条目注1：一个人的语言库中通常拥有不止一种语言语域，并且能够根据其对不同目的或领域（3.2.1）何为恰当的感知来改变其语言语域的使用。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 169,
+          "completion": 42,
+          "total": 211
+        },
+        "seconds": 1.499,
+        "error": null
+      },
+      "self_audit": {
+        "ok": true,
+        "text": "条目注1：一个人在其语言库中通常拥有不止一种语言语域，并能够根据其对不同目的或领域（3.2.1）何为恰当的感知来改变其语言语域的使用。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 155,
+          "completion": 43,
+          "total": 198
+        },
+        "seconds": 1.117,
+        "error": null
+      }
+    },
+    "D023": {
+      "baseline": {
+        "ok": true,
+        "text": "为了使该方案适当地适应新的应用领域，可能需要进行某些修改。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 121,
+          "completion": 15,
+          "total": 136
+        },
+        "seconds": 0.732,
+        "error": null
+      },
+      "plain": {
+        "ok": true,
+        "text": "很可能需要进行某些修改，以使该方案适当地适应新的应用领域。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 45,
+          "completion": 15,
+          "total": 60
+        },
+        "seconds": 1.077,
+        "error": null
+      },
+      "fact_map": {
+        "ok": true,
+        "text": "为将该方案适当地适配到新的应用领域，很可能需要进行某些修改。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 141,
+          "completion": 16,
+          "total": 157
+        },
+        "seconds": 1.547,
+        "error": null
+      },
+      "self_audit": {
+        "ok": true,
+        "text": "为将该方案适当地适配到新的应用领域，可能需要进行某些修改。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 127,
+          "completion": 16,
+          "total": 143
+        },
+        "seconds": 1.417,
+        "error": null
+      }
+    },
+    "D024": {
+      "plain": {
+        "ok": true,
+        "text": "在查询中向URI添加参数以将额外信息传输到远程Web服务器的选项。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 49,
+          "completion": 18,
+          "total": 67
+        },
+        "seconds": 0.992,
+        "error": null
+      },
+      "baseline": {
+        "ok": true,
+        "text": "在查询中向URI添加参数以将额外信息传输到远程Web服务器的选项。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 125,
+          "completion": 18,
+          "total": 143
+        },
+        "seconds": 0.82,
+        "error": null
+      },
+      "fact_map": {
+        "ok": true,
+        "text": "在查询中向URI添加参数以便向远程Web服务器传输额外信息的选项。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 145,
+          "completion": 17,
+          "total": 162
+        },
+        "seconds": 1.001,
+        "error": null
+      },
+      "self_audit": {
+        "ok": true,
+        "text": "在查询中向URI添加参数，以便向远程Web服务器传递额外信息的选项。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 131,
+          "completion": 18,
+          "total": 149
+        },
+        "seconds": 1.195,
+        "error": null
+      }
+    },
+    "D025": {
+      "plain": {
+        "ok": true,
+        "text": "“自我沟通管理”这一术语已被引入[6],[7]，用于描述说话者对其自身言语产生的管理、规划和执行相关的交际活动。这种活动在口语对话的描述中不可或缺，并通过（自我）修正和重新开始等言语编辑行为的出现得以体现。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 98,
+          "completion": 55,
+          "total": 153
+        },
+        "seconds": 1.062,
+        "error": null
+      },
+      "baseline": {
+        "ok": true,
+        "text": "“自身交际管理”这一术语已被引入[6],[7]，用于描述说话者对其自身言语产出的管理、规划和执行相关的交际活动。这一活动在口语对话的描述中不可或缺，并可通过（自我）修正和重新开始等言语编辑行为的出现加以说明。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 174,
+          "completion": 57,
+          "total": 231
+        },
+        "seconds": 1.293,
+        "error": null
+      },
+      "fact_map": {
+        "ok": true,
+        "text": "“自身交际管理”这一术语已被引入[6],[7]，用于描述说话者对其自身言语产出的管理、计划和执行相关的交际活动。这一活动在口语对话的描述中不可或缺，并可通过（自我）修正和重新开始等言语编辑行为的出现加以说明。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 194,
+          "completion": 57,
+          "total": 251
+        },
+        "seconds": 1.295,
+        "error": null
+      },
+      "self_audit": {
+        "ok": true,
+        "text": "“自身交流管理”这一术语已被引入[6],[7]，用于描述说话者对其自身言语产出的管理、规划和执行的交流活动。这种活动在口语对话的描述中不可或缺，并通过（自我）修复和重新开始等言语编辑行为的出现得以体现。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 180,
+          "completion": 55,
+          "total": 235
+        },
+        "seconds": 1.558,
+        "error": null
+      }
+    },
+    "D026": {
+      "plain": {
+        "ok": true,
+        "text": "作为这些言语行为所提供或引出的对话片段。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 39,
+          "completion": 12,
+          "total": 51
+        },
+        "seconds": 0.651,
+        "error": null
+      },
+      "baseline": {
+        "ok": true,
+        "text": "作为这些行为所提供或引出的对话片段。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 115,
+          "completion": 11,
+          "total": 126
+        },
+        "seconds": 1.232,
+        "error": null
+      },
+      "fact_map": {
+        "ok": true,
+        "text": "作为这些行为所提供或引出的对话片段。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 135,
+          "completion": 11,
+          "total": 146
+        },
+        "seconds": 1.235,
+        "error": null
+      },
+      "self_audit": {
+        "ok": true,
+        "text": "作为这些行为所提供或引出的对话片段。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 121,
+          "completion": 11,
+          "total": 132
+        },
+        "seconds": 1.011,
+        "error": null
+      }
+    },
+    "D027": {
+      "baseline": {
+        "ok": true,
+        "text": "定义：发送者S为获取语义内容所描述的信息而实施的对话行为的交际功能，S假定受话者A拥有该信息；S向A施压以提供该信息。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 154,
+          "completion": 39,
+          "total": 193
+        },
+        "seconds": 1.016,
+        "error": null
+      },
+      "plain": {
+        "ok": true,
+        "text": "定义：发送者S为获取语义内容所描述的信息而实施的一种对话行为的交际功能，S假定受话者A拥有该信息；S向A施压以提供此信息。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 78,
+          "completion": 40,
+          "total": 118
+        },
+        "seconds": 1.196,
+        "error": null
+      },
+      "fact_map": {
+        "ok": true,
+        "text": "定义：发送者S为获取语义内容所描述的信息而实施的对话行为的交际功能，S假定受话者A拥有该信息；S向A施压以提供该信息。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 174,
+          "completion": 39,
+          "total": 213
+        },
+        "seconds": 1.128,
+        "error": null
+      },
+      "self_audit": {
+        "ok": true,
+        "text": "定义：发送者S为获取由语义内容所描述、且S假定受话者A所拥有的信息而实施的对话行为的交际功能；S向A施压以提供该信息。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 160,
+          "completion": 40,
+          "total": 200
+        },
+        "seconds": 1.416,
+        "error": null
+      }
+    },
+    "D028": {
+      "baseline": {
+        "ok": true,
+        "text": "语气是一组在文档中营造特定氛围的风格。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 118,
+          "completion": 11,
+          "total": 129
+        },
+        "seconds": 0.56,
+        "error": null
+      },
+      "plain": {
+        "ok": true,
+        "text": "语气是一组在文档中营造特定氛围的风格。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 42,
+          "completion": 11,
+          "total": 53
+        },
+        "seconds": 0.675,
+        "error": null
+      },
+      "fact_map": {
+        "ok": true,
+        "text": "语气是一组在文档中营造特定氛围的风格。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 138,
+          "completion": 11,
+          "total": 149
+        },
+        "seconds": 1.01,
+        "error": null
+      },
+      "self_audit": {
+        "ok": true,
+        "text": "语气是一组在文档中营造特定氛围的风格。",
+        "finish": "stop",
+        "usage": {
+          "prompt": 124,
+          "completion": 11,
+          "total": 135
+        },
+        "seconds": 0.959,
+        "error": null
+      }
+    },
+    "D029": {
+      "plain": {
+        "ok": true,
+        "text": "<Lemma> 元素或其屈折形式的语言；",
+        "finish": "stop",
+        "usage": {
+          "prompt": 40,
+          "completion": 11,
+          "total": 51
+        },
+        "seconds": 0.946,
+        "error": null
+      },
+      "baseline": {
+        "ok": true,
+        "text": "<Lemma> 元素或其屈折形式的语言；",
+        "finish": "stop",
+        "usage": {
+          "prompt": 116,
+          "completion": 11,
+          "total": 127
+        },
+        "seconds": 0.791,
+        "error": null
+      },
+      "self_audit": {
+        "ok": true,
+        "text": "<Lemma> 元素或其屈折形式的语言；",
+        "finish": "stop",
+        "usage": {
+          "prompt": 122,
+          "completion": 11,
+          "total": 133
+        },
+        "seconds": 1.119,
+        "error": null
+      },
+      "fact_map": {
+        "ok": true,
+        "text": "<Lemma> 元素或其屈折形式的语言；",
+        "finish": "stop",
+        "usage": {
+          "prompt": 136,
+          "completion": 11,
+          "total": 147
+        },
+        "seconds": 1.309,
+        "error": null
+      }
+    }
+  },
+  "evaluations": {
+    "D003": {
+      "response": {
+        "ok": true,
+        "text": "{\"evaluations\":[{\"id\":\"A\",\"status\":\"FIXED\",\"reason\":\"使用“授予授权”表达法院或政府机构给予授权，纠正了“资质认证”的误读，保留3.2.7与3.3.24引用。\"},{\"id\":\"B\",\"status\":\"FIXED\",\"reason\":\"“经法院或政府机构授权”明确已获授权关系，纠正资格认证误读，并保留3.2.7与3.3.24引用。\"},{\"id\":\"C\",\"status\":\"FIXED\",\"reason\":\"“经法院或政府机构授权”明确已获授权关系，纠正资格认证误读，并保留3.2.7与3.3.24引用。\"},{\"id\":\"D\",\"status\":\"FIXED\",\"reason\":\"使用“授予授权”表达法院或政府机构给予授权，纠正了“资质认证”的误读，保留3.2.7与3.3.24引用。\"}]}",
+        "finish": "stop",
+        "usage": {
+          "prompt": 438,
+          "completion": 203,
+          "total": 641
+        },
+        "seconds": 1.369,
+        "error": null
+      },
+      "parsed": {
+        "evaluations": [
+          {
+            "id": "A",
+            "status": "FIXED",
+            "reason": "使用“授予授权”表达法院或政府机构给予授权，纠正了“资质认证”的误读，保留3.2.7与3.3.24引用。"
+          },
+          {
+            "id": "B",
+            "status": "FIXED",
+            "reason": "“经法院或政府机构授权”明确已获授权关系，纠正资格认证误读，并保留3.2.7与3.3.24引用。"
+          },
+          {
+            "id": "C",
+            "status": "FIXED",
+            "reason": "“经法院或政府机构授权”明确已获授权关系，纠正资格认证误读，并保留3.2.7与3.3.24引用。"
+          },
+          {
+            "id": "D",
+            "status": "FIXED",
+            "reason": "使用“授予授权”表达法院或政府机构给予授权，纠正了“资质认证”的误读，保留3.2.7与3.3.24引用。"
+          }
+        ]
+      },
+      "mapping": {
+        "A": "baseline",
+        "B": "self_audit",
+        "C": "plain",
+        "D": "fact_map"
+      },
+      "evaluations": {
+        "baseline": {
+          "status": "FIXED",
+          "reason": "使用“授予授权”表达法院或政府机构给予授权，纠正了“资质认证”的误读，保留3.2.7与3.3.24引用。"
+        },
+        "self_audit": {
+          "status": "FIXED",
+          "reason": "“经法院或政府机构授权”明确已获授权关系，纠正资格认证误读，并保留3.2.7与3.3.24引用。"
+        },
+        "plain": {
+          "status": "FIXED",
+          "reason": "“经法院或政府机构授权”明确已获授权关系，纠正资格认证误读，并保留3.2.7与3.3.24引用。"
+        },
+        "fact_map": {
+          "status": "FIXED",
+          "reason": "使用“授予授权”表达法院或政府机构给予授权，纠正了“资质认证”的误读，保留3.2.7与3.3.24引用。"
+        }
+      }
+    },
+    "D001": {
+      "response": {
+        "ok": true,
+        "text": "{\"evaluations\":[{\"id\":\"A\",\"status\":\"FIXED\",\"reason\":\"“其规则在使用前已被明确建立的语言” keeps 语言 as the head noun and renders “rules explicitly established before its use” with the pre-use timing, fixing the lost head noun and pre-established action.\"},{\"id\":\"B\",\"status\":\"FIXED\",\"reason\":\"Identical to A; preserves 语言 as head noun and expresses rules being explicitly established before use.\"},{\"id\":\"C\",\"status\":\"NOT_FIXED\",\"reason\":\"Adds “人工” (artificial), which is not in the source “language”; this introduces an unwarranted restriction even though the structural issue is otherwise addressed.\"},{\"id\":\"D\",\"status\":\"FIXED\",\"reason\":\"“其规则在使用前被明确规定的语言” retains 语言 as head noun and conveys rules being explicitly stipulated before use, matching the source.\"}]}",
+        "finish": "stop",
+        "usage": {
+          "prompt": 287,
+          "completion": 186,
+          "total": 473
+        },
+        "seconds": 1.526,
+        "error": null
+      },
+      "parsed": {
+        "evaluations": [
+          {
+            "id": "A",
+            "status": "FIXED",
+            "reason": "“其规则在使用前已被明确建立的语言” keeps 语言 as the head noun and renders “rules explicitly established before its use” with the pre-use timing, fixing the lost head noun and pre-established action."
+          },
+          {
+            "id": "B",
+            "status": "FIXED",
+            "reason": "Identical to A; preserves 语言 as head noun and expresses rules being explicitly established before use."
+          },
+          {
+            "id": "C",
+            "status": "NOT_FIXED",
+            "reason": "Adds “人工” (artificial), which is not in the source “language”; this introduces an unwarranted restriction even though the structural issue is otherwise addressed."
+          },
+          {
+            "id": "D",
+            "status": "FIXED",
+            "reason": "“其规则在使用前被明确规定的语言” retains 语言 as head noun and conveys rules being explicitly stipulated before use, matching the source."
+          }
+        ]
+      },
+      "mapping": {
+        "A": "plain",
+        "B": "baseline",
+        "C": "self_audit",
+        "D": "fact_map"
+      },
+      "evaluations": {
+        "plain": {
+          "status": "FIXED",
+          "reason": "“其规则在使用前已被明确建立的语言” keeps 语言 as the head noun and renders “rules explicitly established before its use” with the pre-use timing, fixing the lost head noun and pre-established action."
+        },
+        "baseline": {
+          "status": "FIXED",
+          "reason": "Identical to A; preserves 语言 as head noun and expresses rules being explicitly established before use."
+        },
+        "self_audit": {
+          "status": "NOT_FIXED",
+          "reason": "Adds “人工” (artificial), which is not in the source “language”; this introduces an unwarranted restriction even though the structural issue is otherwise addressed."
+        },
+        "fact_map": {
+          "status": "FIXED",
+          "reason": "“其规则在使用前被明确规定的语言” retains 语言 as head noun and conveys rules being explicitly stipulated before use, matching the source."
+        }
+      }
+    },
+    "D004": {
+      "response": {
+        "ok": true,
+        "text": "{\"evaluations\":[{\"id\":\"A\",\"status\":\"FIXED\",\"reason\":\"保留了“偶尔提及”和“略微等效”，并保留“本质上要丰富得多”的原因关系，未将much richer扩大为完备定义。\"},{\"id\":\"B\",\"status\":\"FIXED\",\"reason\":\"“偶尔会提及”和“略微等效”均保留，原因与限定完整，未扩大much richer含义。\"},{\"id\":\"C\",\"status\":\"FIXED\",\"reason\":\"“偶尔会提及”与“略微等效”均出现，忠实保留原因和限定，未将much richer误作完备定义。\"},{\"id\":\"D\",\"status\":\"FIXED\",\"reason\":\"“偶尔会提及”和“略微等效”保留，原因关系仍在，未把much richer扩大为完备定义。\"}]}",
+        "finish": "stop",
+        "usage": {
+          "prompt": 595,
+          "completion": 166,
+          "total": 761
+        },
+        "seconds": 1.558,
+        "error": null
+      },
+      "parsed": {
+        "evaluations": [
+          {
+            "id": "A",
+            "status": "FIXED",
+            "reason": "保留了“偶尔提及”和“略微等效”，并保留“本质上要丰富得多”的原因关系，未将much richer扩大为完备定义。"
+          },
+          {
+            "id": "B",
+            "status": "FIXED",
+            "reason": "“偶尔会提及”和“略微等效”均保留，原因与限定完整，未扩大much richer含义。"
+          },
+          {
+            "id": "C",
+            "status": "FIXED",
+            "reason": "“偶尔会提及”与“略微等效”均出现，忠实保留原因和限定，未将much richer误作完备定义。"
+          },
+          {
+            "id": "D",
+            "status": "FIXED",
+            "reason": "“偶尔会提及”和“略微等效”保留，原因关系仍在，未把much richer扩大为完备定义。"
+          }
+        ]
+      },
+      "mapping": {
+        "A": "baseline",
+        "B": "fact_map",
+        "C": "self_audit",
+        "D": "plain"
+      },
+      "evaluations": {
+        "baseline": {
+          "status": "FIXED",
+          "reason": "保留了“偶尔提及”和“略微等效”，并保留“本质上要丰富得多”的原因关系，未将much richer扩大为完备定义。"
+        },
+        "fact_map": {
+          "status": "FIXED",
+          "reason": "“偶尔会提及”和“略微等效”均保留，原因与限定完整，未扩大much richer含义。"
+        },
+        "self_audit": {
+          "status": "FIXED",
+          "reason": "“偶尔会提及”与“略微等效”均出现，忠实保留原因和限定，未将much richer误作完备定义。"
+        },
+        "plain": {
+          "status": "FIXED",
+          "reason": "“偶尔会提及”和“略微等效”保留，原因关系仍在，未把much richer扩大为完备定义。"
+        }
+      }
+    },
+    "D002": {
+      "response": {
+        "ok": true,
+        "text": "{\"evaluations\":[{\"id\":\"A\",\"status\":\"FIXED\",\"reason\":\"“须至少具备其一” renders 'at least one shall be present,' preserving the disjunction without requiring both.\"},{\"id\":\"B\",\"status\":\"FIXED\",\"reason\":\"“必须存在其一” means 'one of them must exist,' matching 'at least one shall be present.'\"},{\"id\":\"C\",\"status\":\"FIXED\",\"reason\":\"“必须至少存在其一” explicitly conveys 'at least one must exist,' avoiding the erroneous 'both' reading.\"},{\"id\":\"D\",\"status\":\"FIXED\",\"reason\":\"“须至少具备其一” correctly expresses that at least one of definition or context is required.\"}]}",
+        "finish": "stop",
+        "usage": {
+          "prompt": 280,
+          "completion": 147,
+          "total": 427
+        },
+        "seconds": 1.648,
+        "error": null
+      },
+      "parsed": {
+        "evaluations": [
+          {
+            "id": "A",
+            "status": "FIXED",
+            "reason": "“须至少具备其一” renders 'at least one shall be present,' preserving the disjunction without requiring both."
+          },
+          {
+            "id": "B",
+            "status": "FIXED",
+            "reason": "“必须存在其一” means 'one of them must exist,' matching 'at least one shall be present.'"
+          },
+          {
+            "id": "C",
+            "status": "FIXED",
+            "reason": "“必须至少存在其一” explicitly conveys 'at least one must exist,' avoiding the erroneous 'both' reading."
+          },
+          {
+            "id": "D",
+            "status": "FIXED",
+            "reason": "“须至少具备其一” correctly expresses that at least one of definition or context is required."
+          }
+        ]
+      },
+      "mapping": {
+        "A": "fact_map",
+        "B": "self_audit",
+        "C": "baseline",
+        "D": "plain"
+      },
+      "evaluations": {
+        "fact_map": {
+          "status": "FIXED",
+          "reason": "“须至少具备其一” renders 'at least one shall be present,' preserving the disjunction without requiring both."
+        },
+        "self_audit": {
+          "status": "FIXED",
+          "reason": "“必须存在其一” means 'one of them must exist,' matching 'at least one shall be present.'"
+        },
+        "baseline": {
+          "status": "FIXED",
+          "reason": "“必须至少存在其一” explicitly conveys 'at least one must exist,' avoiding the erroneous 'both' reading."
+        },
+        "plain": {
+          "status": "FIXED",
+          "reason": "“须至少具备其一” correctly expresses that at least one of definition or context is required."
+        }
+      }
+    },
+    "D008": {
+      "response": {
+        "ok": true,
+        "text": "{\"evaluations\":[{\"id\":\"A\",\"status\":\"FIXED\",\"reason\":\"使用“符合”对应 compliant with，保留了符合规范的含义，虽省略“要求”但未误译为“兼容”。\"},{\"id\":\"B\",\"status\":\"FIXED\",\"reason\":\"使用“符合”对应 compliant with，正确表达符合 W3C XML 架构规范。\"},{\"id\":\"C\",\"status\":\"FIXED\",\"reason\":\"使用“符合”对应 compliant with，正确表达符合 W3C XML 架构规范。\"},{\"id\":\"D\",\"status\":\"FIXED\",\"reason\":\"使用“符合”对应 compliant with，正确表达符合 W3C XML 模式规范。\"}]}",
+        "finish": "stop",
+        "usage": {
+          "prompt": 287,
+          "completion": 142,
+          "total": 429
+        },
+        "seconds": 1.269,
+        "error": null
+      },
+      "parsed": {
+        "evaluations": [
+          {
+            "id": "A",
+            "status": "FIXED",
+            "reason": "使用“符合”对应 compliant with，保留了符合规范的含义，虽省略“要求”但未误译为“兼容”。"
+          },
+          {
+            "id": "B",
+            "status": "FIXED",
+            "reason": "使用“符合”对应 compliant with，正确表达符合 W3C XML 架构规范。"
+          },
+          {
+            "id": "C",
+            "status": "FIXED",
+            "reason": "使用“符合”对应 compliant with，正确表达符合 W3C XML 架构规范。"
+          },
+          {
+            "id": "D",
+            "status": "FIXED",
+            "reason": "使用“符合”对应 compliant with，正确表达符合 W3C XML 模式规范。"
+          }
+        ]
+      },
+      "mapping": {
+        "A": "fact_map",
+        "B": "baseline",
+        "C": "self_audit",
+        "D": "plain"
+      },
+      "evaluations": {
+        "fact_map": {
+          "status": "FIXED",
+          "reason": "使用“符合”对应 compliant with，保留了符合规范的含义，虽省略“要求”但未误译为“兼容”。"
+        },
+        "baseline": {
+          "status": "FIXED",
+          "reason": "使用“符合”对应 compliant with，正确表达符合 W3C XML 架构规范。"
+        },
+        "self_audit": {
+          "status": "FIXED",
+          "reason": "使用“符合”对应 compliant with，正确表达符合 W3C XML 架构规范。"
+        },
+        "plain": {
+          "status": "FIXED",
+          "reason": "使用“符合”对应 compliant with，正确表达符合 W3C XML 模式规范。"
+        }
+      }
+    },
+    "D006": {
+      "response": {
+        "ok": true,
+        "text": "{\"evaluations\":[{\"id\":\"A\",\"status\":\"FIXED\",\"reason\":\"将mass nouns译为“物质名词”，纠正了“大量名词”的误译，并保留“偶尔有记录复数形式”对应occasional documented plurals。\"},{\"id\":\"B\",\"status\":\"FIXED\",\"reason\":\"“物质名词”正确对应mass nouns，“偶尔有文献记载的复数形式”忠实表达occasional documented plurals。\"},{\"id\":\"C\",\"status\":\"FIXED\",\"reason\":\"“物质名词”正确对应mass nouns，“偶尔有文献记载的复数形式”忠实表达occasional documented plurals。\"},{\"id\":\"D\",\"status\":\"FIXED\",\"reason\":\"“物质名词”正确对应mass nouns，“偶尔有文献记载的复数形式”忠实表达occasional documented plurals。\"}]}",
+        "finish": "stop",
+        "usage": {
+          "prompt": 312,
+          "completion": 168,
+          "total": 480
+        },
+        "seconds": 1.682,
+        "error": null
+      },
+      "parsed": {
+        "evaluations": [
+          {
+            "id": "A",
+            "status": "FIXED",
+            "reason": "将mass nouns译为“物质名词”，纠正了“大量名词”的误译，并保留“偶尔有记录复数形式”对应occasional documented plurals。"
+          },
+          {
+            "id": "B",
+            "status": "FIXED",
+            "reason": "“物质名词”正确对应mass nouns，“偶尔有文献记载的复数形式”忠实表达occasional documented plurals。"
+          },
+          {
+            "id": "C",
+            "status": "FIXED",
+            "reason": "“物质名词”正确对应mass nouns，“偶尔有文献记载的复数形式”忠实表达occasional documented plurals。"
+          },
+          {
+            "id": "D",
+            "status": "FIXED",
+            "reason": "“物质名词”正确对应mass nouns，“偶尔有文献记载的复数形式”忠实表达occasional documented plurals。"
+          }
+        ]
+      },
+      "mapping": {
+        "A": "plain",
+        "B": "baseline",
+        "C": "fact_map",
+        "D": "self_audit"
+      },
+      "evaluations": {
+        "plain": {
+          "status": "FIXED",
+          "reason": "将mass nouns译为“物质名词”，纠正了“大量名词”的误译，并保留“偶尔有记录复数形式”对应occasional documented plurals。"
+        },
+        "baseline": {
+          "status": "FIXED",
+          "reason": "“物质名词”正确对应mass nouns，“偶尔有文献记载的复数形式”忠实表达occasional documented plurals。"
+        },
+        "fact_map": {
+          "status": "FIXED",
+          "reason": "“物质名词”正确对应mass nouns，“偶尔有文献记载的复数形式”忠实表达occasional documented plurals。"
+        },
+        "self_audit": {
+          "status": "FIXED",
+          "reason": "“物质名词”正确对应mass nouns，“偶尔有文献记载的复数形式”忠实表达occasional documented plurals。"
+        }
+      }
+    },
+    "D005": {
+      "response": {
+        "ok": true,
+        "text": "{\"evaluations\":[{\"id\":\"A\",\"status\":\"NOT_FIXED\",\"reason\":\"“术语提取不仅仅是简单的术语抽取”仍将“超出单纯术语抽取”的范围说明处理为“不仅仅是”，且“由一系列专家负责”未体现“可由……开展”的可实施者范围，未修正漏译/坏译问题。\"},{\"id\":\"B\",\"status\":\"NOT_FIXED\",\"reason\":\"“并不仅限于单纯的术语抽取”仍偏离“范围超出单纯术语抽取”的原意，且“由一系列专家负责实施”仍暗示专家共同实施，未体现“可由……开展”的可实施者范围。\"},{\"id\":\"C\",\"status\":\"NOT_FIXED\",\"reason\":\"“并不仅限于单纯的术语抽取”仍将范围说明误作“不仅限于”，且“由一系列专家开展”仍暗示共同开展，未修正可实施者范围问题。\"},{\"id\":\"D\",\"status\":\"NOT_FIXED\",\"reason\":\"“由各类专家共同完成”明确加入“共同”，强化了原文未要求的共同开展含义，且“不仅仅是简单的术语抽取”仍未准确表达范围超出单纯术语抽取。\"}]}",
+        "finish": "stop",
+        "usage": {
+          "prompt": 447,
+          "completion": 235,
+          "total": 682
+        },
+        "seconds": 1.843,
+        "error": null
+      },
+      "parsed": {
+        "evaluations": [
+          {
+            "id": "A",
+            "status": "NOT_FIXED",
+            "reason": "“术语提取不仅仅是简单的术语抽取”仍将“超出单纯术语抽取”的范围说明处理为“不仅仅是”，且“由一系列专家负责”未体现“可由……开展”的可实施者范围，未修正漏译/坏译问题。"
+          },
+          {
+            "id": "B",
+            "status": "NOT_FIXED",
+            "reason": "“并不仅限于单纯的术语抽取”仍偏离“范围超出单纯术语抽取”的原意，且“由一系列专家负责实施”仍暗示专家共同实施，未体现“可由……开展”的可实施者范围。"
+          },
+          {
+            "id": "C",
+            "status": "NOT_FIXED",
+            "reason": "“并不仅限于单纯的术语抽取”仍将范围说明误作“不仅限于”，且“由一系列专家开展”仍暗示共同开展，未修正可实施者范围问题。"
+          },
+          {
+            "id": "D",
+            "status": "NOT_FIXED",
+            "reason": "“由各类专家共同完成”明确加入“共同”，强化了原文未要求的共同开展含义，且“不仅仅是简单的术语抽取”仍未准确表达范围超出单纯术语抽取。"
+          }
+        ]
+      },
+      "mapping": {
+        "A": "baseline",
+        "B": "fact_map",
+        "C": "self_audit",
+        "D": "plain"
+      },
+      "evaluations": {
+        "baseline": {
+          "status": "NOT_FIXED",
+          "reason": "“术语提取不仅仅是简单的术语抽取”仍将“超出单纯术语抽取”的范围说明处理为“不仅仅是”，且“由一系列专家负责”未体现“可由……开展”的可实施者范围，未修正漏译/坏译问题。"
+        },
+        "fact_map": {
+          "status": "NOT_FIXED",
+          "reason": "“并不仅限于单纯的术语抽取”仍偏离“范围超出单纯术语抽取”的原意，且“由一系列专家负责实施”仍暗示专家共同实施，未体现“可由……开展”的可实施者范围。"
+        },
+        "self_audit": {
+          "status": "NOT_FIXED",
+          "reason": "“并不仅限于单纯的术语抽取”仍将范围说明误作“不仅限于”，且“由一系列专家开展”仍暗示共同开展，未修正可实施者范围问题。"
+        },
+        "plain": {
+          "status": "NOT_FIXED",
+          "reason": "“由各类专家共同完成”明确加入“共同”，强化了原文未要求的共同开展含义，且“不仅仅是简单的术语抽取”仍未准确表达范围超出单纯术语抽取。"
+        }
+      }
+    },
+    "D007": {
+      "response": {
+        "ok": true,
+        "text": "{\"evaluations\":[{\"id\":\"A\",\"status\":\"FIXED\",\"reason\":\"“同样重要”正确表达了 no less important 的否定比较含义（重要性不低于对比对象），且“衡量实际大小”忠实于 measure the actual size。\"},{\"id\":\"B\",\"status\":\"FIXED\",\"reason\":\"“测量实际大小同样重要”准确传达 no less important 的等价含义，未出现“不能不一样重要”的错误。\"},{\"id\":\"C\",\"status\":\"FIXED\",\"reason\":\"“测量实际尺寸同样重要”忠实对应 measure the actual size，并用“同样重要”正确表达 no less important。\"},{\"id\":\"D\",\"status\":\"FIXED\",\"reason\":\"与 C 相同，“测量实际尺寸同样重要”正确修复了否定比较的表达问题。\"}]}",
+        "finish": "stop",
+        "usage": {
+          "prompt": 325,
+          "completion": 162,
+          "total": 487
+        },
+        "seconds": 1.761,
+        "error": null
+      },
+      "parsed": {
+        "evaluations": [
+          {
+            "id": "A",
+            "status": "FIXED",
+            "reason": "“同样重要”正确表达了 no less important 的否定比较含义（重要性不低于对比对象），且“衡量实际大小”忠实于 measure the actual size。"
+          },
+          {
+            "id": "B",
+            "status": "FIXED",
+            "reason": "“测量实际大小同样重要”准确传达 no less important 的等价含义，未出现“不能不一样重要”的错误。"
+          },
+          {
+            "id": "C",
+            "status": "FIXED",
+            "reason": "“测量实际尺寸同样重要”忠实对应 measure the actual size，并用“同样重要”正确表达 no less important。"
+          },
+          {
+            "id": "D",
+            "status": "FIXED",
+            "reason": "与 C 相同，“测量实际尺寸同样重要”正确修复了否定比较的表达问题。"
+          }
+        ]
+      },
+      "mapping": {
+        "A": "plain",
+        "B": "self_audit",
+        "C": "fact_map",
+        "D": "baseline"
+      },
+      "evaluations": {
+        "plain": {
+          "status": "FIXED",
+          "reason": "“同样重要”正确表达了 no less important 的否定比较含义（重要性不低于对比对象），且“衡量实际大小”忠实于 measure the actual size。"
+        },
+        "self_audit": {
+          "status": "FIXED",
+          "reason": "“测量实际大小同样重要”准确传达 no less important 的等价含义，未出现“不能不一样重要”的错误。"
+        },
+        "fact_map": {
+          "status": "FIXED",
+          "reason": "“测量实际尺寸同样重要”忠实对应 measure the actual size，并用“同样重要”正确表达 no less important。"
+        },
+        "baseline": {
+          "status": "FIXED",
+          "reason": "与 C 相同，“测量实际尺寸同样重要”正确修复了否定比较的表达问题。"
+        }
+      }
+    },
+    "D009": {
+      "response": {
+        "ok": true,
+        "text": "{\"evaluations\":[{\"id\":\"A\",\"status\":\"NOT_FIXED\",\"reason\":\"“大词”直译了big words，未表达生僻/故作高深之意，与long words并列时仍按字面大小理解。\"},{\"id\":\"B\",\"status\":\"NOT_FIXED\",\"reason\":\"“大词”仍是字面直译，未体现big words指生僻或故作高深的词。\"},{\"id\":\"C\",\"status\":\"NOT_FIXED\",\"reason\":\"“大词”未修正该词义，仍误解为物理意义上的大词。\"},{\"id\":\"D\",\"status\":\"NOT_FIXED\",\"reason\":\"“大词”同样保留字面误译，未表达生僻难懂词语的含义。\"}]}",
+        "finish": "stop",
+        "usage": {
+          "prompt": 290,
+          "completion": 156,
+          "total": 446
+        },
+        "seconds": 1.573,
+        "error": null
+      },
+      "parsed": {
+        "evaluations": [
+          {
+            "id": "A",
+            "status": "NOT_FIXED",
+            "reason": "“大词”直译了big words，未表达生僻/故作高深之意，与long words并列时仍按字面大小理解。"
+          },
+          {
+            "id": "B",
+            "status": "NOT_FIXED",
+            "reason": "“大词”仍是字面直译，未体现big words指生僻或故作高深的词。"
+          },
+          {
+            "id": "C",
+            "status": "NOT_FIXED",
+            "reason": "“大词”未修正该词义，仍误解为物理意义上的大词。"
+          },
+          {
+            "id": "D",
+            "status": "NOT_FIXED",
+            "reason": "“大词”同样保留字面误译，未表达生僻难懂词语的含义。"
+          }
+        ]
+      },
+      "mapping": {
+        "A": "baseline",
+        "B": "self_audit",
+        "C": "plain",
+        "D": "fact_map"
+      },
+      "evaluations": {
+        "baseline": {
+          "status": "NOT_FIXED",
+          "reason": "“大词”直译了big words，未表达生僻/故作高深之意，与long words并列时仍按字面大小理解。"
+        },
+        "self_audit": {
+          "status": "NOT_FIXED",
+          "reason": "“大词”仍是字面直译，未体现big words指生僻或故作高深的词。"
+        },
+        "plain": {
+          "status": "NOT_FIXED",
+          "reason": "“大词”未修正该词义，仍误解为物理意义上的大词。"
+        },
+        "fact_map": {
+          "status": "NOT_FIXED",
+          "reason": "“大词”同样保留字面误译，未表达生僻难懂词语的含义。"
+        }
+      }
+    },
+    "D010": {
+      "response": {
+        "ok": true,
+        "text": "{\"evaluations\":[{\"id\":\"A\",\"status\":\"FIXED\",\"reason\":\"“这些部分相加不等于聚合列的总计”正确表达部分明细之和不等于汇总列总计，未改变汇总计算关系。\"},{\"id\":\"B\",\"status\":\"FIXED\",\"reason\":\"同A，准确传达“部分相加不等于聚合列总计”，符合源文含义。\"},{\"id\":\"C\",\"status\":\"FIXED\",\"reason\":\"“不等于该聚合列的合计”忠实表达部分明细合计不构成汇总列总额，未误译为不计入总计。\"},{\"id\":\"D\",\"status\":\"FIXED\",\"reason\":\"“这些部分相加不等于聚合列的总计”正确保留部分与总计的对比关系。\"}]}",
+        "finish": "stop",
+        "usage": {
+          "prompt": 363,
+          "completion": 148,
+          "total": 511
+        },
+        "seconds": 1.414,
+        "error": null
+      },
+      "parsed": {
+        "evaluations": [
+          {
+            "id": "A",
+            "status": "FIXED",
+            "reason": "“这些部分相加不等于聚合列的总计”正确表达部分明细之和不等于汇总列总计，未改变汇总计算关系。"
+          },
+          {
+            "id": "B",
+            "status": "FIXED",
+            "reason": "同A，准确传达“部分相加不等于聚合列总计”，符合源文含义。"
+          },
+          {
+            "id": "C",
+            "status": "FIXED",
+            "reason": "“不等于该聚合列的合计”忠实表达部分明细合计不构成汇总列总额，未误译为不计入总计。"
+          },
+          {
+            "id": "D",
+            "status": "FIXED",
+            "reason": "“这些部分相加不等于聚合列的总计”正确保留部分与总计的对比关系。"
+          }
+        ]
+      },
+      "mapping": {
+        "A": "plain",
+        "B": "baseline",
+        "C": "self_audit",
+        "D": "fact_map"
+      },
+      "evaluations": {
+        "plain": {
+          "status": "FIXED",
+          "reason": "“这些部分相加不等于聚合列的总计”正确表达部分明细之和不等于汇总列总计，未改变汇总计算关系。"
+        },
+        "baseline": {
+          "status": "FIXED",
+          "reason": "同A，准确传达“部分相加不等于聚合列总计”，符合源文含义。"
+        },
+        "self_audit": {
+          "status": "FIXED",
+          "reason": "“不等于该聚合列的合计”忠实表达部分明细合计不构成汇总列总额，未误译为不计入总计。"
+        },
+        "fact_map": {
+          "status": "FIXED",
+          "reason": "“这些部分相加不等于聚合列的总计”正确保留部分与总计的对比关系。"
+        }
+      }
+    },
+    "D012": {
+      "response": {
+        "ok": true,
+        "text": "{\"evaluations\":[{\"id\":\"A\",\"status\":\"FIXED\",\"reason\":\"使用“语义原因”，正确对应‘semantic cause’，避免“言语因果”的误译。\"},{\"id\":\"B\",\"status\":\"FIXED\",\"reason\":\"使用“语义原因”，正确对应‘semantic cause’，避免“言语因果”的误译。\"},{\"id\":\"C\",\"status\":\"FIXED\",\"reason\":\"使用“语义原因”，正确对应‘semantic cause’，避免“言语因果”的误译。\"},{\"id\":\"D\",\"status\":\"FIXED\",\"reason\":\"使用“语义原因”，正确对应‘semantic cause’，避免“言语因果”的误译。\"}]}",
+        "finish": "stop",
+        "usage": {
+          "prompt": 369,
+          "completion": 143,
+          "total": 512
+        },
+        "seconds": 1.413,
+        "error": null
+      },
+      "parsed": {
+        "evaluations": [
+          {
+            "id": "A",
+            "status": "FIXED",
+            "reason": "使用“语义原因”，正确对应‘semantic cause’，避免“言语因果”的误译。"
+          },
+          {
+            "id": "B",
+            "status": "FIXED",
+            "reason": "使用“语义原因”，正确对应‘semantic cause’，避免“言语因果”的误译。"
+          },
+          {
+            "id": "C",
+            "status": "FIXED",
+            "reason": "使用“语义原因”，正确对应‘semantic cause’，避免“言语因果”的误译。"
+          },
+          {
+            "id": "D",
+            "status": "FIXED",
+            "reason": "使用“语义原因”，正确对应‘semantic cause’，避免“言语因果”的误译。"
+          }
+        ]
+      },
+      "mapping": {
+        "A": "baseline",
+        "B": "self_audit",
+        "C": "plain",
+        "D": "fact_map"
+      },
+      "evaluations": {
+        "baseline": {
+          "status": "FIXED",
+          "reason": "使用“语义原因”，正确对应‘semantic cause’，避免“言语因果”的误译。"
+        },
+        "self_audit": {
+          "status": "FIXED",
+          "reason": "使用“语义原因”，正确对应‘semantic cause’，避免“言语因果”的误译。"
+        },
+        "plain": {
+          "status": "FIXED",
+          "reason": "使用“语义原因”，正确对应‘semantic cause’，避免“言语因果”的误译。"
+        },
+        "fact_map": {
+          "status": "FIXED",
+          "reason": "使用“语义原因”，正确对应‘semantic cause’，避免“言语因果”的误译。"
+        }
+      }
+    },
+    "D011": {
+      "response": {
+        "ok": true,
+        "text": "{\"evaluations\":[{\"id\":\"A\",\"status\":\"FIXED\",\"reason\":\"译文用“如果……且……那么……”保留了原文的条件限定，未误译为所有语料库均已满足条件，忠实于源文。\"},{\"id\":\"B\",\"status\":\"FIXED\",\"reason\":\"同样以“如果……且……那么……”表达条件，条件限定完整，未出现过度概括。\"},{\"id\":\"C\",\"status\":\"FIXED\",\"reason\":\"“如果……且……则……”准确传达条件关系，符合源文限定语。\"},{\"id\":\"D\",\"status\":\"FIXED\",\"reason\":\"“如果……并且……那么……”保留条件结构，未将条件误作既定事实。\"}]}",
+        "finish": "stop",
+        "usage": {
+          "prompt": 472,
+          "completion": 147,
+          "total": 619
+        },
+        "seconds": 1.644,
+        "error": null
+      },
+      "parsed": {
+        "evaluations": [
+          {
+            "id": "A",
+            "status": "FIXED",
+            "reason": "译文用“如果……且……那么……”保留了原文的条件限定，未误译为所有语料库均已满足条件，忠实于源文。"
+          },
+          {
+            "id": "B",
+            "status": "FIXED",
+            "reason": "同样以“如果……且……那么……”表达条件，条件限定完整，未出现过度概括。"
+          },
+          {
+            "id": "C",
+            "status": "FIXED",
+            "reason": "“如果……且……则……”准确传达条件关系，符合源文限定语。"
+          },
+          {
+            "id": "D",
+            "status": "FIXED",
+            "reason": "“如果……并且……那么……”保留条件结构，未将条件误作既定事实。"
+          }
+        ]
+      },
+      "mapping": {
+        "A": "fact_map",
+        "B": "self_audit",
+        "C": "baseline",
+        "D": "plain"
+      },
+      "evaluations": {
+        "fact_map": {
+          "status": "FIXED",
+          "reason": "译文用“如果……且……那么……”保留了原文的条件限定，未误译为所有语料库均已满足条件，忠实于源文。"
+        },
+        "self_audit": {
+          "status": "FIXED",
+          "reason": "同样以“如果……且……那么……”表达条件，条件限定完整，未出现过度概括。"
+        },
+        "baseline": {
+          "status": "FIXED",
+          "reason": "“如果……且……则……”准确传达条件关系，符合源文限定语。"
+        },
+        "plain": {
+          "status": "FIXED",
+          "reason": "“如果……并且……那么……”保留条件结构，未将条件误作既定事实。"
+        }
+      }
+    },
+    "D013": {
+      "response": {
+        "ok": true,
+        "text": "{\"evaluations\":[{\"id\":\"A\",\"status\":\"FIXED\",\"reason\":\"使用“促进了”对应facilitated，未强化为必要条件，忠实于原文。\"},{\"id\":\"B\",\"status\":\"FIXED\",\"reason\":\"“从而促进”准确表达facilitated的促进作用，未误译为必要条件。\"},{\"id\":\"C\",\"status\":\"FIXED\",\"reason\":\"“促进了”正确对应facilitated，未出现“有赖于”式强化。\"},{\"id\":\"D\",\"status\":\"FIXED\",\"reason\":\"“从而促进”准确传达facilitated的促进含义，未强化为必要条件。\"}]}",
+        "finish": "stop",
+        "usage": {
+          "prompt": 403,
+          "completion": 131,
+          "total": 534
+        },
+        "seconds": 1.361,
+        "error": null
+      },
+      "parsed": {
+        "evaluations": [
+          {
+            "id": "A",
+            "status": "FIXED",
+            "reason": "使用“促进了”对应facilitated，未强化为必要条件，忠实于原文。"
+          },
+          {
+            "id": "B",
+            "status": "FIXED",
+            "reason": "“从而促进”准确表达facilitated的促进作用，未误译为必要条件。"
+          },
+          {
+            "id": "C",
+            "status": "FIXED",
+            "reason": "“促进了”正确对应facilitated，未出现“有赖于”式强化。"
+          },
+          {
+            "id": "D",
+            "status": "FIXED",
+            "reason": "“从而促进”准确传达facilitated的促进含义，未强化为必要条件。"
+          }
+        ]
+      },
+      "mapping": {
+        "A": "baseline",
+        "B": "fact_map",
+        "C": "self_audit",
+        "D": "plain"
+      },
+      "evaluations": {
+        "baseline": {
+          "status": "FIXED",
+          "reason": "使用“促进了”对应facilitated，未强化为必要条件，忠实于原文。"
+        },
+        "fact_map": {
+          "status": "FIXED",
+          "reason": "“从而促进”准确表达facilitated的促进作用，未误译为必要条件。"
+        },
+        "self_audit": {
+          "status": "FIXED",
+          "reason": "“促进了”正确对应facilitated，未出现“有赖于”式强化。"
+        },
+        "plain": {
+          "status": "FIXED",
+          "reason": "“从而促进”准确传达facilitated的促进含义，未强化为必要条件。"
+        }
+      }
+    },
+    "D014": {
+      "response": {
+        "ok": true,
+        "text": "{\"evaluations\":[{\"id\":\"A\",\"status\":\"FIXED\",\"reason\":\"译文用“共同点在于”直接表达共同特征，未引入“通常”等无据例外，忠实于原文。\"},{\"id\":\"B\",\"status\":\"FIXED\",\"reason\":\"译文用“共同点在于”直接表达共同特征，未引入“通常”等无据例外，忠实于原文。\"},{\"id\":\"C\",\"status\":\"FIXED\",\"reason\":\"译文用“共同点在于”直接表达共同特征，未引入“通常”等无据例外，忠实于原文。\"},{\"id\":\"D\",\"status\":\"FIXED\",\"reason\":\"译文用“共同点在于”直接表达共同特征，未引入“通常”等无据例外，忠实于原文。\"}]}",
+        "finish": "stop",
+        "usage": {
+          "prompt": 371,
+          "completion": 163,
+          "total": 534
+        },
+        "seconds": 1.524,
+        "error": null
+      },
+      "parsed": {
+        "evaluations": [
+          {
+            "id": "A",
+            "status": "FIXED",
+            "reason": "译文用“共同点在于”直接表达共同特征，未引入“通常”等无据例外，忠实于原文。"
+          },
+          {
+            "id": "B",
+            "status": "FIXED",
+            "reason": "译文用“共同点在于”直接表达共同特征，未引入“通常”等无据例外，忠实于原文。"
+          },
+          {
+            "id": "C",
+            "status": "FIXED",
+            "reason": "译文用“共同点在于”直接表达共同特征，未引入“通常”等无据例外，忠实于原文。"
+          },
+          {
+            "id": "D",
+            "status": "FIXED",
+            "reason": "译文用“共同点在于”直接表达共同特征，未引入“通常”等无据例外，忠实于原文。"
+          }
+        ]
+      },
+      "mapping": {
+        "A": "baseline",
+        "B": "fact_map",
+        "C": "self_audit",
+        "D": "plain"
+      },
+      "evaluations": {
+        "baseline": {
+          "status": "FIXED",
+          "reason": "译文用“共同点在于”直接表达共同特征，未引入“通常”等无据例外，忠实于原文。"
+        },
+        "fact_map": {
+          "status": "FIXED",
+          "reason": "译文用“共同点在于”直接表达共同特征，未引入“通常”等无据例外，忠实于原文。"
+        },
+        "self_audit": {
+          "status": "FIXED",
+          "reason": "译文用“共同点在于”直接表达共同特征，未引入“通常”等无据例外，忠实于原文。"
+        },
+        "plain": {
+          "status": "FIXED",
+          "reason": "译文用“共同点在于”直接表达共同特征，未引入“通常”等无据例外，忠实于原文。"
+        }
+      }
+    },
+    "D016": {
+      "response": {
+        "ok": true,
+        "text": "{\"evaluations\":[{\"id\":\"A\",\"status\":\"FIXED\",\"reason\":\"“也是可取的”保留了“it is desirable”的建议/可取语气，未断言现有输出已含定义，符合注释要求。\"},{\"id\":\"B\",\"status\":\"FIXED\",\"reason\":\"“同样可取的是”对应“it is also desirable”，表达建议而非断言，修复了原问题。\"},{\"id\":\"C\",\"status\":\"FIXED\",\"reason\":\"与B相同，“同样可取的是”正确传达建议性语气，未误作断言。\"},{\"id\":\"D\",\"status\":\"FIXED\",\"reason\":\"“也是可取的”保留“desirable”的建议含义，未将抽取定义表述为既有事实。\"}]}",
+        "finish": "stop",
+        "usage": {
+          "prompt": 303,
+          "completion": 150,
+          "total": 453
+        },
+        "seconds": 1.456,
+        "error": null
+      },
+      "parsed": {
+        "evaluations": [
+          {
+            "id": "A",
+            "status": "FIXED",
+            "reason": "“也是可取的”保留了“it is desirable”的建议/可取语气，未断言现有输出已含定义，符合注释要求。"
+          },
+          {
+            "id": "B",
+            "status": "FIXED",
+            "reason": "“同样可取的是”对应“it is also desirable”，表达建议而非断言，修复了原问题。"
+          },
+          {
+            "id": "C",
+            "status": "FIXED",
+            "reason": "与B相同，“同样可取的是”正确传达建议性语气，未误作断言。"
+          },
+          {
+            "id": "D",
+            "status": "FIXED",
+            "reason": "“也是可取的”保留“desirable”的建议含义，未将抽取定义表述为既有事实。"
+          }
+        ]
+      },
+      "mapping": {
+        "A": "plain",
+        "B": "self_audit",
+        "C": "fact_map",
+        "D": "baseline"
+      },
+      "evaluations": {
+        "plain": {
+          "status": "FIXED",
+          "reason": "“也是可取的”保留了“it is desirable”的建议/可取语气，未断言现有输出已含定义，符合注释要求。"
+        },
+        "self_audit": {
+          "status": "FIXED",
+          "reason": "“同样可取的是”对应“it is also desirable”，表达建议而非断言，修复了原问题。"
+        },
+        "fact_map": {
+          "status": "FIXED",
+          "reason": "与B相同，“同样可取的是”正确传达建议性语气，未误作断言。"
+        },
+        "baseline": {
+          "status": "FIXED",
+          "reason": "“也是可取的”保留“desirable”的建议含义，未将抽取定义表述为既有事实。"
+        }
+      }
+    },
+    "D015": {
+      "response": {
+        "ok": true,
+        "text": "{\"evaluations\":[{\"id\":\"A\",\"status\":\"FIXED\",\"reason\":\"译为“注释所适用的具体位置”，正确表达“to which annotation applies”限定的是位置，未添加“应用决定方法”的错误条件。\"},{\"id\":\"B\",\"status\":\"NOT_FIXED\",\"reason\":\"“元素等注释所适用的目标”将适用对象误作“目标”，未明确限定为源数据中的具体位置，仍偏离原意。\"},{\"id\":\"C\",\"status\":\"NOT_FIXED\",\"reason\":\"“注释所适用的定位方式”把适用对象误译为“定位方式”，仍属方法/方式误读，未修复限定位置的问题。\"},{\"id\":\"D\",\"status\":\"FIXED\",\"reason\":\"“注释所适用的对象”虽用“对象”，但整体指向源数据中的特定位置，未引入应用条件，基本修复原问题。\"}]}",
+        "finish": "stop",
+        "usage": {
+          "prompt": 578,
+          "completion": 182,
+          "total": 760
+        },
+        "seconds": 2.192,
+        "error": null
+      },
+      "parsed": {
+        "evaluations": [
+          {
+            "id": "A",
+            "status": "FIXED",
+            "reason": "译为“注释所适用的具体位置”，正确表达“to which annotation applies”限定的是位置，未添加“应用决定方法”的错误条件。"
+          },
+          {
+            "id": "B",
+            "status": "NOT_FIXED",
+            "reason": "“元素等注释所适用的目标”将适用对象误作“目标”，未明确限定为源数据中的具体位置，仍偏离原意。"
+          },
+          {
+            "id": "C",
+            "status": "NOT_FIXED",
+            "reason": "“注释所适用的定位方式”把适用对象误译为“定位方式”，仍属方法/方式误读，未修复限定位置的问题。"
+          },
+          {
+            "id": "D",
+            "status": "FIXED",
+            "reason": "“注释所适用的对象”虽用“对象”，但整体指向源数据中的特定位置，未引入应用条件，基本修复原问题。"
+          }
+        ]
+      },
+      "mapping": {
+        "A": "plain",
+        "B": "baseline",
+        "C": "fact_map",
+        "D": "self_audit"
+      },
+      "evaluations": {
+        "plain": {
+          "status": "FIXED",
+          "reason": "译为“注释所适用的具体位置”，正确表达“to which annotation applies”限定的是位置，未添加“应用决定方法”的错误条件。"
+        },
+        "baseline": {
+          "status": "NOT_FIXED",
+          "reason": "“元素等注释所适用的目标”将适用对象误作“目标”，未明确限定为源数据中的具体位置，仍偏离原意。"
+        },
+        "fact_map": {
+          "status": "NOT_FIXED",
+          "reason": "“注释所适用的定位方式”把适用对象误译为“定位方式”，仍属方法/方式误读，未修复限定位置的问题。"
+        },
+        "self_audit": {
+          "status": "FIXED",
+          "reason": "“注释所适用的对象”虽用“对象”，但整体指向源数据中的特定位置，未引入应用条件，基本修复原问题。"
+        }
+      }
+    },
+    "D017": {
+      "response": {
+        "ok": true,
+        "text": "{\"evaluations\":[{\"id\":\"A\",\"status\":\"NOT_FIXED\",\"reason\":\"译文使用“应”，仍将原文建议性的“should”提升为要求，未按标注改为“宜”。\"},{\"id\":\"B\",\"status\":\"NOT_FIXED\",\"reason\":\"译文使用“应”，仍将原文建议性的“should”提升为要求，未按标注改为“宜”。\"},{\"id\":\"C\",\"status\":\"NOT_FIXED\",\"reason\":\"译文使用“应”，仍将原文建议性的“should”提升为要求，未按标注改为“宜”。\"},{\"id\":\"D\",\"status\":\"NOT_FIXED\",\"reason\":\"译文使用“应”，仍将原文建议性的“should”提升为要求，未按标注改为“宜”。\"}]}",
+        "finish": "stop",
+        "usage": {
+          "prompt": 298,
+          "completion": 163,
+          "total": 461
+        },
+        "seconds": 1.458,
+        "error": null
+      },
+      "parsed": {
+        "evaluations": [
+          {
+            "id": "A",
+            "status": "NOT_FIXED",
+            "reason": "译文使用“应”，仍将原文建议性的“should”提升为要求，未按标注改为“宜”。"
+          },
+          {
+            "id": "B",
+            "status": "NOT_FIXED",
+            "reason": "译文使用“应”，仍将原文建议性的“should”提升为要求，未按标注改为“宜”。"
+          },
+          {
+            "id": "C",
+            "status": "NOT_FIXED",
+            "reason": "译文使用“应”，仍将原文建议性的“should”提升为要求，未按标注改为“宜”。"
+          },
+          {
+            "id": "D",
+            "status": "NOT_FIXED",
+            "reason": "译文使用“应”，仍将原文建议性的“should”提升为要求，未按标注改为“宜”。"
+          }
+        ]
+      },
+      "mapping": {
+        "A": "fact_map",
+        "B": "baseline",
+        "C": "self_audit",
+        "D": "plain"
+      },
+      "evaluations": {
+        "fact_map": {
+          "status": "NOT_FIXED",
+          "reason": "译文使用“应”，仍将原文建议性的“should”提升为要求，未按标注改为“宜”。"
+        },
+        "baseline": {
+          "status": "NOT_FIXED",
+          "reason": "译文使用“应”，仍将原文建议性的“should”提升为要求，未按标注改为“宜”。"
+        },
+        "self_audit": {
+          "status": "NOT_FIXED",
+          "reason": "译文使用“应”，仍将原文建议性的“should”提升为要求，未按标注改为“宜”。"
+        },
+        "plain": {
+          "status": "NOT_FIXED",
+          "reason": "译文使用“应”，仍将原文建议性的“should”提升为要求，未按标注改为“宜”。"
+        }
+      }
+    },
+    "D018": {
+      "response": {
+        "ok": true,
+        "text": "{\"evaluations\":[{\"id\":\"A\",\"status\":\"NOT_FIXED\",\"reason\":\"“应”仍表示要求，未按注释弱化为建议（如“宜”），因此未修正建议强度问题。\"},{\"id\":\"B\",\"status\":\"NOT_FIXED\",\"reason\":\"“应当”同样是较强的要求性措辞，未体现should的建议语气，问题未修正。\"},{\"id\":\"C\",\"status\":\"NOT_FIXED\",\"reason\":\"“应”仍为要求性表达，未按注释改为建议性措辞，故未修复。\"},{\"id\":\"D\",\"status\":\"NOT_FIXED\",\"reason\":\"“应”仍强化为要求，未体现should的建议强度，注释所指问题未解决。\"}]}",
+        "finish": "stop",
+        "usage": {
+          "prompt": 378,
+          "completion": 151,
+          "total": 529
+        },
+        "seconds": 1.474,
+        "error": null
+      },
+      "parsed": {
+        "evaluations": [
+          {
+            "id": "A",
+            "status": "NOT_FIXED",
+            "reason": "“应”仍表示要求，未按注释弱化为建议（如“宜”），因此未修正建议强度问题。"
+          },
+          {
+            "id": "B",
+            "status": "NOT_FIXED",
+            "reason": "“应当”同样是较强的要求性措辞，未体现should的建议语气，问题未修正。"
+          },
+          {
+            "id": "C",
+            "status": "NOT_FIXED",
+            "reason": "“应”仍为要求性表达，未按注释改为建议性措辞，故未修复。"
+          },
+          {
+            "id": "D",
+            "status": "NOT_FIXED",
+            "reason": "“应”仍强化为要求，未体现should的建议强度，注释所指问题未解决。"
+          }
+        ]
+      },
+      "mapping": {
+        "A": "baseline",
+        "B": "self_audit",
+        "C": "plain",
+        "D": "fact_map"
+      },
+      "evaluations": {
+        "baseline": {
+          "status": "NOT_FIXED",
+          "reason": "“应”仍表示要求，未按注释弱化为建议（如“宜”），因此未修正建议强度问题。"
+        },
+        "self_audit": {
+          "status": "NOT_FIXED",
+          "reason": "“应当”同样是较强的要求性措辞，未体现should的建议语气，问题未修正。"
+        },
+        "plain": {
+          "status": "NOT_FIXED",
+          "reason": "“应”仍为要求性表达，未按注释改为建议性措辞，故未修复。"
+        },
+        "fact_map": {
+          "status": "NOT_FIXED",
+          "reason": "“应”仍强化为要求，未体现should的建议强度，注释所指问题未解决。"
+        }
+      }
+    },
+    "D019": {
+      "response": {
+        "ok": true,
+        "text": "{\"evaluations\":[{\"id\":\"A\",\"status\":\"NOT_FIXED\",\"reason\":\"仍用“会”表达 can vary，过于确定；且“以及/或”未准确对应 and/or 的“和／或”。\"},{\"id\":\"B\",\"status\":\"UNCERTAIN\",\"reason\":\"已恢复“可能”表达 can vary，但“以及/或”仍非“和／或”，and/or 的并列/选择关系保留不完整。\"},{\"id\":\"C\",\"status\":\"NOT_FIXED\",\"reason\":\"“会”仍将 can vary 译得过于确定；“以及/或者”也未准确对应 and/or。\"},{\"id\":\"D\",\"status\":\"FIXED\",\"reason\":\"用“可能……而异”保留 can vary 的不确定性，“及/或”对应 and/or 的分别或共同含义。\"}]}",
+        "finish": "stop",
+        "usage": {
+          "prompt": 441,
+          "completion": 176,
+          "total": 617
+        },
+        "seconds": 1.335,
+        "error": null
+      },
+      "parsed": {
+        "evaluations": [
+          {
+            "id": "A",
+            "status": "NOT_FIXED",
+            "reason": "仍用“会”表达 can vary，过于确定；且“以及/或”未准确对应 and/or 的“和／或”。"
+          },
+          {
+            "id": "B",
+            "status": "UNCERTAIN",
+            "reason": "已恢复“可能”表达 can vary，但“以及/或”仍非“和／或”，and/or 的并列/选择关系保留不完整。"
+          },
+          {
+            "id": "C",
+            "status": "NOT_FIXED",
+            "reason": "“会”仍将 can vary 译得过于确定；“以及/或者”也未准确对应 and/or。"
+          },
+          {
+            "id": "D",
+            "status": "FIXED",
+            "reason": "用“可能……而异”保留 can vary 的不确定性，“及/或”对应 and/or 的分别或共同含义。"
+          }
+        ]
+      },
+      "mapping": {
+        "A": "fact_map",
+        "B": "baseline",
+        "C": "self_audit",
+        "D": "plain"
+      },
+      "evaluations": {
+        "fact_map": {
+          "status": "NOT_FIXED",
+          "reason": "仍用“会”表达 can vary，过于确定；且“以及/或”未准确对应 and/or 的“和／或”。"
+        },
+        "baseline": {
+          "status": "UNCERTAIN",
+          "reason": "已恢复“可能”表达 can vary，但“以及/或”仍非“和／或”，and/or 的并列/选择关系保留不完整。"
+        },
+        "self_audit": {
+          "status": "NOT_FIXED",
+          "reason": "“会”仍将 can vary 译得过于确定；“以及/或者”也未准确对应 and/or。"
+        },
+        "plain": {
+          "status": "FIXED",
+          "reason": "用“可能……而异”保留 can vary 的不确定性，“及/或”对应 and/or 的分别或共同含义。"
+        }
+      }
+    },
+    "D020": {
+      "response": {
+        "ok": true,
+        "text": "{\"evaluations\":[{\"id\":\"A\",\"status\":\"NOT_FIXED\",\"reason\":\"“提议的”未体现“已提出”的完成/正式建议身份，且“可以”虽保留can能力义，但核心issue在proposed未修正。\"},{\"id\":\"B\",\"status\":\"NOT_FIXED\",\"reason\":\"“已提出的”修正了proposed，但“definitive”未译且“可以”保留can；混入英文definitive导致不忠实。\"},{\"id\":\"C\",\"status\":\"NOT_FIXED\",\"reason\":\"“提议的”仍未体现“已提出”的正式建议身份，issue未修正。\"},{\"id\":\"D\",\"status\":\"FIXED\",\"reason\":\"“已提出的”体现proposed的已提出/建议身份，“可以使用”保留can能力义，且“之一”对应one of，整体忠实。\"}]}",
+        "finish": "stop",
+        "usage": {
+          "prompt": 378,
+          "completion": 183,
+          "total": 561
+        },
+        "seconds": 1.994,
+        "error": null
+      },
+      "parsed": {
+        "evaluations": [
+          {
+            "id": "A",
+            "status": "NOT_FIXED",
+            "reason": "“提议的”未体现“已提出”的完成/正式建议身份，且“可以”虽保留can能力义，但核心issue在proposed未修正。"
+          },
+          {
+            "id": "B",
+            "status": "NOT_FIXED",
+            "reason": "“已提出的”修正了proposed，但“definitive”未译且“可以”保留can；混入英文definitive导致不忠实。"
+          },
+          {
+            "id": "C",
+            "status": "NOT_FIXED",
+            "reason": "“提议的”仍未体现“已提出”的正式建议身份，issue未修正。"
+          },
+          {
+            "id": "D",
+            "status": "FIXED",
+            "reason": "“已提出的”体现proposed的已提出/建议身份，“可以使用”保留can能力义，且“之一”对应one of，整体忠实。"
+          }
+        ]
+      },
+      "mapping": {
+        "A": "fact_map",
+        "B": "self_audit",
+        "C": "baseline",
+        "D": "plain"
+      },
+      "evaluations": {
+        "fact_map": {
+          "status": "NOT_FIXED",
+          "reason": "“提议的”未体现“已提出”的完成/正式建议身份，且“可以”虽保留can能力义，但核心issue在proposed未修正。"
+        },
+        "self_audit": {
+          "status": "NOT_FIXED",
+          "reason": "“已提出的”修正了proposed，但“definitive”未译且“可以”保留can；混入英文definitive导致不忠实。"
+        },
+        "baseline": {
+          "status": "NOT_FIXED",
+          "reason": "“提议的”仍未体现“已提出”的正式建议身份，issue未修正。"
+        },
+        "plain": {
+          "status": "FIXED",
+          "reason": "“已提出的”体现proposed的已提出/建议身份，“可以使用”保留can能力义，且“之一”对应one of，整体忠实。"
+        }
+      }
+    },
+    "D023": {
+      "response": {
+        "ok": true,
+        "text": "{\"evaluations\":[{\"id\":\"A\",\"status\":\"FIXED\",\"reason\":\"使用“可能需要进行某些修改”准确表达likely的概率判断，未误读为低概率或断言必然修改。\"},{\"id\":\"B\",\"status\":\"NOT_FIXED\",\"reason\":\"“很可能需要”将likely强化为较高概率，偏离原文的概率判断。\"},{\"id\":\"C\",\"status\":\"FIXED\",\"reason\":\"“可能需要进行某些修改”忠实表达likely，未误读概率或断言必然性。\"},{\"id\":\"D\",\"status\":\"NOT_FIXED\",\"reason\":\"“很可能需要”同样强化了likely的概率程度，未准确修复该问题。\"}]}",
+        "finish": "stop",
+        "usage": {
+          "prompt": 333,
+          "completion": 137,
+          "total": 470
+        },
+        "seconds": 1.338,
+        "error": null
+      },
+      "parsed": {
+        "evaluations": [
+          {
+            "id": "A",
+            "status": "FIXED",
+            "reason": "使用“可能需要进行某些修改”准确表达likely的概率判断，未误读为低概率或断言必然修改。"
+          },
+          {
+            "id": "B",
+            "status": "NOT_FIXED",
+            "reason": "“很可能需要”将likely强化为较高概率，偏离原文的概率判断。"
+          },
+          {
+            "id": "C",
+            "status": "FIXED",
+            "reason": "“可能需要进行某些修改”忠实表达likely，未误读概率或断言必然性。"
+          },
+          {
+            "id": "D",
+            "status": "NOT_FIXED",
+            "reason": "“很可能需要”同样强化了likely的概率程度，未准确修复该问题。"
+          }
+        ]
+      },
+      "mapping": {
+        "A": "baseline",
+        "B": "fact_map",
+        "C": "self_audit",
+        "D": "plain"
+      },
+      "evaluations": {
+        "baseline": {
+          "status": "FIXED",
+          "reason": "使用“可能需要进行某些修改”准确表达likely的概率判断，未误读为低概率或断言必然修改。"
+        },
+        "fact_map": {
+          "status": "NOT_FIXED",
+          "reason": "“很可能需要”将likely强化为较高概率，偏离原文的概率判断。"
+        },
+        "self_audit": {
+          "status": "FIXED",
+          "reason": "“可能需要进行某些修改”忠实表达likely，未误读概率或断言必然性。"
+        },
+        "plain": {
+          "status": "NOT_FIXED",
+          "reason": "“很可能需要”同样强化了likely的概率程度，未准确修复该问题。"
+        }
+      }
+    },
+    "D021": {
+      "response": {
+        "ok": true,
+        "text": "{\"evaluations\":[{\"id\":\"A\",\"status\":\"FIXED\",\"reason\":\"Includes the self-correction after the dash with “直接掉头回去,” preserving the correction example; “那我们” for “then we're” is acceptable.\"},{\"id\":\"B\",\"status\":\"FIXED\",\"reason\":\"Renders “然后我们要——……直接掉头回去,” retaining the retraction and corrected “turn straight back.”\"},{\"id\":\"C\",\"status\":\"NOT_FIXED\",\"reason\":\"“掉头回来” means turn back/come back rather than “turn straight back,” and “要去” lacks the dash-marked retraction, weakening the correction example.\"},{\"id\":\"D\",\"status\":\"FIXED\",\"reason\":\"Same as B: keeps the dash retraction and the corrected “直接掉头回去,” matching the source’s correction.\"}]}",
+        "finish": "stop",
+        "usage": {
+          "prompt": 303,
+          "completion": 176,
+          "total": 479
+        },
+        "seconds": 1.821,
+        "error": null
+      },
+      "parsed": {
+        "evaluations": [
+          {
+            "id": "A",
+            "status": "FIXED",
+            "reason": "Includes the self-correction after the dash with “直接掉头回去,” preserving the correction example; “那我们” for “then we're” is acceptable."
+          },
+          {
+            "id": "B",
+            "status": "FIXED",
+            "reason": "Renders “然后我们要——……直接掉头回去,” retaining the retraction and corrected “turn straight back.”"
+          },
+          {
+            "id": "C",
+            "status": "NOT_FIXED",
+            "reason": "“掉头回来” means turn back/come back rather than “turn straight back,” and “要去” lacks the dash-marked retraction, weakening the correction example."
+          },
+          {
+            "id": "D",
+            "status": "FIXED",
+            "reason": "Same as B: keeps the dash retraction and the corrected “直接掉头回去,” matching the source’s correction."
+          }
+        ]
+      },
+      "mapping": {
+        "A": "baseline",
+        "B": "self_audit",
+        "C": "plain",
+        "D": "fact_map"
+      },
+      "evaluations": {
+        "baseline": {
+          "status": "FIXED",
+          "reason": "Includes the self-correction after the dash with “直接掉头回去,” preserving the correction example; “那我们” for “then we're” is acceptable."
+        },
+        "self_audit": {
+          "status": "FIXED",
+          "reason": "Renders “然后我们要——……直接掉头回去,” retaining the retraction and corrected “turn straight back.”"
+        },
+        "plain": {
+          "status": "NOT_FIXED",
+          "reason": "“掉头回来” means turn back/come back rather than “turn straight back,” and “要去” lacks the dash-marked retraction, weakening the correction example."
+        },
+        "fact_map": {
+          "status": "FIXED",
+          "reason": "Same as B: keeps the dash retraction and the corrected “直接掉头回去,” matching the source’s correction."
+        }
+      }
+    },
+    "D022": {
+      "response": {
+        "ok": true,
+        "text": "{\"evaluations\":[{\"id\":\"A\",\"status\":\"FIXED\",\"reason\":\"将“purposes or domains”作为并列的适宜性判断对象，译为“对不同目的或领域（3.2.1）何为适当的感知”，未再误嵌为“领域的不同目的”。\"},{\"id\":\"B\",\"status\":\"FIXED\",\"reason\":\"同样把“purposes or domains”并列处理为“对不同目的或领域（3.2.1）何为恰当的感知”，修复了原并列关系错误。\"},{\"id\":\"C\",\"status\":\"FIXED\",\"reason\":\"“对不同目的或领域（3.2.1）何为恰当的感知”正确保留并列结构，未将目的误作领域内不同目的。\"},{\"id\":\"D\",\"status\":\"FIXED\",\"reason\":\"“对不同目的或领域（3.2.1）何为恰当的认知”保持并列适宜性判断，虽用“认知”替代“感知”，但未复现原并列错误。\"}]}",
+        "finish": "stop",
+        "usage": {
+          "prompt": 494,
+          "completion": 206,
+          "total": 700
+        },
+        "seconds": 1.585,
+        "error": null
+      },
+      "parsed": {
+        "evaluations": [
+          {
+            "id": "A",
+            "status": "FIXED",
+            "reason": "将“purposes or domains”作为并列的适宜性判断对象，译为“对不同目的或领域（3.2.1）何为适当的感知”，未再误嵌为“领域的不同目的”。"
+          },
+          {
+            "id": "B",
+            "status": "FIXED",
+            "reason": "同样把“purposes or domains”并列处理为“对不同目的或领域（3.2.1）何为恰当的感知”，修复了原并列关系错误。"
+          },
+          {
+            "id": "C",
+            "status": "FIXED",
+            "reason": "“对不同目的或领域（3.2.1）何为恰当的感知”正确保留并列结构，未将目的误作领域内不同目的。"
+          },
+          {
+            "id": "D",
+            "status": "FIXED",
+            "reason": "“对不同目的或领域（3.2.1）何为恰当的认知”保持并列适宜性判断，虽用“认知”替代“感知”，但未复现原并列错误。"
+          }
+        ]
+      },
+      "mapping": {
+        "A": "baseline",
+        "B": "fact_map",
+        "C": "self_audit",
+        "D": "plain"
+      },
+      "evaluations": {
+        "baseline": {
+          "status": "FIXED",
+          "reason": "将“purposes or domains”作为并列的适宜性判断对象，译为“对不同目的或领域（3.2.1）何为适当的感知”，未再误嵌为“领域的不同目的”。"
+        },
+        "fact_map": {
+          "status": "FIXED",
+          "reason": "同样把“purposes or domains”并列处理为“对不同目的或领域（3.2.1）何为恰当的感知”，修复了原并列关系错误。"
+        },
+        "self_audit": {
+          "status": "FIXED",
+          "reason": "“对不同目的或领域（3.2.1）何为恰当的感知”正确保留并列结构，未将目的误作领域内不同目的。"
+        },
+        "plain": {
+          "status": "FIXED",
+          "reason": "“对不同目的或领域（3.2.1）何为恰当的认知”保持并列适宜性判断，虽用“认知”替代“感知”，但未复现原并列错误。"
+        }
+      }
+    },
+    "D024": {
+      "response": {
+        "ok": true,
+        "text": "{\"evaluations\":[{\"id\":\"A\",\"status\":\"NOT_FIXED\",\"reason\":\"译文中“在查询中向URI添加参数”仍把query理解为查询过程/动作，而非URI结构中的查询部分，未修正作用位置错误。\"},{\"id\":\"B\",\"status\":\"NOT_FIXED\",\"reason\":\"与A相同，“在查询中向URI添加参数”仍将query误作查询过程，未体现URI的查询部分。\"},{\"id\":\"C\",\"status\":\"NOT_FIXED\",\"reason\":\"“在查询中向URI添加参数”依旧把query当作查询动作，未修正为URI结构内的查询部分。\"},{\"id\":\"D\",\"status\":\"NOT_FIXED\",\"reason\":\"同样保留“在查询中向URI添加参数”，query仍被误作查询过程，未修正该结构位置错误。\"}]}",
+        "finish": "stop",
+        "usage": {
+          "prompt": 343,
+          "completion": 174,
+          "total": 517
+        },
+        "seconds": 1.608,
+        "error": null
+      },
+      "parsed": {
+        "evaluations": [
+          {
+            "id": "A",
+            "status": "NOT_FIXED",
+            "reason": "译文中“在查询中向URI添加参数”仍把query理解为查询过程/动作，而非URI结构中的查询部分，未修正作用位置错误。"
+          },
+          {
+            "id": "B",
+            "status": "NOT_FIXED",
+            "reason": "与A相同，“在查询中向URI添加参数”仍将query误作查询过程，未体现URI的查询部分。"
+          },
+          {
+            "id": "C",
+            "status": "NOT_FIXED",
+            "reason": "“在查询中向URI添加参数”依旧把query当作查询动作，未修正为URI结构内的查询部分。"
+          },
+          {
+            "id": "D",
+            "status": "NOT_FIXED",
+            "reason": "同样保留“在查询中向URI添加参数”，query仍被误作查询过程，未修正该结构位置错误。"
+          }
+        ]
+      },
+      "mapping": {
+        "A": "plain",
+        "B": "baseline",
+        "C": "fact_map",
+        "D": "self_audit"
+      },
+      "evaluations": {
+        "plain": {
+          "status": "NOT_FIXED",
+          "reason": "译文中“在查询中向URI添加参数”仍把query理解为查询过程/动作，而非URI结构中的查询部分，未修正作用位置错误。"
+        },
+        "baseline": {
+          "status": "NOT_FIXED",
+          "reason": "与A相同，“在查询中向URI添加参数”仍将query误作查询过程，未体现URI的查询部分。"
+        },
+        "fact_map": {
+          "status": "NOT_FIXED",
+          "reason": "“在查询中向URI添加参数”依旧把query当作查询动作，未修正为URI结构内的查询部分。"
+        },
+        "self_audit": {
+          "status": "NOT_FIXED",
+          "reason": "同样保留“在查询中向URI添加参数”，query仍被误作查询过程，未修正该结构位置错误。"
+        }
+      }
+    },
+    "D025": {
+      "response": {
+        "ok": true,
+        "text": "{\"evaluations\":[{\"id\":\"A\",\"status\":\"NOT_FIXED\",\"reason\":\"“重新开始”可被理解为设备重启，未限定为对话中的重新起说；且“自我修正”虽正确，但整体未明确言语编辑行为限于口语对话。\"},{\"id\":\"B\",\"status\":\"NOT_FIXED\",\"reason\":\"“重新开始”同样有设备重启歧义，且“（自我）修复”不如“修正”准确对应 repairs。\"},{\"id\":\"C\",\"status\":\"FIXED\",\"reason\":\"使用“（自我）修正”和“重新开始”，并将言语编辑行为置于口语对话语境中，避免了自发修正和设备重启的误读。\"},{\"id\":\"D\",\"status\":\"FIXED\",\"reason\":\"与C相同，使用“（自我）修正”和“重新开始”，并在口语对话语境下描述言语编辑行为，修复了标注问题。\"}]}",
+        "finish": "stop",
+        "usage": {
+          "prompt": 587,
+          "completion": 187,
+          "total": 774
+        },
+        "seconds": 1.544,
+        "error": null
+      },
+      "parsed": {
+        "evaluations": [
+          {
+            "id": "A",
+            "status": "NOT_FIXED",
+            "reason": "“重新开始”可被理解为设备重启，未限定为对话中的重新起说；且“自我修正”虽正确，但整体未明确言语编辑行为限于口语对话。"
+          },
+          {
+            "id": "B",
+            "status": "NOT_FIXED",
+            "reason": "“重新开始”同样有设备重启歧义，且“（自我）修复”不如“修正”准确对应 repairs。"
+          },
+          {
+            "id": "C",
+            "status": "FIXED",
+            "reason": "使用“（自我）修正”和“重新开始”，并将言语编辑行为置于口语对话语境中，避免了自发修正和设备重启的误读。"
+          },
+          {
+            "id": "D",
+            "status": "FIXED",
+            "reason": "与C相同，使用“（自我）修正”和“重新开始”，并在口语对话语境下描述言语编辑行为，修复了标注问题。"
+          }
+        ]
+      },
+      "mapping": {
+        "A": "plain",
+        "B": "self_audit",
+        "C": "fact_map",
+        "D": "baseline"
+      },
+      "evaluations": {
+        "plain": {
+          "status": "NOT_FIXED",
+          "reason": "“重新开始”可被理解为设备重启，未限定为对话中的重新起说；且“自我修正”虽正确，但整体未明确言语编辑行为限于口语对话。"
+        },
+        "self_audit": {
+          "status": "NOT_FIXED",
+          "reason": "“重新开始”同样有设备重启歧义，且“（自我）修复”不如“修正”准确对应 repairs。"
+        },
+        "fact_map": {
+          "status": "FIXED",
+          "reason": "使用“（自我）修正”和“重新开始”，并将言语编辑行为置于口语对话语境中，避免了自发修正和设备重启的误读。"
+        },
+        "baseline": {
+          "status": "FIXED",
+          "reason": "与C相同，使用“（自我）修正”和“重新开始”，并在口语对话语境下描述言语编辑行为，修复了标注问题。"
+        }
+      }
+    },
+    "D026": {
+      "response": {
+        "ok": true,
+        "text": "{\"evaluations\":[{\"id\":\"A\",\"status\":\"NOT_FIXED\",\"reason\":\"仍将“as”译为“作为”，保留了错误的逻辑关系，且缺少谓语，未体现同位解释关系。\"},{\"id\":\"B\",\"status\":\"NOT_FIXED\",\"reason\":\"与A相同，仍用“作为”误译“as”，句子无谓语，未修复标注问题。\"},{\"id\":\"C\",\"status\":\"NOT_FIXED\",\"reason\":\"同样保留“作为”的错误逻辑关系并缺谓语，未按同位解释处理。\"},{\"id\":\"D\",\"status\":\"NOT_FIXED\",\"reason\":\"仅将“acts”改为“言语行为”，仍以“作为”翻译“as”且缺谓语，核心问题未修复。\"}]}",
+        "finish": "stop",
+        "usage": {
+          "prompt": 321,
+          "completion": 156,
+          "total": 477
+        },
+        "seconds": 1.401,
+        "error": null
+      },
+      "parsed": {
+        "evaluations": [
+          {
+            "id": "A",
+            "status": "NOT_FIXED",
+            "reason": "仍将“as”译为“作为”，保留了错误的逻辑关系，且缺少谓语，未体现同位解释关系。"
+          },
+          {
+            "id": "B",
+            "status": "NOT_FIXED",
+            "reason": "与A相同，仍用“作为”误译“as”，句子无谓语，未修复标注问题。"
+          },
+          {
+            "id": "C",
+            "status": "NOT_FIXED",
+            "reason": "同样保留“作为”的错误逻辑关系并缺谓语，未按同位解释处理。"
+          },
+          {
+            "id": "D",
+            "status": "NOT_FIXED",
+            "reason": "仅将“acts”改为“言语行为”，仍以“作为”翻译“as”且缺谓语，核心问题未修复。"
+          }
+        ]
+      },
+      "mapping": {
+        "A": "fact_map",
+        "B": "baseline",
+        "C": "self_audit",
+        "D": "plain"
+      },
+      "evaluations": {
+        "fact_map": {
+          "status": "NOT_FIXED",
+          "reason": "仍将“as”译为“作为”，保留了错误的逻辑关系，且缺少谓语，未体现同位解释关系。"
+        },
+        "baseline": {
+          "status": "NOT_FIXED",
+          "reason": "与A相同，仍用“作为”误译“as”，句子无谓语，未修复标注问题。"
+        },
+        "self_audit": {
+          "status": "NOT_FIXED",
+          "reason": "同样保留“作为”的错误逻辑关系并缺谓语，未按同位解释处理。"
+        },
+        "plain": {
+          "status": "NOT_FIXED",
+          "reason": "仅将“acts”改为“言语行为”，仍以“作为”翻译“as”且缺谓语，核心问题未修复。"
+        }
+      }
+    },
+    "D027": {
+      "response": {
+        "ok": true,
+        "text": "{\"evaluations\":[{\"id\":\"A\",\"status\":\"FIXED\",\"reason\":\"A 将“拥有该信息”的先行词明确为“信息”，而非“语义内容”，符合注释所指的先行词关系修正。\"},{\"id\":\"B\",\"status\":\"FIXED\",\"reason\":\"B 用“由语义内容所描述、且S假定受话者A所拥有的信息”明确让“拥有”指向“信息”，修正了先行词关系。\"},{\"id\":\"C\",\"status\":\"FIXED\",\"reason\":\"C 将“拥有该信息”独立成句，先行词为“信息”，符合注释要求。\"},{\"id\":\"D\",\"status\":\"FIXED\",\"reason\":\"D 同样明确“A拥有该信息”，使“拥有”的对象为信息而非语义内容，修正了所指关系。\"}]}",
+        "finish": "stop",
+        "usage": {
+          "prompt": 486,
+          "completion": 173,
+          "total": 659
+        },
+        "seconds": 1.815,
+        "error": null
+      },
+      "parsed": {
+        "evaluations": [
+          {
+            "id": "A",
+            "status": "FIXED",
+            "reason": "A 将“拥有该信息”的先行词明确为“信息”，而非“语义内容”，符合注释所指的先行词关系修正。"
+          },
+          {
+            "id": "B",
+            "status": "FIXED",
+            "reason": "B 用“由语义内容所描述、且S假定受话者A所拥有的信息”明确让“拥有”指向“信息”，修正了先行词关系。"
+          },
+          {
+            "id": "C",
+            "status": "FIXED",
+            "reason": "C 将“拥有该信息”独立成句，先行词为“信息”，符合注释要求。"
+          },
+          {
+            "id": "D",
+            "status": "FIXED",
+            "reason": "D 同样明确“A拥有该信息”，使“拥有”的对象为信息而非语义内容，修正了所指关系。"
+          }
+        ]
+      },
+      "mapping": {
+        "A": "baseline",
+        "B": "self_audit",
+        "C": "plain",
+        "D": "fact_map"
+      },
+      "evaluations": {
+        "baseline": {
+          "status": "FIXED",
+          "reason": "A 将“拥有该信息”的先行词明确为“信息”，而非“语义内容”，符合注释所指的先行词关系修正。"
+        },
+        "self_audit": {
+          "status": "FIXED",
+          "reason": "B 用“由语义内容所描述、且S假定受话者A所拥有的信息”明确让“拥有”指向“信息”，修正了先行词关系。"
+        },
+        "plain": {
+          "status": "FIXED",
+          "reason": "C 将“拥有该信息”独立成句，先行词为“信息”，符合注释要求。"
+        },
+        "fact_map": {
+          "status": "FIXED",
+          "reason": "D 同样明确“A拥有该信息”，使“拥有”的对象为信息而非语义内容，修正了所指关系。"
+        }
+      }
+    },
+    "D029": {
+      "response": {
+        "ok": true,
+        "text": "{\"evaluations\":[{\"id\":\"A\",\"status\":\"NOT_FIXED\",\"reason\":\"译文仍作“元素或其屈折形式的语言”，把语言与屈折形式并列，未表达“元素或其屈折形式所使用的语言”，也未明确元素身份。\"},{\"id\":\"B\",\"status\":\"NOT_FIXED\",\"reason\":\"与A相同，仍为“元素或其屈折形式的语言”，未修复并列与元素身份问题。\"},{\"id\":\"C\",\"status\":\"NOT_FIXED\",\"reason\":\"译文未改为“所使用的语言”，仍将语言与屈折形式并列，未体现元素所属语言。\"},{\"id\":\"D\",\"status\":\"NOT_FIXED\",\"reason\":\"译文完全同A/B/C，未修复原注释指出的并列及元素身份缺失问题。\"}]}",
+        "finish": "stop",
+        "usage": {
+          "prompt": 308,
+          "completion": 162,
+          "total": 470
+        },
+        "seconds": 1.789,
+        "error": null
+      },
+      "parsed": {
+        "evaluations": [
+          {
+            "id": "A",
+            "status": "NOT_FIXED",
+            "reason": "译文仍作“元素或其屈折形式的语言”，把语言与屈折形式并列，未表达“元素或其屈折形式所使用的语言”，也未明确元素身份。"
+          },
+          {
+            "id": "B",
+            "status": "NOT_FIXED",
+            "reason": "与A相同，仍为“元素或其屈折形式的语言”，未修复并列与元素身份问题。"
+          },
+          {
+            "id": "C",
+            "status": "NOT_FIXED",
+            "reason": "译文未改为“所使用的语言”，仍将语言与屈折形式并列，未体现元素所属语言。"
+          },
+          {
+            "id": "D",
+            "status": "NOT_FIXED",
+            "reason": "译文完全同A/B/C，未修复原注释指出的并列及元素身份缺失问题。"
+          }
+        ]
+      },
+      "mapping": {
+        "A": "plain",
+        "B": "fact_map",
+        "C": "self_audit",
+        "D": "baseline"
+      },
+      "evaluations": {
+        "plain": {
+          "status": "NOT_FIXED",
+          "reason": "译文仍作“元素或其屈折形式的语言”，把语言与屈折形式并列，未表达“元素或其屈折形式所使用的语言”，也未明确元素身份。"
+        },
+        "fact_map": {
+          "status": "NOT_FIXED",
+          "reason": "与A相同，仍为“元素或其屈折形式的语言”，未修复并列与元素身份问题。"
+        },
+        "self_audit": {
+          "status": "NOT_FIXED",
+          "reason": "译文未改为“所使用的语言”，仍将语言与屈折形式并列，未体现元素所属语言。"
+        },
+        "baseline": {
+          "status": "NOT_FIXED",
+          "reason": "译文完全同A/B/C，未修复原注释指出的并列及元素身份缺失问题。"
+        }
+      }
+    },
+    "D028": {
+      "response": {
+        "ok": true,
+        "text": "{\"evaluations\":[{\"id\":\"A\",\"status\":\"FIXED\",\"reason\":\"译文以“一组……风格”为中心词，并用“在文档中营造特定氛围”修饰风格，保留了原文tone=styles且styles营造氛围的构成与效果关系。\"},{\"id\":\"B\",\"status\":\"FIXED\",\"reason\":\"与A相同，中心词为“风格”，定语从句说明这组风格营造特定氛围，未把定义中心改为“氛围”。\"},{\"id\":\"C\",\"status\":\"FIXED\",\"reason\":\"译文结构为“语气是一组……风格”，that从句对应为修饰风格的“在文档中营造特定氛围”，符合原文定义关系。\"},{\"id\":\"D\",\"status\":\"FIXED\",\"reason\":\"同样以“风格”为定义中心，氛围作为风格营造的效果出现，修复了原译混淆构成与效果的问题。\"}]}",
+        "finish": "stop",
+        "usage": {
+          "prompt": 353,
+          "completion": 181,
+          "total": 534
+        },
+        "seconds": 2.115,
+        "error": null
+      },
+      "parsed": {
+        "evaluations": [
+          {
+            "id": "A",
+            "status": "FIXED",
+            "reason": "译文以“一组……风格”为中心词，并用“在文档中营造特定氛围”修饰风格，保留了原文tone=styles且styles营造氛围的构成与效果关系。"
+          },
+          {
+            "id": "B",
+            "status": "FIXED",
+            "reason": "与A相同，中心词为“风格”，定语从句说明这组风格营造特定氛围，未把定义中心改为“氛围”。"
+          },
+          {
+            "id": "C",
+            "status": "FIXED",
+            "reason": "译文结构为“语气是一组……风格”，that从句对应为修饰风格的“在文档中营造特定氛围”，符合原文定义关系。"
+          },
+          {
+            "id": "D",
+            "status": "FIXED",
+            "reason": "同样以“风格”为定义中心，氛围作为风格营造的效果出现，修复了原译混淆构成与效果的问题。"
+          }
+        ]
+      },
+      "mapping": {
+        "A": "fact_map",
+        "B": "baseline",
+        "C": "self_audit",
+        "D": "plain"
+      },
+      "evaluations": {
+        "fact_map": {
+          "status": "FIXED",
+          "reason": "译文以“一组……风格”为中心词，并用“在文档中营造特定氛围”修饰风格，保留了原文tone=styles且styles营造氛围的构成与效果关系。"
+        },
+        "baseline": {
+          "status": "FIXED",
+          "reason": "与A相同，中心词为“风格”，定语从句说明这组风格营造特定氛围，未把定义中心改为“氛围”。"
+        },
+        "self_audit": {
+          "status": "FIXED",
+          "reason": "译文结构为“语气是一组……风格”，that从句对应为修饰风格的“在文档中营造特定氛围”，符合原文定义关系。"
+        },
+        "plain": {
+          "status": "FIXED",
+          "reason": "同样以“风格”为定义中心，氛围作为风格营造的效果出现，修复了原译混淆构成与效果的问题。"
+        }
+      }
+    }
+  },
+  "by_type": {
+    "术语与指代": {
+      "plain": {
+        "n": 5,
+        "fixed": 4,
+        "not_fixed": 1,
+        "uncertain_or_unrated": 0
+      },
+      "baseline": {
+        "n": 5,
+        "fixed": 4,
+        "not_fixed": 1,
+        "uncertain_or_unrated": 0
+      },
+      "fact_map": {
+        "n": 5,
+        "fixed": 4,
+        "not_fixed": 1,
+        "uncertain_or_unrated": 0
+      },
+      "self_audit": {
+        "n": 5,
+        "fixed": 3,
+        "not_fixed": 2,
+        "uncertain_or_unrated": 0
+      }
+    },
+    "否定范围": {
+      "plain": {
+        "n": 5,
+        "fixed": 4,
+        "not_fixed": 1,
+        "uncertain_or_unrated": 0
+      },
+      "baseline": {
+        "n": 5,
+        "fixed": 4,
+        "not_fixed": 1,
+        "uncertain_or_unrated": 0
+      },
+      "fact_map": {
+        "n": 5,
+        "fixed": 4,
+        "not_fixed": 1,
+        "uncertain_or_unrated": 0
+      },
+      "self_audit": {
+        "n": 5,
+        "fixed": 4,
+        "not_fixed": 1,
+        "uncertain_or_unrated": 0
+      }
+    },
+    "条件与顺序": {
+      "plain": {
+        "n": 5,
+        "fixed": 5,
+        "not_fixed": 0,
+        "uncertain_or_unrated": 0
+      },
+      "baseline": {
+        "n": 5,
+        "fixed": 4,
+        "not_fixed": 1,
+        "uncertain_or_unrated": 0
+      },
+      "fact_map": {
+        "n": 5,
+        "fixed": 4,
+        "not_fixed": 1,
+        "uncertain_or_unrated": 0
+      },
+      "self_audit": {
+        "n": 5,
+        "fixed": 5,
+        "not_fixed": 0,
+        "uncertain_or_unrated": 0
+      }
+    },
+    "情态与规范强度": {
+      "plain": {
+        "n": 5,
+        "fixed": 3,
+        "not_fixed": 2,
+        "uncertain_or_unrated": 0
+      },
+      "baseline": {
+        "n": 5,
+        "fixed": 1,
+        "not_fixed": 3,
+        "uncertain_or_unrated": 1
+      },
+      "fact_map": {
+        "n": 5,
+        "fixed": 1,
+        "not_fixed": 4,
+        "uncertain_or_unrated": 0
+      },
+      "self_audit": {
+        "n": 5,
+        "fixed": 1,
+        "not_fixed": 4,
+        "uncertain_or_unrated": 0
+      }
+    },
+    "其他语义问题": {
+      "plain": {
+        "n": 9,
+        "fixed": 3,
+        "not_fixed": 6,
+        "uncertain_or_unrated": 0
+      },
+      "baseline": {
+        "n": 9,
+        "fixed": 6,
+        "not_fixed": 3,
+        "uncertain_or_unrated": 0
+      },
+      "fact_map": {
+        "n": 9,
+        "fixed": 5,
+        "not_fixed": 4,
+        "uncertain_or_unrated": 0
+      },
+      "self_audit": {
+        "n": 9,
+        "fixed": 5,
+        "not_fixed": 4,
+        "uncertain_or_unrated": 0
+      }
+    }
+  },
+  "macro_prompt_selection": {
+    "macro_fixed_rate": {
+      "baseline": 0.6533333333333333,
+      "fact_map": 0.6311111111111112,
+      "self_audit": 0.6311111111111111
+    },
+    "fixed_count": {
+      "baseline": 19,
+      "fact_map": 18,
+      "self_audit": 18
+    }
+  },
+  "selection_rule": "highest macro-average FIXED rate across represented primary issue categories; tie-break by total FIXED count, then shorter prompt",
+  "selected_prompt": "baseline"
+}

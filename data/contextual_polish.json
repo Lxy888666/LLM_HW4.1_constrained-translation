@@ -1,0 +1,734 @@
+[
+  {
+    "原始英文句子": "While the <drLink> structure allows more fine-grained annotations than <rhetoricalLink> structures, the latter possibility remains an option that can be used in situations where fine-grained annotation of rhetorical relations is not considered important.",
+    "原译文": "虽然<drLink>结构比<rhetorialLink>结构支持更细粒度的标注，但在不要对修辞关系进行细粒度标注的情况下，仍然是一种选择。",
+    "瑕疵说明": "后件“仍然是一种选择”缺少清楚主语；应根据latter明确它指前述rhetoricalLink结构。",
+    "修订译文": "虽然<drLink>支持更细粒度的标注，但在不重视修辞关系细粒度标注的场合，仍可选用<rhetoricalLink>。"
+  },
+  {
+    "原始英文句子": "A dialogue act tag set can be structured according to multiple dimensions by basing the notion of ‘dimension’ on the observation that dialogue participants share information not only about the task they pursue but also about the processing of each other’s messages, about the allocation of turns, about contact and attention, about the use of time, and about various other aspects of the interaction.",
+    "原译文": "一个对话行为标签集可根据多个维度进行组织，方法是基于“维度”的概念，即对话参与者不仅共享他们所要完成的任务信息，还共享彼此信息的处理、话轮分配、接触和注意力、时间使用以及交互的其他各个方面。",
+    "瑕疵说明": "原译大体保留多维组织和各类共享信息，基于概念即的句法绕行需理顺，不能仅凭更顺改文判技术实错。",
+    "修订译文": "对话行为标签集可以按多个维度组织。维度这一概念基于以下观察：对话参与者不仅交流所要完成的任务的信息，还交流对彼此话语的处理、话轮分配、接触与注意、时间使用及交互其他方面的信息。"
+  },
+  {
+    "原始英文句子": "SOM acts can also be constructed by using a general-purpose function. For instance, “I'm extremely grateful for your help” and “I hope to see you next year in Hong Kong” are Informs in the SOM dimension, having a similar effect as a thanking and a farewell greeting.",
+    "原译文": "SOM行为也可通过使用通用功能来构造。例如，“我非常感谢你的帮助”和“我希望明年能在香港见到你”社交义务管理维度中的“告知”（Inform）行为，具有类似于感谢和告别问候的效果。",
+    "瑕疵说明": "两个话语例子与“告知行为”之间缺少判断谓语“是”，补齐后中文句法更完整。",
+    "修订译文": "SOM行为也可通过使用通用功能来构造。例如，“我非常感谢你的帮助”和“我希望明年能在香港见到你”是社交义务管理维度中的“告知”（Inform）行为，具有类似于感谢和告别问候的效果。"
+  },
+  {
+    "原始英文句子": "a list of preferred designations",
+    "原译文": "一份首选指称",
+    "瑕疵说明": "一份首选指称缺少list的中心语清单，属名词搭配不完整的中文修订，具有计量短语训练价值。",
+    "修订译文": "一份首选指称清单"
+  },
+  {
+    "原始英文句子": "set of concepts structured according to the relations among them",
+    "原译文": "概念之间的关系加以组织的概念集合。",
+    "瑕疵说明": "概念之间的关系前缺按/根据，中心语仍可识别；定义表述语病归C。",
+    "修订译文": "按概念之间的关系组织起来的概念集合"
+  },
+  {
+    "原始英文句子": "specification of a standard annotation scheme and annotation guide comprising the relevant decisions regarding the types of terms, their scope and possible embeddings",
+    "原译文": "规范标准的标注方案与标注指南，包含关于术语类型、范围及可能的嵌套的相关决 策",
+    "瑕疵说明": "规范标准的标注方案搭配含混，改为制定统一方案可复用；嵌套本有合理性，不判embeddings词义错。",
+    "修订译文": "制定统一的标注方案和标注指南，明确术语类型、边界范围及可能的嵌套情况等处理规则。"
+  },
+  {
+    "原始英文句子": "— Nodes may be associated with regions in the primary document, or connected to other nodes in the same or another annotation document. Nodes are associated with regions by <link> elements. Edges are used to connect (associate) nodes to other nodes.",
+    "原译文": "—— 节点可以与原始文档中的区域相关联，或者连接到同一文档或其他标注文档中的其他节点。节点通过 <link> 要素与区域相关联。边用于连接（关联）到其他节点的节点。",
+    "瑕疵说明": "节点连接关系基本可恢复，边用于连接到其他节点的节点歧义且拗口，按英文重排谓宾关系。",
+    "修订译文": "——节点可以关联源数据文档中的区域，或连接到同一文档或其他标注文档中的节点。节点通过<link>元素与区域关联；边用于将一个节点与另一个节点连接起来。"
+  },
+  {
+    "原始英文句子": "EXAMPLE When modelling resources such as FrameNet[7], it is possible to indicate for instance that the Activity_\"finish\" predicate is a subframe of Activity.",
+    "原译文": "示例：在对FrameNet[7]等资源建模时，可以指明如 Activity_“finish”谓词是 Activity 的次框架。",
+    "瑕疵说明": "“指明如”是未完成的中文结构；将for instance译为“例如”并调整位置，句意更连贯。",
+    "修订译文": "示例：对FrameNet[7]等资源建模时，例如可以指出Activity_“finish”谓词是Activity的子框架。"
+  },
+  {
+    "原始英文句子": "ISO and IEC maintain terminology databases for use in standardization at the following addresses:",
+    "原译文": "ISO 和 IEC 用于维护标准化工作的术语数据库，网址如下：",
+    "瑕疵说明": "ISO和IEC用于维护数据库主谓结构不成立；按英文改主动维护，属有价值主谓修订。",
+    "修订译文": "ISO和IEC维护供标准化工作使用的术语数据库，访问地址如下："
+  },
+  {
+    "原始英文句子": "process of defining and creating information for use to be delivered as information products for the safe, effective, and efficient use of a supported product throughout its life cycle",
+    "原译文": "定义和创建供使用信息、以便将其作为信息产品交付的过程，以支持受支持产品在其整个生命周期内安全、有效、高效地使用",
+    "瑕疵说明": "供使用信息及支持受支持产品使用表达不顺，目的关系大体可恢复；按定义理清内容、交付和最终目的。",
+    "修订译文": "界定和创建使用信息、拟将其作为信息产品交付，以便在受支持产品的整个生命周期内安全、有效、高效地使用该产品的过程"
+  },
+  {
+    "原始英文句子": "obtaining credibility for your shop",
+    "原译文": "获得信誉为您的商店",
+    "瑕疵说明": "获得信誉为商店语序不成惯用中文，受益对象提前；不影响收益概念，归表达修订。",
+    "修订译文": "为商店赢得信誉"
+  },
+  {
+    "原始英文句子": "Therefore, it is necessary to make the communication tool (i.e. English) more understandable and translatable.",
+    "原译文": "因此，有必要使交流工具（即英语）的更具可理解性和可翻译性。",
+    "瑕疵说明": "多余的“的”使“使”字句的宾语与后续谓语衔接不顺，去掉后可清楚表达使英语更易理解和翻译。",
+    "修订译文": "因此，有必要使交流工具（即英语）更易理解和翻译。"
+  },
+  {
+    "原始英文句子": "Not sticking to the format",
+    "原译文": "不遵守格式规范",
+    "瑕疵说明": "not sticking可译不遵守/不拘泥，现改文弱化格式规范的违例联想；仅收正式/非正式风格语境下的表达偏好，不判唯一词义错误。",
+    "修订译文": "不拘泥于固定格式"
+  },
+  {
+    "原始英文句子": "This calls for an approach to semantic role analysis that incorporates a rich characterization of contextual structure that is compatible with compositional processes.",
+    "原译文": "这些实例需要语义角色分析方法组并语境结构的丰富特征，同时这种特征与组构过程兼容。",
+    "瑕疵说明": "方法组并语境结构特征不成惯用句式，原意仍可恢复；按英文重整方法纳入刻画及相容关系。",
+    "修订译文": "这要求语义角色分析方法纳入对语境结构的充分刻画，并使这种刻画与组合过程相容。"
+  },
+  {
+    "原始英文句子": "It was eventually decided to keep Experiencer/Stimulus, but they are now restricted to a smaller set of verbs where more narrowly defined definitions of the roles clearly apply.",
+    "原译文": "最终决定保留“感事（Experiencer）/刺激物（Stimulus）”角色，但限定在更小的动词集中，在该动词集更狭义的角色定义清晰运用。",
+    "瑕疵说明": "在该动词集更狭义定义清晰运用缺介词及主语关系，保窄定义对该组动词适用。",
+    "修订译文": "最终决定保留“感事（Experiencer）／刺激物（Stimulus）”角色，但将其适用范围限制在更小的动词集合中；对这些动词，更严格限定的角色定义能够明确适用。"
+  },
+  {
+    "原始英文句子": "Participant in an event that undergoes a change of state, location, or condition, is causally involved or directly affected by other participants, and exists independently of the event.",
+    "原译文": "事件中的参与者，经历状态、处所或条件变化，受到其他参与者的因果性涉及或直接影响；该参与者独立于事件存在。",
+    "瑕疵说明": "受到因果性涉及不构成中文关系，改为存在因果联系且保直接受影响并列；不新增因果方向。",
+    "修订译文": "事件中的参与者，经历状态、处所或状况的变化，与其他参与者存在因果联系或直接受到其影响，且独立于事件而存在。"
+  },
+  {
+    "原始英文句子": "unique process (3.3.14), consisting of a set of coordinated and controlled activities with start and finish dates, undertaken to achieve an objective conforming to specific requirements, including the constraints of time, cost and resources",
+    "原译文": "由涵盖起止日期、经由协调和受控的系列活动组成的特定过程（3.3.14），旨在实现符合特定要求的目标，包括时间、成本和资源的约束。",
+    "瑕疵说明": "“涵盖起止日期”“经由协调和受控”搭配欠妥，末尾约束条件的归属也不清楚；按英文理顺修饰关系可改善定义表述。",
+    "修订译文": "由一组经过协调和控制、具有起止日期的活动组成，旨在实现满足特定要求的目标的独特过程（3.3.14）。这些要求包括时间、成本和资源方面的约束。"
+  },
+  {
+    "原始英文句子": "Example: English cherry, a loanword from Old French cheris (Modern French cerise) was assumed to be plural because of the -s, thus the singular form in English was adapted to cherry and the plural cherries. An example of the second type of back formation can be found in the English verb to conversate from the noun conversation.",
+    "原译文": "示例：英语cherry借自古法语cheris（现代法语cerise）的外来词。由于-s被误认为复数标记，英语将单数形式改为cherry，复数形式为cherries。第二类逆构词示例可见于英语动词to conversate，该词由名词conversation逆构而来。",
+    "瑕疵说明": "“英语cherry借自古法语cheris的外来词”缺少判断谓语“是”，补齐后中文结构完整。",
+    "修订译文": "英语 cherry 是借自古法语 cheris（现代法语 cerise）的外来词。由于词尾 -s 被误认为复数标记，英语单数形式被调整为 cherry，复数形式为 cherries。第二类逆构的例子是由名词 conversation 形成动词 conversate。"
+  },
+  {
+    "原始英文句子": "The allowable values for a specific grammatical feature are then defined using <xsd:simpleType> and the element representing that feature is assigned to the appropriate <xsd:simpleType>, such as in the following example.",
+    "原译文": "然后使用`<xsd:simpleType>`定义某个具体语法特征的允许值，再把表示该特征的元素指定为相应的`<xsd:simpleType>`，如下例所示。",
+    "瑕疵说明": "指定为类型常可表示类型赋予，不能必读元素变成类型实体；新改文为元素指定类型更清楚，收表达清晰度而非硬判模型身份错。",
+    "修订译文": "然后使用`<xsd:simpleType>`定义某个具体语法特征的允许值，再为表示该特征的元素指定相应的`<xsd:simpleType>`类型，如下例所示。"
+  },
+  {
+    "原始英文句子": "An annotation scheme qualifies as fully conformant with ISO MAF if:",
+    "原译文": "标注方案满足以下条件时，属于完全符合ISO MAF：",
+    "瑕疵说明": "属于后接谓词完全符合搭配不整，改可认定其完全符合保持if判定条件。",
+    "修订译文": "标注方案满足以下条件时，可认定其完全符合ISO MAF："
+  },
+  {
+    "原始英文句子": "An annotation scheme qualifies as algorithmically conformant with ISO MAF if all the following items are true:",
+    "原译文": "标注方案满足以下全部条件时，属于算法符合ISO MAF：",
+    "瑕疵说明": "属于算法符合结构不完整，改可认定在算法上符合，保全条件合取。",
+    "修订译文": "标注方案满足以下全部条件时，可认定其在算法上符合ISO MAF："
+  },
+  {
+    "原始英文句子": "conditional on the consent of the addressee that S do so.",
+    "原译文": "该承诺的实施以接收者（A）同意发送者执行该行动为条件。",
+    "瑕疵说明": "坏译的承诺实施可在语境中理解为履行承诺；改文直接把同意条件接在承诺上更清楚，不强判原译改变真值。",
+    "修订译文": "这一承诺以接收者A同意S实施该行为为条件。"
+  },
+  {
+    "原始英文句子": "A particular sentiment associated with a dialogue act may be annotated if the sender indicates a positive or negative feeling or attitude concerning the semantic content. A sentiment can be expressed verbally by the choice of adjectives or adverbs, such as “(un)fortunately” and “regrettably”. Nonverbal expressions of sentiment exist in abundance and in great variety, for instance smiling (positive), pressing lips together (negative), and sighing (negative).",
+    "原译文": "如果发送者对语义内容表示积极或消极的感觉或态度，可对伴随该对话行为的特定情感进行标注。情感既可通过形容词或副词的选择进行语言表达，例如“有/不幸的是”与“遗憾地”。也广泛存在于多样化的非语言表达中，诸如微笑（积极）、抿嘴（消极）以及叹气（消极）。",
+    "瑕疵说明": "中文有/不幸的是没有自然表示两种极性的展开，后句也接续不顺；属于可迁移的英文括号前缀中文展开和句间表达修订。",
+    "修订译文": "当发送者对语义内容表达积极或消极的感受或态度时，可标注与该对话行为相关的特定情感。情感可通过形容词或副词表达，如“幸运的是”“不幸的是”和“遗憾地”。非言语情感表达也十分丰富多样，如微笑（积极）、抿嘴（消极）和叹气（消极）。"
+  },
+  {
+    "原始英文句子": "In DiAML, the anchoring in a functional segment is represented by the value of the @target attribute, following the TEI guidelines for text encoding[53].",
+    "原译文": "在DiAML中，功能段中的锚定由@target属性的值，遵循文本编码的TEI准则[53]。",
+    "瑕疵说明": "由属性的值后缺表示之类谓语，语义关系仍可从上下文恢复；改文补齐中文主谓结构，作为表达修订。",
+    "修订译文": "在DiAML中，依据TEI文本编码指南[53]，用@target属性的值表示标注与功能段之间的锚定关系。"
+  },
+  {
+    "原始英文句子": "Such segments are called functional segments, defined more precisely as a minimal stretch of communicative behaviour that has a communicative function (possibly more than one, see also definition 3.11).",
+    "原译文": "这些片段被称为功能段，更准确的定义是：具有交际功能的最小交际行为片段（也允许不止一个，另见定义3.11）。",
+    "瑕疵说明": "一个可能从前文交际功能读出，但中文也允许误指片段；改文明确功能数目，作为清晰表达偏好。",
+    "修订译文": "这些片段被称为功能段，更准确的定义是：具有一个或多个交际功能的最小交际行为片段（另见定义3.11）。"
+  },
+  {
+    "原始英文句子": "Category of dialogue acts by which the sender discusses or reports on his processing of previous dialogue contributions.",
+    "原译文": "对话行为类别，发送者通过该类别讨论或报告其对先前对话贡献的处理情况。",
+    "瑕疵说明": "“通过该类别”搭配不自然，“通过这类行为”可更清楚表达发送者报告处理情况的方式；原意仍可理解。",
+    "修订译文": "对话行为类别，发送者通过这类行为讨论或报告其对先前对话贡献的处理情况。"
+  },
+  {
+    "原始英文句子": "Dictionaries encourage to consider words as having a discrete set of senses, yet any comparison between dictionaries quickly reveals how differently a word’s meaning can be divided into separate senses.",
+    "原译文": "词典将词视为离散的意义集合，但对比不同词典便会发现，不同词典对于同一词的多义划分为几个存在差异。",
+    "瑕疵说明": "将词视为意义集合可视为省略表达，后句多义划分为几个存在差异句法不顺；改文补齐具有及划分关系，不硬判集合用语唯一错误。",
+    "修订译文": "词典容易使人认为，一个词具有一组离散的词义；但比较不同词典便会发现，它们对同一个词的词义划分可能很不相同。"
+  },
+  {
+    "原始英文句子": "Participant in an event that indicates the location where an event begins or a state becomes true; initial-location exists independently of the event.",
+    "原译文": "事件中表示事件开始地点或状态开始成立的参与者；初始处所独立于事件存在。",
+    "瑕疵说明": "where可从前一地点共享到状态分支，坏译也能按省略读通；改文末置地点使两个分支都明确，列中文表达修订。",
+    "修订译文": "事件中的参与者，表示事件开始或状态开始成立的地点；初始处所独立于事件而存在。"
+  },
+  {
+    "原始英文句子": "In European languages, the lemma is usually the singular if there is a variation in number, the masculine form if there is a variation in gender, and the infinitive for all verbs.",
+    "原译文": "在欧洲语言中，如果存在数的变化，词目通常取单数形式；如果存在性的变化，通常取阳性形式；所有动词则取不定式。",
+    "瑕疵说明": "原英文usually统辖三种选择；坏译前两项重复通常，末项可能读作沿用限制但不够清楚。改文共同引导更稳妥，不硬判唯一真值误译。",
+    "修订译文": "在欧洲语言中，词目通常按以下方式选择：有数的变化时取单数形式，有性的变化时取阳性形式，所有动词取不定式。"
+  },
+  {
+    "原始英文句子": "Definition: The historical phonological process by which a sound becomes less similar in one or more features to a neighbouring sound. This process is the opposite of assimilation.",
+    "原译文": "定义：一种历史音系过程，其中一个音在一个或多个特征与相邻音的相似性降低。该过程与同化相反。",
+    "瑕疵说明": "在一个或多个特征后缺上，属于可迁移介词结构修订，原技术含义仍清楚，不列实质A/B。",
+    "修订译文": "定义：一种历史音系过程，其中一个音在一个或多个特征上与相邻音的相似性降低。该过程与同化相反。"
+  },
+  {
+    "原始英文句子": "element of a writing system, whether or not alphabetical,",
+    "原译文": "书写系统中的元素，无论是否属于字母系统；",
+    "瑕疵说明": "坏译无论是否属于字母系统可回指书写系统但位置暧昧；改文括号贴紧系统消歧，列表达修订而非硬判唯一指向。",
+    "修订译文": "书写系统（无论是否为字母文字系统）中的元素"
+  },
+  {
+    "原始英文句子": "co-located with 13th Extended Semantic Web Conference (ESWC 2016)",
+    "原译文": "与第13届扩展语义网会议（ESWC 2016）联合举行",
+    "瑕疵说明": "联合举行可被宽松理解为配套合办，不能仅据孤立co-located断定组织关系错；同地举行并明确研讨会主语更精确，作为表达偏好。",
+    "修订译文": "该研讨会与第13届扩展语义网会议（ESWC 2016）同地举行"
+  },
+  {
+    "原始英文句子": "The multifunctionality of dialogue behaviour is optimally accounted for when communicative functions are assigned to all those segments of behaviour that expresses a dialogue act. Such segments are called functional segments, defined more precisely as a minimal stretch of communicative behaviour that has a communicative function (possibly more than one, see also definition 3.11). The condition of being ‘minimal' ensures that functional segments do not include material that does not contribute to the expression of its communicative function(s). A consequence of this definition is that functional segments may be discontinuous, may overlap, may be embedded in another functional segment, may spread over multiple turns, and may contain parts contributed by different speakers.",
+    "原译文": "当为每个表达对话行为的行为片段都分配交际功能时， 对话行为的多功能性可以得到最充分的体现。这些片段被称为功能段，更准确的定义是：具有交际功能的最小交际行为片段（可能不止一个，另见定义3.11）。“最小”的条件确保了功能段不包括与其交际功能的无关的内容。这个定义的结果是，功能段可能是不连续的、重叠的，嵌入到另一个功能段中，可能分散在多个话轮中，甚至可能包含来自不同讲话者的内容。",
+    "瑕疵说明": "括注“可能不止一个”的回指可再明确，修订还消除“的无关”的搭配瑕疵。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "当为每个表达对话行为的行为片段都分配交际功能时， 对话行为的多功能性可以得到最充分的体现。这些片段被称为功能段，更准确的定义是：具有一个或多个交际功能的最小交际行为片段（另见定义3.11）。“最小”的条件确保了功能段不包括与其交际功能无关的内容。这个定义的结果是，功能段可能是不连续的、重叠的，嵌入到另一个功能段中，可能分散在多个话轮中，甚至可能包含来自不同讲话者的内容。"
+  },
+  {
+    "原始英文句子": "This document will help further improve the clarity of business reporting overall by establishing consistent design requirements (a standardized notation) for data visuals, such as charts and tables, and for text objects that add associated meaning.",
+    "原译文": "本文件通过为图表和表格等数据视觉对象以及增添相关含义的文本对象确立统一的设计要求（一种标准化的表示法），将有助于进一步提高业务报告整体的清晰度。",
+    "瑕疵说明": "“通过为……确立……”使主干较远，“增添相关含义”较生硬；修订重排主干。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "本文件为图表、表格等数据视觉对象及提供相应说明的文本对象确立统一的设计要求，即标准化的表示法，从而有助于进一步提高业务报告整体的清晰度。"
+  },
+  {
+    "原始英文句子": "Consistent notation assists the audience to recognize patterns and grasp the meaning quickly, clearly and accurately. Also organizations will save time and money as it will be quicker for authors to use an existing standard rather than having to develop custom notations and then negotiate them with internal stakeholders.",
+    "原译文": "统一的表示法帮助受众识别模式，并快速、清楚、准确地把握含义。同样，组织机构也将节省时间和资金，因为对于编写者而言，采用现有标准，比自行制定定制表示法后再就其与内部相关方协商，更为快捷。",
+    "瑕疵说明": "“自行制定定制”与后续代词增加阅读负担，修订合并冗余表述。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "统一的表示法有助于受众识别模式，并快速、清楚、准确地理解信息。组织也能节省时间和资金，因为对编写者而言，采用现成标准，比自行设计表示法并与内部相关方协商更快捷。"
+  },
+  {
+    "原始英文句子": "c) Time periods (\"when\"): The reporting periods or date of reporting, as necessary for understanding.",
+    "原译文": "时间段（“何时”）：理解内容所需的报告时间段或报告日期。",
+    "瑕疵说明": "“报告日期”可作更清楚的语境限定，但原译不据此判成出版日期。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "c) 时间（“何时”）：理解内容所必需的报告期间或报告所对应的日期。"
+  },
+  {
+    "原始英文句子": "Arrange the axes of a chart orthogonally, that is, with a 90-degree offset.",
+    "原译文": "按正交方式排列图表的轴，即使各轴相互呈90度角。",
+    "瑕疵说明": "连写的“即使”容易误读为让步连词，修订明确解释关系。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "图表的坐标轴应正交排列，即相互垂直，夹角为90°。"
+  },
+  {
+    "原始英文句子": "If it is necessary to show small changes of large values (e.g. in waterfall charts), represent only the change and not the absolute value on the category axis. This allows the changes to be scaled as needed. However, the relationship to the absolute value will no longer be visually perceivable.",
+    "原译文": "如果需要显示较大数值的微小变化（例如在瀑布图中），则在类别轴上仅表示变化量，不表示绝对值。在类别轴上仅表示变化量时便能按需要对变化量按标度缩放。然而，将无法再从视觉上感知其与绝对值的关系。",
+    "瑕疵说明": "连续重复“在类别轴上仅表示变化量”和“按……”可压缩。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "需要显示较大数值的微小变化时（例如瀑布图），仅在类别轴上表示变化量，不显示绝对数值。这样就可以根据需要缩放变化量，但无法再直观显示变化量与绝对数值之间的关系。"
+  },
+  {
+    "原始英文句子": "Use two parallel lines to project the difference between the lengths of two visual components onto the difference marker (see Figure A.7). Optionally add an arrowhead to the marker to indicate whether the difference represents an increase or a decrease.",
+    "原译文": "采用两条平行线，将两个视觉组件的长度差值投影到差值标记上（见图A.7）。可在标记上添加箭头头部，以表明该差值（两个视觉组件的长度差）表示增加还是减少。",
+    "瑕疵说明": "“箭头头部”及重复括注可简化，同时保留投影与增减方向。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "用两条平行线将两个视觉组件的长度差投影到差值标记上（见图A.7）。还可在该标记上添加箭头，以表明这一差异代表数值增加还是减少。"
+  },
+  {
+    "原始英文句子": "Figure A.4 — Bars comparing regions and their variance against plan (PL)",
+    "原译文": "图A.4 — 比较各地区及其相对计划值差异的条",
+    "瑕疵说明": "图题的中心语与相对计划的比较关系可更清楚。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "图A.4 比较各地区数值及其相对于计划的差异的条形图"
+  },
+  {
+    "原始英文句子": "Figure A.6 — Table showing variances along a calculation schema year-to-date, year-to-go and full year",
+    "原译文": "图A.6 — 按计算结构的年初至今、年内剩余及全年差异表格",
+    "瑕疵说明": "图题中组织方式与三个期间的关系可更顺畅。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "图A.6 按计算逻辑展示年初至今、年内剩余期间及全年差异的表格"
+  },
+  {
+    "原始英文句子": "NOTE Up to a ratio of about 1:30, a “scale band” clearly indicates the proportions between different scales. A scale band is a line parallel to the category axis at the same numerical height in all charts. Fill the area between the line and the category axis with a light colour. This band visually represents the factor by which smaller charts are scaled, making differences in scale immediately apparent to the audience.",
+    "原译文": "注：当标度之比不超过约1:30时，“标度带”能清楚地表明不同标度之间的比例关系。标度带是一条平行于类别轴、在所有图表中处于相同数值高度的线。用浅色填充该线与类别轴之间的区域。该标度带以视觉方式表示较小图表按标度缩放的倍数，使受众能够立即察觉标度差异。",
+    "瑕疵说明": "标度相关词语反复出现，修订使说明更易读，并保留同一数值这一限定。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "注：当标度之比不超过约1:30时，可用“标度带”清楚显示不同标度的比例关系。在各图中画一条平行于类别轴、对应同一数值的线，并在线与类别轴之间填充浅色。这一色带直观显示较小图表的缩放倍数，使受众能立即看出标度差异。"
+  },
+  {
+    "原始英文句子": "project (3.2.9) aimed at enhancing a collection of corpora (3.1.5) with metadata or labels that provide additional linguistic, non-linguistic, semantic, or structural information to facilitate analysis, research and the development of natural language processing tools",
+    "原译文": "旨在通过添加提供语言、非语言、语义或结构方面附加信息的元数据或标签，增强一组 语料库（3.1.5），以促进分析、研究和自然语言处理工具开发的项目（3.2.9）。",
+    "瑕疵说明": "定义中元数据、标签与附加信息的多层定语较密集。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "通过为一组语料库（3.1.5）添加元数据或标签，补充语言、非语言、语义或结构信息，以促进分析、研究和自然语言处理工具开发的项目（3.2.9）。"
+  },
+  {
+    "原始英文句子": "Note to entry: The identification of a segment as a word, sentence, noun phrase, etc. also constitutes linguistic annotation. In current practice, when it is possible to do so, segmentation and identification of the linguistic role or properties of that segment are often combined (e.g. syntactic bracketing, or delimiting each word in the document with an XML element that identifies the segment as a word or sentence).",
+    "原译文": "注：将片段识别为词、句子、名词短语等，其本身也构成语言标注。在当前实践中，凡能做到时，对片段的切分和对该片段语言角色或属性的识别常常合并进行（例如句法括号标记，或用 XML （可扩展标记语言） 要素在文档中分隔每个词以标识该片段为词或句子）。",
+    "瑕疵说明": "“凡能做到时”等机械措辞及XML元素的作用可表达得更自然。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "注：将片段识别为词、句子、名词短语等，本身也构成语言标注。实际使用中，在条件允许时，片段切分常与对片段语言角色或属性的识别一并进行，例如句法加括标注，或用XML元素界定文档中各个词的边界，并由元素标明相应片段是词还是句子。"
+  },
+  {
+    "原始英文句子": "EXAMPLE A verb can have different types of syntactic behaviours for subcategorization frame (3.2) alternations, such as the active voice, the passive voice, reflexive, etc. Note 1 to entry: A syntactic behaviour is described in terms of subcategorization frames. $^{[9][12]}$",
+    "原译文": "示例：一个动词可以针对“次范畴化框架”（3.2）交替形式表现出不同类型的句法行为，例如主动态、被动态和反身式等。 注1：句法行为根据次范畴化框架描述[9][12]。",
+    "瑕疵说明": "“针对……交替形式”较生硬，修订理顺框架交替与句法行为关系。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "示例：动词在次范畴化框架（3.2）的交替中可呈现不同的句法行为，如主动态、被动态和反身式等。 注1：句法行为用次范畴化框架描述[9][12]。"
+  },
+  {
+    "原始英文句子": "one of the essential and functional constituents in a clause that identifies the participants in the process referred to by a lexeme",
+    "原译文": "分句中的基本和功能成分之一，用于标识词位所指过程中的参与者。",
+    "瑕疵说明": "“基本和功能成分”搭配不稳，修订改成清楚的偏正结构。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "分句中具有语法功能的必要成分之一，用于标识词位所指过程中的参与者。"
+  },
+  {
+    "原始英文句子": "SemanticPredicate is a class representing an abstract meaning together with its association with the SemanticArgument class. A SemanticPredicate instance may be used to represent the common meaning between different senses that are not necessarily fully synonymous. These senses may be linked to LexicalEntry instances whose parts of speech are different. A SemanticPredicate instance pertains to a given Lexicon instance.",
+    "原译文": "“语义谓词”是一个表示抽象含义及其与“语义论元”类的关联的类。一个“语义谓词”实例可用于表示不一定完全同义的不同意义之间的共同含义。这些意义可能与词性不同的“词项”实例有关。一个“语义谓词”实例属于给定的“词库”实例。",
+    "瑕疵说明": "类名、义项和实例密集重复，修订改善行文而保留各项边界。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "语义谓词（SemanticPredicate）类表示抽象意义以及它与语义论元（SemanticArgument）类的关联。其实例可表示不同义项共有的意义，而这些义项未必完全同义，也可属于词性不同的词条。每个语义谓词实例归属于特定的词库（Lexicon）实例。"
+  },
+  {
+    "原始英文句子": "EXAMPLE A verb can have different types of syntactic behaviours for subcategorization frame (3.2) alternations, such as the active voice, the passive voice, reflexive, etc.",
+    "原译文": "示例：一个动词可以针对次范畴化框架（3.2）交替形式具有不同类型的句法行为，例如主动态、被动态和反身式等。",
+    "瑕疵说明": "连续名词和“针对……具有”使关系难读，修订更直接。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "示例：动词可表现出与次范畴化框架（3.2）交替相对应的不同类型的句法行为，例如主动态、被动态和反身式等。"
+  },
+  {
+    "原始英文句子": "Another difference with respect to ISO 24613:2008 is the lack of a feat class, which was used to make up for specific elements which a lexicographer can potentially want to introduce but which were not generic enough to be included in the model.",
+    "原译文": "与ISO 24613:2008的另一个区别是缺少一个特征（feat）类，该类用于弥补词库编纂者可能想要引入的特定元素，但这些元素不够通用，无法包含在模型中。",
+    "瑕疵说明": "“弥补元素”搭配生硬；修订明示已取消类的原有用途。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "与 ISO 24613:2008 的另一点区别是，本文件不设特征（feat）类。该类原用于补充词库编纂者可能希望引入、但因通用性不足而未纳入模型的特定元素。"
+  },
+  {
+    "原始英文句子": "NL is used for communication between humans in general and contains ambiguous expressions. By contrast, CNL is a disambiguated language that either contains non-ambiguous expressions as primary text of CNL or needs additional disambiguating information for any ambiguous expressions in CNL text.",
+    "原译文": "NL用于一般意义上的人际交流，包含有歧义的表达。CNL是一种消歧语言，其文本不含歧义表达，或对文本中有歧义的表达附加消歧信息。",
+    "瑕疵说明": "两条消歧路径均已表达，修订进一步明示主体文本与所需补充信息。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "自然语言通常用于人际交流，并含有歧义表达。相比之下，CNL 是经过消歧的语言：其主体文本采用无歧义的表达，或者需要为文本中的歧义表达补充消歧信息。"
+  },
+  {
+    "原始英文句子": "CNL is different from natural language and from artificial languages such as formal logics and programming languages. A CNL (e.g. controlled English) is a subset of the NL (in this case, English) that forms its base because every well-formed expression (word, phrase, or sentence) in the former is a well-formed expression in the latter. All CNLs have some traits of artificial language because they are intentionally and systematically modified or constrained by humans and the outcome involves rules and restricted vocabulary.",
+    "原译文": "CNL不同于自然语言，也不同于形式逻辑和编程语言等人工语言。CNL（如：受控英语）是其所基于的 NL（如：英语）的子集。前者中所有良构表达（词、短语或句子）均为后者中的良构表达。所有CNL都带有某些人工语言特征，CNL经人有意识地、系统地修改或约束，并由此形成相应规则和受限词汇。",
+    "瑕疵说明": "两处because的论证关系可在中文中明确接续。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "CNL 不同于自然语言，也不同于形式逻辑、编程语言等人工语言。CNL（如受控英语）是其基础自然语言（本例中为英语）的子集，因为 CNL 中每个良构表达（词、短语或句子）也都是该自然语言中的良构表达。所有 CNL 都带有某些人工语言特征，因为它们经过人为的、有意识且系统性的修改或约束，从而形成相应规则和受限词汇。"
+  },
+  {
+    "原始英文句子": "Yes: See page 28 for information on how to select an appropriate number and how to structure the utility configuration.",
+    "原译文": "正确： 见第 28页，了解关于如何去选择合适数值以及如何去构建实用程序配置的信息。",
+    "瑕疵说明": "“了解关于如何去……”重复且繁琐。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "正确：关于如何选择合适的数值，以及如何构建实用程序配置，请参见第28页。"
+  },
+  {
+    "原始英文句子": "Yes: If an alarm number is shown on the display, eliminate the cause of the alarm.",
+    "原译文": "正确： 如果警报编号被显示在显示器上，请排除引发警报的原因。",
+    "瑕疵说明": "“被显示在显示器上”可采用更自然的显示结果表达。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "正确：如果显示器上显示了警报编号，请排除引发警报的原因。"
+  },
+  {
+    "原始英文句子": "Tone is a set of styles that creates a specific atmosphere in a document. Many styles can affect the tone in English. If a variety of writing styles (e.g. a mixture of all of the styles given in Table 2) appear in a single document, it becomes complicated and disorganized, making it hard to read. If a manufacturer publishes such a document, it is possible that the manufacturer will be considered to be a mediocre company and the credibility of its products can be affected.",
+    "原译文": "语气是一组风格，能在文档中营造特定的氛围。在英语中，许多风格都会影响语气。如果同一文档中出现多种不一致的写作风格（例如混用表2列出的各种风格特征），文档就会变得复杂而无序，使其难以阅读。如果制造商发布这样的文档，可能会被视为平庸的公司，其产品的可信度也可能受到影响。",
+    "瑕疵说明": "语气定义和对制造商的评价主语可表达得更直接。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "语气由一组风格特征共同构成，在文档中营造特定氛围。英语中的许多风格特征都会影响语气。如果同一文档混用多种写作风格（例如混用表2所列的不同特征），文档就会显得复杂、缺乏条理，难以阅读。制造商发布这样的文档，可能使人认为该公司水平一般，并影响人们对其产品的信任。"
+  },
+  {
+    "原始英文句子": "There is nothing overt to indicate that it has the same conceptual relation in both cases despite the fact that it is expressed syntactically in a different way. We can capture this by annotating the wax as having the same semantic role (or conceptual relation) in both sentences.",
+    "原译文": "尽管这两个句子在句法上表达不同，也无任何显性标记表明“蜡”在两个示例中具有相同的概念关系。可以通过将两句中的“蜡”标注为相同的语义角色（或概念关系）来体现。",
+    "瑕疵说明": "让步衔接和“体现”的回指略显生硬，修订明确一致性对象。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "这两个句子的句法表达不同，也没有显性标记表明“蜡”在两者中具有相同的概念关系。可在两个句子中为“蜡”标注相同的语义角色（或概念关系），以体现这种一致性。"
+  },
+  {
+    "原始英文句子": "language (3.1.1) from or into which an interpreter (3.1.13) is qualified to interpret (3.1.10)",
+    "原译文": "口译员（3.1.13）具备资质以口译（3.1.10）方式译出或译入的语言（3.1.1）。",
+    "瑕疵说明": "定义内人员资格、口译方式和语言方向形成长定语。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "口译员（3.1.13）具备相应资格，可将其作为源语言或目标语言开展口译（3.1.10）的语言（3.1.1）。"
+  },
+  {
+    "原始英文句子": "language (3.1.1) from which the interpreter (3.1.13) interprets (3.1.10) into their 'A' languages (3.4.8) or 'B' languages (3.4.9)",
+    "原译文": "口译员（3.1.13）从中以口译（3.1.10）方式译入其“A”语言（3.4.8）或“B”语言（3.4.9）的语言（3.1.1）。",
+    "瑕疵说明": "“从中以……方式译入”需回读，修订明确译出语与译入语。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "口译员（3.1.13）用作口译（3.1.10）译出语的语言（3.1.1），其内容译入该口译员的“A”语言（3.4.8）或“B”语言（3.4.9）。"
+  },
+  {
+    "原始英文句子": "encounter between two or more parties during which information is transmitted",
+    "原译文": "两方或多方之间信息传递的接触活动。",
+    "瑕疵说明": "参与方、传递信息与接触活动压在一个定语中。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "两方或多方之间的接触活动，其间发生信息传递。"
+  },
+  {
+    "原始英文句子": "transmission of the floor (3.5.2.12) and interpreted (3.1.10) speech to the participants (3.4.33) and audience (3.4.36)",
+    "原译文": "会场原声（3.5.2.12）和已口译（3.1.10）的发言传输给参与者（3.4.33）和受众（3.4.36）的过程。",
+    "瑕疵说明": "传输对象置于长定语前，修订用“将”理顺受事结构。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "将会场原声（3.5.2.12）和经口译（3.1.10）译出的发言传输给参与者（3.4.33）及受众（3.4.36）的过程。"
+  },
+  {
+    "原始英文句子": "area with visible boundaries that presents a view of a software object or through which a user conducts a dialogue with a computer system (3.5.2.17)",
+    "原译文": "具有可见边界、用于呈现软件对象的视图或用户通过该区域与计算机系统（3.5.2.17）进行交互的区域。",
+    "瑕疵说明": "“用于……或用户通过……”两支句法不平行。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "具有可见边界的区域，用于呈现软件对象的视图，或供用户通过该区域与计算机系统（3.5.2.17）进行交互。"
+  },
+  {
+    "原始英文句子": "This document does not address the linguistic choices that identify tokens or determine the language- or context-particular relationships between tokens and word-forms.",
+    "原译文": "本文件不涉及标识词元的语言学选择，也不涉及确定词元与词形之间语言特定或语境特定关系的语言学选择。",
+    "瑕疵说明": "两个“语言学选择”及密集条件定语可分列。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "本文件不涉及以下两类语言学选择：一是如何标识词元，二是如何确定特定语言或特定语境下词元与词形之间的关系。"
+  },
+  {
+    "原始英文句子": "This subclause presents the MAF metamodel in more detail. The primary focus is on the core model, which describes the relationship between the two levels of description as well as the function and placement of annotations. Word lattices are the focus of ISO 24611-2. The metamodel is diagrammed in Figure 2.",
+    "原译文": "本条更详细地介绍MAF元模型。重点是核心模型，该模型描述两个描述层级之间的关系，以及标注的功能和位置。词格是ISO 24611-2的重点。图2以图示方式呈现该元模型。",
+    "瑕疵说明": "连续重复“重点”和“图示”可简化。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "本条详细介绍 MAF 元模型，重点说明核心模型中的两个描述层级及其关系，以及标注的功能和位置。词格由 ISO 24611-2 重点讨论。图2给出了该元模型。"
+  },
+  {
+    "原始英文句子": "Disjunctive values are allowed by FSR and can also be simplified, following the same mechanism (see Figure 32, which shows fragmentary feature-value and feature specification libraries containing a definition of a value that is neutral between the first and the third person, making it possible to handle the morphological ambiguity in the example of the inflected French verb porte, interpretable as either the first or the third person form of porter “visit”).",
+    "原译文": "FSR允许使用析取值，并且能按照同一机制对析取值进行简化（见图32，其中展示了不完整的特征值库和特征规约库；这些库包含对一个在第一人称与第三人称之间保持中性的值的定义，从而能处理法语动词porter“访问”的屈折形式porte示例中的形态歧义，该形式既可解释为第一人称形式，也可解释为第三人称形式）",
+    "瑕疵说明": "长括号内层层解释可拆句，“中性”在此明确为保留两种人称可能。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "FSR 允许使用析取值，也可按同一机制简化其表示。图32给出特征值库和特征规约库的片段，其中定义了一个保留第一人称和第三人称两种可能的值。该值可用于处理法语动词 porter（“访问”）的屈折形式 porte 所具有的人称歧义：porte 既可解释为第一人称形式，也可解释为第三人称形式。"
+  },
+  {
+    "原始英文句子": "The LexiconInformation class shall be implemented in LBX by means of the <LexiconInformation> element (see Table 4) either by referencing a LexiconInformation.xsd schema using an <xsd:include> element or as a direct child of the <Entry> element.",
+    "原译文": "`LexiconInformation`类应在LBX中通过`<LexiconInformation>`元素实现（见表4）。可以使用`<xsd:include>`元素引用`LexiconInformation.xsd`模式，也可以把它作为`<Entry>`元素的直接子元素。",
+    "瑕疵说明": "“它”有多个可能的先行项，修订明示对应元素。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "`LexiconInformation`类应在LBX中通过`<LexiconInformation>`元素实现（见表4）。可以使用`<xsd:include>`元素引用`LexiconInformation.xsd`模式，也可以把`<LexiconInformation>`元素作为`<Entry>`元素的直接子元素。"
+  },
+  {
+    "原始英文句子": "The <Cognate> element can contain a further element which contains the description of the current etymon.",
+    "原译文": "`<Cognate>`元素可以包含进一步的元素，用来描述当前源词。",
+    "瑕疵说明": "“进一步的元素”机械直译，改为另一个元素更顺畅。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "`<Cognate>`元素可以包含另一个元素，其中存放对当前源词的描述。"
+  },
+  {
+    "原始英文句子": "This first edition of ISO 24611-1 cancels and replaces ISO 24611:2012, which has been technically revised.",
+    "原译文": "ISO 24611-1的本第一版废止并代替ISO 24611:2012，并对其作了技术修订。",
+    "瑕疵说明": "“的本第一版”叠加领属、指示与序数成分。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "ISO 24611-1第一版废止并代替ISO 24611:2012，并对其作了技术修订。"
+  },
+  {
+    "原始英文句子": "— a miscalculation is done in the MPU; or",
+    "原译文": "— 在MPU中进行了错误计算；或者",
+    "瑕疵说明": "“进行错误计算”搭配生硬，修订表达计算出错事件。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "— 在MPU中发生了计算错误；或者"
+  },
+  {
+    "原始英文句子": "No: The rest of the existing documents such as brochures, catalogues, training materials, service manuals, owner's manuals and specifications are further important resources.",
+    "原译文": "不推荐写法：其余现有文件，例如宣传册、产品目录、培训资料、维修手册、用户手册和规格说明书，都是其他重要资源。",
+    "瑕疵说明": "“其余……其他……”重复，修订明示追加关系。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "不推荐写法：其余现有文件，例如宣传册、产品目录、培训资料、维修手册、用户手册和规格说明书，也都是重要资源。"
+  },
+  {
+    "原始英文句子": "Move the description just after the sentence or paraphrase the sentence.",
+    "原译文": "把说明紧接在该句之后，或改写该句。",
+    "瑕疵说明": "“把说明紧接在……”处置动作不够自然。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "将该说明紧接在该句之后另行写出，或改写该句。"
+  },
+  {
+    "原始英文句子": "Style is mainly used to create the cosmetic appearance of sentences.",
+    "原译文": "行文风格主要用于形成句子的外观表现。",
+    "瑕疵说明": "“形成句子的外观表现”搭配生硬。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "行文风格主要用于塑造句子的外在表现形式。"
+  },
+  {
+    "原始英文句子": "— the @lemmaRef attribute can be used to point to a lexical entry (or a subpart of an entry);",
+    "原译文": "@lemmaRef属性能用于指向词条（或词条的子部分）；",
+    "瑕疵说明": "“能用于”可在技术说明中选择更简洁的“可用于”，不改变模态。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "@lemmaRef 属性可用于指向词条（或词条的子部分）；"
+  },
+  {
+    "原始英文句子": "For example, the <Pron> construct is inherited from the fully specified <FormRepresentation> where the @notation value is “French Pronunciation”.",
+    "原译文": "例如，`<Pron>`结构继承自充分指定的`<FormRepresentation>`，后者的`@notation`值为“French Pronunciation”。",
+    "瑕疵说明": "“充分指定”较机械，修订以完整规定表达。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "例如，`<Pron>`结构继承自已作完整规定的`<FormRepresentation>`，后者的`@notation`值为“French Pronunciation”。"
+  },
+  {
+    "原始英文句子": "Regarding the modelling of syntax in Figure 1, a LexicalEntry may have one or more instances of SyntacticBehaviour, associated with separate SubcategorizationFrame instances, each described with SyntacticArgument.",
+    "原译文": "关于图1中的句法建模，一个词条可能有一个或多个句法行为实例，与单独的次范畴化框架实例相关联，每个实例都用句法论元描述。",
+    "瑕疵说明": "多类实例后使用“每个实例”需回读，修订明示各自关系。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "就图1的句法建模而言，一个词条可具有一个或多个句法行为实例；这些句法行为实例与各自的次范畴化框架实例相关联，各次范畴化框架实例均用句法论元描述。"
+  },
+  {
+    "原始英文句子": "A SynSemCorrespondence would then contain three SynSemArgMap instances: one to map the Donor with the Subject, one to map the Recipient with Object1, and one to map Theme with Object2.",
+    "原译文": "此时，一个句法-语义对应将会包含三个句法-语义论元映射实例：一个映射给予者到主语，一个映射接受者到宾语1，一个映射客体到宾语2。",
+    "瑕疵说明": "“一个映射……到……”机械套用英语语序，修订采用平行处置结构。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "此时，一个句法-语义对应就包含三个句法-语义论元映射实例：一个将给予者映射到主语，一个将接受者映射到宾语1，一个将客体映射到宾语2。"
+  },
+  {
+    "原始英文句子": "Note 1 to entry: This includes version control of revised documents, contents in versions of similar documents, and the management of relations between items in a document.",
+    "原译文": "包括对修订后文档的版本控制，类似文档各版本中的内容管理，以及文档中各项目之间关系的管理。",
+    "瑕疵说明": "“项目”在文档内可理解，修订“内容项”可减少与工程项目混淆。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "注：包括对修订后文档的版本控制、类似文档各版本中的内容管理，以及文档中各内容项之间关系的管理。"
+  },
+  {
+    "原始英文句子": "The writing rules are not based solely on one language, as is the traditional practice, but instead by comparing English with a linguistically different language such as Japanese.",
+    "原译文": "与传统做法不同，这些写作规则并非只以一种语言为基础，而是通过比较英语与日语等语言特点不同的语言而形成。",
+    "瑕疵说明": "语言特点差异的比较基准可明示。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "与传统做法不同，这些写作规则并非只以一种语言为基础，而是通过比较英语与日语等在语言特点上不同于英语的语言而形成。"
+  },
+  {
+    "原始英文句子": "Yes: The comparatively large sounds of the stream in the straits located in the designated area are steady and comfortable.",
+    "原译文": "正确： 指定区域的海峡（straits）中水流的相当（comparatively）较大的声音（sound）是平稳（steady）且舒适的。",
+    "瑕疵说明": "“相当较大的声音是……舒适的”搭配生硬，修订说明声音大小和听感。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "正确：指定区域海峡中的水流声相对较大，平稳而令人感到舒适。"
+  },
+  {
+    "原始英文句子": "Terms that will be transparent to a given target audience.",
+    "原译文": "对特定目标受众透明的术语。",
+    "瑕疵说明": "“对受众透明”在术语学可表达可理解性，修订采用更直观的中文释义。 原译基本达意，本项为表达偏好，不是唯一正确答案。",
+    "修订译文": "特定目标受众能够清楚理解的术语。"
+  },
+  {
+    "原始英文句子": "Predicate which can be associated with a communicative function to express that the sender of a dialogue act with that function is certain about the correctness of the information that he/she provides.",
+    "原译文": "谓词，可以与交际功能相关联，表示具有该功能的对话行为的发送者确信他/她提供的信息的正确性。",
+    "瑕疵说明": "原译基本达意；谓宾搭配的表达可进一步理顺。修订作为给定英文语境下的表达偏好，不是唯一正确答案。",
+    "修订译文": "可与交际功能相联的谓词，表示具有该功能的对话行为的发送者确信自己提供的信息是正确的。"
+  },
+  {
+    "原始英文句子": "The PID framework should provide a proxy resolver implementation that is able to resolve urlified PIDs. This allows web clients to resolve such an identifier using the HTTP scheme without needing special browser plug- ins or other special software.",
+    "原译文": "PID框架宜实现可解析转换为URL格式的PID的代理解析器。在网络客户端可采用HTTP方案解析这类标识符，而无需使用特殊的浏览器插件或其他特殊软件。",
+    "瑕疵说明": "原译基本达意；多层定语与动作关系的表达可进一步理顺。修订作为给定英文语境下的表达偏好，不是唯一正确答案。",
+    "修订译文": "PID框架宜提供能够解析URL化PID的代理解析器实现。Web客户端可据此采用HTTP方案解析这类标识符，无需特殊浏览器插件或其他专用软件。"
+  },
+  {
+    "原始英文句子": "procedures prior, or related, to the handing over of a physical product (3.1.3) ready to be placed into service",
+    "原译文": "在移交准备好投入使用的实物产品（3.1.3）之前进行的或移交相关的程序",
+    "瑕疵说明": "原译基本达意；定义长定语的表达可进一步理顺。修订作为给定英文语境下的表达偏好，不是唯一正确答案。",
+    "修订译文": "在准备好投入使用的实物产品（3.1.3）移交之前进行的程序，或与该移交有关的程序。"
+  },
+  {
+    "原始英文句子": "information for use (3.1.2) which comprises additional details that need to be retrieved on occasion",
+    "原译文": "由视需要检索的补充细项构成的使用信息（3.1.2）",
+    "瑕疵说明": "原译基本达意；定义中的词语搭配的表达可进一步理顺。修订作为给定英文语境下的表达偏好，不是唯一正确答案。",
+    "修订译文": "由需要时检索的补充性详细信息构成的使用信息（3.1.2）。"
+  },
+  {
+    "原始英文句子": "principle of information quality (3.6.5.1) according to which information for use (3.1.2) includes all relevant information with the least amount of other information needed to be complete",
+    "原译文": "使用信息（3.1.2）包含全部相关信息、且保留完整性所需最少其他信息的信息质量 （3.6.5.1）原则。",
+    "瑕疵说明": "原译基本达意；定义主干与限定的表达可进一步理顺。修订作为给定英文语境下的表达偏好，不是唯一正确答案。",
+    "修订译文": "使用信息（3.1.2）包含全部相关信息，并将为保证完整性所需的其他信息控制在最少量的信息质量（3.6.5.1）原则。"
+  },
+  {
+    "原始英文句子": "A process has its input to activate the process and the list of outputs.",
+    "原译文": "每个过程 均具有用于启动过程的输入和产出清单。",
+    "瑕疵说明": "原译基本达意；并列定语消歧的表达可进一步理顺。修订作为给定英文语境下的表达偏好，不是唯一正确答案。",
+    "修订译文": "每个过程均有启动该过程所需的输入，以及该过程的产出清单。"
+  },
+  {
+    "原始英文句子": "Transduction practices applied to transform the data from its source format (e.g. PDF, recorded speech). Correction practices applied to the data in its source form, such as spelling correction or normalization of special characters.",
+    "原译文": "为将数据从其源格式（例如 PDF格式、录音语音）转换而施加的转导做法。 对源形式数据施加的更正做法，例如拼写更正或特殊字符规范化。",
+    "瑕疵说明": "原译的“施加的做法”保留了原意，但中文搭配生硬；修订以“所采用的方法”表达，并保留转换与更正两类用途。",
+    "修订译文": "<transduction>：将数据从源格式（例如PDF或语音录音格式）转换时所采用的方法。 <correction>：针对源形式数据采用的更正方法，例如拼写更正或特殊字符规范化。"
+  },
+  {
+    "原始英文句子": "use a document or data for purposes in addition to those for which it was originally designed",
+    "原译文": "除最初设计用途外，还将文档或数据用于其他用途。",
+    "瑕疵说明": "原译基本达意；定义句式消歧的表达可进一步理顺。修订作为给定英文语境下的表达偏好，不是唯一正确答案。",
+    "修订译文": "将文档或数据用于其原设计用途以外的其他用途。"
+  },
+  {
+    "原始英文句子": "CNL can reduce costs because it produces more controlled text and this makes it easier for humans and computer systems to translate it.",
+    "原译文": "CNL能够生成控制程度更高的文本，使人工和计算机系统更易进行翻译，从而降低成本。",
+    "瑕疵说明": "原译基本达意；主宾语显化的表达可进一步理顺。修订作为给定英文语境下的表达偏好，不是唯一正确答案。",
+    "修订译文": "CNL 能生成控制程度更高的文本，使人和计算机系统都更容易翻译这类文本，从而降低成本。"
+  },
+  {
+    "原始英文句子": "Yes: If the shims are installed, remove them.",
+    "原译文": "如果垫片已被安装，拆下它们。",
+    "瑕疵说明": "原译安装条件与拆卸对象均正确；修订采用更自然的条件句和处置句。",
+    "修订译文": "正确：如果已经安装了垫片，请将其拆下。"
+  },
+  {
+    "原始英文句子": "The goal of this design is to support effective resource management for large-scale, complex lexical databases (e.g. many lexicons encompassing many languages).",
+    "原译文": "该设计目标是为包含大量词典、多语言的大型复杂词汇数据库提供高效资源管理。",
+    "瑕疵说明": "原译基本达意；并列修饰的表达可进一步理顺。修订作为给定英文语境下的表达偏好，不是唯一正确答案。",
+    "修订译文": "这种设计旨在支持对大型复杂词汇数据库进行高效的资源管理，例如包含多种语言、多部词典的数据库。"
+  },
+  {
+    "原始英文句子": "The TextRepresentation class can be implemented in LBX as an optional construct to contain the text literal of a Definition.",
+    "原译文": "文本表征（TextRepresentation）类在 LBX 中可作为可选构造实现，用于包含 Definition 的文本字面量。",
+    "瑕疵说明": "原译基本达意；能愿表达重复的表达可进一步理顺。修订作为给定英文语境下的表达偏好，不是唯一正确答案。",
+    "修订译文": "对于 Definition 的文本内容，也可以选择使用 TextRepresentation 类所对应的构造来承载。"
+  },
+  {
+    "原始英文句子": "It contains examples of usage illustrating a particular sense of the Form.",
+    "原译文": "它包含用来说明 Form 特定义项的用法示例。",
+    "瑕疵说明": "原译基本达意；指代显化的表达可进一步理顺。修订作为给定英文语境下的表达偏好，不是唯一正确答案。",
+    "修订译文": "<Example> 元素包含用法示例，用于说明某一 Form 的特定义项。"
+  },
+  {
+    "原始英文句子": "which do not correspond to classes or mechanisms introduced in the various models standardized in other parts of the ISO 24613 series.",
+    "原译文": "这些特性不对应 ISO 24613 系列其他部分所标准化模型中的类或机制。",
+    "瑕疵说明": "原译基本达意；动词搭配的表达可进一步理顺。修订作为给定英文语境下的表达偏好，不是唯一正确答案。",
+    "修订译文": "这些特性不对应于 ISO 24613 系列其他部分所规定模型中的类或机制。"
+  },
+  {
+    "原始英文句子": "In the following example, the complex type includes a reference to the GramFeats choice group that is applicable for all declared languages.",
+    "原译文": "在下面示例中，复杂类型包含对适用于所有已声明语言的 GramFeats 选择组的引用。",
+    "瑕疵说明": "原译基本达意；密集定语拆分的表达可进一步理顺。修订作为给定英文语境下的表达偏好，不是唯一正确答案。",
+    "修订译文": "以下示例中的复杂类型引用了一个 GramFeats 选择组，该选择组适用于所有已声明的语言。"
+  },
+  {
+    "原始英文句子": "Such models are defined independently of any specific formats and ensure that an implementer has the necessary conceptual instrument with which to design and compare formats with regard to their degrees of interoperability.",
+    "原译文": "此类模型独立于任何特定格式而定义，并确保实施者拥有必要的概念工具，以便根据互操作性程度设计和比较格式。",
+    "瑕疵说明": "原译基本达意；被动句与比较维度的表达可进一步理顺。修订作为给定英文语境下的表达偏好，不是唯一正确答案。",
+    "修订译文": "这些模型在定义时不依赖任何特定格式，并能确保实施者具备必要的概念工具，使其能够从互操作程度这一角度设计和比较各种格式。"
+  },
+  {
+    "原始英文句子": "In order to be shared across various annotation schemas and encoding applications, such semantics should be implemented as a centralized repository of concepts:",
+    "原译文": "为了能在各种标注模式和编码应用之间共享，此类语义宜以集中式概念存储库的形式实现；",
+    "瑕疵说明": "原译基本达意；目的关系与抽象搭配的表达可进一步理顺。修订作为给定英文语境下的表达偏好，不是唯一正确答案。",
+    "修订译文": "为使这些语义能够在不同标注模式和编码应用之间共享，宜通过集中式概念库加以表示。"
+  },
+  {
+    "原始英文句子": "Such properties can range from the simple identification of a lemma up to an explicit reference to a lexical entry in a dictionary.",
+    "原译文": "此类属性的范围能够从简单标识一个词目一直延伸到明确引用词典中的某个词条。",
+    "瑕疵说明": "原译基本达意；抽象主语搭配的表达可进一步理顺。修订作为给定英文语境下的表达偏好，不是唯一正确答案。",
+    "修订译文": "这些属性的描述范围，可以从简单标明词目，延伸到明确引用词典中的某个词条。"
+  },
+  {
+    "原始英文句子": "Inline token annotation strategies for token separation",
+    "原译文": "词元分隔的内嵌式词元标注策略",
+    "瑕疵说明": "原译基本达意；标题名词链的表达可进一步理顺。修订作为给定英文语境下的表达偏好，不是唯一正确答案。",
+    "修订译文": "用于分隔词元的内嵌式标注策略"
+  },
+  {
+    "原始英文句子": "It can also be characterized by part-of-speech information that expresses morphological and grammatical properties as a feature structure (see 7.2).",
+    "原译文": "还可使用以特征结构表示形态属性和语法属性的词性信息来刻画词形（见7.2）。",
+    "瑕疵说明": "原译基本达意；嵌套关系拆分的表达可进一步理顺。修订作为给定英文语境下的表达偏好，不是唯一正确答案。",
+    "修订译文": "还可以用词性信息刻画词形；这些信息以特征结构的形式表达形态属性和语法属性（见7.2）。"
+  },
+  {
+    "原始英文句子": "it is sometimes useful not to rely on such an implicit relationship but rather use an explicit identifier for that data category, to distinguish it from other morphosyntactic data categories, such as gender, tense, etc.",
+    "原译文": "但有时不依赖这种隐式关系，而为该数据类别使用显式标识符会更有用，这样能将其与性、时态等其他形态句法数据类别区分开来。",
+    "瑕疵说明": "原译基本达意；连绵句拆分的表达可进一步理顺。修订作为给定英文语境下的表达偏好，不是唯一正确答案。",
+    "修订译文": "不过，有时为该类别提供显式标识符，比依赖这种隐含关系更有用。显式标识符有助于将“词性”与性、时态等其他形态句法数据类别区分开来。"
+  },
+  {
+    "原始英文句子": "As linguistic abstractions, word-forms can be qualified by various linguistic features characterizing the morphosyntactic properties that are instantiated in the realization of the lexical entry within the annotated text.",
+    "原译文": "作为语言抽象，词形能由各种语言特征加以限定；这些特征刻画词条在已标注文本中的实现所实例化的形态句法属性。",
+    "瑕疵说明": "原译基本达意；抽象近义词叠加的表达可进一步理顺。修订作为给定英文语境下的表达偏好，不是唯一正确答案。",
+    "修订译文": "词形作为语言抽象，可以用各种语言特征加以刻画。这些特征描述词条在已标注文本中实际出现时所体现的形态句法属性。"
+  },
+  {
+    "原始英文句子": "Implementers are encouraged to use external reference taxonomies as described by ISO 12620-2 either directly, or by building on them in defining their own categories (appropriate in the coverage, scope or semantics to the requirements of the given encoding project), in conformity with ISO/TC 37 principles.",
+    "原译文": "鼓励实施者按照ISO/TC 37原则，直接使用ISO 12620-2所述的外部参照分类体系，或在其基础上定义自己的类别（在覆盖范围、适用范围或语义方面适合特定编码项目的要求）。",
+    "瑕疵说明": "原译基本达意；括注限定拆分的表达可进一步理顺。修订作为给定英文语境下的表达偏好，不是唯一正确答案。",
+    "修订译文": "鼓励实施者遵循 ISO/TC 37 的原则，直接采用 ISO 12620-2 所述的外部参照分类体系，或在这些分类体系的基础上定义自己的类别，使这些类别在覆盖范围、适用范围或语义方面满足具体编码项目的要求。"
+  },
+  {
+    "原始英文句子": "The following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document.",
+    "原译文": "下列文件在正文中以其部分或全部内容构成本文件要求的方式被引用。",
+    "瑕疵说明": "原译基本达意；结果关系的直述的表达可进一步理顺。修订作为给定英文语境下的表达偏好，不是唯一正确答案。",
+    "修订译文": "下列文件在正文中被引用，其部分或全部内容构成本文件的要求。"
+  },
+  {
+    "原始英文句子": "Note 2 to entry: The term “lemma” is most often used in the context of corpora, as a device to capture the identity of tokens $(3.21)$ and establish basic correspondence between a token and a lexical entry $(3.9)$ . The term that corresponds to lemma in the context of lexicons $(3.10)$ is “headword”. Mismatches between the two are possible due to the varying macro- and microstructure of lexical entries. In order to handle such mismatches, apart from lemmas, direct references to dictionary entries are sometimes added to tokens or word-forms $(3.5)$ in corpora.",
+    "原译文": "“词目”这一术语最常用于语料库语境，作为捕捉词元（3.21）身份并建立词元与词条（3.9）之间基本对应关系的手段。在词库（3.10）语境中，与词目相对应的术语是“词头”。由于词条的宏观结构和微观结构各不相同，二者之间可能不匹配。为处理此类不匹配，语料库中有时除词目之外，还会给词元或词形（3.5）添加对词典条目的直接引用。",
+    "瑕疵说明": "原译基本达意；主语与回指显化的表达可进一步理顺。修订作为给定英文语境下的表达偏好，不是唯一正确答案。",
+    "修订译文": "“词目”这一术语主要用于语料库语境。词目用于确认词元（3.21）的身份，并建立词元与词条（3.9）之间的基本对应关系。在词库（3.10）语境中，与词目对应的术语是“词头”。由于词条的宏观结构和微观结构不尽相同，词目与词头可能无法对应。为处理这种不匹配，语料库有时在提供词目的同时，还为词元或词形（3.5）添加指向词典条目的直接引用。"
+  },
+  {
+    "原始英文句子": "Sometimes a modification of a lexeme is not overtly marked, and sometimes the morpheme is a combined (fused) exponent of various kinds of morphosyntactic information.",
+    "原译文": "有时词位的变化没有显性标记，有时一个语素则是各种形态句法信息的组合（融合）形式体现。",
+    "瑕疵说明": "原译基本达意；名词链改为谓语的表达可进一步理顺。修订作为给定英文语境下的表达偏好，不是唯一正确答案。",
+    "修订译文": "有时，词位的变化没有显性标记；有时，一个语素则融合体现了多种形态句法信息。"
+  },
+  {
+    "原始英文句子": "ISO 24612 makes use of anchors that utilize inter-character points in order to refer to locations in between the base units of the data representation.",
+    "原译文": "ISO 24612使用利用字符间点的锚点，以引用数据表示基本单元之间的位置。",
+    "瑕疵说明": "原译基本达意；近义动词重复的表达可进一步理顺。修订作为给定英文语境下的表达偏好，不是唯一正确答案。",
+    "修订译文": "ISO 24612 以字符之间的位置设置锚点，用于指示数据表示中基本单元之间的位置。"
+  },
+  {
+    "原始英文句子": "The choice between them comes into play where a single element (or a tight element complex, such as the f/symbol complex illustrated above) make it necessary or useful to distinguish between the container data category and its value.",
+    "原译文": "当单个元素（或紧密的元素复合结构，例如上文所示的f/symbol复合结构）使得有必要或有益于区分容器数据类别及其值时，就需要在二者之间作出选择。",
+    "瑕疵说明": "原译基本达意；选择对象显化的表达可进一步理顺。修订作为给定英文语境下的表达偏好，不是唯一正确答案。",
+    "修订译文": "在单个元素或紧密组合的多个元素（例如上文的 f/symbol 组合）中，如果需要区分容器数据类别与其值，或作出这种区分有益，就涉及 datcat 与 valueDatcat 的选用。"
+  },
+  {
+    "原始英文句子": "Individuals of the class can either represent paraphrases or synonyms and these may be in the language of the entry or in another language.",
+    "原译文": "释义（Gloss）类实例可表示释义或同义词。所用语言可为条目语言或其他语言。",
+    "瑕疵说明": "原译基本达意；模型类与内容表述消歧的表达可进一步理顺。修订作为给定英文语境下的表达偏好，不是唯一正确答案。",
+    "修订译文": "该类实例可包含解释性释文或同义词，所用语言可为条目语言或其他语言。"
+  },
+  {
+    "原始英文句子": "origin and historical development of any aspect of a given lexical item",
+    "原译文": "给定词汇项任何方面的起源和历史发展。",
+    "瑕疵说明": "原译基本达意；定义修饰关系的表达可进一步理顺。修订作为给定英文语境下的表达偏好，不是唯一正确答案。",
+    "修订译文": "某一词汇项在任何方面的起源及历史演变。"
+  },
+  {
+    "原始英文句子": "The use of CognateSet implies that the LexicalEntry (and therefore Etymon and Cognate) instances which it contains share an etymological source.",
+    "原译文": "使用CognateSet表示LexicalEntry以及其中 包含的Etymon和Cognate实例具有共同词源。",
+    "瑕疵说明": "原译可表达共同词源关系；修订明确“其中包含的实例”的修饰关系，避免密集英文标识遮蔽中文主干。",
+    "修订译文": "使用 CognateSet，意味着其中包含的 LexicalEntry 实例（包括其 Etymon 和 Cognate 子类实例）具有共同的词源来源。"
+  },
+  {
+    "原始英文句子": "The components of the compound are represented as Etymons containing the salient forms as Lemma.",
+    "原译文": "该复合词的组成部分表示为包含显著形式作为Lemma 的 Etymon。",
+    "瑕疵说明": "原译基本达意；多层as结构的中文表达的表达可进一步理顺。修订作为给定英文语境下的表达偏好，不是唯一正确答案。",
+    "修订译文": "复合词的各个组成部分用 Etymon 表示，并在每个 Etymon 中以 Lemma 记录相应的主要词形。"
+  },
+  {
+    "原始英文句子": "Central to grammaticalization is a continuum of bondedness",
+    "原译文": "语法化的核心是黏着程度连续体",
+    "瑕疵说明": "原译基本达意；中心语与修饰语的表达可进一步理顺。修订作为给定英文语境下的表达偏好，不是唯一正确答案。",
+    "修订译文": "语法化的一个核心特征，是形式之间结合紧密程度构成的连续统。"
+  },
+  {
+    "原始英文句子": "There are numerous potential subvarieties of assimilation along several different dichotomies and traits, which can intersect, these are: total-partial, contact-distant, and regressive-progressive.",
+    "原译文": "沿若干不同二分和特征，存在大量潜在同化下位类型，并且这些类型可以交叉，这些类型是：完全-部分、接触-远距、逆 行-顺行。",
+    "瑕疵说明": "原译基本达意；分类维度的中文表达的表达可进一步理顺。修订作为给定英文语境下的表达偏好，不是唯一正确答案。",
+    "修订译文": "同化可沿不同的对立维度或特征划分出许多下位类型，并且这些分类维度可以相互交叉，例如完全同化与部分同化、接触同化与远距同化、逆向同化与顺向同化。"
+  },
+  {
+    "原始英文句子": "but whereas clipping generally refers to the removal of an extended portion of a lexical item, deletion is generally used in reference to the deletion of a single phonetic segment.",
+    "原译文": "但截短通常指移除词汇项的一个较长部分，而删除通常用于指删除一个单一语音片 段。",
+    "瑕疵说明": "原译基本达意；重复动词与对比句的表达可进一步理顺。修订作为给定英文语境下的表达偏好，不是唯一正确答案。",
+    "修订译文": "截短通常指删去词汇项中较长的一段形式，而这里的 deletion 通常指单个语音片段的脱落。"
+  },
+  {
+    "原始英文句子": "Japanese regularly uses epenthesis when introducing a loanword in order to make it conform to that language's phonotactic system",
+    "原译文": "日语在引入外来词时经常使用插音，使其符合该语言的音系组合系统",
+    "瑕疵说明": "原译基本达意；语音学搭配的表达可进一步理顺。修订作为给定英文语境下的表达偏好，不是唯一正确答案。",
+    "修订译文": "日语在借入外来词时经常插入语音，以使借词符合日语的语音配列规则。"
+  },
+  {
+    "原始英文句子": "The historical phonological process by which phone becomes less constricted.",
+    "原译文": "一种历史音系过程，其中音变得较少受阻。",
+    "瑕疵说明": "原译基本达意；比较程度的中文表达的表达可进一步理顺。修订作为给定英文语境下的表达偏好，不是唯一正确答案。",
+    "修订译文": "弱化指某个音在历时变化中发音气流受阻程度减小的过程。"
+  },
+  {
+    "原始英文句子": "The @corresp attribute ensures explicit correspondence between the <listAnnotation> element and the sentence whose contents are being annotated, and the @target attribute encodes the relationship between the <span> elements and the tokens that represent the given word-form.",
+    "原译文": "@corresp属性确保<listAnnotation>元素与其内容正在被标注的句子之间存在显式对应关系，@target属性则对<span>元素与表示给定词形的词元之间的关系进行编码。",
+    "瑕疵说明": "原译基本达意；关系从句与指代的表达可进一步理顺。修订作为给定英文语境下的表达偏好，不是唯一正确答案。",
+    "修订译文": "@corresp 属性明确建立 <listAnnotation> 元素与所标注句子之间的对应关系；@target 属性则编码 <span> 元素与表示相应词形的词元之间的关系。"
+  },
+  {
+    "原始英文句子": "This indirect way is a convenience mapping of relationships defined by ISO 24610-1. For example, fragment @pos=\"N\" is a convenience shorthand that expresses information defined by <f name=\"pos\"><symbol value=\"noun\"/></f>, which is part of a library of morphosyntactic feature structures.",
+    "原译文": "这种间接方式是对ISO 24610-1所定义关系的便捷映射。例如，片段@pos=\"N\"是一种便捷简写，用于表达由<f name=\"pos\"><symbol value=\"noun\"/></f>定义的信息；后者是形态句法特征结构库的一部分。",
+    "瑕疵说明": "原译基本达意；重复用词与回指的表达可进一步理顺。修订作为给定英文语境下的表达偏好，不是唯一正确答案。",
+    "修订译文": "这种间接方式以便于使用的形式映射 ISO 24610-1 所定义的关系。例如，@pos=\"N\" 是一种简写，用于表达 <f name=\"pos\"><symbol value=\"noun\"/></f> 所定义的信息；这个编码片段属于形态句法特征结构库。"
+  },
+  {
+    "原始英文句子": "Faceted classification systems allow the assignment of multiple classifications to an object. An object may be characterized by any combination of the classes from the facets.",
+    "原译文": "分面分类系统允许为一个客体赋予多重分类标识，客体特征可由各分面类别的任意组合表征。",
+    "瑕疵说明": "原译基本达意；分类动作的显化的表达可进一步理顺。修订作为给定英文语境下的表达偏好，不是唯一正确答案。",
+    "修订译文": "分面式分类系统允许从多个分面对一个客体进行分类。客体可以通过各分面中类别的任意组合加以表征。"
+  },
+  {
+    "原始英文句子": "model of a fictitious user (3.2.1) with defined properties, based on information research (3.6.1.2)",
+    "原译文": "基于信息调研（3.6.1.2）的、具有明确特征的虚拟用户（3.2.1）模型",
+    "瑕疵说明": "原译基本达意；概念名称消歧的表达可进一步理顺。修订作为给定英文语境下的表达偏好，不是唯一正确答案。",
+    "修订译文": "基于信息调研（3.6.1.2）、具有明确特征的虚构用户（3.2.1）模型。"
+  },
+  {
+    "原始英文句子": "The example in Figure A.1 describes the inheritance of a lexical entry from a parent language, in this case the adverb semper in Sardinian which comes from the Latin word semper.",
+    "原译文": "图A.1 中的示例描述一个词汇条目从亲语言的继承。本例中，撒丁语副词 semper 来自拉丁语词 semper。",
+    "瑕疵说明": "原译基本达意；亲属隐喻的专业表达的表达可进一步理顺。修订作为给定英文语境下的表达偏好，不是唯一正确答案。",
+    "修订译文": "图 A.1 的示例描述了词条从祖源语言继承而来的情形：撒丁语副词 semper 源自拉丁语 semper。"
+  },
+  {
+    "原始英文句子": "A sentiment can be expressed verbally by the choice of adjectives or adverbs, such as “(un)fortunately” and “regrettably”.",
+    "原译文": "情感既可通过形容词或副词的选择进行语言表达，例如“有/不幸的是”与“遗憾地”。",
+    "瑕疵说明": "“有/不幸的是”可理解为有幸与不幸两种极性，但套用英文括号构词形成的中文写法生硬。修订将两种表达完整展开，作为表达偏好，不据此判定原译语义错误。",
+    "修订译文": "情感既可通过形容词或副词的选择进行语言表达，例如“幸运的是／不幸的是”与“遗憾地”。"
+  },
+  {
+    "原始英文句子": "the language the lemma is translated to, principally represented in the <Translation> element.",
+    "原译文": "翻译对应的语言，主要用于<Translation>",
+    "瑕疵说明": "原字段已标明@targetLanguage和目标语言，方向并未丢失；修订理顺“翻译对应的语言”与“主要用于”的中文搭配及表示关系，本项仅作表达偏好。",
+    "修订译文": "即词目被翻译成的语言，主要通过 <Translation> 元素表示。"
+  }
+]
